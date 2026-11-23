@@ -17,6 +17,7 @@
 | `code/cluster/watch_jobs.sh` | 1,334 | `0cfe42745e24b617927190e8ddad516dbb8d792281067b7829e3d7be5572647b` |
 | `code/scripts/analyze_frontier.py` | 3,511 | `c3558d5c85807428a53fcf867367000ed693e8557c1f86c94d11f745cde68817` |
 | `code/scripts/analyze_stage1.py` | 2,750 | `e28927261d85e46e55044671805d8d09a32c403ec42326e411108a608d35ea6a` |
+| `code/scripts/armA_by_writer.py` | 1,903 | `b306de61478a66ae455d2fc53a270ed19d2276d07d9246b304a8659c8c472ffb` |
 | `code/scripts/branch_probe.py` | 1,770 | `c3060fc66e17b2636faea276126f385a770faaf491d0c68d304f9986f546fc15` |
 | `code/scripts/build_clean.py` | 11,085 | `8c7c0d26808dc61b1c45d22234aa1d60b5bab53521d2c15f57bfd0143170e280` |
 | `code/scripts/build_codebook.py` | 3,100 | `ac31b0eebae35636d83ea5a974ce6af130b92cfbccc4d9e1fea80c9fdae9646f` |
@@ -50,7 +51,7 @@
 | `code/scripts/median_words.py` | 649 | `cfe0e0336486b112b63155619447f0dcc7523a085e3566b58d1e1786b6a9f82b` |
 | `code/scripts/merge_frontier_scores.py` | 604 | `2710bd8df4457ad951d405b5a698792ab622d2b4bccc272a2d352be8a25f8aa8` |
 | `code/scripts/metrics.py` | 1,988 | `e76a18b8acbac6ee09d8b573f8cef65bf52a33611498acd9142c28b4fd996420` |
-| `code/scripts/paper_tables.py` | 26,502 | `6f2bfe6706217a0f96278c26f6a40082865c84c2b068f9bf276ba39335d085e3` |
+| `code/scripts/paper_tables.py` | 31,381 | `892fcfadc2984641cd3d40de2b6a6636c3725a9b3c4347d20a9940a43472913a` |
 | `code/scripts/peek_unknown.py` | 518 | `c65ca5f4376cc9fe78471380e0d245e76af987adfe98e64645c761df17f5868e` |
 | `code/scripts/pii_honorifics.py` | 2,178 | `38b2e7fcc7e98737c04d15c9bec545424ec4cbda49e39f7e527c2e8984a717a0` |
 | `code/scripts/pii_scan.py` | 2,436 | `ce0fd73c74295e18f142f12ce0a1427c887af120883515896ec68d78a4cb39b4` |
@@ -76,6 +77,7 @@
 | `code/scripts/text_coverage_2026.py` | 1,085 | `a2a2ed160cf20060621b0d1a13256fca2df91dc94b4b663ad019632280f0c71a` |
 | `code/scripts/textclean.py` | 2,212 | `ba7d5446f870f1fa1fc350ba973bb4c25c0aff342cd8a3eef99e15d8eb01cb79` |
 | `code/scripts/uncoded_by_writer.py` | 3,206 | `a799b67e730fad2c5d93e352db7b9284adb7570f7a12eba9d4ef112a98b5481c` |
+| `code/scripts/uncoded_voluntary_any.py` | 1,359 | `e73bc47226235a339c27d6ba3e53420954cd9f74247eee9417980ae1ee45ba63` |
 | `code/scripts/voluntary_counts.py` | 1,008 | `e4d5afd0daf1206bd3b67e50f3ae485bfb02be8fd7cab6b4db60eabdc502b997` |
 | `code/scripts/voluntary_set.py` | 1,670 | `b9ba988b5959b20f824d30b0e24eff2ecc8d38d0d3e424a12a9baa6a03364723` |
 | `data/cases_verdicts.tsv` | 7,211 | `82105cc6ec004de06cb054b0fa16df93e6b7e2ec8590115a0e46a28a5e336326` |
@@ -94,7 +96,7 @@
 | `data/terms_E.tsv` | 50,249 | `62565e33f75f4768f3c6386960f8ba98359ef56413f56eb7de2b5e122694fd14` |
 | `data/uncoded_by_writer.tsv` | 507 | `7301c332373f1ea8e6c7a447afb433857a48c2855cbbd5f7da27de14951378d2` |
 | `data/voluntary_counts.tsv` | 820 | `ce365583bb8ecdedba56585f14afd11af67ba989e25534deb8f2e4fe278f701d` |
-| `paper/numbers.txt` | 49,488 | `e544e071ad7d7a8eaec4f7b30f1397f1bebe084bc1d8c78234037e5df3e06ebf` |
+| `paper/numbers.txt` | 49,982 | `b47fd623211a6145d293a449100106e84a1028c4322231ac04846ab2e4dd99d0` |
 | `scores/analysis_frontier.txt` | 6,850 | `0524567fc9e53c0692caa31dad751cdd00998b8fe9f2efed90ad00d7f0774a17` |
 | `scores/scores_frontier.tsv` | 831,261 | `2c1b3242c38dd04af391b745c905061237f88dec26be5617a35bf4df924931de` |
 | `scores/scores_medgemma.tsv` | 1,604,601 | `112ae86f5871fc5f21fe89ac59afec1602c30265855d4e021d10e3c982ffd6d7` |
@@ -109,4 +111,4 @@
 | `scores/scores_stage4.tsv` | 257,525 | `07219156706efa97e46bb994498755085ad828cfa5f3fea76294f4145ed23174` |
 | `scores/scores_stage4.txt` | 2,726 | `26011e985db4fe392641eac13129651f07fcc76cb010ce39fe560a6c3b9ddb78` |
 
-Total 54 MB in 106 files.
+Total 54 MB in 108 files.
