@@ -1,0 +1,63 @@
+=== by task x arm x model ===
+                            parsed  invalid_codes  empty  n_pred  recall  branch_recall  soft_recall  precision  soft_precision  exact
+task    arm model                                                                                                                     
+device  0   medgemma-4b-it    1.00           0.00    0.0    2.35    0.01           0.03         0.06       0.01            0.09   0.00
+        A   medgemma-4b-it    0.73           0.03    0.0    1.89    0.04           0.14         0.20       0.04            0.24   0.02
+        B   medgemma-4b-it    0.94           0.06    0.0    2.42    0.14           0.33         0.37       0.14            0.40   0.05
+        C   medgemma-4b-it    1.00           0.00    0.0    1.47    0.26           0.41         0.42       0.30            0.50   0.13
+patient 0   medgemma-4b-it    0.98           0.00    0.0    1.85    0.16           0.16         0.19       0.16            0.20   0.14
+        A   medgemma-4b-it    0.97           0.00    0.0    1.06    0.18           0.19         0.21       0.18            0.21   0.17
+        B   medgemma-4b-it    0.97           0.01    0.0    2.17    0.28           0.34         0.40       0.24            0.37   0.13
+        C   medgemma-4b-it    0.98           0.00    0.0    1.70    0.46           0.49         0.54       0.49            0.59   0.29
+
+=== soft recall by task x writer x arm x model ===
+model                     medgemma-4b-it
+task    writer       arm                
+device  lay          0              0.03
+                     A              0.16
+                     B              0.37
+                     C              0.43
+        professional 0              0.10
+                     A              0.18
+                     B              0.35
+                     C              0.40
+        unknown      0              0.03
+                     A              0.24
+                     B              0.39
+                     C              0.44
+patient lay          0              0.16
+                     A              0.15
+                     B              0.35
+                     C              0.48
+        professional 0              0.33
+                     A              0.39
+                     B              0.46
+                     C              0.57
+        unknown      0              0.12
+                     A              0.16
+                     B              0.40
+                     C              0.58
+
+=== no-LLM baselines on the same reports ===
+device   prior_top1 recall 0.15, branch_recall 0.23, soft_recall 0.25, precision 0.20, soft_precision 0.33, exact 0.11
+device   nn_codes   recall 0.26, branch_recall 0.39, soft_recall 0.41, precision 0.26, soft_precision 0.41, exact 0.12
+device   knn_top1   recall 0.26, branch_recall 0.37, soft_recall 0.38, precision 0.34, soft_precision 0.49, exact 0.19
+device   shortlist coverage: B 0.76, C 0.82
+patient  prior_top1 recall 0.18, branch_recall 0.18, soft_recall 0.23, precision 0.26, soft_precision 0.33, exact 0.13
+patient  nn_codes   recall 0.33, branch_recall 0.36, soft_recall 0.43, precision 0.32, soft_precision 0.43, exact 0.17
+patient  knn_top1   recall 0.32, branch_recall 0.33, soft_recall 0.39, precision 0.46, soft_precision 0.54, exact 0.24
+patient  shortlist coverage: B 0.80, C 0.86
+
+=== tokens, cache and cost per call ===
+                               in_tok cached_tok   out_tok reason_tok  cost
+model          task    arm                                                 
+medgemma-4b-it device  0     452.8969        NaN   26.3442        NaN   0.0
+                       A    6305.8969        NaN  185.9538        NaN   0.0
+                       B    2006.8217        NaN   66.1832        NaN   0.0
+                       C    4947.9451        NaN   28.4029        NaN   0.0
+               patient 0     478.0534        NaN   35.6861        NaN   0.0
+                       A    9557.0534        NaN   36.2735        NaN   0.0
+                       B    1694.7076        NaN   43.5468        NaN   0.0
+                       C    4638.3652        NaN   36.8046        NaN   0.0
+
+total cost $0.000

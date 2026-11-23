@@ -1,0 +1,37 @@
+=== by task x arm x model ===
+                             parsed  invalid_codes  empty  n_pred  recall  branch_recall  soft_recall  precision  soft_precision  exact
+task    arm model                                                                                                                      
+device  B   claude-opus-4.8    1.00            0.0   0.04    1.78    0.33           0.52         0.53       0.32            0.54   0.13
+            gpt-5.5            1.00            0.0   0.06    1.51    0.30           0.50         0.50       0.33            0.56   0.15
+patient B   claude-opus-4.8    0.99            0.0   0.00    1.95    0.61           0.65         0.69       0.60            0.68   0.37
+            gpt-5.5            1.00            0.0   0.04    1.80    0.56           0.62         0.66       0.57            0.67   0.35
+
+=== soft recall by task x writer x arm x model ===
+model                     claude-opus-4.8  gpt-5.5
+task    writer       arm                          
+device  lay          B               0.50     0.44
+        professional B               0.58     0.57
+        unknown      B               0.51     0.48
+patient lay          B               0.62     0.59
+        professional B               0.73     0.68
+        unknown      B               0.73     0.70
+
+=== no-LLM baselines on the same reports ===
+device   prior_top1 recall 0.12, branch_recall 0.22, soft_recall 0.23, precision 0.19, soft_precision 0.34, exact 0.08
+device   nn_codes   recall 0.21, branch_recall 0.34, soft_recall 0.35, precision 0.23, soft_precision 0.37, exact 0.07
+device   knn_top1   recall 0.20, branch_recall 0.32, soft_recall 0.32, precision 0.31, soft_precision 0.46, exact 0.13
+device   shortlist coverage: B 0.73, C 0.79
+patient  prior_top1 recall 0.15, branch_recall 0.16, soft_recall 0.20, precision 0.24, soft_precision 0.29, exact 0.11
+patient  nn_codes   recall 0.32, branch_recall 0.35, soft_recall 0.44, precision 0.32, soft_precision 0.43, exact 0.16
+patient  knn_top1   recall 0.32, branch_recall 0.34, soft_recall 0.41, precision 0.46, soft_precision 0.54, exact 0.25
+patient  shortlist coverage: B 0.79, C 0.85
+
+=== tokens, cache and cost per call ===
+                               in_tok  cached_tok  out_tok  reason_tok    cost
+model           task    arm                                                   
+claude-opus-4.8 device  B    3214.194       0.000   38.768      19.884  0.0170
+                patient B    2884.558       0.000   32.400      12.446  0.0152
+gpt-5.5         device  B    1846.722      14.336  195.544     179.574  0.0150
+                patient B    1630.120       0.000  165.144     147.980  0.0131
+
+total cost $30.207
