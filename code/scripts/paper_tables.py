@@ -140,7 +140,8 @@ def main():
     vc = pd.read_csv(ROOT / "data" / "voluntary_counts.tsv", sep="\t")
     rows = []
     for t in TASKS:
-        for s, label in (("pool", "Pool"), ("comparison", "Comparison"), ("unseen", "Unseen")):
+        for s, label in (("pool", "Pool (2021 to 2025)"), ("comparison", "Comparison (2021 to 2024)"),
+                         ("unseen", "Unseen (Feb to Jun 2026)")):
             v = vc[(vc.task == t) & (vc.set == s)].set_index("writer")
             tot = int(v.reports.sum())
             cells = [f"{int(v.at[w, 'reports']):,}" for w in ("lay", "professional", "unknown")]
@@ -148,6 +149,10 @@ def main():
             num(f"n_{t}_{s}", tot, "{:,}")
             for w in ("lay", "professional", "unknown"):
                 num(f"n_{t}_{s}_{w}", int(v.at[w, "reports"]), "{:,}")
+        # the frontier models' fixed subsample of the unseen set, by writer
+        sw = ctx[t].loc[sub[t], "writer"].value_counts()
+        cells = [f"{int(sw.get(w, 0)):,}" for w in ("lay", "professional", "unknown")]
+        rows.append(f" & \\quad frontier subsample & {len(sub[t]):,} & " + " & ".join(cells) + "\\\\")
         num(f"n_{t}_total", int(vc[vc.task == t].reports.sum()), "{:,}")
         rows.append("\\midrule")
     rows.pop()
@@ -182,13 +187,22 @@ def main():
     lines = []
     for t in TASKS:
         lines.append(f"\\multicolumn{{5}}{{@{{}}l}}{{\\emph{{{TASKNAME[t]}: open panel on all {len(unseen[t]):,} unseen reports}}}}\\\\")
+        vals = {}
+        for m in OPEN:
+            for arm in ARMS:
+                r, s, n = cell(t, arm, m, unseen[t])
+                vals[(m, arm)] = (r, s)
+                num(f"r_{m}_{t}_{arm}", r)
+                num(f"s_{m}_{t}_{arm}", s)
+        # bold the best open model in each arm on exact recall, as printed (ties all bold)
+        best = {arm: max(round(vals[(m, arm)][0], 2) for m in OPEN) for arm in ARMS}
         for m in OPEN:
             cells = []
             for arm in ARMS:
-                r, s, n = cell(t, arm, m, unseen[t])
-                cells.append(f"{r:.2f} ({s:.2f})")
-                num(f"r_{m}_{t}_{arm}", r)
-                num(f"s_{m}_{t}_{arm}", s)
+                r, s = vals[(m, arm)]
+                txt = f"{r:.2f} ({s:.2f})"
+                bold = arm != "0" and round(r, 2) == best[arm]  # Arm 0 is near zero for all; no "best"
+                cells.append(f"\\textbf{{{txt}}}" if bold else txt)
             lines.append(f"{NAME[m]} & " + " & ".join(cells) + "\\\\")
         nn = base[(t, "unseen", "nn_codes")]
         lines.append(f"Copy nearest coded report & \\multicolumn{{4}}{{c}}{{{nn.recall.mean():.2f} ({nn.soft_recall.mean():.2f})}}\\\\")
@@ -298,8 +312,10 @@ def main():
     # ---------------------------------------------------------------- writer table (Arm C)
     lines = []
     for t in TASKS:
-        lines.append(f"\\multicolumn{{4}}{{@{{}}l}}{{\\emph{{{TASKNAME[t]}}}}}\\\\")
+        lines.append(f"\\multicolumn{{5}}{{@{{}}l}}{{\\emph{{{TASKNAME[t]}}}}}\\\\")
         for m in OPEN + FRONTIER:
+            if m == FRONTIER[0]:
+                lines.append("\\cmidrule{1-5}")  # frontier rows are on the subsample
             keys = sub[t] if m in FRONTIER else unseen[t]
             g = d[(d.task == t) & (d.arm == "C") & (d.model == m) & d.key.isin(keys)]
             g = g.drop_duplicates("key")
@@ -308,6 +324,9 @@ def main():
                 gw = g[g.writer == w]
                 cells.append(f"{gw.recall.mean():.2f} ({gw.soft_recall.mean():.2f})")
                 num(f"w_{m}_{t}_{w}_r", gw.recall.mean()); num(f"w_{m}_{t}_{w}_s", gw.soft_recall.mean())
+            # lay minus professional, exact recall, from the printed (rounded) figures
+            gap = round(float(numbers[f"w_{m}_{t}_lay_r"]), 2) - round(float(numbers[f"w_{m}_{t}_professional_r"]), 2)
+            cells.append(pm(gap))
             mark = "$^{\\ddagger}$" if m in FRONTIER else ""
             lines.append(f"{NAME[m]}{mark} & " + " & ".join(cells) + "\\\\")
         if t == "device":
@@ -337,7 +356,10 @@ def main():
 
     # ---------------------------------------------------------------- behaviour table (parsed, invalid, codes per answer)
     lines = []
+    bf = lambda s, on: f"\\textbf{{{s}}}" if on else s  # failures in bold: >= 10% unparsed, > 5 codes
     for m in OPEN + FRONTIER:
+        if m == FRONTIER[0]:
+            lines.append("\\cmidrule{1-13}")  # frontier rows are on the subsample
         cells = []
         for t in TASKS:
             keys = sub[t] if m in FRONTIER else unseen[t]
@@ -346,7 +368,8 @@ def main():
                 if len(g) == 0:
                     cells.append("--")
                     continue
-                cells.append(f"{100 * (1 - g.parsed.mean()):.0f} & {100 * g.invalid_codes.mean():.0f} & {g.n_pred.mean():.1f}")
+                unp, inv, npred = 100 * (1 - g.parsed.mean()), 100 * g.invalid_codes.mean(), g.n_pred.mean()
+                cells.append(f"{bf(f'{unp:.0f}', round(unp) >= 10)} & {inv:.0f} & {bf(f'{npred:.1f}', round(npred, 1) > 5)}")
                 num(f"unparsed_{m}_{t}_{arm}", 100 * (1 - g.parsed.mean()), "{:.0f}")
                 num(f"invalid_{m}_{t}_{arm}", 100 * g.invalid_codes.mean(), "{:.0f}")
                 num(f"npred_{m}_{t}_{arm}", g.n_pred.mean(), "{:.1f}")
@@ -367,28 +390,49 @@ def main():
             g = d[(d.task == t) & (d.arm == "A") & (d.model == m)].drop_duplicates(["key", "set"])
             comp = g[g.set == "comparison"].soft_recall.mean()
             uns = g[g.set == "unseen"].soft_recall.mean()
-            cells.append(f"{comp:.2f} & {uns:.2f} & {pm(comp - uns)}")
+            cell = f"{comp:.2f} & {uns:.2f} & {pm(comp - uns)}"
+            if t == "device":  # gap with the 2026 reports weighted to the older writer mix (see below)
+                mix = g[g.set == "comparison"].writer.value_counts(normalize=True)
+                by_w = g[g.set == "unseen"].groupby("writer").soft_recall.mean()
+                cell += f" & {pm(comp - sum(mix[w] * by_w[w] for w in mix.index))}"
+            cells.append(cell)
             num(f"mem_{m}_{t}", pm(comp - uns))
         lines.append(f"{NAME[m]} & " + " & ".join(cells) + "\\\\")
     regions["tab:memorisation"] = "\n".join(lines)
     gaps = [float(numbers[f"mem_{m}_{t}"]) for m in OPEN for t in TASKS]
     num("mem_min", pm(min(gaps))); num("mem_max", pm(max(gaps)))
+    # Writer-mix check (Section 5.4): the comparison and unseen device sets differ in writer
+    # mix, and in Arm A lay reports score lower for the small models. Reweight the unseen
+    # reports' per-writer soft recall to the comparison set's writer mix; what is left of the
+    # gap is comparison minus that reweighted score. Cross-checked by scripts/armA_by_writer.py.
+    for m in OPEN:
+        g = d[(d.task == "device") & (d.arm == "A") & (d.model == m)].drop_duplicates(["key", "set"])
+        comp = g[g.set == "comparison"]
+        uns = g[g.set == "unseen"]
+        mix = comp.writer.value_counts(normalize=True)
+        by_w = uns.groupby("writer").soft_recall.mean()
+        reweighted = sum(mix[w] * by_w[w] for w in mix.index)
+        num(f"memres_{m}_device", pm(comp.soft_recall.mean() - reweighted))
 
     # ------------------------------------------------ uncoded reports by writer
     # From scripts/uncoded_by_writer.py over the whole 2021 to mid-2026 extract:
     # share of reports with no device-problem term at all, by writer group.
     root = Path(__file__).resolve().parent.parent
     tsv = (root / "data" / "uncoded_by_writer.tsv").read_text(encoding="utf-8").splitlines()[1:]
-    tot = {"industry": [0, 0], "nonindustry": [0, 0]}
+    tot = {"industry": [0, 0], "nonindustry": [0, 0], "voluntary": [0, 0]}
     for line in tsv:
         w, src, n, nc = line.split("\t")[:4]
         key = "industry" if w == "industry" else "nonindustry"
         tot[key][0] += int(n)
         tot[key][1] += int(nc)
+        if src == "voluntary":
+            tot["voluntary"][0] += int(n)
+            tot["voluntary"][1] += int(nc)
         if src == "voluntary" and w in ("lay", "professional"):
             num(f"uncoded_{w}_pct", 100 * int(nc) / int(n), "{:.0f}")
     num("uncoded_nonindustry_pct", 100 * tot["nonindustry"][1] / tot["nonindustry"][0], "{:.0f}")
     num("uncoded_industry_pct", 100 * tot["industry"][1] / tot["industry"][0], "{:.1f}")
+    num("uncoded_voluntary_pct", 100 * tot["voluntary"][1] / tot["voluntary"][0], "{:.0f}")
 
     # ---------------------------------------------------------------- cost
     cost = d[d.cost.notna()]
@@ -410,27 +454,44 @@ def main():
                 pos[b] = pos[a] + gap
         return pos
 
+    # Original design (distinct colours, labels at line ends) plus the two frontier models in grey
+    # dashes on Arms A to C (their Arm 0 is a 100-report probe), on their 500-report subsample.
+    # The copy baseline is labelled in the same end-of-line column, so no label sits on the data.
+    FSTYLE = {"claude-opus-4.8": ("#4d4d4d", (0, (5, 2))), "gpt-5.5": ("#8c8c8c", (0, (2, 2)))}
+    FLAB = {"claude-opus-4.8": "Opus 4.8*", "gpt-5.5": "GPT-5.5*"}
     fig, axes = plt.subplots(1, 2, figsize=(7.0, 3.3), sharey=True)
     for ax, t in zip(axes, TASKS):
         x = np.arange(len(ARMS))
-        ends = []
+        ends, names, colors = [], [], []
         for i, m in enumerate(OPEN):
             y = [float(numbers[f"r_{m}_{t}_{a}"]) for a in ARMS]
             ax.plot(x, y, color=PALETTE[i], lw=1.6, marker="o", ms=4, mec="white", mew=0.6, zorder=3)
-            ends.append(y[-1])
-        lab = spread(ends, 0.036)
-        for i, m in enumerate(OPEN):
-            ax.plot([3.03, 3.14], [ends[i], lab[i]], color="#bbbbbb", lw=0.6, zorder=2)
-            ax.text(3.17, lab[i], SHORT[m], va="center", fontsize=6.5, color="#333333")
+            ends.append(y[-1]); names.append(SHORT[m]); colors.append("#333333")
+        for m in ("claude-opus-4.8", "gpt-5.5"):
+            c, ls = FSTYLE[m]
+            # Arm 0 is the probe on the first 100 reports of the subsample (caption says so)
+            y = [float(numbers[f"r_{m}_{t}_{a}"]) for a in ARMS]
+            ax.plot(x, y, color=c, lw=1.4, ls=ls, marker="D", ms=3.5, mec="white", mew=0.5, zorder=4, clip_on=False)
+            ends.append(y[-1]); names.append(FLAB[m]); colors.append("#333333")
         nnv = float(numbers[f"base_nn_codes_{t}_unseen_recall"])
-        ax.axhline(nnv, color="#777777", lw=1.0, ls=(0, (4, 3)), zorder=1)
-        ax.annotate("copy nearest coded report", (-0.1, nnv), xytext=(0, -3), textcoords="offset points",
-                    fontsize=6.5, color="#555555", va="top", ha="left")
+        ax.plot([-0.2, 3.03], [nnv, nnv], color="#999999", lw=1.0, ls=(0, (1, 2)), zorder=1)
+        ends.append(nnv); names.append("copy baseline"); colors.append("#666666")
+        # spread labels upward as before; if that runs above the plot, stack down from a cap instead
+        lab = spread(ends, 0.036)
+        if lab.max() > 0.70:
+            order = np.argsort(ends)[::-1]
+            prev = 0.70 + 0.036
+            for k in order:
+                lab[k] = min(ends[k], prev - 0.036)
+                prev = lab[k]
+        for k in range(len(ends)):
+            ax.plot([3.03, 3.14], [ends[k], lab[k]], color="#bbbbbb", lw=0.6, zorder=2)
+            ax.text(3.17, lab[k], names[k], va="center", fontsize=6.5, color=colors[k], linespacing=0.9)
         ax.set_xticks(x)
         ax.set_xticklabels(["0\nno list", "A\nfull\ncodebook", "B\nshortlist", "C\nshortlist +\nexamples"], fontsize=7.5)
         ax.set_title(TASKNAME[t], fontsize=9.5, loc="left")
         ax.set_ylim(0, 0.72)
-        ax.set_xlim(-0.2, 3.9)
+        ax.set_xlim(-0.2, 3.95)
         ax.grid(axis="y", color="#e5e5e5", lw=0.6)
         for s in ("top", "right"):
             ax.spines[s].set_visible(False)
@@ -467,8 +528,9 @@ def main():
         for i, (title, s, e) in enumerate(spans):
             if i % 2:
                 ax.axhspan(s - 0.5, e + 0.5, color="#f3f3f1", zorder=0)
-            ax.text(0.0, s - 0.6, title, fontsize=7, color="#555555", va="bottom", ha="left",
-                    style="italic", transform=ax.get_yaxis_transform())
+            if ax is axes[0]:  # in the label column, clear of the data and the zero line
+                ax.text(-0.02, s - 0.6, title, fontsize=7, color="#333333", va="bottom", ha="right",
+                        style="italic", transform=ax.get_yaxis_transform())
         ax.set_title(TASKNAME[t], fontsize=9.5, loc="left")
         ax.set_xlabel("Difference in exact recall, 95% CI", fontsize=8)
         ax.set_xlim(-0.12, 0.27)
