@@ -1,0 +1,739 @@
+base_knn_top1_device_sub_recall	BaseKnnTopOneDeviceSubRecall	0.20
+base_knn_top1_device_sub_soft	BaseKnnTopOneDeviceSubSoft	0.32
+base_knn_top1_device_unseen_recall	BaseKnnTopOneDeviceUnseenRecall	0.21
+base_knn_top1_device_unseen_soft	BaseKnnTopOneDeviceUnseenSoft	0.32
+base_knn_top1_patient_sub_recall	BaseKnnTopOnePatientSubRecall	0.32
+base_knn_top1_patient_sub_soft	BaseKnnTopOnePatientSubSoft	0.41
+base_knn_top1_patient_unseen_recall	BaseKnnTopOnePatientUnseenRecall	0.31
+base_knn_top1_patient_unseen_soft	BaseKnnTopOnePatientUnseenSoft	0.39
+base_nn_codes_device_probe_recall	BaseNnCodesDeviceProbeRecall	0.26
+base_nn_codes_device_probe_soft	BaseNnCodesDeviceProbeSoft	0.37
+base_nn_codes_device_sub_recall	BaseNnCodesDeviceSubRecall	0.21
+base_nn_codes_device_sub_soft	BaseNnCodesDeviceSubSoft	0.35
+base_nn_codes_device_unseen_recall	BaseNnCodesDeviceUnseenRecall	0.21
+base_nn_codes_device_unseen_soft	BaseNnCodesDeviceUnseenSoft	0.35
+base_nn_codes_patient_probe_recall	BaseNnCodesPatientProbeRecall	0.29
+base_nn_codes_patient_probe_soft	BaseNnCodesPatientProbeSoft	0.44
+base_nn_codes_patient_sub_recall	BaseNnCodesPatientSubRecall	0.32
+base_nn_codes_patient_sub_soft	BaseNnCodesPatientSubSoft	0.44
+base_nn_codes_patient_unseen_recall	BaseNnCodesPatientUnseenRecall	0.32
+base_nn_codes_patient_unseen_soft	BaseNnCodesPatientUnseenSoft	0.43
+base_prior_top1_device_sub_recall	BasePriorTopOneDeviceSubRecall	0.12
+base_prior_top1_device_sub_soft	BasePriorTopOneDeviceSubSoft	0.23
+base_prior_top1_device_unseen_recall	BasePriorTopOneDeviceUnseenRecall	0.14
+base_prior_top1_device_unseen_soft	BasePriorTopOneDeviceUnseenSoft	0.24
+base_prior_top1_patient_sub_recall	BasePriorTopOnePatientSubRecall	0.15
+base_prior_top1_patient_sub_soft	BasePriorTopOnePatientSubSoft	0.20
+base_prior_top1_patient_unseen_recall	BasePriorTopOnePatientUnseenRecall	0.17
+base_prior_top1_patient_unseen_soft	BasePriorTopOnePatientUnseenSoft	0.23
+c_claude-opus-4.8_B_A_device_recall	CClaudeOpusFourEightBADeviceRecall	-0.01 [-0.05, 0.02]
+c_claude-opus-4.8_B_A_device_soft_recall	CClaudeOpusFourEightBADeviceSoftRecall	-0.01 [-0.04, 0.02]
+c_claude-opus-4.8_B_A_patient_recall	CClaudeOpusFourEightBAPatientRecall	-0.05 [-0.08, -0.01]
+c_claude-opus-4.8_B_A_patient_soft_recall	CClaudeOpusFourEightBAPatientSoftRecall	-0.06 [-0.09, -0.03]
+c_claude-opus-4.8_C_A_device_recall	CClaudeOpusFourEightCADeviceRecall	+0.09 [0.05, 0.12]
+c_claude-opus-4.8_C_A_device_soft_recall	CClaudeOpusFourEightCADeviceSoftRecall	+0.07 [0.04, 0.10]
+c_claude-opus-4.8_C_A_patient_recall	CClaudeOpusFourEightCAPatientRecall	0.00 [-0.04, 0.03]
+c_claude-opus-4.8_C_A_patient_soft_recall	CClaudeOpusFourEightCAPatientSoftRecall	-0.02 [-0.06, 0.01]
+c_claude-opus-4.8_C_B_device_recall	CClaudeOpusFourEightCBDeviceRecall	+0.10 [0.07, 0.13]
+c_claude-opus-4.8_C_B_device_soft_recall	CClaudeOpusFourEightCBDeviceSoftRecall	+0.08 [0.05, 0.11]
+c_claude-opus-4.8_C_B_patient_recall	CClaudeOpusFourEightCBPatientRecall	+0.04 [0.02, 0.07]
+c_claude-opus-4.8_C_B_patient_soft_recall	CClaudeOpusFourEightCBPatientSoftRecall	+0.04 [0.01, 0.06]
+c_claude-opus-4.8_C_nn_device_recall	CClaudeOpusFourEightCNnDeviceRecall	+0.21 [0.17, 0.25]
+c_claude-opus-4.8_C_nn_device_soft_recall	CClaudeOpusFourEightCNnDeviceSoftRecall	+0.27 [0.23, 0.30]
+c_claude-opus-4.8_C_nn_patient_recall	CClaudeOpusFourEightCNnPatientRecall	+0.33 [0.28, 0.37]
+c_claude-opus-4.8_C_nn_patient_soft_recall	CClaudeOpusFourEightCNnPatientSoftRecall	+0.28 [0.24, 0.32]
+c_claude-opus-4.8_gpt-oss-120b_C_device_recall	CClaudeOpusFourEightGptOssOneTwoZerobCDeviceRecall	+0.08 [0.05, 0.10]
+c_claude-opus-4.8_gpt-oss-120b_C_device_soft_recall	CClaudeOpusFourEightGptOssOneTwoZerobCDeviceSoftRecall	+0.09 [0.06, 0.11]
+c_claude-opus-4.8_gpt-oss-120b_C_patient_recall	CClaudeOpusFourEightGptOssOneTwoZerobCPatientRecall	+0.05 [0.03, 0.07]
+c_claude-opus-4.8_gpt-oss-120b_C_patient_soft_recall	CClaudeOpusFourEightGptOssOneTwoZerobCPatientSoftRecall	+0.05 [0.02, 0.07]
+c_claude-opus-4.8_llama-3.1-8b_C_device_recall	CClaudeOpusFourEightLlamaThreeOneEightbCDeviceRecall	+0.10 [0.07, 0.13]
+c_claude-opus-4.8_llama-3.1-8b_C_device_soft_recall	CClaudeOpusFourEightLlamaThreeOneEightbCDeviceSoftRecall	+0.10 [0.07, 0.13]
+c_claude-opus-4.8_llama-3.1-8b_C_patient_recall	CClaudeOpusFourEightLlamaThreeOneEightbCPatientRecall	+0.11 [0.08, 0.15]
+c_claude-opus-4.8_llama-3.1-8b_C_patient_soft_recall	CClaudeOpusFourEightLlamaThreeOneEightbCPatientSoftRecall	+0.10 [0.07, 0.13]
+c_claude-opus-4.8_llama-3.3-70b_C_device_recall	CClaudeOpusFourEightLlamaThreeThreeSevenZerobCDeviceRecall	+0.03 [0.01, 0.06]
+c_claude-opus-4.8_llama-3.3-70b_C_device_soft_recall	CClaudeOpusFourEightLlamaThreeThreeSevenZerobCDeviceSoftRecall	+0.04 [0.01, 0.06]
+c_claude-opus-4.8_llama-3.3-70b_C_patient_recall	CClaudeOpusFourEightLlamaThreeThreeSevenZerobCPatientRecall	+0.05 [0.02, 0.08]
+c_claude-opus-4.8_llama-3.3-70b_C_patient_soft_recall	CClaudeOpusFourEightLlamaThreeThreeSevenZerobCPatientSoftRecall	+0.04 [0.01, 0.06]
+c_claude-opus-4.8_llama-4-maverick_C_device_recall	CClaudeOpusFourEightLlamaFourMaverickCDeviceRecall	+0.05 [0.02, 0.07]
+c_claude-opus-4.8_llama-4-maverick_C_device_soft_recall	CClaudeOpusFourEightLlamaFourMaverickCDeviceSoftRecall	+0.06 [0.03, 0.08]
+c_claude-opus-4.8_llama-4-maverick_C_patient_recall	CClaudeOpusFourEightLlamaFourMaverickCPatientRecall	+0.06 [0.04, 0.09]
+c_claude-opus-4.8_llama-4-maverick_C_patient_soft_recall	CClaudeOpusFourEightLlamaFourMaverickCPatientSoftRecall	+0.06 [0.03, 0.08]
+c_claude-opus-4.8_medgemma-4b-it_C_device_recall	CClaudeOpusFourEightMedgemmaFourbItCDeviceRecall	+0.16 [0.12, 0.19]
+c_claude-opus-4.8_medgemma-4b-it_C_device_soft_recall	CClaudeOpusFourEightMedgemmaFourbItCDeviceSoftRecall	+0.18 [0.15, 0.21]
+c_claude-opus-4.8_medgemma-4b-it_C_patient_recall	CClaudeOpusFourEightMedgemmaFourbItCPatientRecall	+0.20 [0.16, 0.25]
+c_claude-opus-4.8_medgemma-4b-it_C_patient_soft_recall	CClaudeOpusFourEightMedgemmaFourbItCPatientSoftRecall	+0.19 [0.16, 0.23]
+c_claude-opus-4.8_phi-4_C_device_recall	CClaudeOpusFourEightPhiFourCDeviceRecall	+0.09 [0.06, 0.12]
+c_claude-opus-4.8_phi-4_C_device_soft_recall	CClaudeOpusFourEightPhiFourCDeviceSoftRecall	+0.11 [0.08, 0.13]
+c_claude-opus-4.8_phi-4_C_patient_recall	CClaudeOpusFourEightPhiFourCPatientRecall	+0.11 [0.07, 0.14]
+c_claude-opus-4.8_phi-4_C_patient_soft_recall	CClaudeOpusFourEightPhiFourCPatientSoftRecall	+0.09 [0.06, 0.12]
+c_claude-opus-4.8_qwen-2.5-72b_C_device_recall	CClaudeOpusFourEightQwenTwoFiveSevenTwobCDeviceRecall	+0.04 [0.02, 0.07]
+c_claude-opus-4.8_qwen-2.5-72b_C_device_soft_recall	CClaudeOpusFourEightQwenTwoFiveSevenTwobCDeviceSoftRecall	+0.03 [0.01, 0.05]
+c_claude-opus-4.8_qwen-2.5-72b_C_patient_recall	CClaudeOpusFourEightQwenTwoFiveSevenTwobCPatientRecall	+0.01 [-0.01, 0.04]
+c_claude-opus-4.8_qwen-2.5-72b_C_patient_soft_recall	CClaudeOpusFourEightQwenTwoFiveSevenTwobCPatientSoftRecall	+0.01 [-0.01, 0.03]
+c_gpt-5.5_B_A_device_recall	CGptFiveFiveBADeviceRecall	-0.05 [-0.08, -0.02]
+c_gpt-5.5_B_A_device_soft_recall	CGptFiveFiveBADeviceSoftRecall	-0.05 [-0.08, -0.03]
+c_gpt-5.5_B_A_patient_recall	CGptFiveFiveBAPatientRecall	-0.09 [-0.12, -0.06]
+c_gpt-5.5_B_A_patient_soft_recall	CGptFiveFiveBAPatientSoftRecall	-0.09 [-0.12, -0.06]
+c_gpt-5.5_C_A_device_recall	CGptFiveFiveCADeviceRecall	+0.03 [0.00, 0.07]
+c_gpt-5.5_C_A_device_soft_recall	CGptFiveFiveCADeviceSoftRecall	+0.01 [-0.01, 0.04]
+c_gpt-5.5_C_A_patient_recall	CGptFiveFiveCAPatientRecall	-0.03 [-0.06, 0.00]
+c_gpt-5.5_C_A_patient_soft_recall	CGptFiveFiveCAPatientSoftRecall	-0.04 [-0.06, -0.01]
+c_gpt-5.5_C_B_device_recall	CGptFiveFiveCBDeviceRecall	+0.08 [0.05, 0.11]
+c_gpt-5.5_C_B_device_soft_recall	CGptFiveFiveCBDeviceSoftRecall	+0.06 [0.04, 0.09]
+c_gpt-5.5_C_B_patient_recall	CGptFiveFiveCBPatientRecall	+0.06 [0.03, 0.09]
+c_gpt-5.5_C_B_patient_soft_recall	CGptFiveFiveCBPatientSoftRecall	+0.05 [0.03, 0.08]
+c_gpt-5.5_C_nn_device_recall	CGptFiveFiveCNnDeviceRecall	+0.16 [0.12, 0.21]
+c_gpt-5.5_C_nn_device_soft_recall	CGptFiveFiveCNnDeviceSoftRecall	+0.22 [0.18, 0.25]
+c_gpt-5.5_C_nn_patient_recall	CGptFiveFiveCNnPatientRecall	+0.30 [0.26, 0.35]
+c_gpt-5.5_C_nn_patient_soft_recall	CGptFiveFiveCNnPatientSoftRecall	+0.27 [0.23, 0.31]
+c_gpt-5.5_gpt-oss-120b_C_device_recall	CGptFiveFiveGptOssOneTwoZerobCDeviceRecall	+0.03 [0.00, 0.06]
+c_gpt-5.5_gpt-oss-120b_C_device_soft_recall	CGptFiveFiveGptOssOneTwoZerobCDeviceSoftRecall	+0.04 [0.02, 0.07]
+c_gpt-5.5_gpt-oss-120b_C_patient_recall	CGptFiveFiveGptOssOneTwoZerobCPatientRecall	+0.02 [0.00, 0.05]
+c_gpt-5.5_gpt-oss-120b_C_patient_soft_recall	CGptFiveFiveGptOssOneTwoZerobCPatientSoftRecall	+0.03 [0.00, 0.05]
+c_gpt-5.5_llama-3.1-8b_C_device_recall	CGptFiveFiveLlamaThreeOneEightbCDeviceRecall	+0.05 [0.02, 0.08]
+c_gpt-5.5_llama-3.1-8b_C_device_soft_recall	CGptFiveFiveLlamaThreeOneEightbCDeviceSoftRecall	+0.06 [0.03, 0.09]
+c_gpt-5.5_llama-3.1-8b_C_patient_recall	CGptFiveFiveLlamaThreeOneEightbCPatientRecall	+0.09 [0.05, 0.12]
+c_gpt-5.5_llama-3.1-8b_C_patient_soft_recall	CGptFiveFiveLlamaThreeOneEightbCPatientSoftRecall	+0.08 [0.05, 0.12]
+c_gpt-5.5_llama-3.3-70b_C_device_recall	CGptFiveFiveLlamaThreeThreeSevenZerobCDeviceRecall	-0.02 [-0.04, 0.01]
+c_gpt-5.5_llama-3.3-70b_C_device_soft_recall	CGptFiveFiveLlamaThreeThreeSevenZerobCDeviceSoftRecall	-0.01 [-0.04, 0.01]
+c_gpt-5.5_llama-3.3-70b_C_patient_recall	CGptFiveFiveLlamaThreeThreeSevenZerobCPatientRecall	+0.02 [-0.01, 0.05]
+c_gpt-5.5_llama-3.3-70b_C_patient_soft_recall	CGptFiveFiveLlamaThreeThreeSevenZerobCPatientSoftRecall	+0.02 [0.00, 0.04]
+c_gpt-5.5_llama-4-maverick_C_device_recall	CGptFiveFiveLlamaFourMaverickCDeviceRecall	0.00 [-0.03, 0.02]
+c_gpt-5.5_llama-4-maverick_C_device_soft_recall	CGptFiveFiveLlamaFourMaverickCDeviceSoftRecall	+0.01 [-0.01, 0.04]
+c_gpt-5.5_llama-4-maverick_C_patient_recall	CGptFiveFiveLlamaFourMaverickCPatientRecall	+0.04 [0.01, 0.06]
+c_gpt-5.5_llama-4-maverick_C_patient_soft_recall	CGptFiveFiveLlamaFourMaverickCPatientSoftRecall	+0.04 [0.01, 0.07]
+c_gpt-5.5_medgemma-4b-it_C_device_recall	CGptFiveFiveMedgemmaFourbItCDeviceRecall	+0.11 [0.07, 0.14]
+c_gpt-5.5_medgemma-4b-it_C_device_soft_recall	CGptFiveFiveMedgemmaFourbItCDeviceSoftRecall	+0.13 [0.10, 0.16]
+c_gpt-5.5_medgemma-4b-it_C_patient_recall	CGptFiveFiveMedgemmaFourbItCPatientRecall	+0.18 [0.14, 0.22]
+c_gpt-5.5_medgemma-4b-it_C_patient_soft_recall	CGptFiveFiveMedgemmaFourbItCPatientSoftRecall	+0.18 [0.14, 0.21]
+c_gpt-5.5_phi-4_C_device_recall	CGptFiveFivePhiFourCDeviceRecall	+0.04 [0.01, 0.07]
+c_gpt-5.5_phi-4_C_device_soft_recall	CGptFiveFivePhiFourCDeviceSoftRecall	+0.06 [0.04, 0.09]
+c_gpt-5.5_phi-4_C_patient_recall	CGptFiveFivePhiFourCPatientRecall	+0.08 [0.04, 0.11]
+c_gpt-5.5_phi-4_C_patient_soft_recall	CGptFiveFivePhiFourCPatientSoftRecall	+0.08 [0.05, 0.11]
+c_gpt-5.5_qwen-2.5-72b_C_device_recall	CGptFiveFiveQwenTwoFiveSevenTwobCDeviceRecall	0.00 [-0.03, 0.02]
+c_gpt-5.5_qwen-2.5-72b_C_device_soft_recall	CGptFiveFiveQwenTwoFiveSevenTwobCDeviceSoftRecall	-0.01 [-0.04, 0.01]
+c_gpt-5.5_qwen-2.5-72b_C_patient_recall	CGptFiveFiveQwenTwoFiveSevenTwobCPatientRecall	-0.02 [-0.04, 0.01]
+c_gpt-5.5_qwen-2.5-72b_C_patient_soft_recall	CGptFiveFiveQwenTwoFiveSevenTwobCPatientSoftRecall	-0.01 [-0.03, 0.01]
+c_gpt-oss-120b_C_nn_device_recall	CGptOssOneTwoZerobCNnDeviceRecall	+0.12 [0.09, 0.15]
+c_gpt-oss-120b_C_nn_device_soft_recall	CGptOssOneTwoZerobCNnDeviceSoftRecall	+0.16 [0.14, 0.19]
+c_gpt-oss-120b_C_nn_patient_recall	CGptOssOneTwoZerobCNnPatientRecall	+0.28 [0.26, 0.30]
+c_gpt-oss-120b_C_nn_patient_soft_recall	CGptOssOneTwoZerobCNnPatientSoftRecall	+0.25 [0.23, 0.27]
+c_llama-3.1-8b_C_nn_device_recall	CLlamaThreeOneEightbCNnDeviceRecall	+0.10 [0.07, 0.13]
+c_llama-3.1-8b_C_nn_device_soft_recall	CLlamaThreeOneEightbCNnDeviceSoftRecall	+0.14 [0.12, 0.17]
+c_llama-3.1-8b_C_nn_patient_recall	CLlamaThreeOneEightbCNnPatientRecall	+0.20 [0.18, 0.22]
+c_llama-3.1-8b_C_nn_patient_soft_recall	CLlamaThreeOneEightbCNnPatientSoftRecall	+0.18 [0.17, 0.20]
+c_llama-3.3-70b_C_nn_device_recall	CLlamaThreeThreeSevenZerobCNnDeviceRecall	+0.16 [0.14, 0.19]
+c_llama-3.3-70b_C_nn_device_soft_recall	CLlamaThreeThreeSevenZerobCNnDeviceSoftRecall	+0.21 [0.19, 0.24]
+c_llama-3.3-70b_C_nn_patient_recall	CLlamaThreeThreeSevenZerobCNnPatientRecall	+0.28 [0.26, 0.30]
+c_llama-3.3-70b_C_nn_patient_soft_recall	CLlamaThreeThreeSevenZerobCNnPatientSoftRecall	+0.26 [0.24, 0.27]
+c_llama-4-maverick_C_nn_device_recall	CLlamaFourMaverickCNnDeviceRecall	+0.15 [0.12, 0.18]
+c_llama-4-maverick_C_nn_device_soft_recall	CLlamaFourMaverickCNnDeviceSoftRecall	+0.19 [0.17, 0.22]
+c_llama-4-maverick_C_nn_patient_recall	CLlamaFourMaverickCNnPatientRecall	+0.28 [0.26, 0.30]
+c_llama-4-maverick_C_nn_patient_soft_recall	CLlamaFourMaverickCNnPatientSoftRecall	+0.24 [0.22, 0.26]
+c_medgemma-4b-it_C_nn_device_recall	CMedgemmaFourbItCNnDeviceRecall	+0.04 [0.02, 0.07]
+c_medgemma-4b-it_C_nn_device_soft_recall	CMedgemmaFourbItCNnDeviceSoftRecall	+0.07 [0.04, 0.09]
+c_medgemma-4b-it_C_nn_patient_recall	CMedgemmaFourbItCNnPatientRecall	+0.13 [0.11, 0.15]
+c_medgemma-4b-it_C_nn_patient_soft_recall	CMedgemmaFourbItCNnPatientSoftRecall	+0.11 [0.09, 0.13]
+c_opus_gpt_A_device_recall	COpusGptADeviceRecall	-0.01 [-0.03, 0.02]
+c_opus_gpt_A_device_soft_recall	COpusGptADeviceSoftRecall	-0.01 [-0.03, 0.01]
+c_opus_gpt_A_patient_recall	COpusGptAPatientRecall	0.00 [-0.02, 0.03]
+c_opus_gpt_A_patient_soft_recall	COpusGptAPatientSoftRecall	+0.01 [-0.02, 0.03]
+c_opus_gpt_B_device_recall	COpusGptBDeviceRecall	+0.03 [0.01, 0.05]
+c_opus_gpt_B_device_soft_recall	COpusGptBDeviceSoftRecall	+0.03 [0.01, 0.05]
+c_opus_gpt_B_patient_recall	COpusGptBPatientRecall	+0.05 [0.02, 0.07]
+c_opus_gpt_B_patient_soft_recall	COpusGptBPatientSoftRecall	+0.03 [0.01, 0.06]
+c_opus_gpt_C_device_recall	COpusGptCDeviceRecall	+0.05 [0.02, 0.07]
+c_opus_gpt_C_device_soft_recall	COpusGptCDeviceSoftRecall	+0.05 [0.02, 0.07]
+c_opus_gpt_C_patient_recall	COpusGptCPatientRecall	+0.03 [0.01, 0.05]
+c_opus_gpt_C_patient_soft_recall	COpusGptCPatientSoftRecall	+0.02 [0.00, 0.03]
+c_phi-4_C_nn_device_recall	CPhiFourCNnDeviceRecall	+0.11 [0.08, 0.13]
+c_phi-4_C_nn_device_soft_recall	CPhiFourCNnDeviceSoftRecall	+0.15 [0.12, 0.17]
+c_phi-4_C_nn_patient_recall	CPhiFourCNnPatientRecall	+0.22 [0.20, 0.24]
+c_phi-4_C_nn_patient_soft_recall	CPhiFourCNnPatientSoftRecall	+0.21 [0.19, 0.23]
+c_qwen-2.5-72b_C_nn_device_recall	CQwenTwoFiveSevenTwobCNnDeviceRecall	+0.16 [0.13, 0.19]
+c_qwen-2.5-72b_C_nn_device_soft_recall	CQwenTwoFiveSevenTwobCNnDeviceSoftRecall	+0.23 [0.20, 0.25]
+c_qwen-2.5-72b_C_nn_patient_recall	CQwenTwoFiveSevenTwobCNnPatientRecall	+0.30 [0.28, 0.33]
+c_qwen-2.5-72b_C_nn_patient_soft_recall	CQwenTwoFiveSevenTwobCNnPatientSoftRecall	+0.28 [0.26, 0.30]
+cost_claude-opus-4.8_device_A	CostClaudeOpusFourEightDeviceA	0.90
+cost_claude-opus-4.8_device_B	CostClaudeOpusFourEightDeviceB	1.70
+cost_claude-opus-4.8_device_C	CostClaudeOpusFourEightDeviceC	4.72
+cost_claude-opus-4.8_patient_A	CostClaudeOpusFourEightPatientA	1.07
+cost_claude-opus-4.8_patient_B	CostClaudeOpusFourEightPatientB	1.52
+cost_claude-opus-4.8_patient_C	CostClaudeOpusFourEightPatientC	4.64
+cost_gpt-5.5_device_A	CostGptFiveFiveDeviceA	1.27
+cost_gpt-5.5_device_B	CostGptFiveFiveDeviceB	1.50
+cost_gpt-5.5_device_C	CostGptFiveFiveDeviceC	2.89
+cost_gpt-5.5_patient_A	CostGptFiveFivePatientA	1.32
+cost_gpt-5.5_patient_B	CostGptFiveFivePatientB	1.31
+cost_gpt-5.5_patient_C	CostGptFiveFivePatientC	2.75
+cost_gpt-oss-120b_device_A	CostGptOssOneTwoZerobDeviceA	0.06
+cost_gpt-oss-120b_device_B	CostGptOssOneTwoZerobDeviceB	0.03
+cost_gpt-oss-120b_device_C	CostGptOssOneTwoZerobDeviceC	0.08
+cost_gpt-oss-120b_patient_A	CostGptOssOneTwoZerobPatientA	0.09
+cost_gpt-oss-120b_patient_B	CostGptOssOneTwoZerobPatientB	0.03
+cost_gpt-oss-120b_patient_C	CostGptOssOneTwoZerobPatientC	0.07
+cost_llama-3.1-8b_device_A	CostLlamaThreeOneEightbDeviceA	0.01
+cost_llama-3.1-8b_device_B	CostLlamaThreeOneEightbDeviceB	0.00
+cost_llama-3.1-8b_device_C	CostLlamaThreeOneEightbDeviceC	0.01
+cost_llama-3.1-8b_patient_A	CostLlamaThreeOneEightbPatientA	0.02
+cost_llama-3.1-8b_patient_B	CostLlamaThreeOneEightbPatientB	0.00
+cost_llama-3.1-8b_patient_C	CostLlamaThreeOneEightbPatientC	0.01
+cost_llama-3.3-70b_device_A	CostLlamaThreeThreeSevenZerobDeviceA	0.05
+cost_llama-3.3-70b_device_B	CostLlamaThreeThreeSevenZerobDeviceB	0.02
+cost_llama-3.3-70b_device_C	CostLlamaThreeThreeSevenZerobDeviceC	0.05
+cost_llama-3.3-70b_patient_A	CostLlamaThreeThreeSevenZerobPatientA	0.08
+cost_llama-3.3-70b_patient_B	CostLlamaThreeThreeSevenZerobPatientB	0.02
+cost_llama-3.3-70b_patient_C	CostLlamaThreeThreeSevenZerobPatientC	0.05
+cost_llama-4-maverick_device_A	CostLlamaFourMaverickDeviceA	0.09
+cost_llama-4-maverick_device_B	CostLlamaFourMaverickDeviceB	0.06
+cost_llama-4-maverick_device_C	CostLlamaFourMaverickDeviceC	0.17
+cost_llama-4-maverick_patient_A	CostLlamaFourMaverickPatientA	0.14
+cost_llama-4-maverick_patient_B	CostLlamaFourMaverickPatientB	0.05
+cost_llama-4-maverick_patient_C	CostLlamaFourMaverickPatientC	0.16
+cost_medgemma-4b-it_device_A	CostMedgemmaFourbItDeviceA	0.00
+cost_medgemma-4b-it_device_B	CostMedgemmaFourbItDeviceB	0.00
+cost_medgemma-4b-it_device_C	CostMedgemmaFourbItDeviceC	0.00
+cost_medgemma-4b-it_patient_A	CostMedgemmaFourbItPatientA	0.00
+cost_medgemma-4b-it_patient_B	CostMedgemmaFourbItPatientB	0.00
+cost_medgemma-4b-it_patient_C	CostMedgemmaFourbItPatientC	0.00
+cost_phi-4_device_A	CostPhiFourDeviceA	0.04
+cost_phi-4_device_B	CostPhiFourDeviceB	0.01
+cost_phi-4_device_C	CostPhiFourDeviceC	0.03
+cost_phi-4_patient_A	CostPhiFourPatientA	0.06
+cost_phi-4_patient_B	CostPhiFourPatientB	0.01
+cost_phi-4_patient_C	CostPhiFourPatientC	0.03
+cost_qwen-2.5-72b_device_A	CostQwenTwoFiveSevenTwobDeviceA	0.24
+cost_qwen-2.5-72b_device_B	CostQwenTwoFiveSevenTwobDeviceB	0.07
+cost_qwen-2.5-72b_device_C	CostQwenTwoFiveSevenTwobDeviceC	0.19
+cost_qwen-2.5-72b_patient_A	CostQwenTwoFiveSevenTwobPatientA	0.37
+cost_qwen-2.5-72b_patient_B	CostQwenTwoFiveSevenTwobPatientB	0.06
+cost_qwen-2.5-72b_patient_C	CostQwenTwoFiveSevenTwobPatientC	0.18
+cost_total	CostTotal	182
+cover_B_device_sub	CoverBDeviceSub	0.73
+cover_B_device_unseen	CoverBDeviceUnseen	0.70
+cover_B_patient_sub	CoverBPatientSub	0.79
+cover_B_patient_unseen	CoverBPatientUnseen	0.80
+cover_C_device_sub	CoverCDeviceSub	0.79
+cover_C_device_unseen	CoverCDeviceUnseen	0.77
+cover_C_patient_sub	CoverCPatientSub	0.85
+cover_C_patient_unseen	CoverCPatientUnseen	0.86
+cover_gain_device_sub	CoverGainDeviceSub	0.06
+cover_gain_device_unseen	CoverGainDeviceUnseen	0.06
+cover_gain_patient_sub	CoverGainPatientSub	0.06
+cover_gain_patient_unseen	CoverGainPatientUnseen	0.06
+gap_layprof_claude-opus-4.8	GapLayprofClaudeOpusFourEight	-0.02
+gap_layprof_gpt-5.5	GapLayprofGptFiveFive	-0.04
+gap_layprof_gpt-oss-120b	GapLayprofGptOssOneTwoZerob	-0.07
+gap_layprof_llama-3.1-8b	GapLayprofLlamaThreeOneEightb	-0.15
+gap_layprof_llama-3.3-70b	GapLayprofLlamaThreeThreeSevenZerob	-0.08
+gap_layprof_llama-4-maverick	GapLayprofLlamaFourMaverick	-0.04
+gap_layprof_medgemma-4b-it	GapLayprofMedgemmaFourbIt	-0.14
+gap_layprof_phi-4	GapLayprofPhiFour	-0.01
+gap_layprof_qwen-2.5-72b	GapLayprofQwenTwoFiveSevenTwob	-0.09
+hit_claude-opus-4.8_device_C	HitClaudeOpusFourEightDeviceC	78
+hit_claude-opus-4.8_patient_C	HitClaudeOpusFourEightPatientC	81
+hit_gpt-5.5_device_C	HitGptFiveFiveDeviceC	74
+hit_gpt-5.5_patient_C	HitGptFiveFivePatientC	80
+hit_gpt-oss-120b_device_C	HitGptOssOneTwoZerobDeviceC	68
+hit_gpt-oss-120b_patient_C	HitGptOssOneTwoZerobPatientC	78
+hit_llama-3.1-8b_device_C	HitLlamaThreeOneEightbDeviceC	67
+hit_llama-3.1-8b_patient_C	HitLlamaThreeOneEightbPatientC	71
+hit_llama-3.3-70b_device_C	HitLlamaThreeThreeSevenZerobDeviceC	73
+hit_llama-3.3-70b_patient_C	HitLlamaThreeThreeSevenZerobPatientC	78
+hit_llama-4-maverick_device_C	HitLlamaFourMaverickDeviceC	70
+hit_llama-4-maverick_patient_C	HitLlamaFourMaverickPatientC	75
+hit_medgemma-4b-it_device_C	HitMedgemmaFourbItDeviceC	58
+hit_medgemma-4b-it_patient_C	HitMedgemmaFourbItPatientC	63
+hit_phi-4_device_C	HitPhiFourDeviceC	66
+hit_phi-4_patient_C	HitPhiFourPatientC	73
+hit_qwen-2.5-72b_device_C	HitQwenTwoFiveSevenTwobDeviceC	74
+hit_qwen-2.5-72b_patient_C	HitQwenTwoFiveSevenTwobPatientC	80
+invalid0_claude-opus-4.8_device	InvalidZeroClaudeOpusFourEightDevice	36
+invalid0_claude-opus-4.8_patient	InvalidZeroClaudeOpusFourEightPatient	47
+invalid0_gpt-5.5_device	InvalidZeroGptFiveFiveDevice	25
+invalid0_gpt-5.5_patient	InvalidZeroGptFiveFivePatient	8
+invalid0_gpt-oss-120b_device	InvalidZeroGptOssOneTwoZerobDevice	3
+invalid0_gpt-oss-120b_patient	InvalidZeroGptOssOneTwoZerobPatient	8
+invalid0_llama-3.1-8b_device	InvalidZeroLlamaThreeOneEightbDevice	4
+invalid0_llama-3.1-8b_patient	InvalidZeroLlamaThreeOneEightbPatient	14
+invalid0_llama-3.3-70b_device	InvalidZeroLlamaThreeThreeSevenZerobDevice	64
+invalid0_llama-3.3-70b_patient	InvalidZeroLlamaThreeThreeSevenZerobPatient	61
+invalid0_llama-4-maverick_device	InvalidZeroLlamaFourMaverickDevice	4
+invalid0_llama-4-maverick_patient	InvalidZeroLlamaFourMaverickPatient	55
+invalid0_medgemma-4b-it_device	InvalidZeroMedgemmaFourbItDevice	0
+invalid0_medgemma-4b-it_patient	InvalidZeroMedgemmaFourbItPatient	0
+invalid0_phi-4_device	InvalidZeroPhiFourDevice	7
+invalid0_phi-4_patient	InvalidZeroPhiFourPatient	46
+invalid0_qwen-2.5-72b_device	InvalidZeroQwenTwoFiveSevenTwobDevice	1
+invalid0_qwen-2.5-72b_patient	InvalidZeroQwenTwoFiveSevenTwobPatient	1
+invalid_claude-opus-4.8_device_A	InvalidClaudeOpusFourEightDeviceA	0
+invalid_claude-opus-4.8_device_C	InvalidClaudeOpusFourEightDeviceC	0
+invalid_claude-opus-4.8_patient_A	InvalidClaudeOpusFourEightPatientA	0
+invalid_claude-opus-4.8_patient_C	InvalidClaudeOpusFourEightPatientC	0
+invalid_gpt-5.5_device_A	InvalidGptFiveFiveDeviceA	0
+invalid_gpt-5.5_device_C	InvalidGptFiveFiveDeviceC	0
+invalid_gpt-5.5_patient_A	InvalidGptFiveFivePatientA	0
+invalid_gpt-5.5_patient_C	InvalidGptFiveFivePatientC	0
+invalid_gpt-oss-120b_device_A	InvalidGptOssOneTwoZerobDeviceA	0
+invalid_gpt-oss-120b_device_C	InvalidGptOssOneTwoZerobDeviceC	0
+invalid_gpt-oss-120b_patient_A	InvalidGptOssOneTwoZerobPatientA	0
+invalid_gpt-oss-120b_patient_C	InvalidGptOssOneTwoZerobPatientC	0
+invalid_llama-3.1-8b_device_A	InvalidLlamaThreeOneEightbDeviceA	5
+invalid_llama-3.1-8b_device_C	InvalidLlamaThreeOneEightbDeviceC	0
+invalid_llama-3.1-8b_patient_A	InvalidLlamaThreeOneEightbPatientA	1
+invalid_llama-3.1-8b_patient_C	InvalidLlamaThreeOneEightbPatientC	1
+invalid_llama-3.3-70b_device_A	InvalidLlamaThreeThreeSevenZerobDeviceA	3
+invalid_llama-3.3-70b_device_C	InvalidLlamaThreeThreeSevenZerobDeviceC	0
+invalid_llama-3.3-70b_patient_A	InvalidLlamaThreeThreeSevenZerobPatientA	1
+invalid_llama-3.3-70b_patient_C	InvalidLlamaThreeThreeSevenZerobPatientC	0
+invalid_llama-4-maverick_device_A	InvalidLlamaFourMaverickDeviceA	1
+invalid_llama-4-maverick_device_C	InvalidLlamaFourMaverickDeviceC	0
+invalid_llama-4-maverick_patient_A	InvalidLlamaFourMaverickPatientA	2
+invalid_llama-4-maverick_patient_C	InvalidLlamaFourMaverickPatientC	0
+invalid_medgemma-4b-it_device_A	InvalidMedgemmaFourbItDeviceA	3
+invalid_medgemma-4b-it_device_C	InvalidMedgemmaFourbItDeviceC	0
+invalid_medgemma-4b-it_patient_A	InvalidMedgemmaFourbItPatientA	1
+invalid_medgemma-4b-it_patient_C	InvalidMedgemmaFourbItPatientC	0
+invalid_phi-4_device_A	InvalidPhiFourDeviceA	3
+invalid_phi-4_device_C	InvalidPhiFourDeviceC	0
+invalid_phi-4_patient_A	InvalidPhiFourPatientA	1
+invalid_phi-4_patient_C	InvalidPhiFourPatientC	0
+invalid_qwen-2.5-72b_device_A	InvalidQwenTwoFiveSevenTwobDeviceA	7
+invalid_qwen-2.5-72b_device_C	InvalidQwenTwoFiveSevenTwobDeviceC	0
+invalid_qwen-2.5-72b_patient_A	InvalidQwenTwoFiveSevenTwobPatientA	1
+invalid_qwen-2.5-72b_patient_C	InvalidQwenTwoFiveSevenTwobPatientC	0
+ladder_monotone_all	LadderMonotoneAll	NO
+mem_gpt-oss-120b_device	MemGptOssOneTwoZerobDevice	+0.01
+mem_gpt-oss-120b_patient	MemGptOssOneTwoZerobPatient	-0.01
+mem_llama-3.1-8b_device	MemLlamaThreeOneEightbDevice	+0.09
+mem_llama-3.1-8b_patient	MemLlamaThreeOneEightbPatient	+0.02
+mem_llama-3.3-70b_device	MemLlamaThreeThreeSevenZerobDevice	+0.01
+mem_llama-3.3-70b_patient	MemLlamaThreeThreeSevenZerobPatient	+0.03
+mem_llama-4-maverick_device	MemLlamaFourMaverickDevice	+0.04
+mem_llama-4-maverick_patient	MemLlamaFourMaverickPatient	+0.02
+mem_max	MemMax	+0.09
+mem_medgemma-4b-it_device	MemMedgemmaFourbItDevice	+0.06
+mem_medgemma-4b-it_patient	MemMedgemmaFourbItPatient	-0.09
+mem_min	MemMin	-0.09
+mem_phi-4_device	MemPhiFourDevice	+0.03
+mem_phi-4_patient	MemPhiFourPatient	+0.02
+mem_qwen-2.5-72b_device	MemQwenTwoFiveSevenTwobDevice	+0.08
+mem_qwen-2.5-72b_patient	MemQwenTwoFiveSevenTwobPatient	0.00
+n0_claude-opus-4.8_device	NZeroClaudeOpusFourEightDevice	100
+n0_claude-opus-4.8_patient	NZeroClaudeOpusFourEightPatient	100
+n0_gpt-5.5_device	NZeroGptFiveFiveDevice	100
+n0_gpt-5.5_patient	NZeroGptFiveFivePatient	100
+nB_device_sub	NBDeviceSub	41
+nB_device_unseen	NBDeviceUnseen	42
+nB_patient_sub	NBPatientSub	43
+nB_patient_unseen	NBPatientUnseen	43
+nC_device_sub	NCDeviceSub	46
+nC_device_unseen	NCDeviceUnseen	46
+nC_patient_sub	NCPatientSub	50
+nC_patient_unseen	NCPatientUnseen	50
+n_device_comparison	NDeviceComparison	500
+n_device_comparison_lay	NDeviceComparisonLay	83
+n_device_comparison_professional	NDeviceComparisonProfessional	158
+n_device_comparison_unknown	NDeviceComparisonUnknown	259
+n_device_pool	NDevicePool	39,540
+n_device_pool_lay	NDevicePoolLay	7,924
+n_device_pool_professional	NDevicePoolProfessional	12,478
+n_device_pool_unknown	NDevicePoolUnknown	19,138
+n_device_total	NDeviceTotal	40,859
+n_device_unseen	NDeviceUnseen	819
+n_device_unseen_lay	NDeviceUnseenLay	386
+n_device_unseen_professional	NDeviceUnseenProfessional	295
+n_device_unseen_unknown	NDeviceUnseenUnknown	138
+n_patient_comparison	NPatientComparison	500
+n_patient_comparison_lay	NPatientComparisonLay	180
+n_patient_comparison_professional	NPatientComparisonProfessional	108
+n_patient_comparison_unknown	NPatientComparisonUnknown	212
+n_patient_pool	NPatientPool	23,462
+n_patient_pool_lay	NPatientPoolLay	8,352
+n_patient_pool_professional	NPatientPoolProfessional	5,560
+n_patient_pool_unknown	NPatientPoolUnknown	9,550
+n_patient_total	NPatientTotal	26,065
+n_patient_unseen	NPatientUnseen	2,103
+n_patient_unseen_lay	NPatientUnseenLay	783
+n_patient_unseen_professional	NPatientUnseenProfessional	506
+n_patient_unseen_unknown	NPatientUnseenUnknown	814
+npred_claude-opus-4.8_device_A	NpredClaudeOpusFourEightDeviceA	2.0
+npred_claude-opus-4.8_device_C	NpredClaudeOpusFourEightDeviceC	2.2
+npred_claude-opus-4.8_patient_A	NpredClaudeOpusFourEightPatientA	2.2
+npred_claude-opus-4.8_patient_C	NpredClaudeOpusFourEightPatientC	2.1
+npred_gpt-5.5_device_A	NpredGptFiveFiveDeviceA	1.7
+npred_gpt-5.5_device_C	NpredGptFiveFiveDeviceC	1.7
+npred_gpt-5.5_patient_A	NpredGptFiveFivePatientA	2.1
+npred_gpt-5.5_patient_C	NpredGptFiveFivePatientC	1.9
+npred_gpt-oss-120b_device_A	NpredGptOssOneTwoZerobDeviceA	1.4
+npred_gpt-oss-120b_device_C	NpredGptOssOneTwoZerobDeviceC	1.5
+npred_gpt-oss-120b_patient_A	NpredGptOssOneTwoZerobPatientA	1.6
+npred_gpt-oss-120b_patient_C	NpredGptOssOneTwoZerobPatientC	1.8
+npred_llama-3.1-8b_device_A	NpredLlamaThreeOneEightbDeviceA	4.2
+npred_llama-3.1-8b_device_C	NpredLlamaThreeOneEightbDeviceC	1.9
+npred_llama-3.1-8b_patient_A	NpredLlamaThreeOneEightbPatientA	4.8
+npred_llama-3.1-8b_patient_C	NpredLlamaThreeOneEightbPatientC	2.3
+npred_llama-3.3-70b_device_A	NpredLlamaThreeThreeSevenZerobDeviceA	3.3
+npred_llama-3.3-70b_device_C	NpredLlamaThreeThreeSevenZerobDeviceC	2.2
+npred_llama-3.3-70b_patient_A	NpredLlamaThreeThreeSevenZerobPatientA	5.4
+npred_llama-3.3-70b_patient_C	NpredLlamaThreeThreeSevenZerobPatientC	2.7
+npred_llama-4-maverick_device_A	NpredLlamaFourMaverickDeviceA	2.2
+npred_llama-4-maverick_device_C	NpredLlamaFourMaverickDeviceC	1.9
+npred_llama-4-maverick_patient_A	NpredLlamaFourMaverickPatientA	3.0
+npred_llama-4-maverick_patient_C	NpredLlamaFourMaverickPatientC	2.0
+npred_medgemma-4b-it_device_A	NpredMedgemmaFourbItDeviceA	1.3
+npred_medgemma-4b-it_device_C	NpredMedgemmaFourbItDeviceC	1.5
+npred_medgemma-4b-it_patient_A	NpredMedgemmaFourbItPatientA	1.0
+npred_medgemma-4b-it_patient_C	NpredMedgemmaFourbItPatientC	1.7
+npred_phi-4_device_A	NpredPhiFourDeviceA	4.1
+npred_phi-4_device_C	NpredPhiFourDeviceC	1.7
+npred_phi-4_patient_A	NpredPhiFourPatientA	9.5
+npred_phi-4_patient_C	NpredPhiFourPatientC	2.2
+npred_qwen-2.5-72b_device_A	NpredQwenTwoFiveSevenTwobDeviceA	2.8
+npred_qwen-2.5-72b_device_C	NpredQwenTwoFiveSevenTwobDeviceC	2.1
+npred_qwen-2.5-72b_patient_A	NpredQwenTwoFiveSevenTwobPatientA	2.9
+npred_qwen-2.5-72b_patient_C	NpredQwenTwoFiveSevenTwobPatientC	2.3
+nw_device_lay	NwDeviceLay	386
+nw_device_professional	NwDeviceProfessional	295
+nw_device_unknown	NwDeviceUnknown	138
+nw_patient_lay	NwPatientLay	783
+nw_patient_professional	NwPatientProfessional	506
+nw_patient_unknown	NwPatientUnknown	814
+nws_device_lay	NwsDeviceLay	181
+nws_device_professional	NwsDeviceProfessional	181
+nws_device_unknown	NwsDeviceUnknown	138
+nws_patient_lay	NwsPatientLay	167
+nws_patient_professional	NwsPatientProfessional	166
+nws_patient_unknown	NwsPatientUnknown	167
+r_claude-opus-4.8_device_0	RClaudeOpusFourEightDeviceZero	0.00
+r_claude-opus-4.8_device_A	RClaudeOpusFourEightDeviceA	0.34
+r_claude-opus-4.8_device_B	RClaudeOpusFourEightDeviceB	0.33
+r_claude-opus-4.8_device_C	RClaudeOpusFourEightDeviceC	0.43
+r_claude-opus-4.8_patient_0	RClaudeOpusFourEightPatientZero	0.30
+r_claude-opus-4.8_patient_A	RClaudeOpusFourEightPatientA	0.65
+r_claude-opus-4.8_patient_B	RClaudeOpusFourEightPatientB	0.60
+r_claude-opus-4.8_patient_C	RClaudeOpusFourEightPatientC	0.65
+r_gpt-5.5_device_0	RGptFiveFiveDeviceZero	0.06
+r_gpt-5.5_device_A	RGptFiveFiveDeviceA	0.35
+r_gpt-5.5_device_B	RGptFiveFiveDeviceB	0.30
+r_gpt-5.5_device_C	RGptFiveFiveDeviceC	0.38
+r_gpt-5.5_patient_0	RGptFiveFivePatientZero	0.33
+r_gpt-5.5_patient_A	RGptFiveFivePatientA	0.65
+r_gpt-5.5_patient_B	RGptFiveFivePatientB	0.56
+r_gpt-5.5_patient_C	RGptFiveFivePatientC	0.62
+r_gpt-oss-120b_device_0	RGptOssOneTwoZerobDeviceZero	0.01
+r_gpt-oss-120b_device_A	RGptOssOneTwoZerobDeviceA	0.16
+r_gpt-oss-120b_device_B	RGptOssOneTwoZerobDeviceB	0.24
+r_gpt-oss-120b_device_C	RGptOssOneTwoZerobDeviceC	0.33
+r_gpt-oss-120b_patient_0	RGptOssOneTwoZerobPatientZero	0.10
+r_gpt-oss-120b_patient_A	RGptOssOneTwoZerobPatientA	0.45
+r_gpt-oss-120b_patient_B	RGptOssOneTwoZerobPatientB	0.52
+r_gpt-oss-120b_patient_C	RGptOssOneTwoZerobPatientC	0.60
+r_llama-3.1-8b_device_0	RLlamaThreeOneEightbDeviceZero	0.01
+r_llama-3.1-8b_device_A	RLlamaThreeOneEightbDeviceA	0.10
+r_llama-3.1-8b_device_B	RLlamaThreeOneEightbDeviceB	0.21
+r_llama-3.1-8b_device_C	RLlamaThreeOneEightbDeviceC	0.32
+r_llama-3.1-8b_patient_0	RLlamaThreeOneEightbPatientZero	0.11
+r_llama-3.1-8b_patient_A	RLlamaThreeOneEightbPatientA	0.14
+r_llama-3.1-8b_patient_B	RLlamaThreeOneEightbPatientB	0.34
+r_llama-3.1-8b_patient_C	RLlamaThreeOneEightbPatientC	0.52
+r_llama-3.3-70b_device_0	RLlamaThreeThreeSevenZerobDeviceZero	0.01
+r_llama-3.3-70b_device_A	RLlamaThreeThreeSevenZerobDeviceA	0.22
+r_llama-3.3-70b_device_B	RLlamaThreeThreeSevenZerobDeviceB	0.27
+r_llama-3.3-70b_device_C	RLlamaThreeThreeSevenZerobDeviceC	0.38
+r_llama-3.3-70b_patient_0	RLlamaThreeThreeSevenZerobPatientZero	0.10
+r_llama-3.3-70b_patient_A	RLlamaThreeThreeSevenZerobPatientA	0.33
+r_llama-3.3-70b_patient_B	RLlamaThreeThreeSevenZerobPatientB	0.48
+r_llama-3.3-70b_patient_C	RLlamaThreeThreeSevenZerobPatientC	0.60
+r_llama-4-maverick_device_0	RLlamaFourMaverickDeviceZero	0.02
+r_llama-4-maverick_device_A	RLlamaFourMaverickDeviceA	0.26
+r_llama-4-maverick_device_B	RLlamaFourMaverickDeviceB	0.27
+r_llama-4-maverick_device_C	RLlamaFourMaverickDeviceC	0.36
+r_llama-4-maverick_patient_0	RLlamaFourMaverickPatientZero	0.10
+r_llama-4-maverick_patient_A	RLlamaFourMaverickPatientA	0.51
+r_llama-4-maverick_patient_B	RLlamaFourMaverickPatientB	0.54
+r_llama-4-maverick_patient_C	RLlamaFourMaverickPatientC	0.60
+r_medgemma-4b-it_device_0	RMedgemmaFourbItDeviceZero	0.01
+r_medgemma-4b-it_device_A	RMedgemmaFourbItDeviceA	0.02
+r_medgemma-4b-it_device_B	RMedgemmaFourbItDeviceB	0.13
+r_medgemma-4b-it_device_C	RMedgemmaFourbItDeviceC	0.26
+r_medgemma-4b-it_patient_0	RMedgemmaFourbItPatientZero	0.17
+r_medgemma-4b-it_patient_A	RMedgemmaFourbItPatientA	0.19
+r_medgemma-4b-it_patient_B	RMedgemmaFourbItPatientB	0.27
+r_medgemma-4b-it_patient_C	RMedgemmaFourbItPatientC	0.45
+r_phi-4_device_0	RPhiFourDeviceZero	0.01
+r_phi-4_device_A	RPhiFourDeviceA	0.21
+r_phi-4_device_B	RPhiFourDeviceB	0.20
+r_phi-4_device_C	RPhiFourDeviceC	0.32
+r_phi-4_patient_0	RPhiFourPatientZero	0.08
+r_phi-4_patient_A	RPhiFourPatientA	0.21
+r_phi-4_patient_B	RPhiFourPatientB	0.38
+r_phi-4_patient_C	RPhiFourPatientC	0.54
+r_qwen-2.5-72b_device_0	RQwenTwoFiveSevenTwobDeviceZero	0.01
+r_qwen-2.5-72b_device_A	RQwenTwoFiveSevenTwobDeviceA	0.15
+r_qwen-2.5-72b_device_B	RQwenTwoFiveSevenTwobDeviceB	0.20
+r_qwen-2.5-72b_device_C	RQwenTwoFiveSevenTwobDeviceC	0.37
+r_qwen-2.5-72b_patient_0	RQwenTwoFiveSevenTwobPatientZero	0.14
+r_qwen-2.5-72b_patient_A	RQwenTwoFiveSevenTwobPatientA	0.47
+r_qwen-2.5-72b_patient_B	RQwenTwoFiveSevenTwobPatientB	0.48
+r_qwen-2.5-72b_patient_C	RQwenTwoFiveSevenTwobPatientC	0.63
+rbest_device_0	RbestDeviceZero	Llama 4 Maverick
+rbest_device_A	RbestDeviceA	Llama 4 Maverick
+rbest_device_B	RbestDeviceB	Llama 3.3 70B
+rbest_device_C	RbestDeviceC	Llama 3.3 70B
+rbest_patient_0	RbestPatientZero	MedGemma 4B
+rbest_patient_A	RbestPatientA	Llama 4 Maverick
+rbest_patient_B	RbestPatientB	Llama 4 Maverick
+rbest_patient_C	RbestPatientC	Qwen 2.5 72B
+rmax_device_0	RmaxDeviceZero	0.02
+rmax_device_A	RmaxDeviceA	0.26
+rmax_device_B	RmaxDeviceB	0.27
+rmax_device_C	RmaxDeviceC	0.38
+rmax_patient_0	RmaxPatientZero	0.17
+rmax_patient_A	RmaxPatientA	0.51
+rmax_patient_B	RmaxPatientB	0.54
+rmax_patient_C	RmaxPatientC	0.63
+rmin_device_0	RminDeviceZero	0.01
+rmin_device_A	RminDeviceA	0.02
+rmin_device_B	RminDeviceB	0.13
+rmin_device_C	RminDeviceC	0.26
+rmin_patient_0	RminPatientZero	0.08
+rmin_patient_A	RminPatientA	0.14
+rmin_patient_B	RminPatientB	0.27
+rmin_patient_C	RminPatientC	0.45
+s_claude-opus-4.8_device_0	SClaudeOpusFourEightDeviceZero	0.04
+s_claude-opus-4.8_device_A	SClaudeOpusFourEightDeviceA	0.54
+s_claude-opus-4.8_device_B	SClaudeOpusFourEightDeviceB	0.53
+s_claude-opus-4.8_device_C	SClaudeOpusFourEightDeviceC	0.61
+s_claude-opus-4.8_patient_0	SClaudeOpusFourEightPatientZero	0.33
+s_claude-opus-4.8_patient_A	SClaudeOpusFourEightPatientA	0.75
+s_claude-opus-4.8_patient_B	SClaudeOpusFourEightPatientB	0.69
+s_claude-opus-4.8_patient_C	SClaudeOpusFourEightPatientC	0.72
+s_gpt-5.5_device_0	SGptFiveFiveDeviceZero	0.18
+s_gpt-5.5_device_A	SGptFiveFiveDeviceA	0.55
+s_gpt-5.5_device_B	SGptFiveFiveDeviceB	0.50
+s_gpt-5.5_device_C	SGptFiveFiveDeviceC	0.57
+s_gpt-5.5_patient_0	SGptFiveFivePatientZero	0.40
+s_gpt-5.5_patient_A	SGptFiveFivePatientA	0.74
+s_gpt-5.5_patient_B	SGptFiveFivePatientB	0.66
+s_gpt-5.5_patient_C	SGptFiveFivePatientC	0.71
+s_gpt-oss-120b_device_0	SGptOssOneTwoZerobDeviceZero	0.07
+s_gpt-oss-120b_device_A	SGptOssOneTwoZerobDeviceA	0.42
+s_gpt-oss-120b_device_B	SGptOssOneTwoZerobDeviceB	0.45
+s_gpt-oss-120b_device_C	SGptOssOneTwoZerobDeviceC	0.51
+s_gpt-oss-120b_patient_0	SGptOssOneTwoZerobPatientZero	0.15
+s_gpt-oss-120b_patient_A	SGptOssOneTwoZerobPatientA	0.55
+s_gpt-oss-120b_patient_B	SGptOssOneTwoZerobPatientB	0.61
+s_gpt-oss-120b_patient_C	SGptOssOneTwoZerobPatientC	0.67
+s_llama-3.1-8b_device_0	SLlamaThreeOneEightbDeviceZero	0.06
+s_llama-3.1-8b_device_A	SLlamaThreeOneEightbDeviceA	0.24
+s_llama-3.1-8b_device_B	SLlamaThreeOneEightbDeviceB	0.44
+s_llama-3.1-8b_device_C	SLlamaThreeOneEightbDeviceC	0.49
+s_llama-3.1-8b_patient_0	SLlamaThreeOneEightbPatientZero	0.14
+s_llama-3.1-8b_patient_A	SLlamaThreeOneEightbPatientA	0.25
+s_llama-3.1-8b_patient_B	SLlamaThreeOneEightbPatientB	0.49
+s_llama-3.1-8b_patient_C	SLlamaThreeOneEightbPatientC	0.61
+s_llama-3.3-70b_device_0	SLlamaThreeThreeSevenZerobDeviceZero	0.03
+s_llama-3.3-70b_device_A	SLlamaThreeThreeSevenZerobDeviceA	0.48
+s_llama-3.3-70b_device_B	SLlamaThreeThreeSevenZerobDeviceB	0.52
+s_llama-3.3-70b_device_C	SLlamaThreeThreeSevenZerobDeviceC	0.56
+s_llama-3.3-70b_patient_0	SLlamaThreeThreeSevenZerobPatientZero	0.14
+s_llama-3.3-70b_patient_A	SLlamaThreeThreeSevenZerobPatientA	0.51
+s_llama-3.3-70b_patient_B	SLlamaThreeThreeSevenZerobPatientB	0.59
+s_llama-3.3-70b_patient_C	SLlamaThreeThreeSevenZerobPatientC	0.68
+s_llama-4-maverick_device_0	SLlamaFourMaverickDeviceZero	0.06
+s_llama-4-maverick_device_A	SLlamaFourMaverickDeviceA	0.47
+s_llama-4-maverick_device_B	SLlamaFourMaverickDeviceB	0.49
+s_llama-4-maverick_device_C	SLlamaFourMaverickDeviceC	0.54
+s_llama-4-maverick_patient_0	SLlamaFourMaverickPatientZero	0.11
+s_llama-4-maverick_patient_A	SLlamaFourMaverickPatientA	0.62
+s_llama-4-maverick_patient_B	SLlamaFourMaverickPatientB	0.63
+s_llama-4-maverick_patient_C	SLlamaFourMaverickPatientC	0.67
+s_medgemma-4b-it_device_0	SMedgemmaFourbItDeviceZero	0.06
+s_medgemma-4b-it_device_A	SMedgemmaFourbItDeviceA	0.12
+s_medgemma-4b-it_device_B	SMedgemmaFourbItDeviceB	0.35
+s_medgemma-4b-it_device_C	SMedgemmaFourbItDeviceC	0.42
+s_medgemma-4b-it_patient_0	SMedgemmaFourbItPatientZero	0.20
+s_medgemma-4b-it_patient_A	SMedgemmaFourbItPatientA	0.22
+s_medgemma-4b-it_patient_B	SMedgemmaFourbItPatientB	0.39
+s_medgemma-4b-it_patient_C	SMedgemmaFourbItPatientC	0.53
+s_phi-4_device_0	SPhiFourDeviceZero	0.03
+s_phi-4_device_A	SPhiFourDeviceA	0.37
+s_phi-4_device_B	SPhiFourDeviceB	0.43
+s_phi-4_device_C	SPhiFourDeviceC	0.50
+s_phi-4_patient_0	SPhiFourPatientZero	0.09
+s_phi-4_patient_A	SPhiFourPatientA	0.33
+s_phi-4_patient_B	SPhiFourPatientB	0.50
+s_phi-4_patient_C	SPhiFourPatientC	0.63
+s_qwen-2.5-72b_device_0	SQwenTwoFiveSevenTwobDeviceZero	0.06
+s_qwen-2.5-72b_device_A	SQwenTwoFiveSevenTwobDeviceA	0.39
+s_qwen-2.5-72b_device_B	SQwenTwoFiveSevenTwobDeviceB	0.45
+s_qwen-2.5-72b_device_C	SQwenTwoFiveSevenTwobDeviceC	0.58
+s_qwen-2.5-72b_patient_0	SQwenTwoFiveSevenTwobPatientZero	0.18
+s_qwen-2.5-72b_patient_A	SQwenTwoFiveSevenTwobPatientA	0.59
+s_qwen-2.5-72b_patient_B	SQwenTwoFiveSevenTwobPatientB	0.58
+s_qwen-2.5-72b_patient_C	SQwenTwoFiveSevenTwobPatientC	0.70
+smax_device_0	SmaxDeviceZero	0.07
+smax_device_A	SmaxDeviceA	0.48
+smax_device_B	SmaxDeviceB	0.52
+smax_device_C	SmaxDeviceC	0.58
+smax_patient_0	SmaxPatientZero	0.20
+smax_patient_A	SmaxPatientA	0.62
+smax_patient_B	SmaxPatientB	0.63
+smax_patient_C	SmaxPatientC	0.70
+smin_device_0	SminDeviceZero	0.03
+smin_device_A	SminDeviceA	0.12
+smin_device_B	SminDeviceB	0.35
+smin_device_C	SminDeviceC	0.42
+smin_patient_0	SminPatientZero	0.09
+smin_patient_A	SminPatientA	0.22
+smin_patient_B	SminPatientB	0.39
+smin_patient_C	SminPatientC	0.53
+uncoded_industry_pct	UncodedIndustryPct	0.0
+uncoded_lay_pct	UncodedLayPct	38
+uncoded_nonindustry_pct	UncodedNonindustryPct	37
+uncoded_professional_pct	UncodedProfessionalPct	41
+unparsed_claude-opus-4.8_device_A	UnparsedClaudeOpusFourEightDeviceA	2
+unparsed_claude-opus-4.8_device_C	UnparsedClaudeOpusFourEightDeviceC	0
+unparsed_claude-opus-4.8_patient_A	UnparsedClaudeOpusFourEightPatientA	1
+unparsed_claude-opus-4.8_patient_C	UnparsedClaudeOpusFourEightPatientC	1
+unparsed_gpt-5.5_device_A	UnparsedGptFiveFiveDeviceA	0
+unparsed_gpt-5.5_device_C	UnparsedGptFiveFiveDeviceC	0
+unparsed_gpt-5.5_patient_A	UnparsedGptFiveFivePatientA	0
+unparsed_gpt-5.5_patient_C	UnparsedGptFiveFivePatientC	0
+unparsed_gpt-oss-120b_device_A	UnparsedGptOssOneTwoZerobDeviceA	0
+unparsed_gpt-oss-120b_device_C	UnparsedGptOssOneTwoZerobDeviceC	1
+unparsed_gpt-oss-120b_patient_A	UnparsedGptOssOneTwoZerobPatientA	0
+unparsed_gpt-oss-120b_patient_C	UnparsedGptOssOneTwoZerobPatientC	0
+unparsed_llama-3.1-8b_device_A	UnparsedLlamaThreeOneEightbDeviceA	18
+unparsed_llama-3.1-8b_device_C	UnparsedLlamaThreeOneEightbDeviceC	2
+unparsed_llama-3.1-8b_patient_A	UnparsedLlamaThreeOneEightbPatientA	21
+unparsed_llama-3.1-8b_patient_C	UnparsedLlamaThreeOneEightbPatientC	1
+unparsed_llama-3.3-70b_device_A	UnparsedLlamaThreeThreeSevenZerobDeviceA	1
+unparsed_llama-3.3-70b_device_C	UnparsedLlamaThreeThreeSevenZerobDeviceC	0
+unparsed_llama-3.3-70b_patient_A	UnparsedLlamaThreeThreeSevenZerobPatientA	1
+unparsed_llama-3.3-70b_patient_C	UnparsedLlamaThreeThreeSevenZerobPatientC	0
+unparsed_llama-4-maverick_device_A	UnparsedLlamaFourMaverickDeviceA	5
+unparsed_llama-4-maverick_device_C	UnparsedLlamaFourMaverickDeviceC	3
+unparsed_llama-4-maverick_patient_A	UnparsedLlamaFourMaverickPatientA	3
+unparsed_llama-4-maverick_patient_C	UnparsedLlamaFourMaverickPatientC	6
+unparsed_medgemma-4b-it_device_A	UnparsedMedgemmaFourbItDeviceA	35
+unparsed_medgemma-4b-it_device_C	UnparsedMedgemmaFourbItDeviceC	0
+unparsed_medgemma-4b-it_patient_A	UnparsedMedgemmaFourbItPatientA	3
+unparsed_medgemma-4b-it_patient_C	UnparsedMedgemmaFourbItPatientC	2
+unparsed_phi-4_device_A	UnparsedPhiFourDeviceA	1
+unparsed_phi-4_device_C	UnparsedPhiFourDeviceC	0
+unparsed_phi-4_patient_A	UnparsedPhiFourPatientA	15
+unparsed_phi-4_patient_C	UnparsedPhiFourPatientC	0
+unparsed_qwen-2.5-72b_device_A	UnparsedQwenTwoFiveSevenTwobDeviceA	1
+unparsed_qwen-2.5-72b_device_C	UnparsedQwenTwoFiveSevenTwobDeviceC	0
+unparsed_qwen-2.5-72b_patient_A	UnparsedQwenTwoFiveSevenTwobPatientA	1
+unparsed_qwen-2.5-72b_patient_C	UnparsedQwenTwoFiveSevenTwobPatientC	0
+w_claude-opus-4.8_device_lay_r	WClaudeOpusFourEightDeviceLayR	0.44
+w_claude-opus-4.8_device_lay_s	WClaudeOpusFourEightDeviceLayS	0.64
+w_claude-opus-4.8_device_professional_r	WClaudeOpusFourEightDeviceProfessionalR	0.45
+w_claude-opus-4.8_device_professional_s	WClaudeOpusFourEightDeviceProfessionalS	0.64
+w_claude-opus-4.8_device_unknown_r	WClaudeOpusFourEightDeviceUnknownR	0.37
+w_claude-opus-4.8_device_unknown_s	WClaudeOpusFourEightDeviceUnknownS	0.55
+w_claude-opus-4.8_patient_lay_r	WClaudeOpusFourEightPatientLayR	0.63
+w_claude-opus-4.8_patient_lay_s	WClaudeOpusFourEightPatientLayS	0.71
+w_claude-opus-4.8_patient_professional_r	WClaudeOpusFourEightPatientProfessionalR	0.65
+w_claude-opus-4.8_patient_professional_s	WClaudeOpusFourEightPatientProfessionalS	0.75
+w_claude-opus-4.8_patient_unknown_r	WClaudeOpusFourEightPatientUnknownR	0.66
+w_claude-opus-4.8_patient_unknown_s	WClaudeOpusFourEightPatientUnknownS	0.72
+w_gpt-5.5_device_lay_r	WGptFiveFiveDeviceLayR	0.41
+w_gpt-5.5_device_lay_s	WGptFiveFiveDeviceLayS	0.57
+w_gpt-5.5_device_professional_r	WGptFiveFiveDeviceProfessionalR	0.40
+w_gpt-5.5_device_professional_s	WGptFiveFiveDeviceProfessionalS	0.60
+w_gpt-5.5_device_unknown_r	WGptFiveFiveDeviceUnknownR	0.31
+w_gpt-5.5_device_unknown_s	WGptFiveFiveDeviceUnknownS	0.52
+w_gpt-5.5_patient_lay_r	WGptFiveFivePatientLayR	0.58
+w_gpt-5.5_patient_lay_s	WGptFiveFivePatientLayS	0.68
+w_gpt-5.5_patient_professional_r	WGptFiveFivePatientProfessionalR	0.62
+w_gpt-5.5_patient_professional_s	WGptFiveFivePatientProfessionalS	0.73
+w_gpt-5.5_patient_unknown_r	WGptFiveFivePatientUnknownR	0.66
+w_gpt-5.5_patient_unknown_s	WGptFiveFivePatientUnknownS	0.72
+w_gpt-oss-120b_device_lay_r	WGptOssOneTwoZerobDeviceLayR	0.33
+w_gpt-oss-120b_device_lay_s	WGptOssOneTwoZerobDeviceLayS	0.52
+w_gpt-oss-120b_device_professional_r	WGptOssOneTwoZerobDeviceProfessionalR	0.33
+w_gpt-oss-120b_device_professional_s	WGptOssOneTwoZerobDeviceProfessionalS	0.50
+w_gpt-oss-120b_device_unknown_r	WGptOssOneTwoZerobDeviceUnknownR	0.35
+w_gpt-oss-120b_device_unknown_s	WGptOssOneTwoZerobDeviceUnknownS	0.52
+w_gpt-oss-120b_patient_lay_r	WGptOssOneTwoZerobPatientLayR	0.56
+w_gpt-oss-120b_patient_lay_s	WGptOssOneTwoZerobPatientLayS	0.65
+w_gpt-oss-120b_patient_professional_r	WGptOssOneTwoZerobPatientProfessionalR	0.63
+w_gpt-oss-120b_patient_professional_s	WGptOssOneTwoZerobPatientProfessionalS	0.70
+w_gpt-oss-120b_patient_unknown_r	WGptOssOneTwoZerobPatientUnknownR	0.63
+w_gpt-oss-120b_patient_unknown_s	WGptOssOneTwoZerobPatientUnknownS	0.68
+w_llama-3.1-8b_device_lay_r	WLlamaThreeOneEightbDeviceLayR	0.31
+w_llama-3.1-8b_device_lay_s	WLlamaThreeOneEightbDeviceLayS	0.49
+w_llama-3.1-8b_device_professional_r	WLlamaThreeOneEightbDeviceProfessionalR	0.31
+w_llama-3.1-8b_device_professional_s	WLlamaThreeOneEightbDeviceProfessionalS	0.48
+w_llama-3.1-8b_device_unknown_r	WLlamaThreeOneEightbDeviceUnknownR	0.33
+w_llama-3.1-8b_device_unknown_s	WLlamaThreeOneEightbDeviceUnknownS	0.51
+w_llama-3.1-8b_patient_lay_r	WLlamaThreeOneEightbPatientLayR	0.43
+w_llama-3.1-8b_patient_lay_s	WLlamaThreeOneEightbPatientLayS	0.54
+w_llama-3.1-8b_patient_professional_r	WLlamaThreeOneEightbPatientProfessionalR	0.58
+w_llama-3.1-8b_patient_professional_s	WLlamaThreeOneEightbPatientProfessionalS	0.66
+w_llama-3.1-8b_patient_unknown_r	WLlamaThreeOneEightbPatientUnknownR	0.58
+w_llama-3.1-8b_patient_unknown_s	WLlamaThreeOneEightbPatientUnknownS	0.65
+w_llama-3.3-70b_device_lay_r	WLlamaThreeThreeSevenZerobDeviceLayR	0.40
+w_llama-3.3-70b_device_lay_s	WLlamaThreeThreeSevenZerobDeviceLayS	0.58
+w_llama-3.3-70b_device_professional_r	WLlamaThreeThreeSevenZerobDeviceProfessionalR	0.36
+w_llama-3.3-70b_device_professional_s	WLlamaThreeThreeSevenZerobDeviceProfessionalS	0.57
+w_llama-3.3-70b_device_unknown_r	WLlamaThreeThreeSevenZerobDeviceUnknownR	0.34
+w_llama-3.3-70b_device_unknown_s	WLlamaThreeThreeSevenZerobDeviceUnknownS	0.51
+w_llama-3.3-70b_patient_lay_r	WLlamaThreeThreeSevenZerobPatientLayR	0.53
+w_llama-3.3-70b_patient_lay_s	WLlamaThreeThreeSevenZerobPatientLayS	0.64
+w_llama-3.3-70b_patient_professional_r	WLlamaThreeThreeSevenZerobPatientProfessionalR	0.61
+w_llama-3.3-70b_patient_professional_s	WLlamaThreeThreeSevenZerobPatientProfessionalS	0.68
+w_llama-3.3-70b_patient_unknown_r	WLlamaThreeThreeSevenZerobPatientUnknownR	0.67
+w_llama-3.3-70b_patient_unknown_s	WLlamaThreeThreeSevenZerobPatientUnknownS	0.73
+w_llama-4-maverick_device_lay_r	WLlamaFourMaverickDeviceLayR	0.37
+w_llama-4-maverick_device_lay_s	WLlamaFourMaverickDeviceLayS	0.55
+w_llama-4-maverick_device_professional_r	WLlamaFourMaverickDeviceProfessionalR	0.36
+w_llama-4-maverick_device_professional_s	WLlamaFourMaverickDeviceProfessionalS	0.56
+w_llama-4-maverick_device_unknown_r	WLlamaFourMaverickDeviceUnknownR	0.34
+w_llama-4-maverick_device_unknown_s	WLlamaFourMaverickDeviceUnknownS	0.49
+w_llama-4-maverick_patient_lay_r	WLlamaFourMaverickPatientLayR	0.55
+w_llama-4-maverick_patient_lay_s	WLlamaFourMaverickPatientLayS	0.64
+w_llama-4-maverick_patient_professional_r	WLlamaFourMaverickPatientProfessionalR	0.59
+w_llama-4-maverick_patient_professional_s	WLlamaFourMaverickPatientProfessionalS	0.67
+w_llama-4-maverick_patient_unknown_r	WLlamaFourMaverickPatientUnknownR	0.66
+w_llama-4-maverick_patient_unknown_s	WLlamaFourMaverickPatientUnknownS	0.70
+w_medgemma-4b-it_device_lay_r	WMedgemmaFourbItDeviceLayR	0.26
+w_medgemma-4b-it_device_lay_s	WMedgemmaFourbItDeviceLayS	0.42
+w_medgemma-4b-it_device_professional_r	WMedgemmaFourbItDeviceProfessionalR	0.24
+w_medgemma-4b-it_device_professional_s	WMedgemmaFourbItDeviceProfessionalS	0.40
+w_medgemma-4b-it_device_unknown_r	WMedgemmaFourbItDeviceUnknownR	0.30
+w_medgemma-4b-it_device_unknown_s	WMedgemmaFourbItDeviceUnknownS	0.44
+w_medgemma-4b-it_patient_lay_r	WMedgemmaFourbItPatientLayR	0.36
+w_medgemma-4b-it_patient_lay_s	WMedgemmaFourbItPatientLayS	0.47
+w_medgemma-4b-it_patient_professional_r	WMedgemmaFourbItPatientProfessionalR	0.50
+w_medgemma-4b-it_patient_professional_s	WMedgemmaFourbItPatientProfessionalS	0.57
+w_medgemma-4b-it_patient_unknown_r	WMedgemmaFourbItPatientUnknownR	0.51
+w_medgemma-4b-it_patient_unknown_s	WMedgemmaFourbItPatientUnknownS	0.58
+w_phi-4_device_lay_r	WPhiFourDeviceLayR	0.33
+w_phi-4_device_lay_s	WPhiFourDeviceLayS	0.51
+w_phi-4_device_professional_r	WPhiFourDeviceProfessionalR	0.31
+w_phi-4_device_professional_s	WPhiFourDeviceProfessionalS	0.49
+w_phi-4_device_unknown_r	WPhiFourDeviceUnknownR	0.33
+w_phi-4_device_unknown_s	WPhiFourDeviceUnknownS	0.46
+w_phi-4_patient_lay_r	WPhiFourPatientLayR	0.48
+w_phi-4_patient_lay_s	WPhiFourPatientLayS	0.60
+w_phi-4_patient_professional_r	WPhiFourPatientProfessionalR	0.49
+w_phi-4_patient_professional_s	WPhiFourPatientProfessionalS	0.58
+w_phi-4_patient_unknown_r	WPhiFourPatientUnknownR	0.64
+w_phi-4_patient_unknown_s	WPhiFourPatientUnknownS	0.70
+w_qwen-2.5-72b_device_lay_r	WQwenTwoFiveSevenTwobDeviceLayR	0.38
+w_qwen-2.5-72b_device_lay_s	WQwenTwoFiveSevenTwobDeviceLayS	0.60
+w_qwen-2.5-72b_device_professional_r	WQwenTwoFiveSevenTwobDeviceProfessionalR	0.38
+w_qwen-2.5-72b_device_professional_s	WQwenTwoFiveSevenTwobDeviceProfessionalS	0.57
+w_qwen-2.5-72b_device_unknown_r	WQwenTwoFiveSevenTwobDeviceUnknownR	0.34
+w_qwen-2.5-72b_device_unknown_s	WQwenTwoFiveSevenTwobDeviceUnknownS	0.52
+w_qwen-2.5-72b_patient_lay_r	WQwenTwoFiveSevenTwobPatientLayR	0.57
+w_qwen-2.5-72b_patient_lay_s	WQwenTwoFiveSevenTwobPatientLayS	0.67
+w_qwen-2.5-72b_patient_professional_r	WQwenTwoFiveSevenTwobPatientProfessionalR	0.66
+w_qwen-2.5-72b_patient_professional_s	WQwenTwoFiveSevenTwobPatientProfessionalS	0.73
+w_qwen-2.5-72b_patient_unknown_r	WQwenTwoFiveSevenTwobPatientUnknownR	0.66
+w_qwen-2.5-72b_patient_unknown_s	WQwenTwoFiveSevenTwobPatientUnknownS	0.72
