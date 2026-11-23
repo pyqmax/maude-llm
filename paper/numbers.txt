@@ -319,6 +319,13 @@ mem_phi-4_device	MemPhiFourDevice	+0.03
 mem_phi-4_patient	MemPhiFourPatient	+0.02
 mem_qwen-2.5-72b_device	MemQwenTwoFiveSevenTwobDevice	+0.08
 mem_qwen-2.5-72b_patient	MemQwenTwoFiveSevenTwobPatient	0.00
+memres_gpt-oss-120b_device	MemresGptOssOneTwoZerobDevice	-0.01
+memres_llama-3.1-8b_device	MemresLlamaThreeOneEightbDevice	+0.01
+memres_llama-3.3-70b_device	MemresLlamaThreeThreeSevenZerobDevice	+0.03
+memres_llama-4-maverick_device	MemresLlamaFourMaverickDevice	+0.04
+memres_medgemma-4b-it_device	MemresMedgemmaFourbItDevice	0.00
+memres_phi-4_device	MemresPhiFourDevice	+0.03
+memres_qwen-2.5-72b_device	MemresQwenTwoFiveSevenTwobDevice	+0.08
 n0_claude-opus-4.8_device	NZeroClaudeOpusFourEightDevice	100
 n0_claude-opus-4.8_patient	NZeroClaudeOpusFourEightPatient	100
 n0_gpt-5.5_device	NZeroGptFiveFiveDevice	100
@@ -593,6 +600,7 @@ uncoded_industry_pct	UncodedIndustryPct	0.0
 uncoded_lay_pct	UncodedLayPct	38
 uncoded_nonindustry_pct	UncodedNonindustryPct	37
 uncoded_professional_pct	UncodedProfessionalPct	41
+uncoded_voluntary_pct	UncodedVoluntaryPct	34
 unparsed_claude-opus-4.8_device_A	UnparsedClaudeOpusFourEightDeviceA	2
 unparsed_claude-opus-4.8_device_C	UnparsedClaudeOpusFourEightDeviceC	0
 unparsed_claude-opus-4.8_patient_A	UnparsedClaudeOpusFourEightPatientA	1
