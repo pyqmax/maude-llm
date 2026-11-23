@@ -1,0 +1,61 @@
+task	case	key	category	note
+device	1	25468925	fda_side	infection after neurostimulator; FDA A0101 is a convention, text names no device problem; GPT A01 is the parent
+device	2	24661445	synonym	CPAP leak; FDA A18 contamination (used machine) and A140502 are one reading, model's gas leak and nonstandard device another; both defensible
+device	3	24292400	synonym	pods failed; A0203 Defective Device (FDA) vs A0202 Defective Component (Opus), siblings
+device	4	24249037	undercoded	six FDA codes all in the text; Opus returned four, two matched
+device	5	25218201	fda_side	long alarm dossier; FDA coded readings and sensing only, model's alarm codes are the point of the report
+device	6	25203851	granularity	A1405 (Opus) parent of A140508 (FDA); A17 vs A1208 both defensible
+device	7	24443771	granularity	FDA A01, Opus A0101
+device	8	24443372	fda_side	Opus hit 2 of 3; FDA's third code is the generic A0203 added to specific ones
+device	9	25229402	armC_worse	Opus A returned A141102 and A141401 exactly; Opus C fell back to the parent A1411
+device	10	24368447	synonym	caps fall off; A1208 Fitting Problem (FDA) vs A0501 Detachment (Opus), A1205 matched
+device	11	24363512	model_error	gloves stuck together; Opus C missed A0509 Sticking that Opus A had
+device	12	25229289	armC_worse	Dexcom failed; Opus A gave FDA's A0203, Opus C replaced it with consequence codes
+device	13	24741835	granularity	Opus A090808 Low Readings is the child of FDA's A0908; FDA's A020102 and A070908 are inferences
+device	14	25217883	fda_side	"capsule around the implant was torn" is scar tissue, not device material; FDA A0414, Opus rejection; text ambiguous
+device	15	25651008	undercoded	four FDA codes (two near-synonyms, one about informed consent); Opus returned migration only
+device	16	24415000	granularity	FDA A0201, Opus A020102 (child) and A0203
+device	17	24626244	granularity	FDA A0101, Opus A01; text names infection only
+device	18	25069291	undercoded	multi-facility report; Opus A0406 is parent of A040609, A23 matched; A2303 and A090406 missed
+device	19	24457419	granularity	A050501 child of A0505; A1501 parent of A150105; both branch hits
+device	20	24363522	duplicate	same text as case 11 (second record of one submission)
+device	21	25545715	armC_worse	Opus A gave A1702 and A072203 exactly; Opus C switched to A0101 Patient-Device Incompatibility
+device	22	24858223	synonym	A072103 Intermittent Continuity (FDA) vs A1205 Loose or Intermittent Connection (Opus, child of FDA's A12)
+device	23	25084175	fda_side	capsular contracture notification coded A17 by FDA; cases 27 and 28 with the same wording got A01 and A0101
+device	24	24817531	undercoded	four FDA codes; Opus erosion matched, A2303 child of A23; malposition and A0101 missed
+device	25	24498322	granularity	Opus A0908 parent of FDA's codes; A090807 High Readings not stated in the text
+device	26	24368451	duplicate	same text as case 10
+device	27	25469016	granularity	FDA A01, Opus A0101
+device	28	25468965	model_error	same wording as case 27, Opus C answered A23 Use of Device Problem; GPT-5.5 and Qwen gave A0101
+device	29	25018468	granularity	Opus A0908 parent of A090808, A1305 child of A13; branch hits on both
+device	30	25668009	granularity	A010103 child of A01; A0909 vs A090406 near-synonyms; A2104 matched
+patient	1	25096602	model_error	"resulted in a stroke" missed; swelling and pain matched; FDA's failure of implant and tissue injury are readings of "knee failure"
+patient	2	25162191	undercoded	eight FDA codes all in the text; Opus returned six, three matched; five-code cap
+patient	3	25070169	fda_side	FDA E1205 Hyperglycemia inferred from falsely low readings; no symptom in the text; Opus C E2403, Opus A E1206
+patient	4	24381054	undercoded	Opus listed six codes, three matched; neurogenic bladder in the text not coded
+patient	5	24616827	armC_worse	defective ICD, no symptoms; Opus A E2403 (FDA's code), Opus C E2107 Failure of Implant as in the examples
+patient	6	25201739	synonym	eye irritation (FDA) vs eye pain and burning sensation (Opus); three of five matched
+patient	7	24331367	armC_worse	Opus A matched all three FDA codes; Opus C kept dyspnea only, confusion and tricuspid regurgitation outside the shortlist
+patient	8	24964715	fda_side	"real VT" noted, "no adverse patient effects reported"; FDA E2403, models tachycardia; judgment call
+patient	9	25140191	armC_worse	Opus A matched pain, anxiety, depression; Opus C returned pain and tooth loss
+patient	10	24955317	fda_side	vomiting and pulmonary edema matched; FDA's E2328 Obstruction is the tube blockage, arguably a device problem
+patient	11	24821340	fda_side	FDA generic E2328 Obstruction; all models E0861 Retinal Vein Occlusion, the diagnosis in the text
+patient	12	25045348	undercoded	fourteen FDA codes on a very long narrative; Opus returned five, three matched
+patient	13	24964650	armC_worse	Opus A matched all three (site infection, erythema, purulent discharge); Opus C gave unspecified infection and erythema
+patient	14	25140044	synonym	"burn injury" coded E170404 by FDA; Opus burning sensation and irritation matched, burn missed
+patient	15	24673328	fda_side	FDA E0106 CSF leakage is the physician's unconfirmed hypothesis; "lack of pain relief" is explicit and is what the models coded
+patient	16	25085414	fda_side	Opus E1901 Bacterial Infection (staph in culture) where FDA used E1906 Unspecified Infection; high WBC missed
+patient	17	24743322	granularity	FDA E2008, Opus E200801 (child; subintimal fragment)
+patient	18	25397271	fda_side	"breathing difficulties": FDA E0752 Unspecified Respiratory Problem, every model E0717 Dyspnea
+patient	19	25112514	model_error	incontinence in the text missed; three of four matched
+patient	20	25103109	armC_worse	Opus A matched E2101 Adhesions; Opus C gave dysphagia, stenosis, hernia; FDA did not code the dysphagia that dominates the text
+patient	21	24648063	synonym	"burning their skin": FDA E170501 Skin Burning Sensation, Opus E1704 Burn(s); pain matched
+patient	22	24389515	model_error	Opus coded shaking/tremors for a device that shudders and implant pain for an orthosis; pain matched, discomfort missed
+patient	23	25390204	fda_side	Opus matched four of six; the two missed are FDA's generic E1906 and E2330 beside the specific peritonitis and abdominal pain
+patient	24	24520380	synonym	skin tears vs tissue breakdown, discomfort vs pain; three of five matched
+patient	25	25536691	fda_side	FDA coded the presenting syncope, dizziness, head injury and LOC, which preceded the device event; models coded the retained fragment only
+patient	26	25035667	model_error	hypothyroidism is the patient's pre-existing condition, not an effect of the test; FDA E2403
+patient	27	25577665	armC_worse	recalled stent, no symptoms; Opus A E2403 (FDA's code), Opus C E2107 Failure of Implant
+patient	28	25150237	armC_worse	death during a code; Opus A E0602 Cardiac Arrest, Opus C E2403; FDA E060101 Asystole inferred from "code"
+patient	29	24745137	undercoded	eight FDA codes on a long narrative, three matched under the five-code cap; FDA also lists generic and specific pairs (eye injury, visual impairment)
+patient	30	25104508	synonym	welts: FDA E2002 Bruise, Opus A E172007 Wheal(s), Opus C skin tears; abrasion matched, irritation missed

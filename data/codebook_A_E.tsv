@@ -1,0 +1,1506 @@
+annex	imdrf_code	level	fda_code	term	status	primary	path	path_terms
+A	A01	1	4001	Patient Device Interaction Problem		True	A01	Patient Device Interaction Problem
+A	A0101	2	2682	Patient-Device Incompatibility		True	A01|A0101	Patient Device Interaction Problem > Patient-Device Incompatibility
+A	A010101	3	2886	Biocompatibility		True	A01|A0101|A010101	Patient Device Interaction Problem > Patient-Device Incompatibility > Biocompatibility
+A	A010102	3	1524	Device Appears to Trigger Rejection		True	A01|A0101|A010102	Patient Device Interaction Problem > Patient-Device Incompatibility > Device Appears to Trigger Rejection
+A	A010103	3	1583	Inadequacy of Device Shape and/or Size		True	A01|A0101|A010103	Patient Device Interaction Problem > Patient-Device Incompatibility > Inadequacy of Device Shape and/or Size
+A	A0102	2	3003	Osseointegration Problem		True	A01|A0102	Patient Device Interaction Problem > Osseointegration Problem
+A	A010201	3	1863	Failure to Osseointegrate		True	A01|A0102|A010201	Patient Device Interaction Problem > Osseointegration Problem > Failure to Osseointegrate
+A	A010202	3	2408	Loss of Osseointegration		True	A01|A0102|A010202	Patient Device Interaction Problem > Osseointegration Problem > Loss of Osseointegration
+A	A0103	2	4002	Loosening of Implant not Related to Bone-Ingrowth	Modified (editorial)	True	A01|A0103	Patient Device Interaction Problem > Loosening of Implant not Related to Bone-Ingrowth
+A	A0104	2	1395	Migration or Expulsion of Device		True	A01|A0104	Patient Device Interaction Problem > Migration or Expulsion of Device
+A	A010401	3	2933	Expulsion		True	A01|A0104|A010401	Patient Device Interaction Problem > Migration or Expulsion of Device > Expulsion
+A	A010402	3	4003	Migration		True	A01|A0104|A010402	Patient Device Interaction Problem > Migration or Expulsion of Device > Migration
+A	A0105	2	4065	Lack of Effect		True	A01|A0105	Patient Device Interaction Problem > Lack of Effect
+A	A0106	2	4066	Device Stenosis		True	A01|A0106	Patient Device Interaction Problem > Device Stenosis
+A	A0107	2	4078	Implant Subsidence	Modified (editorial)	True	A01|A0107	Patient Device Interaction Problem > Implant Subsidence
+A	A02	1	2975	Manufacturing, Packaging or Shipping Problem		True	A02	Manufacturing, Packaging or Shipping Problem
+A	A0201	2	1506	Product Quality Problem		True	A02|A0201	Manufacturing, Packaging or Shipping Problem > Product Quality Problem
+A	A020101	3	2407	Dull, Blunt		True	A02|A0201|A020101	Manufacturing, Packaging or Shipping Problem > Product Quality Problem > Dull, Blunt
+A	A020102	3	1420	Nonstandard Device		True	A02|A0201|A020102	Manufacturing, Packaging or Shipping Problem > Product Quality Problem > Nonstandard Device
+A	A0202	2	2292	Defective Component	Retired (2025)	True	A02|A0202	Manufacturing, Packaging or Shipping Problem > Defective Component
+A	A0203	2	2588	Defective Device	Retired (2025)	True	A02|A0203	Manufacturing, Packaging or Shipping Problem > Defective Device
+A	A0204	2	2284	Device Damaged Prior to Use	Retired (2025)	True	A02|A0204	Manufacturing, Packaging or Shipping Problem > Device Damaged Prior to Use
+A	A0205	2	3007	Packaging Problem		True	A02|A0205	Manufacturing, Packaging or Shipping Problem > Packaging Problem
+A	A020501	3	2922	Difficult to Open or Remove Packaging Material	Modified (technical)	True	A02|A0205|A020501	Manufacturing, Packaging or Shipping Problem > Packaging Problem > Difficult to Open or Remove Packaging Material
+A	A020502	3	2312	Incomplete or Missing Packaging	Modified (technical)	True	A02|A0205|A020502	Manufacturing, Packaging or Shipping Problem > Packaging Problem > Incomplete or Missing Packaging
+A	A020503	3	1444	Unsealed Device Packaging		True	A02|A0205|A020503	Manufacturing, Packaging or Shipping Problem > Packaging Problem > Unsealed Device Packaging
+A	A020504	3	2385	Tear, Rip or Hole in Device Packaging		True	A02|A0205|A020504	Manufacturing, Packaging or Shipping Problem > Packaging Problem > Tear, Rip or Hole in Device Packaging
+A	A020505	3	4079	Device Packaging Look-Alike	Modified (editorial)	True	A02|A0205|A020505	Manufacturing, Packaging or Shipping Problem > Packaging Problem > Device Packaging Look-Alike
+A	A0206	2	2912	Device Misassembled During Manufacturing /Shipping		True	A02|A0206	Manufacturing, Packaging or Shipping Problem > Device Misassembled During Manufacturing /Shipping
+A	A020601	3	4004	Component Misassembled		True	A02|A0206|A020601	Manufacturing, Packaging or Shipping Problem > Device Misassembled During Manufacturing /Shipping > Component Misassembled
+A	A020602	3	2306	Component Missing		True	A02|A0206|A020602	Manufacturing, Packaging or Shipping Problem > Device Misassembled During Manufacturing /Shipping > Component Missing
+A	A020603	3	4067	Extra Components		True	A02|A0206|A020603	Manufacturing, Packaging or Shipping Problem > Device Misassembled During Manufacturing /Shipping > Extra Components
+A	A0207	2	1570	Device Damaged Prior to Receipt by User		True	A02|A0207	Manufacturing, Packaging or Shipping Problem > Device Damaged Prior to Receipt by User
+A	A020701	3	1421	Delivered as Unsterile Product		True	A02|A0207|A020701	Manufacturing, Packaging or Shipping Problem > Device Damaged Prior to Receipt by User > Delivered as Unsterile Product
+A	A03	1	2893	Chemical Problem	Modified (technical)	True	A03	Chemical Problem
+A	A0301	2	1425	Device Emits Odor		True	A03|A0301	Chemical Problem > Device Emits Odor
+A	A0302	2	2910	Device Ingredient or Reagent Problem		True	A03|A0302	Chemical Problem > Device Ingredient or Reagent Problem
+A	A030201	3	1095	Clumping in Device or Device Ingredient		True	A03|A0302|A030201	Chemical Problem > Device Ingredient or Reagent Problem > Clumping in Device or Device Ingredient
+A	A030202	3	1096	Coagulation in Device or Device Ingredient		True	A03|A0302|A030202	Chemical Problem > Device Ingredient or Reagent Problem > Coagulation in Device or Device Ingredient
+A	A030203	3	1478	Precipitate in Device or Device Ingredient		True	A03|A0302|A030203	Chemical Problem > Device Ingredient or Reagent Problem > Precipitate in Device or Device Ingredient
+A	A030204	3	1137	Cross Reactivity		True	A03|A0302|A030204	Chemical Problem > Device Ingredient or Reagent Problem > Cross Reactivity
+A	A030205	3	1451	Particulates	Modified (editorial)	True	A03|A0302|A030205	Chemical Problem > Device Ingredient or Reagent Problem > Particulates
+A	A030206	3	2426	High pH		True	A03|A0302|A030206	Chemical Problem > Device Ingredient or Reagent Problem > High pH
+A	A030207	3	4005	Low pH		True	A03|A0302|A030207	Chemical Problem > Device Ingredient or Reagent Problem > Low pH
+A	A030208	3	4055	Unexpected Color		True	A03|A0302|A030208	Chemical Problem > Device Ingredient or Reagent Problem > Unexpected Color
+A	A0303	2	2952	Improper Chemical Reaction		True	A03|A0303	Chemical Problem > Improper Chemical Reaction
+A	A04	1	2978	Material Integrity Problem		True	A04	Material Integrity Problem
+A	A0401	2	1069	Break		True	A04|A0401	Material Integrity Problem > Break
+A	A040101	3	1260	Fracture		True	A04|A0401|A040101	Material Integrity Problem > Break > Fracture
+A	A040102	3	1068	Loss of or Failure to Bond		True	A04|A0401|A040102	Material Integrity Problem > Break > Loss of or Failure to Bond
+A	A040103	3	1261	Material Fragmentation		True	A04|A0401|A040103	Material Integrity Problem > Break > Material Fragmentation
+A	A040104	3	2324	Solder Joint Fracture		True	A04|A0401|A040104	Material Integrity Problem > Break > Solder Joint Fracture
+A	A0402	2	1074	Burst Container	Modified (technical)	True	A04|A0402	Material Integrity Problem > Burst Container
+A	A0403	2	4006	Explosion		True	A04|A0403	Material Integrity Problem > Explosion
+A	A0404	2	1135	Crack		True	A04|A0404	Material Integrity Problem > Crack
+A	A0405	2	1153	Degraded		True	A04|A0405	Material Integrity Problem > Degraded
+A	A040501	3	1077	Calcified		True	A04|A0405|A040501	Material Integrity Problem > Degraded > Calcified
+A	A040502	3	1131	Corroded		True	A04|A0405|A040502	Material Integrity Problem > Degraded > Corroded
+A	A040503	3	1214	Material Erosion		True	A04|A0405|A040503	Material Integrity Problem > Degraded > Material Erosion
+A	A040504	3	1460	Pitted		True	A04|A0405|A040504	Material Integrity Problem > Degraded > Pitted
+A	A040505	3	1246	Flaked		True	A04|A0405|A040505	Material Integrity Problem > Degraded > Flaked
+A	A040506	3	1454	Peeled/Delaminated		True	A04|A0405|A040506	Material Integrity Problem > Degraded > Peeled/Delaminated
+A	A040507	3	2988	Naturally Worn		True	A04|A0405|A040507	Material Integrity Problem > Degraded > Naturally Worn
+A	A040508	3	1664	Unraveled Material		True	A04|A0405|A040508	Material Integrity Problem > Degraded > Unraveled Material
+A	A0406	2	2976	Material Deformation		True	A04|A0406	Material Integrity Problem > Material Deformation
+A	A040601	3	2889	Deformation Due to Compressive Stress		True	A04|A0406|A040601	Material Integrity Problem > Material Deformation > Deformation Due to Compressive Stress
+A	A040602	3	2526	Dent in Material		True	A04|A0406|A040602	Material Integrity Problem > Material Deformation > Dent in Material
+A	A040603	3	1255	Failure to Fold		True	A04|A0406|A040603	Material Integrity Problem > Material Deformation > Failure to Fold
+A	A040604	3	1669	Failure to Unfold or Unwrap		True	A04|A0406|A040604	Material Integrity Problem > Material Deformation > Failure to Unfold or Unwrap
+A	A040605	3	1262	Material Frayed		True	A04|A0406|A040605	Material Integrity Problem > Material Deformation > Material Frayed
+A	A040606	3	1336	Material Invagination	Modified (technical)	True	A04|A0406|A040606	Material Integrity Problem > Material Deformation > Material Invagination
+A	A040607	3	1544	Material Too Rigid or Stiff		True	A04|A0406|A040607	Material Integrity Problem > Material Deformation > Material Too Rigid or Stiff
+A	A040608	3	4007	Material Too Soft/Flexible		True	A04|A0406|A040608	Material Integrity Problem > Material Deformation > Material Too Soft/Flexible
+A	A040609	3	2981	Material Twisted/Bent		True	A04|A0406|A040609	Material Integrity Problem > Material Deformation > Material Twisted/Bent
+A	A040610	3	1385	Melted		True	A04|A0406|A040610	Material Integrity Problem > Material Deformation > Melted
+A	A040611	3	1601	Stretched	Modified (technical)	True	A04|A0406|A040611	Material Integrity Problem > Material Deformation > Stretched
+A	A040612	3	4056	Thickening of Material		True	A04|A0406|A040612	Material Integrity Problem > Material Deformation > Thickening of Material
+A	A0407	2	1170	Material Discolored	Modified (technical)	True	A04|A0407	Material Integrity Problem > Material Discolored
+A	A0408	2	1177	Material Disintegration		True	A04|A0408	Material Integrity Problem > Material Disintegration
+A	A0409	2	1426	Material Opacification		True	A04|A0409	Material Integrity Problem > Material Opacification
+A	A0410	2	2205	Material Perforation		True	A04|A0410	Material Integrity Problem > Material Perforation
+A	A041001	3	1504	Material Puncture/Hole		True	A04|A0410|A041001	Material Integrity Problem > Material Perforation > Material Puncture/Hole
+A	A0411	2	2979	Material Protrusion/Extrusion		True	A04|A0411	Material Integrity Problem > Material Protrusion/Extrusion
+A	A0412	2	1546	Material Rupture		True	A04|A0412	Material Integrity Problem > Material Rupture
+A	A0413	2	1562	Material Separation		True	A04|A0413	Material Integrity Problem > Material Separation
+A	A0414	2	4008	Material Split, Cut or Torn		True	A04|A0414	Material Integrity Problem > Material Split, Cut or Torn
+A	A0415	2	3020	Scratched Material		True	A04|A0415	Material Integrity Problem > Scratched Material
+A	A0416	2	4084	Failure to Degrade		True	A04|A0416	Material Integrity Problem > Failure to Degrade
+A	A05	1	1384	Mechanical Problem		True	A05	Mechanical Problem
+A	A0501	2	2907	Detachment of Device or Device Component		True	A05|A0501	Mechanical Problem > Detachment of Device or Device Component
+A	A0502	2	2915	Device Damaged by Another Device		True	A05|A0502	Mechanical Problem > Device Damaged by Another Device
+A	A0503	2	4009	Ejection Problem		True	A05|A0503	Mechanical Problem > Ejection Problem
+A	A050301	3	4010	Failure to Eject		True	A05|A0503|A050301	Mechanical Problem > Ejection Problem > Failure to Eject
+A	A050302	3	1234	Unintended Ejection		True	A05|A0503|A050302	Mechanical Problem > Ejection Problem > Unintended Ejection
+A	A0504	2	1354	Leak/Splash	Modified (technical)	True	A05|A0504	Mechanical Problem > Leak/Splash
+A	A050401	3	1250	Fluid/Blood Leak		True	A05|A0504|A050401	Mechanical Problem > Leak/Splash > Fluid/Blood Leak
+A	A050402	3	2946	Gas/Air Leak		True	A05|A0504|A050402	Mechanical Problem > Leak/Splash > Gas/Air Leak
+A	A050403	3	1267	Gel Leak		True	A05|A0504|A050403	Mechanical Problem > Leak/Splash > Gel Leak
+A	A050404	3	1357	Radiation Leak		True	A05|A0504|A050404	Mechanical Problem > Leak/Splash > Radiation Leak
+A	A050405	3	1457	Perivalvular Leak		True	A05|A0504|A050405	Mechanical Problem > Leak/Splash > Perivalvular Leak
+A	A050406	3	4068	Intravalvular Regurgitation	Modified (editorial)	True	A05|A0504|A050406	Mechanical Problem > Leak/Splash > Intravalvular Regurgitation
+A	A050407	3	4069	Powder Leak		True	A05|A0504|A050407	Mechanical Problem > Leak/Splash > Powder Leak
+A	A050408	3	4074	Device Endoleak		True	A05|A0504|A050408	Mechanical Problem > Leak/Splash > Device Endoleak
+A	A050409	3	4080	Unspecified Valve Regurgitation		True	A05|A0504|A050409	Mechanical Problem > Leak/Splash > Unspecified Valve Regurgitation
+A	A0505	2	4011	Firing Problem		True	A05|A0505	Mechanical Problem > Firing Problem
+A	A050501	3	2610	Failure to Fire		True	A05|A0505|A050501	Mechanical Problem > Firing Problem > Failure to Fire
+A	A050502	3	2532	Misfire		True	A05|A0505|A050502	Mechanical Problem > Firing Problem > Misfire
+A	A0506	2	2983	Mechanical Jam		True	A05|A0506	Mechanical Problem > Mechanical Jam
+A	A0507	2	2984	Mechanics Altered		True	A05|A0507	Mechanical Problem > Mechanics Altered
+A	A050701	3	2522	Failure to Align		True	A05|A0507|A050701	Mechanical Problem > Mechanics Altered > Failure to Align
+A	A050702	3	2587	Failure to Cut		True	A05|A0507|A050702	Mechanical Problem > Mechanics Altered > Failure to Cut
+A	A050703	3	1142	Failure to Cycle		True	A05|A0507|A050703	Mechanical Problem > Mechanics Altered > Failure to Cycle
+A	A050704	3	2579	Failure to Form Staple		True	A05|A0507|A050704	Mechanical Problem > Mechanics Altered > Failure to Form Staple
+A	A050705	3	4070	Failure to Seal		True	A05|A0507|A050705	Mechanical Problem > Mechanics Altered > Failure to Seal
+A	A0508	2	3273	Noise, Audible		True	A05|A0508	Mechanical Problem > Noise, Audible
+A	A0509	2	4012	Physical Resistance/Sticking		True	A05|A0509	Mechanical Problem > Physical Resistance/Sticking
+A	A050901	3	4071	Adhesive Too Strong		True	A05|A0509|A050901	Mechanical Problem > Physical Resistance/Sticking > Adhesive Too Strong
+A	A0510	2	1536	Retraction Problem	Modified (technical)	True	A05|A0510	Mechanical Problem > Retraction Problem
+A	A0511	2	2506	Structural Problem		True	A05|A0511	Mechanical Problem > Structural Problem
+A	A051101	3	1099	Collapse		True	A05|A0511|A051101	Mechanical Problem > Structural Problem > Collapse
+A	A051102	3	4013	Sharp Edges		True	A05|A0511|A051102	Mechanical Problem > Structural Problem > Sharp Edges
+A	A051103	3	1254	Difficult to Fold, Unfold or Collapse		True	A05|A0511|A051103	Mechanical Problem > Structural Problem > Difficult to Fold, Unfold or Collapse
+A	A051104	3	2921	Difficult to Open or Close		True	A05|A0511|A051104	Mechanical Problem > Structural Problem > Difficult to Open or Close
+A	A051105	3	2507	Incomplete Coaptation		True	A05|A0511|A051105	Mechanical Problem > Structural Problem > Incomplete Coaptation
+A	A0512	2	3026	Unintended Movement		True	A05|A0512	Mechanical Problem > Unintended Movement
+A	A051201	3	2923	Device Dislodged or Dislocated		True	A05|A0512|A051201	Mechanical Problem > Unintended Movement > Device Dislodged or Dislocated
+A	A051202	3	2589	Device Tipped Over		True	A05|A0512|A051202	Mechanical Problem > Unintended Movement > Device Tipped Over
+A	A051203	3	4014	Device Fell		True	A05|A0512|A051203	Mechanical Problem > Unintended Movement > Device Fell
+A	A051204	3	1584	Device Slipped		True	A05|A0512|A051204	Mechanical Problem > Unintended Movement > Device Slipped
+A	A051205	3	1429	Unintended Collision		True	A05|A0512|A051205	Mechanical Problem > Unintended Movement > Unintended Collision
+A	A051206	3	1430	Unintended System Motion		True	A05|A0512|A051206	Mechanical Problem > Unintended Movement > Unintended System Motion
+A	A051207	3	1667	Unstable		True	A05|A0512|A051207	Mechanical Problem > Unintended Movement > Unstable
+A	A051208	3	1674	Vibration		True	A05|A0512|A051208	Mechanical Problem > Unintended Movement > Vibration
+A	A0513	2	4057	Inadequate Lubrication		True	A05|A0513	Mechanical Problem > Inadequate Lubrication
+A	A0514	2	4075	Damaged Thread		True	A05|A0514	Mechanical Problem > Damaged Thread
+A	A06	1	3001	Optical Problem		True	A06	Optical Problem
+A	A0601	2	1401	Misfocusing		True	A06|A0601	Optical Problem > Misfocusing
+A	A0602	2	1360	Optical Decentration		True	A06|A0602	Optical Problem > Optical Decentration
+A	A0603	2	2999	Optical Discoloration		True	A06|A0603	Optical Problem > Optical Discoloration
+A	A0604	2	3000	Optical Distortion		True	A06|A0604	Optical Problem > Optical Distortion
+A	A0605	2	3002	Optical Obstruction		True	A06|A0605	Optical Problem > Optical Obstruction
+A	A07	1	1198	Electrical /Electronic Property Problem		True	A07	Electrical /Electronic Property Problem
+A	A0701	2	2891	Capturing Problem		True	A07|A0701	Electrical /Electronic Property Problem > Capturing Problem
+A	A070101	3	1081	Failure to Capture		True	A07|A0701|A070101	Electrical /Electronic Property Problem > Capturing Problem > Failure to Capture
+A	A070102	3	3266	High Capture Threshold		True	A07|A0701|A070102	Electrical /Electronic Property Problem > Capturing Problem > High Capture Threshold
+A	A070103	3	1080	Intermittent Capture		True	A07|A0701|A070103	Electrical /Electronic Property Problem > Capturing Problem > Intermittent Capture
+A	A070104	3	3269	Unstable Capture Threshold		True	A07|A0701|A070104	Electrical /Electronic Property Problem > Capturing Problem > Unstable Capture Threshold
+A	A0702	2	1123	Continuous Firing		True	A07|A0702	Electrical /Electronic Property Problem > Continuous Firing
+A	A0703	2	2583	Arcing		True	A07|A0703	Electrical /Electronic Property Problem > Arcing
+A	A070301	3	1032	Arcing at Paddles		True	A07|A0703|A070301	Electrical /Electronic Property Problem > Arcing > Arcing at Paddles
+A	A070302	3	2289	Arcing of Electrodes		True	A07|A0703|A070302	Electrical /Electronic Property Problem > Arcing > Arcing of Electrodes
+A	A0704	2	2595	Sparking		True	A07|A0704	Electrical /Electronic Property Problem > Sparking
+A	A0705	2	2885	Battery Problem		True	A07|A0705	Electrical /Electronic Property Problem > Battery Problem
+A	A070501	3	2947	Battery Problem: High Impedance		True	A07|A0705|A070501	Electrical /Electronic Property Problem > Battery Problem > Battery Problem: High Impedance
+A	A070502	3	2973	Battery Problem: Low Impedance		True	A07|A0705|A070502	Electrical /Electronic Property Problem > Battery Problem > Battery Problem: Low Impedance
+A	A070503	3	1466	Failure to Run on Battery		True	A07|A0705|A070503	Electrical /Electronic Property Problem > Battery Problem > Failure to Run on Battery
+A	A070504	3	1057	Premature Discharge of Battery		True	A07|A0705|A070504	Electrical /Electronic Property Problem > Battery Problem > Premature Discharge of Battery
+A	A0706	2	2892	Charging Problem		True	A07|A0706	Electrical /Electronic Property Problem > Charging Problem
+A	A070601	3	2288	Aborted Charge		True	A07|A0706|A070601	Electrical /Electronic Property Problem > Charging Problem > Aborted Charge
+A	A070602	3	2586	Delayed Charge Time		True	A07|A0706|A070602	Electrical /Electronic Property Problem > Charging Problem > Delayed Charge Time
+A	A070603	3	1085	Failure to Charge		True	A07|A0706|A070603	Electrical /Electronic Property Problem > Charging Problem > Failure to Charge
+A	A0707	2	1169	Failure to Discharge		True	A07|A0707	Electrical /Electronic Property Problem > Failure to Discharge
+A	A0708	2	3010	Power Problem		True	A07|A0708	Electrical /Electronic Property Problem > Power Problem
+A	A070801	3	4015	Complete Loss of Power		True	A07|A0708|A070801	Electrical /Electronic Property Problem > Power Problem > Complete Loss of Power
+A	A070802	3	4016	Intermittent Loss of Power		True	A07|A0708|A070802	Electrical /Electronic Property Problem > Power Problem > Intermittent Loss of Power
+A	A070803	3	1476	Failure to Power Up		True	A07|A0708|A070803	Electrical /Electronic Property Problem > Power Problem > Failure to Power Up
+A	A070804	3	1162	Unintended Power Up		True	A07|A0708|A070804	Electrical /Electronic Property Problem > Power Problem > Unintended Power Up
+A	A0709	2	2917	Device Sensing Problem		True	A07|A0709	Electrical /Electronic Property Problem > Device Sensing Problem
+A	A070901	3	2534	Decreased Sensitivity		True	A07|A0709|A070901	Electrical /Electronic Property Problem > Device Sensing Problem > Decreased Sensitivity
+A	A070902	3	2535	Increased Sensitivity		True	A07|A0709|A070902	Electrical /Electronic Property Problem > Device Sensing Problem > Increased Sensitivity
+A	A070903	3	1539	Failure to Analyze Signal		True	A07|A0709|A070903	Electrical /Electronic Property Problem > Device Sensing Problem > Failure to Analyze Signal
+A	A070904	3	1582	Failure to Select Signal		True	A07|A0709|A070904	Electrical /Electronic Property Problem > Device Sensing Problem > Failure to Select Signal
+A	A070905	3	2574	High Sensing Threshold		True	A07|A0709|A070905	Electrical /Electronic Property Problem > Device Sensing Problem > High Sensing Threshold
+A	A070906	3	2575	Low Sensing Threshold		True	A07|A0709|A070906	Electrical /Electronic Property Problem > Device Sensing Problem > Low Sensing Threshold
+A	A070907	3	1633	Loss of Threshold		True	A07|A0709|A070907	Electrical /Electronic Property Problem > Device Sensing Problem > Loss of Threshold
+A	A070908	3	1559	Failure to Sense		True	A07|A0709|A070908	Electrical /Electronic Property Problem > Device Sensing Problem > Failure to Sense
+A	A070909	3	1438	Oversensing	Modified (editorial)	True	A07|A0709|A070909	Electrical /Electronic Property Problem > Device Sensing Problem > Oversensing
+A	A070910	3	1661	Undersensing	Modified (editorial)	True	A07|A0709|A070910	Electrical /Electronic Property Problem > Device Sensing Problem > Undersensing
+A	A070911	3	1558	Sensing Intermittently		True	A07|A0709|A070911	Electrical /Electronic Property Problem > Device Sensing Problem > Sensing Intermittently
+A	A070912	3	1543	Incorrect Interpretation of Signal		True	A07|A0709|A070912	Electrical /Electronic Property Problem > Device Sensing Problem > Incorrect Interpretation of Signal
+A	A0710	2	1114	Failure to Conduct		True	A07|A0710	Electrical /Electronic Property Problem > Failure to Conduct
+A	A0711	2	4017	Interrogation Problem		True	A07|A0711	Electrical /Electronic Property Problem > Interrogation Problem
+A	A071101	3	1331	Difficult to Interrogate		True	A07|A0711|A071101	Electrical /Electronic Property Problem > Interrogation Problem > Difficult to Interrogate
+A	A071102	3	1332	Failure to Interrogate		True	A07|A0711|A071102	Electrical /Electronic Property Problem > Interrogation Problem > Failure to Interrogate
+A	A0712	2	1439	Pacing Problem		True	A07|A0712	Electrical /Electronic Property Problem > Pacing Problem
+A	A071201	3	1540	Failure to Convert Rhythm		True	A07|A0712|A071201	Electrical /Electronic Property Problem > Pacing Problem > Failure to Convert Rhythm
+A	A071202	3	1609	Inaccurate Synchronization		True	A07|A0712|A071202	Electrical /Electronic Property Problem > Pacing Problem > Inaccurate Synchronization
+A	A071203	3	2536	Inappropriate Waveform		True	A07|A0712|A071203	Electrical /Electronic Property Problem > Pacing Problem > Inappropriate Waveform
+A	A071204	3	3268	No Pacing		True	A07|A0712|A071204	Electrical /Electronic Property Problem > Pacing Problem > No Pacing
+A	A071205	3	1440	Pacemaker Found in Back-Up Mode	Retired (2023)	True	A07|A0712|A071205	Electrical /Electronic Property Problem > Pacing Problem > Pacemaker Found in Back-Up Mode
+A	A071206	3	1441	Pacing Asynchronously		True	A07|A0712|A071206	Electrical /Electronic Property Problem > Pacing Problem > Pacing Asynchronously
+A	A071207	3	1442	Pacing Inadequately		True	A07|A0712|A071207	Electrical /Electronic Property Problem > Pacing Problem > Pacing Inadequately
+A	A071208	3	1443	Pacing Intermittently		True	A07|A0712|A071208	Electrical /Electronic Property Problem > Pacing Problem > Pacing Intermittently
+A	A071209	3	1463	Extracardiac Stimulation	Modified (editorial)	True	A07|A0712|A071209	Electrical /Electronic Property Problem > Pacing Problem > Extracardiac Stimulation
+A	A0713	2	1573	Defibrillation/Stimulation Problem		True	A07|A0713	Electrical /Electronic Property Problem > Defibrillation/Stimulation Problem
+A	A071301	3	1133	Failure to Deliver Shock/Stimulation		True	A07|A0713|A071301	Electrical /Electronic Property Problem > Defibrillation/Stimulation Problem > Failure to Deliver Shock/Stimulation
+A	A071302	3	1574	Inappropriate/Inadequate Shock/Stimulation		True	A07|A0713|A071302	Electrical /Electronic Property Problem > Defibrillation/Stimulation Problem > Inappropriate/Inadequate Shock/Stimulation
+A	A071303	3	2287	Intermittent Shock/Stimulation		True	A07|A0713|A071303	Electrical /Electronic Property Problem > Defibrillation/Stimulation Problem > Intermittent Shock/Stimulation
+A	A0714	2	4018	Unintended Electrical Shock		True	A07|A0714	Electrical /Electronic Property Problem > Unintended Electrical Shock
+A	A0715	2	1271	Grounding Malfunction		True	A07|A0715	Electrical /Electronic Property Problem > Grounding Malfunction
+A	A0716	2	2924	Electrical Overstress		True	A07|A0716	Electrical /Electronic Property Problem > Electrical Overstress
+A	A0717	2	2149	Electrostatic Discharge		True	A07|A0717	Electrical /Electronic Property Problem > Electrostatic Discharge
+A	A0718	2	2939	Failure to Shut Off		True	A07|A0718	Electrical /Electronic Property Problem > Failure to Shut Off
+A	A071801	3	1525	Device Remains Activated		True	A07|A0718|A071801	Electrical /Electronic Property Problem > Failure to Shut Off > Device Remains Activated
+A	A0719	2	4019	Unexpected Shutdown		True	A07|A0719	Electrical /Electronic Property Problem > Unexpected Shutdown
+A	A0720	2	2927	Electromagnetic Compatibility Problem		True	A07|A0720	Electrical /Electronic Property Problem > Electromagnetic Compatibility Problem
+A	A072001	3	1194	Electromagnetic Interference		True	A07|A0720|A072001	Electrical /Electronic Property Problem > Electromagnetic Compatibility Problem > Electromagnetic Interference
+A	A072002	3	2314	Radiofrequency Interference (RFI)		True	A07|A0720|A072002	Electrical /Electronic Property Problem > Electromagnetic Compatibility Problem > Radiofrequency Interference (RFI)
+A	A0721	2	1089	Circuit Failure		True	A07|A0721	Electrical /Electronic Property Problem > Circuit Failure
+A	A072101	3	1079	Capacitative Coupling		True	A07|A0721|A072101	Electrical /Electronic Property Problem > Circuit Failure > Capacitative Coupling
+A	A072102	3	2926	Electrical Shorting	Modified (editorial)	True	A07|A0721|A072102	Electrical /Electronic Property Problem > Circuit Failure > Electrical Shorting
+A	A072103	3	1121	Intermittent Continuity		True	A07|A0721|A072103	Electrical /Electronic Property Problem > Circuit Failure > Intermittent Continuity
+A	A0722	2	2950	Impedance Problem		True	A07|A0722	Electrical /Electronic Property Problem > Impedance Problem
+A	A072201	3	1291	High Impedance	Modified (editorial)	True	A07|A0722|A072201	Electrical /Electronic Property Problem > Impedance Problem > High Impedance
+A	A072202	3	2285	Low Impedance	Modified (editorial)	True	A07|A0722|A072202	Electrical /Electronic Property Problem > Impedance Problem > Low Impedance
+A	A072203	3	4085	Unstable Impedance		True	A07|A0722|A072203	Electrical /Electronic Property Problem > Impedance Problem > Unstable Impedance
+A	A0723	2	4076	Unexpected Mode Switch		True	A07|A0723	Electrical /Electronic Property Problem > Unexpected Mode Switch
+A	A08	1	2890	Calibration Problem		True	A08	Calibration Problem
+A	A0801	2	2440	Failure to Calibrate		True	A08|A0801	Calibration Problem > Failure to Calibrate
+A	A0802	2	1517	Failure to Recalibrate		True	A08|A0802	Calibration Problem > Failure to Recalibrate
+A	A0803	2	1307	Imprecision		True	A08|A0803	Calibration Problem > Imprecision
+A	A0804	2	3006	Overcorrection		True	A08|A0804	Calibration Problem > Overcorrection
+A	A0805	2	4058	Undercorrection		True	A08|A0805	Calibration Problem > Undercorrection
+A	A09	1	3005	Output Problem		True	A09	Output Problem
+A	A0901	2	4020	Audible Prompt/Feedback Problem		True	A09|A0901	Output Problem > Audible Prompt/Feedback Problem
+A	A090101	3	2280	Inappropriate Audible Prompt/Feedback		True	A09|A0901|A090101	Output Problem > Audible Prompt/Feedback Problem > Inappropriate Audible Prompt/Feedback
+A	A090102	3	2283	Inaudible or Unclear Audible Prompt/Feedback		True	A09|A0901|A090102	Output Problem > Audible Prompt/Feedback Problem > Inaudible or Unclear Audible Prompt/Feedback
+A	A090103	3	2282	No Audible Prompt/Feedback		True	A09|A0901|A090103	Output Problem > Audible Prompt/Feedback Problem > No Audible Prompt/Feedback
+A	A0902	2	1184	Display or Visual Feedback Problem		True	A09|A0902	Output Problem > Display or Visual Feedback Problem
+A	A090201	3	2591	Device Displays Incorrect Message		True	A09|A0902|A090201	Output Problem > Display or Visual Feedback Problem > Device Displays Incorrect Message
+A	A090202	3	1181	Display Difficult to Read		True	A09|A0902|A090202	Output Problem > Display or Visual Feedback Problem > Display Difficult to Read
+A	A090203	3	1182	Erratic or Intermittent Display		True	A09|A0902|A090203	Output Problem > Display or Visual Feedback Problem > Erratic or Intermittent Display
+A	A090204	3	1304	Image Display Error/Artifact		True	A09|A0902|A090204	Output Problem > Display or Visual Feedback Problem > Image Display Error/Artifact
+A	A090205	3	1305	Image Orientation Incorrect		True	A09|A0902|A090205	Output Problem > Display or Visual Feedback Problem > Image Orientation Incorrect
+A	A090206	3	1183	No Display/Image		True	A09|A0902|A090206	Output Problem > Display or Visual Feedback Problem > No Display/Image
+A	A090207	3	4021	No Visual Prompts/Feedback		True	A09|A0902|A090207	Output Problem > Display or Visual Feedback Problem > No Visual Prompts/Feedback
+A	A090208	3	1408	Poor Quality Image		True	A09|A0902|A090208	Output Problem > Display or Visual Feedback Problem > Poor Quality Image
+A	A090209	3	2281	Visual Prompts Will not Clear	Modified (editorial)	True	A09|A0902|A090209	Output Problem > Display or Visual Feedback Problem > Visual Prompts Will not Clear
+A	A0903	2	4022	Tactile Prompts/Feedback		True	A09|A0903	Output Problem > Tactile Prompts/Feedback
+A	A090301	3	4023	Inappropriate Tactile Prompt/Feedback		True	A09|A0903|A090301	Output Problem > Tactile Prompts/Feedback > Inappropriate Tactile Prompt/Feedback
+A	A090302	3	4024	No Tactile Prompts/Feedback		True	A09|A0903|A090302	Output Problem > Tactile Prompts/Feedback > No Tactile Prompts/Feedback
+A	A0904	2	1431	Energy Output Problem		True	A09|A0904	Output Problem > Energy Output Problem
+A	A090401	3	1210	Energy Spectrum Incorrect		True	A09|A0904|A090401	Output Problem > Energy Output Problem > Energy Spectrum Incorrect
+A	A090402	3	1211	Failure to Deliver Energy		True	A09|A0904|A090402	Output Problem > Energy Output Problem > Failure to Deliver Energy
+A	A090403	3	4025	Intermittent Energy Output		True	A09|A0904|A090403	Output Problem > Energy Output Problem > Intermittent Energy Output
+A	A090404	3	1432	Output Above Specifications	Modified (editorial)	True	A09|A0904|A090404	Output Problem > Energy Output Problem > Output Above Specifications
+A	A090405	3	3004	Output Below Specifications	Modified (editorial)	True	A09|A0904|A090405	Output Problem > Energy Output Problem > Output Below Specifications
+A	A090406	3	3023	Therapeutic or Diagnostic Output Failure		True	A09|A0904|A090406	Output Problem > Energy Output Problem > Therapeutic or Diagnostic Output Failure
+A	A090407	3	1508	Therapy Delivered to Incorrect Body Area		True	A09|A0904|A090407	Output Problem > Energy Output Problem > Therapy Delivered to Incorrect Body Area
+A	A0905	2	4026	Radiation Output Problem		True	A09|A0905	Output Problem > Radiation Output Problem
+A	A090501	3	4027	Radiation Output Failure		True	A09|A0905|A090501	Output Problem > Radiation Output Problem > Radiation Output Failure
+A	A090502	3	3017	Radiation Overexposure		True	A09|A0905|A090502	Output Problem > Radiation Output Problem > Radiation Overexposure
+A	A090503	3	3018	Radiation Underexposure		True	A09|A0905|A090503	Output Problem > Radiation Output Problem > Radiation Underexposure
+A	A090504	3	4028	Unexpected/Unintended Radiation Output		True	A09|A0905|A090504	Output Problem > Radiation Output Problem > Unexpected/Unintended Radiation Output
+A	A0906	2	1266	Gas Output Problem		True	A09|A0906	Output Problem > Gas Output Problem
+A	A0907	2	1435	No Device Output		True	A09|A0907	Output Problem > No Device Output
+A	A0908	2	1535	Incorrect, Inadequate or Imprecise Result or Readings		True	A09|A0908	Output Problem > Incorrect, Inadequate or Imprecise Result or Readings
+A	A090801	3	1036	Signal Artifact/Noise		True	A09|A0908|A090801	Output Problem > Incorrect, Inadequate or Imprecise Result or Readings > Signal Artifact/Noise
+A	A090802	3	2533	Failure to Obtain Sample		True	A09|A0908|A090802	Output Problem > Incorrect, Inadequate or Imprecise Result or Readings > Failure to Obtain Sample
+A	A090803	3	1225	False Negative Result		True	A09|A0908|A090803	Output Problem > Incorrect, Inadequate or Imprecise Result or Readings > False Negative Result
+A	A090804	3	1227	False Positive Result	Modified (editorial)	True	A09|A0908|A090804	Output Problem > Incorrect, Inadequate or Imprecise Result or Readings > False Positive Result
+A	A090805	3	1383	Incorrect Measurement		True	A09|A0908|A090805	Output Problem > Incorrect, Inadequate or Imprecise Result or Readings > Incorrect Measurement
+A	A090806	3	4029	Non Reproducible Results		True	A09|A0908|A090806	Output Problem > Incorrect, Inadequate or Imprecise Result or Readings > Non Reproducible Results
+A	A090807	3	2459	High Readings		True	A09|A0908|A090807	Output Problem > Incorrect, Inadequate or Imprecise Result or Readings > High Readings
+A	A090808	3	2460	Low Readings		True	A09|A0908|A090808	Output Problem > Incorrect, Inadequate or Imprecise Result or Readings > Low Readings
+A	A090809	3	2457	High Test Results		True	A09|A0908|A090809	Output Problem > Incorrect, Inadequate or Imprecise Result or Readings > High Test Results
+A	A090810	3	2458	Low Test Results		True	A09|A0908|A090810	Output Problem > Incorrect, Inadequate or Imprecise Result or Readings > Low Test Results
+A	A090811	3	1516	Unable to Obtain Readings		True	A09|A0908|A090811	Output Problem > Incorrect, Inadequate or Imprecise Result or Readings > Unable to Obtain Readings
+A	A090812	3	3267	Missing Test Results		True	A09|A0908|A090812	Output Problem > Incorrect, Inadequate or Imprecise Result or Readings > Missing Test Results
+A	A090813	3	4059	Imprecise or Erratic Results		True	A09|A0908|A090813	Output Problem > Incorrect, Inadequate or Imprecise Result or Readings > Imprecise or Erratic Results
+A	A090814	3	4072	Poor Visibility		True	A09|A0908|A090814	Output Problem > Incorrect, Inadequate or Imprecise Result or Readings > Poor Visibility
+A	A0909	2	1631	Unexpected Therapeutic Results		True	A09|A0909	Output Problem > Unexpected Therapeutic Results
+A	A10	1	3022	Temperature Problem		True	A10	Temperature Problem
+A	A1001	2	2932	Excessive Cooling		True	A10|A1001	Temperature Problem > Excessive Cooling
+A	A1002	2	4030	Excessive Heating		True	A10|A1002	Temperature Problem > Excessive Heating
+A	A1003	2	1130	Insufficient Cooling	Modified (technical)	True	A10|A1003	Temperature Problem > Insufficient Cooling
+A	A1004	2	1287	Insufficient Heating		True	A10|A1004	Temperature Problem > Insufficient Heating
+A	A1005	2	1437	Overheating of Device		True	A10|A1005	Temperature Problem > Overheating of Device
+A	A1006	2	1071	Thermal Decomposition of Device		True	A10|A1006	Temperature Problem > Thermal Decomposition of Device
+A	A1007	2	1245	Fire		True	A10|A1007	Temperature Problem > Fire
+A	A1008	2	2942	Flare or Flash		True	A10|A1008	Temperature Problem > Flare or Flash
+A	A1009	2	1585	Smoking		True	A10|A1009	Temperature Problem > Smoking
+A	A11	1	1112	Computer Software Problem	Modified (technical)	True	A11	Computer Software Problem
+A	A1101	2	2879	Application Network Problem		True	A11|A1101	Computer Software Problem > Application Network Problem
+A	A1102	2	2880	Application Program Problem		True	A11|A1102	Computer Software Problem > Application Program Problem
+A	A110201	3	4031	Application Program Freezes or Fails to Launch		True	A11|A1102|A110201	Computer Software Problem > Application Program Problem > Application Program Freezes or Fails to Launch
+A	A110202	3	1189	Application Program Problem: Dose Calculation Error		True	A11|A1102|A110202	Computer Software Problem > Application Program Problem > Application Program Problem: Dose Calculation Error
+A	A110203	3	3198	Application Program Problem: Medication Error		True	A11|A1102|A110203	Computer Software Problem > Application Program Problem > Application Program Problem: Medication Error
+A	A110204	3	1449	Application Program Problem: Parameter Calculation Error		True	A11|A1102|A110204	Computer Software Problem > Application Program Problem > Application Program Problem: Parameter Calculation Error
+A	A110205	3	1473	Application Program Problem: Power Calculation Error		True	A11|A1102|A110205	Computer Software Problem > Application Program Problem > Application Program Problem: Power Calculation Error
+A	A110206	3	2881	Application Program Version or Upgrade Problem		True	A11|A1102|A110206	Computer Software Problem > Application Program Problem > Application Program Version or Upgrade Problem
+A	A110207	3	3013	Problem with Software Installation		True	A11|A1102|A110207	Computer Software Problem > Application Program Problem > Problem with Software Installation
+A	A110208	3	4032	Unintended Application Program Shut Down		True	A11|A1102|A110208	Computer Software Problem > Application Program Problem > Unintended Application Program Shut Down
+A	A1103	2	4033	Program or Algorithm Execution Problem		True	A11|A1103	Computer Software Problem > Program or Algorithm Execution Problem
+A	A110301	3	4034	Delayed Program or Algorithm Execution		True	A11|A1103|A110301	Computer Software Problem > Program or Algorithm Execution Problem > Delayed Program or Algorithm Execution
+A	A110302	3	4035	Intermittent Program or Algorithm Execution		True	A11|A1103|A110302	Computer Software Problem > Program or Algorithm Execution Problem > Intermittent Program or Algorithm Execution
+A	A110303	3	4036	Program or Algorithm Execution Failure		True	A11|A1103|A110303	Computer Software Problem > Program or Algorithm Execution Problem > Program or Algorithm Execution Failure
+A	A1104	2	2898	Computer Operating System Problem		True	A11|A1104	Computer Software Problem > Computer Operating System Problem
+A	A110401	3	2996	Operating System Becomes Nonfunctional		True	A11|A1104|A110401	Computer Software Problem > Computer Operating System Problem > Operating System Becomes Nonfunctional
+A	A110402	3	2997	Operating System Version or Upgrade Problem		True	A11|A1104|A110402	Computer Software Problem > Computer Operating System Problem > Operating System Version or Upgrade Problem
+A	A1105	2	2899	Computer System Security Problem		True	A11|A1105	Computer Software Problem > Computer System Security Problem
+A	A110501	3	2882	Application Security Problem		True	A11|A1105|A110501	Computer Software Problem > Computer System Security Problem > Application Security Problem
+A	A110502	3	3025	Unauthorized Access to Computer System		True	A11|A1105|A110502	Computer Software Problem > Computer System Security Problem > Unauthorized Access to Computer System
+A	A1106	2	2902	Data Back-Up Problem		True	A11|A1106	Computer Software Problem > Data Back-Up Problem
+A	A110601	3	1047	Failure to Back-Up		True	A11|A1106|A110601	Computer Software Problem > Data Back-Up Problem > Failure to Back-Up
+A	A110602	3	1048	Failure to Convert to Back-Up		True	A11|A1106|A110602	Computer Software Problem > Data Back-Up Problem > Failure to Convert to Back-Up
+A	A1107	2	3196	Data Problem		True	A11|A1107	Computer Software Problem > Data Problem
+A	A110701	3	2903	Loss of Data		True	A11|A1107|A110701	Computer Software Problem > Data Problem > Loss of Data
+A	A110702	3	3197	Patient Data Problem		True	A11|A1107|A110702	Computer Software Problem > Data Problem > Patient Data Problem
+A	A1108	2	2582	Date/Time-Related Software Problem		True	A11|A1108	Computer Software Problem > Date/Time-Related Software Problem
+A	A12	1	2900	Connection Problem		True	A12	Connection Problem
+A	A1201	2	2888	Blocked Connection		True	A12|A1201	Connection Problem > Blocked Connection
+A	A1202	2	1145	Decoupling		True	A12|A1202	Connection Problem > Decoupling
+A	A1203	2	1171	Disconnection		True	A12|A1203	Connection Problem > Disconnection
+A	A1204	2	2541	Failure to Disconnect		True	A12|A1204	Connection Problem > Failure to Disconnect
+A	A1205	2	1371	Loose or Intermittent Connection		True	A12|A1205	Connection Problem > Loose or Intermittent Connection
+A	A1206	2	1399	Misconnection		True	A12|A1206	Connection Problem > Misconnection
+A	A1207	2	4037	Incomplete or Inadequate Connection		True	A12|A1207	Connection Problem > Incomplete or Inadequate Connection
+A	A1208	2	2183	Fitting Problem		True	A12|A1208	Connection Problem > Fitting Problem
+A	A13	1	2896	Communication or Transmission Problem		True	A13	Communication or Transmission Problem
+A	A1301	2	1581	Failure to Read Input Signal		True	A13|A1301	Communication or Transmission Problem > Failure to Read Input Signal
+A	A1302	2	1521	Failure to Transmit Record		True	A13|A1302	Communication or Transmission Problem > Failure to Transmit Record
+A	A1303	2	4038	Intermittent Communication Failure		True	A13|A1303	Communication or Transmission Problem > Intermittent Communication Failure
+A	A1304	2	1629	Telemetry Discrepancy		True	A13|A1304	Communication or Transmission Problem > Telemetry Discrepancy
+A	A1305	2	3283	Wireless Communication Problem		True	A13|A1305	Communication or Transmission Problem > Wireless Communication Problem
+A	A14	1	2964	Infusion or Flow Problem		True	A14	Infusion or Flow Problem
+A	A1401	2	1149	Deflation Problem		True	A14|A1401	Infusion or Flow Problem > Deflation Problem
+A	A140101	3	4060	Failure to Deflate		True	A14|A1401|A140101	Infusion or Flow Problem > Deflation Problem > Failure to Deflate
+A	A140102	3	4061	Unintended Deflation		True	A14|A1401|A140102	Infusion or Flow Problem > Deflation Problem > Unintended Deflation
+A	A1402	2	1311	Excess Flow or Over-Infusion		True	A14|A1402	Infusion or Flow Problem > Excess Flow or Over-Infusion
+A	A1403	2	1233	Filling Problem		True	A14|A1403	Infusion or Flow Problem > Filling Problem
+A	A140301	3	1044	Inability to Auto-Fill		True	A14|A1403|A140301	Infusion or Flow Problem > Filling Problem > Inability to Auto-Fill
+A	A140302	3	2404	Overfill		True	A14|A1403|A140302	Infusion or Flow Problem > Filling Problem > Overfill
+A	A140303	3	1575	Short Fill		True	A14|A1403|A140303	Infusion or Flow Problem > Filling Problem > Short Fill
+A	A140304	3	1675	Volume Accuracy Problem		True	A14|A1403|A140304	Infusion or Flow Problem > Filling Problem > Volume Accuracy Problem
+A	A1404	2	2941	Filtration Problem		True	A14|A1404	Infusion or Flow Problem > Filtration Problem
+A	A140401	3	2308	Inadequate Filtration Process		True	A14|A1404|A140401	Infusion or Flow Problem > Filtration Problem > Inadequate Filtration Process
+A	A140402	3	1656	Inadequate Ultra Filtration		True	A14|A1404|A140402	Infusion or Flow Problem > Filtration Problem > Inadequate Ultra Filtration
+A	A1405	2	2954	Improper Flow or Infusion		True	A14|A1405	Infusion or Flow Problem > Improper Flow or Infusion
+A	A140501	3	1064	Backflow		True	A14|A1405|A140501	Infusion or Flow Problem > Improper Flow or Infusion > Backflow
+A	A140502	3	2945	Free or Unrestricted Flow		True	A14|A1405|A140502	Infusion or Flow Problem > Improper Flow or Infusion > Free or Unrestricted Flow
+A	A140503	3	1270	Gradient Increase		True	A14|A1405|A140503	Infusion or Flow Problem > Improper Flow or Infusion > Gradient Increase
+A	A140504	3	2339	Inaccurate Delivery		True	A14|A1405|A140504	Infusion or Flow Problem > Improper Flow or Infusion > Inaccurate Delivery
+A	A140505	3	1249	Inaccurate Flow Rate		True	A14|A1405|A140505	Infusion or Flow Problem > Improper Flow or Infusion > Inaccurate Flow Rate
+A	A140506	3	2341	Intermittent Infusion or Flow	Modified (technical)	True	A14|A1405|A140506	Infusion or Flow Problem > Improper Flow or Infusion > Intermittent Infusion or Flow
+A	A140507	3	1522	Reflux Within Device	Modified (editorial)	True	A14|A1405|A140507	Infusion or Flow Problem > Improper Flow or Infusion > Reflux Within Device
+A	A140508	3	1248	Restricted Flow Rate	Modified (editorial)	True	A14|A1405|A140508	Infusion or Flow Problem > Improper Flow or Infusion > Restricted Flow Rate
+A	A140509	3	1634	Tidal Volume Fluctuations		True	A14|A1405|A140509	Infusion or Flow Problem > Improper Flow or Infusion > Tidal Volume Fluctuations
+A	A1406	2	1310	Inflation Problem		True	A14|A1406	Infusion or Flow Problem > Inflation Problem
+A	A1407	2	2182	Insufficient Flow or Under Infusion		True	A14|A1407	Infusion or Flow Problem > Insufficient Flow or Under Infusion
+A	A1408	2	2991	No Flow		True	A14|A1408	Infusion or Flow Problem > No Flow
+A	A140801	3	2338	Failure to Deliver		True	A14|A1408|A140801	Infusion or Flow Problem > No Flow > Failure to Deliver
+A	A140802	3	2340	Failure to Infuse		True	A14|A1408|A140802	Infusion or Flow Problem > No Flow > Failure to Infuse
+A	A140803	3	1337	Inability to Irrigate		True	A14|A1408|A140803	Infusion or Flow Problem > No Flow > Inability to Irrigate
+A	A1409	2	2423	Obstruction of Flow		True	A14|A1409	Infusion or Flow Problem > Obstruction of Flow
+A	A140901	3	1094	Complete Blockage		True	A14|A1409|A140901	Infusion or Flow Problem > Obstruction of Flow > Complete Blockage
+A	A140902	3	1065	Partial Blockage		True	A14|A1409|A140902	Infusion or Flow Problem > Obstruction of Flow > Partial Blockage
+A	A1410	2	1251	Difficult to Flush		True	A14|A1410	Infusion or Flow Problem > Difficult to Flush
+A	A1411	2	3012	Pressure Problem		True	A14|A1411	Infusion or Flow Problem > Pressure Problem
+A	A141101	3	1490	Decrease in Pressure		True	A14|A1411|A141101	Infusion or Flow Problem > Pressure Problem > Decrease in Pressure
+A	A141102	3	1491	Increase in Pressure		True	A14|A1411|A141102	Infusion or Flow Problem > Pressure Problem > Increase in Pressure
+A	A141103	3	2994	No Pressure		True	A14|A1411|A141103	Infusion or Flow Problem > Pressure Problem > No Pressure
+A	A1412	2	3016	Pumping Problem		True	A14|A1412	Infusion or Flow Problem > Pumping Problem
+A	A141201	3	1500	Decreased Pump Speed		True	A14|A1412|A141201	Infusion or Flow Problem > Pumping Problem > Decreased Pump Speed
+A	A141202	3	1501	Increased Pump Speed		True	A14|A1412|A141202	Infusion or Flow Problem > Pumping Problem > Increased Pump Speed
+A	A141203	3	1502	Failure to Pump		True	A14|A1412|A141203	Infusion or Flow Problem > Pumping Problem > Failure to Pump
+A	A141204	3	1503	Pumping Stopped		True	A14|A1412|A141204	Infusion or Flow Problem > Pumping Problem > Pumping Stopped
+A	A1413	2	2170	Suction Problem		True	A14|A1413	Infusion or Flow Problem > Suction Problem
+A	A141301	3	1146	Decrease in Suction		True	A14|A1413|A141301	Infusion or Flow Problem > Suction Problem > Decrease in Suction
+A	A141302	3	1604	Increase in Suction		True	A14|A1413|A141302	Infusion or Flow Problem > Suction Problem > Increase in Suction
+A	A141303	3	4039	Suction Failure		True	A14|A1413|A141303	Infusion or Flow Problem > Suction Problem > Suction Failure
+A	A1414	2	4040	Priming Problem		True	A14|A1414	Infusion or Flow Problem > Priming Problem
+A	A141401	3	1492	Failure to Prime		True	A14|A1414|A141401	Infusion or Flow Problem > Priming Problem > Failure to Prime
+A	A141402	3	4041	Incomplete or Inadequate Priming		True	A14|A1414|A141402	Infusion or Flow Problem > Priming Problem > Incomplete or Inadequate Priming
+A	A1415	2	4062	Air/Gas in Device	Modified (technical)	True	A14|A1415	Infusion or Flow Problem > Air/Gas in Device
+A	A15	1	2906	Activation, Positioning or Separation Problem		True	A15	Activation, Positioning or Separation Problem
+A	A1501	2	4042	Activation Problem		True	A15|A1501	Activation, Positioning or Separation Problem > Activation Problem
+A	A150101	3	3270	Activation Failure		True	A15|A1501|A150101	Activation, Positioning or Separation Problem > Activation Problem > Activation Failure
+A	A150102	3	2577	Difficult or Delayed Activation		True	A15|A1501|A150102	Activation, Positioning or Separation Problem > Activation Problem > Difficult or Delayed Activation
+A	A150103	3	1484	Premature Activation		True	A15|A1501|A150103	Activation, Positioning or Separation Problem > Activation Problem > Premature Activation
+A	A150104	3	1557	Self-Activation or Keying		True	A15|A1501|A150104	Activation, Positioning or Separation Problem > Activation Problem > Self-Activation or Keying
+A	A150105	3	4063	Key or Button Unresponsive/not Working		True	A15|A1501|A150105	Activation, Positioning or Separation Problem > Activation Problem > Key or Button Unresponsive/not Working
+A	A150106	3	4086	Unexpected Deactivation		True	A15|A1501|A150106	Activation, Positioning or Separation Problem > Activation Problem > Unexpected Deactivation
+A	A1502	2	3009	Positioning Problem		True	A15|A1502	Activation, Positioning or Separation Problem > Positioning Problem
+A	A150201	3	1158	Positioning Failure		True	A15|A1502|A150201	Activation, Positioning or Separation Problem > Positioning Problem > Positioning Failure
+A	A150202	3	2616	Malposition of Device		True	A15|A1502|A150202	Activation, Positioning or Separation Problem > Positioning Problem > Malposition of Device
+A	A150203	3	1157	Difficult or Delayed Positioning		True	A15|A1502|A150203	Activation, Positioning or Separation Problem > Positioning Problem > Difficult or Delayed Positioning
+A	A150204	3	2524	Failure to Advance		True	A15|A1502|A150204	Activation, Positioning or Separation Problem > Positioning Problem > Failure to Advance
+A	A150205	3	2920	Difficult to Advance		True	A15|A1502|A150205	Activation, Positioning or Separation Problem > Positioning Problem > Difficult to Advance
+A	A150206	3	1316	Difficult to Insert		True	A15|A1502|A150206	Activation, Positioning or Separation Problem > Positioning Problem > Difficult to Insert
+A	A150207	3	1528	Difficult to Remove		True	A15|A1502|A150207	Activation, Positioning or Separation Problem > Positioning Problem > Difficult to Remove
+A	A150208	3	1212	Entrapment of Device		True	A15|A1502|A150208	Activation, Positioning or Separation Problem > Positioning Problem > Entrapment of Device
+A	A1503	2	4043	Separation Problem		True	A15|A1503	Activation, Positioning or Separation Problem > Separation Problem
+A	A150301	3	2547	Separation Failure		True	A15|A1503|A150301	Activation, Positioning or Separation Problem > Separation Problem > Separation Failure
+A	A150302	3	4044	Difficult or Delayed Separation		True	A15|A1503|A150302	Activation, Positioning or Separation Problem > Separation Problem > Difficult or Delayed Separation
+A	A150303	3	4045	Premature Separation		True	A15|A1503|A150303	Activation, Positioning or Separation Problem > Separation Problem > Premature Separation
+A	A16	1	3015	Protective Measures Problem		True	A16	Protective Measures Problem
+A	A1601	2	1012	Device Alarm System		True	A16|A1601	Protective Measures Problem > Device Alarm System
+A	A160101	3	1022	Alarm not Visible	Modified (editorial)	True	A16|A1601|A160101	Protective Measures Problem > Device Alarm System > Alarm not Visible
+A	A160102	3	1019	No Audible Alarm		True	A16|A1601|A160102	Protective Measures Problem > Device Alarm System > No Audible Alarm
+A	A160103	3	1016	Low Audible Alarm		True	A16|A1601|A160103	Protective Measures Problem > Device Alarm System > Low Audible Alarm
+A	A160104	3	1011	Delayed Alarm		True	A16|A1601|A160104	Protective Measures Problem > Device Alarm System > Delayed Alarm
+A	A160105	3	1013	False Alarm		True	A16|A1601|A160105	Protective Measures Problem > Device Alarm System > False Alarm
+A	A160106	3	1014	Defective Alarm		True	A16|A1601|A160106	Protective Measures Problem > Device Alarm System > Defective Alarm
+A	A1602	2	2936	Fail-Safe Problem		True	A16|A1602	Protective Measures Problem > Fail-Safe Problem
+A	A160201	3	4046	Fail-Safe Did not Operate	Modified (editorial)	True	A16|A1602|A160201	Protective Measures Problem > Fail-Safe Problem > Fail-Safe Did not Operate
+A	A160202	3	2990	No Fail-Safe Mechanism		True	A16|A1602|A160202	Protective Measures Problem > Fail-Safe Problem > No Fail-Safe Mechanism
+A	A1603	2	2937	Failure of Device to Self-Test		True	A16|A1603	Protective Measures Problem > Failure of Device to Self-Test
+A	A1604	2	2938	Failure to Auto Stop		True	A16|A1604	Protective Measures Problem > Failure to Auto Stop
+A	A1605	2	3019	Reset Problem		True	A16|A1605	Protective Measures Problem > Reset Problem
+A	A160501	3	1532	Failure to Reset		True	A16|A1605|A160501	Protective Measures Problem > Reset Problem > Failure to Reset
+A	A160502	3	1683	Failure to Zero		True	A16|A1605|A160502	Protective Measures Problem > Reset Problem > Failure to Zero
+A	A160503	3	2959	Inappropriate or Unexpected Reset		True	A16|A1605|A160503	Protective Measures Problem > Reset Problem > Inappropriate or Unexpected Reset
+A	A1606	2	3011	Premature Indicator Activation		True	A16|A1606	Protective Measures Problem > Premature Indicator Activation
+A	A160601	3	1483	Premature Elective Replacement Indicator		True	A16|A1606|A160601	Protective Measures Problem > Premature Indicator Activation > Premature Elective Replacement Indicator
+A	A160602	3	1480	Premature End-of-Life Indicator		True	A16|A1606|A160602	Protective Measures Problem > Premature Indicator Activation > Premature End-of-Life Indicator
+A	A1607	2	1568	Shielding Failure		True	A16|A1607	Protective Measures Problem > Shielding Failure
+A	A17	1	2960	Compatibility Problem	Modified (technical)	True	A17	Compatibility Problem
+A	A1701	2	2897	Component or Accessory Incompatibility		True	A17|A1701	Compatibility Problem > Component or Accessory Incompatibility
+A	A170101	3	1004	Accessory Incompatible		True	A17|A1701|A170101	Compatibility Problem > Component or Accessory Incompatibility > Accessory Incompatible
+A	A170102	3	1108	Component Incompatible		True	A17|A1701|A170102	Compatibility Problem > Component or Accessory Incompatibility > Component Incompatible
+A	A1702	2	2919	Device-Device Incompatibility		True	A17|A1702	Compatibility Problem > Device-Device Incompatibility
+A	A1703	2	2982	Measurement System Incompatibility		True	A17|A1703	Compatibility Problem > Measurement System Incompatibility
+A	A1704	2	4047	Unintended Compatibility		True	A17|A1704	Compatibility Problem > Unintended Compatibility
+A	A18	1	2895	Contamination /Decontamination Problem		True	A18	Contamination /Decontamination Problem
+A	A1801	2	1120	Contamination		True	A18|A1801	Contamination /Decontamination Problem > Contamination
+A	A180101	3	1062	Biofilm Coating in/on Device	Modified (technical)	True	A18|A1801|A180101	Contamination /Decontamination Problem > Contamination > Biofilm Coating in/on Device
+A	A180102	3	2901	Contamination of Device Ingredient or Reagent		True	A18|A1801|A180102	Contamination /Decontamination Problem > Contamination > Contamination of Device Ingredient or Reagent
+A	A180103	3	2317	Device Contamination with Body Fluid		True	A18|A1801|A180103	Contamination /Decontamination Problem > Contamination > Device Contamination with Body Fluid
+A	A180104	3	2944	Device Contamination with Chemical or Other Material		True	A18|A1801|A180104	Contamination /Decontamination Problem > Contamination > Device Contamination with Chemical or Other Material
+A	A180105	3	2303	Microbial Contamination of Device		True	A18|A1801|A180105	Contamination /Decontamination Problem > Contamination > Microbial Contamination of Device
+A	A1802	2	2969	Device Contaminated During Manufacture or Shipping		True	A18|A1802	Contamination /Decontamination Problem > Device Contaminated During Manufacture or Shipping
+A	A1803	2	1091	Device Reprocessing Problem		True	A18|A1803	Contamination /Decontamination Problem > Device Reprocessing Problem
+A	A180301	3	4048	Failure to Clean Adequately		True	A18|A1803|A180301	Contamination /Decontamination Problem > Device Reprocessing Problem > Failure to Clean Adequately
+A	A180302	3	1175	Failure to Disinfect		True	A18|A1803|A180302	Contamination /Decontamination Problem > Device Reprocessing Problem > Failure to Disinfect
+A	A180303	3	1252	Flushing Problem		True	A18|A1803|A180303	Contamination /Decontamination Problem > Device Reprocessing Problem > Flushing Problem
+A	A180304	3	1213	Problem with Removal of Enzymatic Cleaner		True	A18|A1803|A180304	Contamination /Decontamination Problem > Device Reprocessing Problem > Problem with Removal of Enzymatic Cleaner
+A	A180305	3	1596	Problem with Sterilization		True	A18|A1803|A180305	Contamination /Decontamination Problem > Device Reprocessing Problem > Problem with Sterilization
+A	A180306	3	2325	Residue After Decontamination		True	A18|A1803|A180306	Contamination /Decontamination Problem > Device Reprocessing Problem > Residue After Decontamination
+A	A1804	2	4064	Device Contaminated at the User Facility		True	A18|A1804	Contamination /Decontamination Problem > Device Contaminated at the User Facility
+A	A19	1	2929	Environmental Compatibility Problem		True	A19	Environmental Compatibility Problem
+A	A1901	2	2877	Ambient Noise Problem		True	A19|A1901	Environmental Compatibility Problem > Ambient Noise Problem
+A	A1902	2	2878	Ambient Temperature Problem		True	A19|A1902	Environmental Compatibility Problem > Ambient Temperature Problem
+A	A1903	2	2529	Fumes or Vapors		True	A19|A1903	Environmental Compatibility Problem > Fumes or Vapors
+A	A1904	2	2316	Fungus in Device Environment		True	A19|A1904	Environmental Compatibility Problem > Fungus in Device Environment
+A	A1905	2	2986	Moisture or Humidity Problem		True	A19|A1905	Environmental Compatibility Problem > Moisture or Humidity Problem
+A	A190501	3	1405	Moisture Damage		True	A19|A1905|A190501	Environmental Compatibility Problem > Moisture or Humidity Problem > Moisture Damage
+A	A1906	2	3027	Ventilation Problem in Device Environment		True	A19|A1906	Environmental Compatibility Problem > Ventilation Problem in Device Environment
+A	A190601	3	1253	Fogging		True	A19|A1906|A190601	Environmental Compatibility Problem > Ventilation Problem in Device Environment > Fogging
+A	A1907	2	2918	Device Unsafe to Use in Environment		True	A19|A1907	Environmental Compatibility Problem > Device Unsafe to Use in Environment
+A	A1908	2	2930	Environmental Particulates		True	A19|A1908	Environmental Compatibility Problem > Environmental Particulates
+A	A1909	2	2985	Medical Gas Supply Problem		True	A19|A1909	Environmental Compatibility Problem > Medical Gas Supply Problem
+A	A1910	2	2925	Electrical Power Problem		True	A19|A1910	Environmental Compatibility Problem > Electrical Power Problem
+A	A191001	3	1205	Emergency Power Failure		True	A19|A1910|A191001	Environmental Compatibility Problem > Electrical Power Problem > Emergency Power Failure
+A	A191002	3	1475	Loss of Power		True	A19|A1910|A191002	Environmental Compatibility Problem > Electrical Power Problem > Loss of Power
+A	A191003	3	1474	Power Conditioning Problem		True	A19|A1910|A191003	Environmental Compatibility Problem > Electrical Power Problem > Power Conditioning Problem
+A	A20	1	2965	Installation-Related Problem		True	A20	Installation-Related Problem
+A	A2001	2	4049	Misassembled During Installation		True	A20|A2001	Installation-Related Problem > Misassembled During Installation
+A	A21	1	1318	Labeling, Instructions for Use or Training Problem	Modified (editorial)	True	A21	Labeling, Instructions for Use or Training Problem
+A	A2101	2	2911	Device Markings/Labeling Problem	Modified (editorial)	True	A21|A2101	Labeling, Instructions for Use or Training Problem > Device Markings/Labeling Problem
+A	A210101	3	2528	Expiration Date Problem	Modified (technical)	True	A21|A2101|A210101	Labeling, Instructions for Use or Training Problem > Device Markings/Labeling Problem > Expiration Date Problem
+A	A210102	3	4050	Illegible or Difficult to Read Information	Modified (technical)	True	A21|A2101|A210102	Labeling, Instructions for Use or Training Problem > Device Markings/Labeling Problem > Illegible or Difficult to Read Information
+A	A210103	3	4051	Inaccurate Information	Modified (editorial)	True	A21|A2101|A210103	Labeling, Instructions for Use or Training Problem > Device Markings/Labeling Problem > Inaccurate Information
+A	A210104	3	4052	Unclear Information		True	A21|A2101|A210104	Labeling, Instructions for Use or Training Problem > Device Markings/Labeling Problem > Unclear Information
+A	A210105	3	4053	Missing Information		True	A21|A2101|A210105	Labeling, Instructions for Use or Training Problem > Device Markings/Labeling Problem > Missing Information
+A	A210106	3	4073	Wrong Label		True	A21|A2101|A210106	Labeling, Instructions for Use or Training Problem > Device Markings/Labeling Problem > Wrong Label
+A	A210107	3	4081	Device labeling look-alike	Modified (technical)	True	A21|A2101|A210107	Labeling, Instructions for Use or Training Problem > Device Markings/Labeling Problem > Device labeling look-alike
+A	A2102	2	2971	Lack of Maintenance Documentation or Guidelines		True	A21|A2102	Labeling, Instructions for Use or Training Problem > Lack of Maintenance Documentation or Guidelines
+A	A2103	2	1319	Inadequate Instructions for Healthcare Professional		True	A21|A2103	Labeling, Instructions for Use or Training Problem > Inadequate Instructions for Healthcare Professional
+A	A2104	2	2956	Inadequate Instructions for Non-Healthcare Professional		True	A21|A2104	Labeling, Instructions for Use or Training Problem > Inadequate Instructions for Non-Healthcare Professional
+A	A2105	2	1643	Inadequate or Insufficient Training		True	A21|A2105	Labeling, Instructions for Use or Training Problem > Inadequate or Insufficient Training
+A	A22	1	2949	Human-Device Interface Problem		True	A22	Human-Device Interface Problem
+A	A2201	2	1487	Device Difficult to Setup or Prepare		True	A22|A2201	Human-Device Interface Problem > Device Difficult to Setup or Prepare
+A	A2202	2	1496	Device Difficult to Program or Calibrate		True	A22|A2202	Human-Device Interface Problem > Device Difficult to Program or Calibrate
+A	A2203	2	3134	Device Difficult to Maintain		True	A22|A2203	Human-Device Interface Problem > Device Difficult to Maintain
+A	A2204	2	2958	Inadequate User Interface		True	A22|A2204	Human-Device Interface Problem > Inadequate User Interface
+A	A2205	2	4082	Device Provides Uninformative Message		True	A22|A2205	Human-Device Interface Problem > Device Provides Uninformative Message
+A	A2206	2	4083	Device Provides Unintelligible Message		True	A22|A2206	Human-Device Interface Problem > Device Provides Unintelligible Message
+A	A23	1	1670	Use of Device Problem		True	A23	Use of Device Problem
+A	A2301	2	3265	Device Handling Problem		True	A23|A2301	Use of Device Problem > Device Handling Problem
+A	A2302	2	1126	Use of Incorrect Control/Treatment Settings		True	A23|A2302	Use of Device Problem > Use of Incorrect Control/Treatment Settings
+A	A2303	2	2017	Improper or Incorrect Procedure or Method		True	A23|A2303	Use of Device Problem > Improper or Incorrect Procedure or Method
+A	A2304	2	1494	Off-Label Use		True	A23|A2304	Use of Device Problem > Off-Label Use
+A	A2305	2	1398	Misassembled		True	A23|A2305	Use of Device Problem > Misassembled
+A	A230501	3	3133	Misassembly by Users		True	A23|A2305|A230501	Use of Device Problem > Misassembled > Misassembly by Users
+A	A230502	3	4054	Misassembly During Maintenance/Repair		True	A23|A2305|A230502	Use of Device Problem > Misassembled > Misassembly During Maintenance/Repair
+A	A24	1	2993	No Apparent Device Problem	Modified (technical)	True	A24	No Apparent Device Problem
+A	A25	1	3189	No Apparent Adverse Event		True	A25	No Apparent Adverse Event
+A	A2501	2	4077	Prophylactic Removal Due to Corrective Action	Modified (editorial)	True	A25|A2501	No Apparent Adverse Event > Prophylactic Removal Due to Corrective Action
+A	A26	1	3190	Insufficient Device Problem Information		True	A26	Insufficient Device Problem Information
+A	A27	1	3191	Appropriate Device Problem Term/Code not Available	Modified (editorial)	True	A27	Appropriate Device Problem Term/Code not Available
+E	E01	1		Nervous System	Not selectable	True	E01	Nervous System
+E	E0101	2	4401	Balance Problems		True	E01|E0101	Nervous System > Balance Problems
+E	E0102	2	2219	Brain Injury		True	E01|E0102	Nervous System > Brain Injury
+E	E010201	3	4402	Encephalocele		True	E01|E0102|E010201	Nervous System > Brain Injury > Encephalocele
+E	E0103	2	4403	Cerebral Edema		True	E01|E0103	Nervous System > Cerebral Edema
+E	E0104	2	4404	Cerebral Hyperperfusion Syndrome		True	E01|E0104	Nervous System > Cerebral Hyperperfusion Syndrome
+E	E0105	2	2133	Cerebral Ventriculomegaly		True	E01|E0105	Nervous System > Cerebral Ventriculomegaly
+E	E0106	2	1772	Cerebrospinal Fluid Leakage		True	E01|E0106	Nervous System > Cerebrospinal Fluid Leakage
+E	E0107	2	2551	Cognitive Changes		True	E01|E0107	Nervous System > Cognitive Changes
+E	E010701	3	2553	Confusion/ Disorientation		True	E01|E0107|E010701	Nervous System > Cognitive Changes > Confusion/ Disorientation
+E	E010702	3	4405	Dementia		True	E01|E0107|E010702	Nervous System > Cognitive Changes > Dementia
+E	E0108	2	2192	Concussion		True	E01|E0108	Nervous System > Concussion
+E	E0109	2	4406	Convulsion/Seizure		True	E01|E0109	Nervous System > Convulsion/Seizure
+E	E010901	3	2222	Convulsion, Clonic		True	E01|E0109|E010901	Nervous System > Convulsion/Seizure > Convulsion, Clonic
+E	E010902	3	2223	Convulsion, Tonic		True	E01|E0109|E010902	Nervous System > Convulsion/Seizure > Convulsion, Tonic
+E	E010903	3	4407	Epilepsy		True	E01|E0109|E010903	Nervous System > Convulsion/Seizure > Epilepsy
+E	E010904	3	4408	Status Epilepticus		True	E01|E0109|E010904	Nervous System > Convulsion/Seizure > Status Epilepticus
+E	E0110	2	2683	Hyporesponsive to Stimuli	Modified (editorial)	True	E01|E0110	Nervous System > Hyporesponsive to Stimuli
+E	E0111	2	4538	Hyperresponsive to Stimuli	Modified (editorial)	True	E01|E0111	Nervous System > Hyperresponsive to Stimuli
+E	E0112	2	2194	Dizziness		True	E01|E0112	Nervous System > Dizziness
+E	E0113	2	2195	Dysphasia		True	E01|E0113	Nervous System > Dysphasia
+E	E011301	3	4409	Aphonia		True	E01|E0113|E011301	Nervous System > Dysphasia > Aphonia
+E	E0114	2	2429	Encephalitis		True	E01|E0114	Nervous System > Encephalitis
+E	E0115	2	1833	Encephalopathy		True	E01|E0115	Nervous System > Encephalopathy
+E	E0116	2	1880	Headache		True	E01|E0116	Nervous System > Headache
+E	E0117	2	3272	Hydrocephalus		True	E01|E0117	Nervous System > Hydrocephalus
+E	E0118	2	1891	Intracranial Hemorrhage		True	E01|E0118	Nervous System > Intracranial Hemorrhage
+E	E0119	2	2418	Loss of Consciousness	Modified (editorial)	True	E01|E0119	Nervous System > Loss of Consciousness
+E	E011901	3	2417	Coma		True	E01|E0119|E011901	Nervous System > Loss of Consciousness > Coma
+E	E011902	3	4410	Presyncope		True	E01|E0119|E011902	Nervous System > Loss of Consciousness > Presyncope
+E	E011903	3	4411	Syncope/Fainting		True	E01|E0119|E011903	Nervous System > Loss of Consciousness > Syncope/Fainting
+E	E0120	2	1958	Memory Loss/Impairment		True	E01|E0120	Nervous System > Memory Loss/Impairment
+E	E0121	2	2389	Meningitis		True	E01|E0121	Nervous System > Meningitis
+E	E0122	2	4412	Movement Disorder		True	E01|E0122	Nervous System > Movement Disorder
+E	E012201	3	2363	Dyskinesia		True	E01|E0122|E012201	Nervous System > Movement Disorder > Dyskinesia
+E	E012202	3	1997	Paralysis		True	E01|E0122|E012202	Nervous System > Movement Disorder > Paralysis
+E	E012203	3	2448	Paraplegia		True	E01|E0122|E012203	Nervous System > Movement Disorder > Paraplegia
+E	E012204	3	1998	Paresis		True	E01|E0122|E012204	Nervous System > Movement Disorder > Paresis
+E	E012205	3	2449	Quadriplegia		True	E01|E0122|E012205	Nervous System > Movement Disorder > Quadriplegia
+E	E012206	3	2515	Shaking/Tremors		True	E01|E0122|E012206	Nervous System > Movement Disorder > Shaking/Tremors
+E	E012207	3	2172	Twitching		True	E01|E0122|E012207	Nervous System > Movement Disorder > Twitching
+E	E012208	3	4584	Restless Legs Syndrome		True	E01|E0122|E012208	Nervous System > Movement Disorder > Restless Legs Syndrome
+E	E012209	3	4585	Facial Paralysis		True	E01|E0122|E012209	Nervous System > Movement Disorder > Facial Paralysis
+E	E012210	3	4931	Dystonia	New	True	E01|E0122|E012210	Nervous System > Movement Disorder > Dystonia
+E	E012211	3	4932	Apraxia	New	True	E01|E0122|E012211	Nervous System > Movement Disorder > Apraxia
+E	E0123	2	1979	Nerve Damage		True	E01|E0123	Nervous System > Nerve Damage
+E	E012301	3	1986	Optical Nerve Damage		True	E01|E0123|E012301	Nervous System > Nerve Damage > Optical Nerve Damage
+E	E0124	2	2689	Nervous System Injury		True	E01|E0124	Nervous System > Nervous System Injury
+E	E012401	3	2432	Spinal Cord Injury		True	E01|E0124|E012401	Nervous System > Nervous System Injury > Spinal Cord Injury
+E	E0125	2	4413	Neuralgia		True	E01|E0125	Nervous System > Neuralgia
+E	E0126	2	1983	Neuropathy		True	E01|E0126	Nervous System > Neuropathy
+E	E0127	2	2415	Numbness		True	E01|E0127	Nervous System > Numbness
+E	E0128	2	4414	Peripheral Nervous Injury		True	E01|E0128	Nervous System > Peripheral Nervous Injury
+E	E0129	2	2427	Sensitivity of Teeth		True	E01|E0129	Nervous System > Sensitivity of Teeth
+E	E0130	2	2517	Sleep Dysfunction		True	E01|E0130	Nervous System > Sleep Dysfunction
+E	E0131	2	4415	Speech Disorder		True	E01|E0131	Nervous System > Speech Disorder
+E	E0132	2	4416	Spinal Arachnoiditis		True	E01|E0132	Nervous System > Spinal Arachnoiditis
+E	E0133	2	1770	Stroke/CVA		True	E01|E0133	Nervous System > Stroke/CVA
+E	E013301	3	4417	Hemorrhagic Stroke		True	E01|E0133|E013301	Nervous System > Stroke/CVA > Hemorrhagic Stroke
+E	E013302	3	4418	Ischemia Stroke		True	E01|E0133|E013302	Nervous System > Stroke/CVA > Ischemia Stroke
+E	E0134	2	4419	Tactile Disorders		True	E01|E0134	Nervous System > Tactile Disorders
+E	E013401	3	4420	Hyperesthesia		True	E01|E0134|E013401	Nervous System > Tactile Disorders > Hyperesthesia
+E	E013402	3	2352	Hypoesthesia		True	E01|E0134|E013402	Nervous System > Tactile Disorders > Hypoesthesia
+E	E013403	3	4421	Paresthesia		True	E01|E0134|E013403	Nervous System > Tactile Disorders > Paresthesia
+E	E0135	2	4422	Taste Disorder		True	E01|E0135	Nervous System > Taste Disorder
+E	E013501	3	4423	Ageusia		True	E01|E0135|E013501	Nervous System > Taste Disorder > Ageusia
+E	E013502	3	4424	Dysgeusia		True	E01|E0135|E013502	Nervous System > Taste Disorder > Dysgeusia
+E	E0136	2	4425	Tics/Tremor		True	E01|E0136	Nervous System > Tics/Tremor
+E	E0137	2	2109	Transient Ischemic Attack		True	E01|E0137	Nervous System > Transient Ischemic Attack
+E	E0138	2	1980	Undesired Nerve Stimulation	Retired (2025)	True	E01|E0138	Nervous System > Undesired Nerve Stimulation
+E	E0139	2	4426	Unspecified Nervous System Problem	Modified (editorial)	True	E01|E0139	Nervous System > Unspecified Nervous System Problem
+E	E0140	2	4586	Intracranial Pressure Increased		True	E01|E0140	Nervous System > Intracranial Pressure Increased
+E	E0141	2	4587	Pneumocephalus		True	E01|E0141	Nervous System > Pneumocephalus
+E	E0142	2	4588	Idiopathic Intracranial Hypertension	Modified (editorial)	True	E01|E0142	Nervous System > Idiopathic Intracranial Hypertension
+E	E0143	2	4589	Altered State of Consciousness		True	E01|E0143	Nervous System > Altered State of Consciousness
+E	E014301	3	4590	Increased Level of Consciousness		True	E01|E0143|E014301	Nervous System > Altered State of Consciousness > Increased Level of Consciousness
+E	E014302	3	4591	Decreased Level  of Consciousness		True	E01|E0143|E014302	Nervous System > Altered State of Consciousness > Decreased Level  of Consciousness
+E	E0144	2	1417	Dural Tear		True	E01|E0144	Nervous System > Dural Tear
+E	E0145	2	4933	Olfactory Changes	New	True	E01|E0145	Nervous System > Olfactory Changes
+E	E0146	2	4934	Hyporeflexia	New	True	E01|E0146	Nervous System > Hyporeflexia
+E	E0901	2	1693	Acoustic Shock		True	E01|E0901	Nervous System > Acoustic Shock
+E	E0904	2	2103	Tinnitus		True	E01|E0904	Nervous System > Tinnitus
+E	E1513	2	1852	Perinatal Brain Injury		True	E01|E1513	Nervous System > Perinatal Brain Injury
+E	E1621	2	1967	Muscle Weakness/Atrophy		True	E01|E1621	Nervous System > Muscle Weakness/Atrophy
+E	E2125	2	4899	Complex regional pain syndrome		True	E01|E2125	Nervous System > Complex regional pain syndrome
+E	E02	1		Mental, Emotional and Behavioral Disorders	Not selectable. Modified (editorial)	True	E02	Mental, Emotional and Behavioral Disorders
+E	E0201	2	4427	Bruxism		True	E02|E0201	Mental, Emotional and Behavioral Disorders > Bruxism
+E	E0202	2	1831	Emotional Changes		True	E02|E0202	Mental, Emotional and Behavioral Disorders > Emotional Changes
+E	E020201	3	2328	Anxiety		True	E02|E0202|E020201	Mental, Emotional and Behavioral Disorders > Emotional Changes > Anxiety
+E	E020202	3	2361	Depression		True	E02|E0202|E020202	Mental, Emotional and Behavioral Disorders > Emotional Changes > Depression
+E	E020203	3	2329	Distress		True	E02|E0202|E020203	Mental, Emotional and Behavioral Disorders > Emotional Changes > Distress
+E	E020204	3	2359	Malaise		True	E02|E0202|E020204	Mental, Emotional and Behavioral Disorders > Emotional Changes > Malaise
+E	E020205	3	2421	Irritability		True	E02|E0202|E020205	Mental, Emotional and Behavioral Disorders > Emotional Changes > Irritability
+E	E0203	2	4428	Hallucination		True	E02|E0203	Mental, Emotional and Behavioral Disorders > Hallucination
+E	E0204	2	2560	Lethargy		True	E02|E0204	Mental, Emotional and Behavioral Disorders > Lethargy
+E	E0205	2	4429	Suicidal Ideation		True	E02|E0205	Mental, Emotional and Behavioral Disorders > Suicidal Ideation
+E	E0206	2	4430	Unspecified Mental, Emotional or Behavioral Problem	Modified (editorial)	True	E02|E0206	Mental, Emotional and Behavioral Disorders > Unspecified Mental, Emotional or Behavioral Problem
+E	E0207	2	4592	Delirium		True	E02|E0207	Mental, Emotional and Behavioral Disorders > Delirium
+E	E0208	2	4593	Psychosis		True	E02|E0208	Mental, Emotional and Behavioral Disorders > Psychosis
+E	E0209	2	4850	Sleepiness/Drowsiness/Somnolence		True	E02|E0209	Mental, Emotional and Behavioral Disorders > Sleepiness/Drowsiness/Somnolence
+E	E0210	2	4935	Paranoia	New	True	E02|E0210	Mental, Emotional and Behavioral Disorders > Paranoia
+E	E03	1		Blood and Lymphatic System	Not selectable	True	E03	Blood and Lymphatic System
+E	E0301	2	1706	Anemia		True	E03|E0301	Blood and Lymphatic System > Anemia
+E	E030101	3	2279	Hemolytic Anemia		True	E03|E0301|E030101	Blood and Lymphatic System > Anemia > Hemolytic Anemia
+E	E0302	2	1779	Coagulation Disorder		True	E03|E0302	Blood and Lymphatic System > Coagulation Disorder
+E	E030201	3	1813	Disseminated Intravascular Coagulation (DIC)		True	E03|E0302|E030201	Blood and Lymphatic System > Coagulation Disorder > Disseminated Intravascular Coagulation (DIC)
+E	E030202	3	4431	Thrombocytopenia		True	E03|E0302|E030202	Blood and Lymphatic System > Coagulation Disorder > Thrombocytopenia
+E	E0303	2	1886	Hemolysis		True	E03|E0303	Blood and Lymphatic System > Hemolysis
+E	E0304	2	2664	Hypervolemia		True	E03|E0304	Blood and Lymphatic System > Hypervolemia
+E	E0305	2	2243	Hypovolemia		True	E03|E0305	Blood and Lymphatic System > Hypovolemia
+E	E0306	2	2067	Sepsis		True	E03|E0306	Blood and Lymphatic System > Sepsis
+E	E0307	2	2069	Seroma		True	E03|E0307	Blood and Lymphatic System > Seroma
+E	E0308	2	4432	Swollen Lymph Nodes/Glands		True	E03|E0308	Blood and Lymphatic System > Swollen Lymph Nodes/Glands
+E	E0309	2	4433	Low White Blood Cell Count		True	E03|E0309	Blood and Lymphatic System > Low White Blood Cell Count
+E	E0310	2	4434	Unspecified Blood or Lymphatic Problem	Modified (editorial)	True	E03|E0310	Blood and Lymphatic System > Unspecified Blood or Lymphatic Problem
+E	E0311	2	4594	High White Blood Cell Count		True	E03|E0311	Blood and Lymphatic System > High White Blood Cell Count
+E	E0312	2	4596	Transfusion Reaction		True	E03|E0312	Blood and Lymphatic System > Transfusion Reaction
+E	E0313	2	4595	Blood Protein Abnormal		True	E03|E0313	Blood and Lymphatic System > Blood Protein Abnormal
+E	E1202	2	2196	Electrolyte Imbalance		True	E03|E1202	Blood and Lymphatic System > Electrolyte Imbalance
+E	E120201	3	2242	Hypernatremia		True	E03|E1202|E120201	Blood and Lymphatic System > Electrolyte Imbalance > Hypernatremia
+E	E120202	3	4494	Hyponatremia		True	E03|E1202|E120202	Blood and Lymphatic System > Electrolyte Imbalance > Hyponatremia
+E	E04	1		Immune System	Not selectable	True	E04	Immune System
+E	E0401	2	1732	Autoimmune Disorder		True	E04|E0401	Immune System > Autoimmune Disorder
+E	E0402	2	1907	Hypersensitivity/Allergic Reaction	Modified (editorial)	True	E04|E0402	Immune System > Hypersensitivity/Allergic Reaction
+E	E040201	3	1703	Anaphylactic Shock		True	E04|E0402|E040201	Immune System > Hypersensitivity/Allergic Reaction > Anaphylactic Shock
+E	E040202	3	2218	Anaphylactoid / Anaphylaxis		True	E04|E0402|E040202	Immune System > Hypersensitivity/Allergic Reaction > Anaphylactoid / Anaphylaxis
+E	E040203	3	2035	Local Reaction		True	E04|E0402|E040203	Immune System > Hypersensitivity/Allergic Reaction > Local Reaction
+E	E0403	2	2156	Immunodeficiency		True	E04|E0403	Immune System > Immunodeficiency
+E	E0404	2	2015	Positive Antinuclear Antibodies (ANA)	Modified (editorial)	True	E04|E0404	Immune System > Positive Antinuclear Antibodies (ANA)
+E	E0405	2	4435	Unspecified Immune System Problem	Modified (editorial)	True	E04|E0405	Immune System > Unspecified Immune System Problem
+E	E05	1		Vascular System	Not selectable	True	E05	Vascular System
+E	E0104	2	4404	Cerebral Hyperperfusion Syndrome		False	E05|E0104	Vascular System > Cerebral Hyperperfusion Syndrome
+E	E0501	2	1708	Aneurysm		True	E05|E0501	Vascular System > Aneurysm
+E	E050101	3	4436	Ruptured Aneurysm		True	E05|E0501|E050101	Vascular System > Aneurysm > Ruptured Aneurysm
+E	E050102	3	4597	Aneurysm Expansion	Modified (editorial)	True	E05|E0501|E050102	Vascular System > Aneurysm > Aneurysm Expansion
+E	E0502	2	4437	Arteriosclerosis/ Atherosclerosis		True	E05|E0502	Vascular System > Arteriosclerosis/ Atherosclerosis
+E	E0503	2	4438	Embolism/Embolus		True	E05|E0503	Vascular System > Embolism/Embolus
+E	E050301	3	1697	Air Embolism		True	E05|E0503|E050301	Vascular System > Embolism/Embolus > Air Embolism
+E	E050302	3	4439	Foreign Body Embolism		True	E05|E0503|E050302	Vascular System > Embolism/Embolus > Foreign Body Embolism
+E	E050303	3	1498	Pulmonary Embolism		True	E05|E0503|E050303	Vascular System > Embolism/Embolus > Pulmonary Embolism
+E	E050304	3	2654	Thromboembolism		True	E05|E0503|E050304	Vascular System > Embolism/Embolus > Thromboembolism
+E	E050305	3	4869	Fat Embolism	Modified (editorial)	True	E05|E0503|E050305	Vascular System > Embolism/Embolus > Fat Embolism
+E	E0504	2	1842	Extravasation		True	E05|E0504	Vascular System > Extravasation
+E	E0505	2	1884	Hematoma		True	E05|E0505	Vascular System > Hematoma
+E	E0506	2	1888	Hemorrhage/Blood Loss/Bleeding		True	E05|E0506	Vascular System > Hemorrhage/Blood Loss/Bleeding
+E	E050601	3	1818	Ecchymosis		True	E05|E0506|E050601	Vascular System > Hemorrhage/Blood Loss/Bleeding > Ecchymosis
+E	E050602	3	1841	Exsanguination		True	E05|E0506|E050602	Vascular System > Hemorrhage/Blood Loss/Bleeding > Exsanguination
+E	E0507	2	2480	High Pulmonary Arterial Wedge Pressure		True	E05|E0507	Vascular System > High Pulmonary Arterial Wedge Pressure
+E	E0508	2	2479	Low Pulmonary Arterial Wedge Pressure		True	E05|E0508	Vascular System > Low Pulmonary Arterial Wedge Pressure
+E	E0509	2	1942	Ischemia		True	E05|E0509	Vascular System > Ischemia
+E	E0510	2	1978	Neovascularization		True	E05|E0510	Vascular System > Neovascularization
+E	E0511	2	2135	Perforation of Vessels		True	E05|E0511	Vascular System > Perforation of Vessels
+E	E051101	3	2152	Great Vessel Perforation		True	E05|E0511|E051101	Vascular System > Perforation of Vessels > Great Vessel Perforation
+E	E0512	2	2004	Vasculitis	Modified (editorial)	True	E05|E0512	Vascular System > Vasculitis
+E	E0513	2	2605	Pseudoaneurysm		True	E05|E0513	Vascular System > Pseudoaneurysm
+E	E0514	2	4440	Thrombosis/Thrombus		True	E05|E0514	Vascular System > Thrombosis/Thrombus
+E	E0515	2	3160	Vascular Dissection		True	E05|E0515	Vascular System > Vascular Dissection
+E	E051501	3	4870	Aortic Dissection	Modified (editorial)	True	E05|E0515|E051501	Vascular System > Vascular Dissection > Aortic Dissection
+E	E0516	2	2126	Vasoconstriction		True	E05|E0516	Vascular System > Vasoconstriction
+E	E0517	2	2127	Vasodilatation		True	E05|E0517	Vascular System > Vasodilatation
+E	E0518	2	4441	Unspecified Vascular Problem	Modified (editorial)	True	E05|E0518	Vascular System > Unspecified Vascular Problem
+E	E0519	2	4598	Reduced Blood Flow		True	E05|E0519	Vascular System > Reduced Blood Flow
+E	E0520	2	4851	Reperfusion Injury		True	E05|E0520	Vascular System > Reperfusion Injury
+E	E0521	2	4871	Coronary Obstruction/Occlusion	Modified (editorial)	True	E05|E0521	Vascular System > Coronary Obstruction/Occlusion
+E	E0522	2	2128	Vasospasm		True	E05|E0522	Vascular System > Vasospasm
+E	E0523	2	4914	False Lumen Perfusion		True	E05|E0523	Vascular System > False Lumen Perfusion
+E	E0524	2	4936	Vasoplegia	New	True	E05|E0524	Vascular System > Vasoplegia
+E	E0525	2	4937	Central Venous Pressure Abnormal	New	True	E05|E0525	Vascular System > Central Venous Pressure Abnormal
+E	E0526	2	4938	Telangiectasia	New	True	E05|E0526	Vascular System > Telangiectasia
+E	E0607	2	4445	Cardiovascular Dysfunction/Insufficiency		True	E05|E0607	Vascular System > Cardiovascular Dysfunction/Insufficiency
+E	E0707	2	4456	Bronchial Hemorrhage		True	E05|E0707	Vascular System > Bronchial Hemorrhage
+E	E0850	2	4808	Conjunctival Hemorrhage		True	E05|E0850	Vascular System > Conjunctival Hemorrhage
+E	E0851	2	4809	Retinal Hemorrhage		True	E05|E0851	Vascular System > Retinal Hemorrhage
+E	E0852	2	4810	Choroidal Hemorrhage		True	E05|E0852	Vascular System > Choroidal Hemorrhage
+E	E0853	2	4811	Optic Nerve Sheath Hemorrhage		True	E05|E0853	Vascular System > Optic Nerve Sheath Hemorrhage
+E	E1644	2	4888	Compartment syndrome		True	E05|E1644	Vascular System > Compartment syndrome
+E	E1645	2	4889	Hemarthrosis		True	E05|E1645	Vascular System > Hemarthrosis
+E	E2121	2	4843	Clinical Endoleak		True	E05|E2121	Vascular System > Clinical Endoleak
+E	E2337	2	2263	Stenosis		True	E05|E2337	Vascular System > Stenosis
+E	E06	1		Heart	Not selectable	True	E06	Heart
+E	E0521	2	4871	Coronary obstruction/occlusion		False	E06|E0521	Heart > Coronary Obstruction/Occlusion
+E	E0601	2	1721	Arrhythmia		True	E06|E0601	Heart > Arrhythmia
+E	E060101	3	4442	Asystole		True	E06|E0601|E060101	Heart > Arrhythmia > Asystole
+E	E060102	3	1729	Atrial Fibrillation		True	E06|E0601|E060102	Heart > Arrhythmia > Atrial Fibrillation
+E	E060103	3	1730	Atrial Flutter		True	E06|E0601|E060103	Heart > Arrhythmia > Atrial Flutter
+E	E060104	3	1751	Bradycardia		True	E06|E0601|E060104	Heart > Arrhythmia > Bradycardia
+E	E060105	3	4443	Ectopic Heartbeat		True	E06|E0601|E060105	Heart > Arrhythmia > Ectopic Heartbeat
+E	E060106	3	4444	Heart Block		True	E06|E0601|E060106	Heart > Arrhythmia > Heart Block
+E	E060107	3	1923	Idioventricular Rhythm		True	E06|E0601|E060107	Heart > Arrhythmia > Idioventricular Rhythm
+E	E060108	3	2469	Irregular Pulse		True	E06|E0601|E060108	Heart > Arrhythmia > Irregular Pulse
+E	E060109	3	2095	Tachycardia		True	E06|E0601|E060109	Heart > Arrhythmia > Tachycardia
+E	E060110	3	2130	Ventricular Fibrillation		True	E06|E0601|E060110	Heart > Arrhythmia > Ventricular Fibrillation
+E	E0602	2	1762	Cardiac Arrest		True	E06|E0602	Heart > Cardiac Arrest
+E	E0603	2	1838	Cardiac Enzyme Elevation		True	E06|E0603	Heart > Cardiac Enzyme Elevation
+E	E0604	2	2513	Cardiac Perforation		True	E06|E0604	Heart > Cardiac Perforation
+E	E0605	2	2226	Cardiac Tamponade		True	E06|E0605	Heart > Cardiac Tamponade
+E	E0606	2	1764	Cardiomyopathy		True	E06|E0606	Heart > Cardiomyopathy
+E	E0607	2	4445	Cardiovascular Dysfunction/Insufficiency		False	E06|E0607	Heart > Cardiovascular Dysfunction/Insufficiency
+E	E0608	2	2656	Cusp Tear		True	E06|E0608	Heart > Cusp Tear
+E	E0609	2	2606	Diminished Pulse Pressure		True	E06|E0609	Heart > Diminished Pulse Pressure
+E	E0610	2	1834	Endocarditis		True	E06|E0610	Heart > Endocarditis
+E	E0611	2	4446	Heart Failure/Congestive Heart Failure		True	E06|E0611	Heart > Heart Failure/Congestive Heart Failure
+E	E0612	2	2493	Ischemic Heart Disease		True	E06|E0612	Heart > Ischemic Heart Disease
+E	E061201	3	1710	Angina		True	E06|E0612|E061201	Heart > Ischemic Heart Disease > Angina
+E	E061202	3	1969	Myocardial Infarction		True	E06|E0612|E061202	Heart > Ischemic Heart Disease > Myocardial Infarction
+E	E0613	2	2501	Low Cardiac Output		True	E06|E0613	Heart > Low Cardiac Output
+E	E0614	2	2512	Mitral Perforation		True	E06|E0614	Heart > Mitral Perforation
+E	E0615	2	1763	Myocardial Contusion		True	E06|E0615	Heart > Myocardial Contusion
+E	E0616	2	4447	Myocardial Hypertrophy		True	E06|E0616	Heart > Myocardial Hypertrophy
+E	E0617	2	2470	Myocarditis		True	E06|E0617	Heart > Myocarditis
+E	E0618	2	1817	Non Specific EKG/ECG Changes	Modified (editorial)	True	E06|E0618	Heart > Non Specific EKG/ECG Changes
+E	E0619	2	3271	Pericardial Effusion		True	E06|E0619	Heart > Pericardial Effusion
+E	E0620	2	4448	Pericarditis		True	E06|E0620	Heart > Pericarditis
+E	E0621	2	4449	Valvular Insufficiency/ Regurgitation		True	E06|E0621	Heart > Valvular Insufficiency/ Regurgitation
+E	E062101	3	4450	Aortic Valve Insufficiency/ Regurgitation		True	E06|E0621|E062101	Heart > Valvular Insufficiency/ Regurgitation > Aortic Valve Insufficiency/ Regurgitation
+E	E062102	3	4451	Mitral Valve Insufficiency/ Regurgitation		True	E06|E0621|E062102	Heart > Valvular Insufficiency/ Regurgitation > Mitral Valve Insufficiency/ Regurgitation
+E	E062103	3	4452	Pulmonary Valve Insufficiency/ Regurgitation		True	E06|E0621|E062103	Heart > Valvular Insufficiency/ Regurgitation > Pulmonary Valve Insufficiency/ Regurgitation
+E	E062104	3	4453	Tricuspid Valve Insufficiency/ Regurgitation		True	E06|E0621|E062104	Heart > Valvular Insufficiency/ Regurgitation > Tricuspid Valve Insufficiency/ Regurgitation
+E	E0622	2	2697	Valvular Stenosis		True	E06|E0622	Heart > Valvular Stenosis
+E	E062201	3	1717	Aortic Valve Stenosis		True	E06|E0622|E062201	Heart > Valvular Stenosis > Aortic Valve Stenosis
+E	E062202	3	1965	Mitral Valve Stenosis		True	E06|E0622|E062202	Heart > Valvular Stenosis > Mitral Valve Stenosis
+E	E062203	3	2024	Pulmonary Valve Stenosis		True	E06|E0622|E062203	Heart > Valvular Stenosis > Pulmonary Valve Stenosis
+E	E062204	3	2113	Tricuspid Valve Stenosis		True	E06|E0622|E062204	Heart > Valvular Stenosis > Tricuspid Valve Stenosis
+E	E0623	2	4454	Unspecified Heart Problem	Modified (editorial)	True	E06|E0623	Heart > Unspecified Heart Problem
+E	E0624	2	4852	Intraoperative Cardiac Valve Injury		True	E06|E0624	Heart > Intraoperative Cardiac Valve Injury
+E	E0625	2	4853	Cardiac Septal Defect Residual Shunt		True	E06|E0625	Heart > Cardiac Septal Defect Residual Shunt
+E	E0626	2	4854	Transvalvular Pressure Gradient Increased		True	E06|E0626	Heart > Transvalvular Pressure Gradient Increased
+E	E0627	2	4855	Intraoperative Cardiac Injury		True	E06|E0627	Heart > Intraoperative Cardiac Injury
+E	E1507	2	1856	Fetal Distress		True	E06|E1507	Heart > Fetal Distress
+E	E0628	2	4915	Pneumopericardium		True	E06|E0628	Heart > Pneumopericardium
+E	E0629	2	2467	Palpitations		True	E06|E0629	Heart > Palpitations
+E	E0630	2	4939	Abnormal Precordial Findings	New	True	E06|E0630	Heart > Abnormal Precordial Findings
+E	E07	1		Respiratory System	Not selectable	True	E07	Respiratory System
+E	E050303	2	1498	Pulmonary Embolism		False	E07|E050303	Respiratory System > Pulmonary Embolism
+E	E0701	2	1696	Adult Respiratory Distress Syndrome		True	E07|E0701	Respiratory System > Adult Respiratory Distress Syndrome
+E	E0702	2	1699	Airway Obstruction		True	E07|E0702	Respiratory System > Airway Obstruction
+E	E0703	2	1720	Apnea		True	E07|E0703	Respiratory System > Apnea
+E	E0704	2	1725	Aspiration/Inhalation		True	E07|E0704	Respiratory System > Aspiration/Inhalation
+E	E0705	2	4455	Aspiration Pneumonitis		True	E07|E0705	Respiratory System > Aspiration Pneumonitis
+E	E0706	2	1726	Asthma		True	E07|E0706	Respiratory System > Asthma
+E	E0707	2	4456	Bronchial Hemorrhage		False	E07|E0707	Respiratory System > Bronchial Hemorrhage
+E	E0708	2	1752	Bronchitis		True	E07|E0708	Respiratory System > Bronchitis
+E	E0709	2	2598	Bronchospasm		True	E07|E0709	Respiratory System > Bronchospasm
+E	E0710	2	2464	Choking		True	E07|E0710	Respiratory System > Choking
+E	E0711	2	2237	Chronic Obstructive Pulmonary Disease (COPD)		True	E07|E0711	Respiratory System > Chronic Obstructive Pulmonary Disease (COPD)
+E	E071101	3	1832	Pulmonary Emphysema		True	E07|E0711|E071101	Respiratory System > Chronic Obstructive Pulmonary Disease (COPD) > Pulmonary Emphysema
+E	E0712	2	4457	Cough		True	E07|E0712	Respiratory System > Cough
+E	E0713	2	2435	Decreased Peak Expiratory Flow Rate	Modified (editorial)	True	E07|E0713	Respiratory System > Decreased Peak Expiratory Flow Rate
+E	E0714	2	2436	Increased Peak Expiratory Flow Rate	Modified (editorial)	True	E07|E0714	Respiratory System > Increased Peak Expiratory Flow Rate
+E	E0715	2	2485	Decreased Respiratory Rate		True	E07|E0715	Respiratory System > Decreased Respiratory Rate
+E	E0716	2	2486	Increased Respiratory Rate		True	E07|E0716	Respiratory System > Increased Respiratory Rate
+E	E0717	2	1816	Dyspnea		True	E07|E0717	Respiratory System > Dyspnea
+E	E0718	2	4458	Epistaxis		True	E07|E0718	Respiratory System > Epistaxis
+E	E0719	2	2430	Forced Expiratory Volume Decreased		True	E07|E0719	Respiratory System > Forced Expiratory Volume Decreased
+E	E0720	2	2431	Forced Expiratory Volume Increased		True	E07|E0720	Respiratory System > Forced Expiratory Volume Increased
+E	E0721	2	1887	Hemoptysis		True	E07|E0721	Respiratory System > Hemoptysis
+E	E0722	2	1896	Hemothorax		True	E07|E0722	Respiratory System > Hemothorax
+E	E0723	2	1899	Hiccups		True	E07|E0723	Respiratory System > Hiccups
+E	E0724	2	1910	Hyperventilation		True	E07|E0724	Respiratory System > Hyperventilation
+E	E0725	2	1916	Hypoventilation		True	E07|E0725	Respiratory System > Hypoventilation
+E	E0726	2	1918	Hypoxia		True	E07|E0726	Respiratory System > Hypoxia
+E	E0727	2	2198	Mediastinal Shift		True	E07|E0727	Respiratory System > Mediastinal Shift
+E	E0728	2	2466	Nasal Obstruction		True	E07|E0728	Respiratory System > Nasal Obstruction
+E	E0729	2	2397	Overinflation of Lung		True	E07|E0729	Respiratory System > Overinflation of Lung
+E	E0730	2	2367	Pharyngitis		True	E07|E0730	Respiratory System > Pharyngitis
+E	E0731	2	2010	Pleural Effusion		True	E07|E0731	Respiratory System > Pleural Effusion
+E	E0732	2	4459	Pleural Empyema		True	E07|E0732	Respiratory System > Pleural Empyema
+E	E0733	2	2011	Pneumonia		True	E07|E0733	Respiratory System > Pneumonia
+E	E073301	3	2437	Bronchopneumonia		True	E07|E0733|E073301	Respiratory System > Pneumonia > Bronchopneumonia
+E	E0734	2	2012	Pneumothorax		True	E07|E0734	Respiratory System > Pneumothorax
+E	E0735	2	2019	Pulmonary Dysfunction		True	E07|E0735	Respiratory System > Pulmonary Dysfunction
+E	E0736	2	2020	Pulmonary Edema		True	E07|E0736	Respiratory System > Pulmonary Edema
+E	E0737	2	4460	Pulmonary Hypertension		True	E07|E0737	Respiratory System > Pulmonary Hypertension
+E	E0738	2	2021	Pulmonary Infarction		True	E07|E0738	Respiratory System > Pulmonary Infarction
+E	E0739	2	2482	Respiratory Acidosis		True	E07|E0739	Respiratory System > Respiratory Acidosis
+E	E0740	2	2483	Respiratory Alkalosis		True	E07|E0740	Respiratory System > Respiratory Alkalosis
+E	E0741	2	4461	Respiratory Arrest		True	E07|E0741	Respiratory System > Respiratory Arrest
+E	E0742	2	2484	Respiratory Failure		True	E07|E0742	Respiratory System > Respiratory Failure
+E	E0743	2	4462	Respiratory Insufficiency		True	E07|E0743	Respiratory System > Respiratory Insufficiency
+E	E0744	2	2420	Respiratory Tract Infection		True	E07|E0744	Respiratory System > Respiratory Tract Infection
+E	E0745	2	2277	Sinus Perforation		True	E07|E0745	Respiratory System > Sinus Perforation
+E	E0746	2	2251	Sneezing		True	E07|E0746	Respiratory System > Sneezing
+E	E0747	2	2396	Sore Throat		True	E07|E0747	Respiratory System > Sore Throat
+E	E0748	2	1593	Stacking Breaths		True	E07|E0748	Respiratory System > Stacking Breaths
+E	E0749	2	2084	Strangulation		True	E07|E0749	Respiratory System > Strangulation
+E	E0750	2	2395	Ventilator Dependent		True	E07|E0750	Respiratory System > Ventilator Dependent
+E	E0751	2	4463	Wheezing		True	E07|E0751	Respiratory System > Wheezing
+E	E0752	2	4464	Unspecified Respiratory Problem	Modified (editorial)	True	E07|E0752	Respiratory System > Unspecified Respiratory Problem
+E	E0753	2	4599	Upper Respiratory Tract Injury	Retired (2025)	True	E07|E0753	Respiratory System > Upper Respiratory Tract Injury
+E	E0754	2	4872	Upper Respiratory Tract Irritation		True	E07|E0754	Respiratory System > Upper Respiratory Tract Irritation
+E	E0755	2	4873	Snoring		True	E07|E0755	Respiratory System > Snoring
+E	E0756	2	4874	Nasal Congestion	Modified (editorial)	True	E07|E0756	Respiratory System > Nasal Congestion
+E	E0757	2	4875	Breathing-Related Sleep Disorder	Modified (editorial)	True	E07|E0757	Respiratory System > Breathing-Related Sleep Disorder
+E	E0758	2	4876	Rhinitis		True	E07|E0758	Respiratory System > Rhinitis
+E	E0759	2	4916	Mechanical Respiratory Tract Injury		True	E07|E0759	Respiratory System > Mechanical Respiratory Tract Injury
+E	E0760	2	4917	Atelectasis		True	E07|E0760	Respiratory System > Atelectasis
+E	E0761	2	4918	Nasal Dryness		True	E07|E0761	Respiratory System > Nasal Dryness
+E	E0762	2	4940	Airway Burns	New	True	E07|E0762	Respiratory System > Airway Burns
+E	E1516	2	2046	Respiratory Distress Syndrome of Newborns		True	E07|E1516	Respiratory System > Respiratory Distress Syndrome of Newborns
+E	E2202	2	2478	High Oxygen Saturation		True	E07|E2202	Respiratory System > High Oxygen Saturation
+E	E2203	2	2477	Low Oxygen Saturation		True	E07|E2203	Respiratory System > Low Oxygen Saturation
+E	E08	1		Eye	Not selectable	True	E08	Eye
+E	E0801	2	2639	Capsular Bag Tear		True	E08|E0801	Eye > Capsular Bag Tear
+E	E0802	2	1766	Cataract		True	E08|E0802	Eye > Cataract
+E	E0803	2	1775	Chemosis		True	E08|E0803	Eye > Chemosis
+E	E0804	2	1784	Conjunctivitis		True	E08|E0804	Eye > Conjunctivitis
+E	E0805	2	1878	Corneal Clouding/Hazing		True	E08|E0805	Eye > Corneal Clouding/Hazing
+E	E0806	2	1790	Corneal Decompensation		True	E08|E0806	Eye > Corneal Decompensation
+E	E0807	2	1791	Corneal Edema		True	E08|E0807	Eye > Corneal Edema
+E	E080701	3	1824	Corneal Stromal Edema		True	E08|E0807|E080701	Eye > Corneal Edema > Corneal Stromal Edema
+E	E080702	3	1823	Microcystic Edema		True	E08|E0807|E080702	Eye > Corneal Edema > Microcystic Edema
+E	E0808	2	4465	Corneal Epithelial Microcysts		True	E08|E0808	Eye > Corneal Epithelial Microcysts
+E	E0809	2	2231	Corneal Infiltrates		True	E08|E0809	Eye > Corneal Infiltrates
+E	E0810	2	1447	Corneal Pannus		True	E08|E0810	Eye > Corneal Pannus
+E	E0811	2	1792	Corneal Perforation		True	E08|E0811	Eye > Corneal Perforation
+E	E0812	2	1793	Corneal Scar		True	E08|E0812	Eye > Corneal Scar
+E	E0813	2	1794	Corneal Touch		True	E08|E0813	Eye > Corneal Touch
+E	E0814	2	1796	Corneal Ulcer		True	E08|E0814	Eye > Corneal Ulcer
+E	E0815	2	1814	Dry Eye(s)		True	E08|E0815	Eye > Dry Eye(s)
+E	E0816	2	1835	Endophthalmitis		True	E08|E0816	Eye > Endophthalmitis
+E	E0817	2	2235	Excessive Tear Production		True	E08|E0817	Eye > Excessive Tear Production
+E	E0818	2	4466	Eye Infections		True	E08|E0818	Eye > Eye Infections
+E	E081801	3	1933	Intraocular Infection		True	E08|E0818|E081801	Eye > Eye Infections > Intraocular Infection
+E	E0819	2	1845	Eye Injury		True	E08|E0819	Eye > Eye Injury
+E	E081901	3	1789	Corneal Abrasion		True	E08|E0819|E081901	Eye > Eye Injury > Corneal Abrasion
+E	E081902	3	2523	Eye Burn		True	E08|E0819|E081902	Eye > Eye Injury > Eye Burn
+E	E081903	3	2047	Retinal Detachment		True	E08|E0819|E081903	Eye > Eye Injury > Retinal Detachment
+E	E081904	3	2048	Retinal Injury		True	E08|E0819|E081904	Eye > Eye Injury > Retinal Injury
+E	E081905	3	2050	Retinal Tear		True	E08|E0819|E081905	Eye > Eye Injury > Retinal Tear
+E	E081906	3	2445	Vitreous Detachment		True	E08|E0819|E081906	Eye > Eye Injury > Vitreous Detachment
+E	E0820	2	4467	Eye Pain		True	E08|E0820	Eye > Eye Pain
+E	E0821	2	1869	Foreign Body Sensation in Eye		True	E08|E0821	Eye > Foreign Body Sensation in Eye
+E	E0822	2	1875	Glaucoma		True	E08|E0822	Eye > Glaucoma
+E	E0823	2	2227	Halo		True	E08|E0823	Eye > Halo
+E	E0824	2	1911	Hyphema		True	E08|E0824	Eye > Hyphema
+E	E0825	2	1913	Hypopyon		True	E08|E0825	Eye > Hypopyon
+E	E0826	2	4468	Intraocular Pressure Decreased		True	E08|E0826	Eye > Intraocular Pressure Decreased
+E	E0827	2	1937	Intraocular Pressure Increased		True	E08|E0827	Eye > Intraocular Pressure Increased
+E	E0828	2	1940	Iritis		True	E08|E0828	Eye > Iritis
+E	E0829	2	1944	Keratitis		True	E08|E0829	Eye > Keratitis
+E	E082901	3	1945	Infective Keratitis		True	E08|E0829|E082901	Eye > Keratitis > Infective Keratitis
+E	E0830	2	1822	Macular Edema		True	E08|E0830	Eye > Macular Edema
+E	E0831	2	2234	Overwear Syndrome		True	E08|E0831	Eye > Overwear Syndrome
+E	E0832	2	2026	Pupillary Block		True	E08|E0832	Eye > Pupillary Block
+E	E0833	2	2038	Red Eye(s)		True	E08|E0833	Eye > Red Eye(s)
+E	E0834	2	2049	Retinal Degeneration		True	E08|E0834	Eye > Retinal Degeneration
+E	E0835	2	4469	Toxic Anterior Segment Syndrome (TASS)		True	E08|E0835	Eye > Toxic Anterior Segment Syndrome (TASS)
+E	E0836	2	4470	UGH (Uveitis Glaucoma Hyphema) Syndrome		True	E08|E0836	Eye > UGH (Uveitis Glaucoma Hyphema) Syndrome
+E	E0837	2	2122	Uveitis		True	E08|E0837	Eye > Uveitis
+E	E0838	2	2140	Visual Disturbances		True	E08|E0838	Eye > Visual Disturbances
+E	E083801	3	1864	Flashers		True	E08|E0838|E083801	Eye > Visual Disturbances > Flashers
+E	E083802	3	2164	Phosphene Visualization		True	E08|E0838|E083802	Eye > Visual Disturbances > Phosphene Visualization
+E	E083803	3	1866	Vitreous Floaters		True	E08|E0838|E083803	Eye > Visual Disturbances > Vitreous Floaters
+E	E083804	3	4801	Photophobia		True	E08|E0838|E083804	Eye > Visual Disturbances > Photophobia
+E	E0839	2	2138	Visual Impairment		True	E08|E0839	Eye > Visual Impairment
+E	E083901	3	2137	Blurred Vision		True	E08|E0839|E083901	Eye > Visual Impairment > Blurred Vision
+E	E083902	3	2139	Loss of Vision		True	E08|E0839|E083902	Eye > Visual Impairment > Loss of Vision
+E	E083903	3	4802	Diplopia/Double Vision		True	E08|E0839|E083903	Eye > Visual Impairment > Diplopia/Double Vision
+E	E0840	2	2143	Vitreous Hemorrhage		True	E08|E0840	Eye > Vitreous Hemorrhage
+E	E0841	2	2142	Vitreous Loss		True	E08|E0841	Eye > Vitreous Loss
+E	E0842	2	2181	Vitritis		True	E08|E0842	Eye > Vitritis
+E	E0843	2	2698	Zonular Dehiscence		True	E08|E0843	Eye > Zonular Dehiscence
+E	E0844	2	4471	Unspecified Eye / Vision Problem	Modified (editorial)	True	E08|E0844	Eye > Unspecified Eye / Vision Problem
+E	E0845	2	4803	Eye Irritation		True	E08|E0845	Eye > Eye Irritation
+E	E0846	2	4804	Corneal Thinning		True	E08|E0846	Eye > Corneal Thinning
+E	E0847	2	4805	Pigment Dispersion Syndrome		True	E08|E0847	Eye > Pigment Dispersion Syndrome
+E	E0848	2	4806	Corneal Endothelial Cell Loss		True	E08|E0848	Eye > Corneal Endothelial Cell Loss
+E	E0849	2	4807	Posterior Capsule Opacification		True	E08|E0849	Eye > Posterior Capsule Opacification
+E	E0850	2	4808	Conjunctival Hemorrhage		False	E08|E0850	Eye > Conjunctival Hemorrhage
+E	E0851	2	4809	Retinal Hemorrhage		False	E08|E0851	Eye > Retinal Hemorrhage
+E	E0852	2	4810	Choroidal Hemorrhage		False	E08|E0852	Eye > Choroidal Hemorrhage
+E	E0853	2	4811	Optic Nerve Sheath Hemorrhage		False	E08|E0853	Eye > Optic Nerve Sheath Hemorrhage
+E	E0854	2	4856	Mydriasis		True	E08|E0854	Eye > Mydriasis
+E	E0855	2	4857	Anterior Capsule Opacification		True	E08|E0855	Eye > Anterior Capsule Opacification
+E	E0856	2	4858	Pupillary Disorder		True	E08|E0856	Eye > Pupillary Disorder
+E	E0857	2	4859	Corneal Warpage		True	E08|E0857	Eye > Corneal Warpage
+E	E0858	2	4877	Choroidal Detachment	Modified (editorial)	True	E08|E0858	Eye > Choroidal Detachment
+E	E0859	2	4878	Choroidal Effusion	Modified (editorial)	True	E08|E0859	Eye > Choroidal Effusion
+E	E0860	2	4919	Eye Strain/Fatigue		True	E08|E0860	Eye > Eye Strain/Fatigue
+E	E0861	2	4941	Retinal Vein Occlusion	New	True	E08|E0861	Eye > Retinal Vein Occlusion
+E	E0862	2	4942	Maculopathy	New	True	E08|E0862	Eye > Maculopathy
+E	E2135	2	4955	Ocular Procedural Complication	New	True	E08|E2135	Eye > Ocular Procedural Complication
+E	E09	1		Ear and Labyrinth	Not selectable	True	E09	Ear and Labyrinth
+E	E0901	2	1693	Acoustic Shock		False	E09|E0901	Ear and Labyrinth > Acoustic Shock
+E	E0902	2	1694	Acoustic Trauma		True	E09|E0902	Ear and Labyrinth > Acoustic Trauma
+E	E0903	2	1881	Hearing Impairment		True	E09|E0903	Ear and Labyrinth > Hearing Impairment
+E	E090301	3	4472	Partial Hearing Loss		True	E09|E0903|E090301	Ear and Labyrinth > Hearing Impairment > Partial Hearing Loss
+E	E090302	3	4473	Total Hearing Loss		True	E09|E0903|E090302	Ear and Labyrinth > Hearing Impairment > Total Hearing Loss
+E	E0904	2	2103	Tinnitus		False	E09|E0904	Ear and Labyrinth > Tinnitus
+E	E0905	2	2134	Vertigo		True	E09|E0905	Ear and Labyrinth > Vertigo
+E	E0906	2	4474	Unspecified Ear or Labyrinth Problem	Modified (editorial)	True	E09|E0906	Ear and Labyrinth > Unspecified Ear or Labyrinth Problem
+E	E0907	2	4812	Ear Pain		True	E09|E0907	Ear and Labyrinth > Ear Pain
+E	E0908	2	4813	Ear Infection	Modified (editorial)	True	E09|E0908	Ear and Labyrinth > Ear Infection
+E	E090801	3	4814	Infectious Otitis Externa		True	E09|E0908|E090801	Ear and Labyrinth > Ear Infection > Infectious Otitis Externa
+E	E090802	3	4815	Infectious Otitis Media		True	E09|E0908|E090802	Ear and Labyrinth > Ear Infection > Infectious Otitis Media
+E	E0909	2	4816	Middle Ear Inflammation		True	E09|E0909	Ear and Labyrinth > Middle Ear Inflammation
+E	E0910	2	4817	Labyrinthitis		True	E09|E0910	Ear and Labyrinth > Labyrinthitis
+E	E0911	2	4920	Cholesteatoma		True	E09|E0911	Ear and Labyrinth > Cholesteatoma
+E	E0912	2	4921	Ear Injury	Modified (editorial)	True	E09|E0912	Ear and Labyrinth > Ear Injury
+E	E0913	2	4922	Cerumen Impaction	Modified (editorial)	True	E09|E0913	Ear and Labyrinth > Cerumen Impaction
+E	E1512	2	1975	Neonatal Hearing Impairment		True	E09|E1512	Ear and Labyrinth > Neonatal Hearing Impairment
+E	E151201	3	4515	Complete Neonatal Hearing Loss		True	E09|E1512|E151201	Ear and Labyrinth > Neonatal Hearing Impairment > Complete Neonatal Hearing Loss
+E	E151202	3	4516	Partial Neonatal Hearing loss		True	E09|E1512|E151202	Ear and Labyrinth > Neonatal Hearing Impairment > Partial Neonatal Hearing loss
+E	E10	1		Gastrointestinal System	Not selectable	True	E10	Gastrointestinal System
+E	E1001	2	2601	Abdominal Distention		True	E10|E1001	Gastrointestinal System > Abdominal Distention
+E	E1002	2	1685	Abdominal Pain		True	E10|E1002	Gastrointestinal System > Abdominal Pain
+E	E1003	2	1692	Achalasia		True	E10|E1003	Gastrointestinal System > Achalasia
+E	E1004	2	2596	Ascites		True	E10|E1004	Gastrointestinal System > Ascites
+E	E1005	2	1756	Bowel Burn		True	E10|E1005	Gastrointestinal System > Bowel Burn
+E	E1006	2	2668	Bowel Perforation		True	E10|E1006	Gastrointestinal System > Bowel Perforation
+E	E1007	2	3274	Constipation		True	E10|E1007	Gastrointestinal System > Constipation
+E	E1008	2	1811	Diarrhea	Modified (technical)	True	E10|E1008	Gastrointestinal System > Diarrhea
+E	E1009	2	1815	Dysphagia/ Odynophagia		True	E10|E1009	Gastrointestinal System > Dysphagia/ Odynophagia
+E	E1010	2	1839	Eructate		True	E10|E1010	Gastrointestinal System > Eructate
+E	E1011	2	1865	Flatus		True	E10|E1011	Gastrointestinal System > Flatus
+E	E1012	2	1874	Gastritis		True	E10|E1012	Gastrointestinal System > Gastritis
+E	E1013	2	4475	Gastroesophageal Burn		True	E10|E1013	Gastrointestinal System > Gastroesophageal Burn
+E	E1014	2	4476	Gastrointestinal Hemorrhage		True	E10|E1014	Gastrointestinal System > Gastrointestinal Hemorrhage
+E	E1015	2	4477	Gastrointestinal Regurgitation		True	E10|E1015	Gastrointestinal System > Gastrointestinal Regurgitation
+E	E1016	2	4478	Hematemesis		True	E10|E1016	Gastrointestinal System > Hematemesis
+E	E1017	2	4479	Intra-Abdominal Hemorrhage		True	E10|E1017	Gastrointestinal System > Intra-Abdominal Hemorrhage
+E	E1018	2	2398	Laceration(s) of Esophagus		True	E10|E1018	Gastrointestinal System > Laceration(s) of Esophagus
+E	E1019	2	4480	Melena		True	E10|E1019	Gastrointestinal System > Melena
+E	E1020	2	1970	Nausea		True	E10|E1020	Gastrointestinal System > Nausea
+E	E1021	2	4481	Pancreatitis		True	E10|E1021	Gastrointestinal System > Pancreatitis
+E	E1022	2	2399	Perforation of Esophagus		True	E10|E1022	Gastrointestinal System > Perforation of Esophagus
+E	E1023	2	2003	Peritoneal Laceration(s)		True	E10|E1023	Gastrointestinal System > Peritoneal Laceration(s)
+E	E1024	2	2252	Peritonitis		True	E10|E1024	Gastrointestinal System > Peritonitis
+E	E1025	2	1883	Heartburn/Indigestion		True	E10|E1025	Gastrointestinal System > Heartburn/Indigestion
+E	E1026	2	4482	Rectal Anastomotic Leakage	Retired (2024)	True	E10|E1026	Gastrointestinal System > Rectal Anastomotic Leakage
+E	E1027	2	4483	Retroperitoneal Hemorrhage		True	E10|E1027	Gastrointestinal System > Retroperitoneal Hemorrhage
+E	E1028	2	4484	Salivary Gland Problem		True	E10|E1028	Gastrointestinal System > Salivary Gland Problem
+E	E102801	3	4485	Dry Mouth		True	E10|E1028|E102801	Gastrointestinal System > Salivary Gland Problem > Dry Mouth
+E	E102802	3	4486	Salivary Hypersecretion		True	E10|E1028|E102802	Gastrointestinal System > Salivary Gland Problem > Salivary Hypersecretion
+E	E1029	2	4487	Stenosis of the Esophagus	Modified (editorial)	True	E10|E1029	Gastrointestinal System > Stenosis of the Esophagus
+E	E1030	2	4488	Stomach Ulceration		True	E10|E1030	Gastrointestinal System > Stomach Ulceration
+E	E1031	2	4489	Stomatitis		True	E10|E1031	Gastrointestinal System > Stomatitis
+E	E103101	3	4490	Glossitis		True	E10|E1031|E103101	Gastrointestinal System > Stomatitis > Glossitis
+E	E1032	2	2144	Vomiting		True	E10|E1032	Gastrointestinal System > Vomiting
+E	E1033	2	4491	Unspecified Gastrointestinal Problem	Modified (editorial)	True	E10|E1033	Gastrointestinal System > Unspecified Gastrointestinal Problem
+E	E1034	2	4818	Fecal Urgency		True	E10|E1034	Gastrointestinal System > Fecal Urgency
+E	E1035	2	4819	Pneumoperitoneum		True	E10|E1035	Gastrointestinal System > Pneumoperitoneum
+E	E1036	2	4879	Colitis		True	E10|E1036	Gastrointestinal System > Colitis
+E	E1037	2	4943	Ileus	New	True	E10|E1037	Gastrointestinal System > Ileus
+E	E1038	2	4944	Enteritis	New	True	E10|E1038	Gastrointestinal System > Enteritis
+E	E1039	2	4945	Retching	New	True	E10|E1039	Gastrointestinal System > Retching
+E	E1040	2	4946	Abdominal Compartment Syndrome	New	True	E10|E1040	Gastrointestinal System > Abdominal Compartment Syndrome
+E	E1303	2	4498	Increased Intra-Peritoneal Volume (IIPV)		True	E10|E1303	Gastrointestinal System > Increased Intra-Peritoneal Volume (IIPV)
+E	E1607	2	4522	Difficulty Chewing		True	E10|E1607	Gastrointestinal System > Difficulty Chewing
+E	E232401	2	4571	Fecal Incontinence		True	E10|E232401	Gastrointestinal System > Fecal Incontinence
+E	E11	1		Hepatic and Biliary System	Not selectable	True	E11	Hepatic and Biliary System
+E	E1101	2	1736	Biliary Cirrhosis		True	E11|E1101	Hepatic and Biliary System > Biliary Cirrhosis
+E	E1102	2	1897	Hepatitis		True	E11|E1102	Hepatic and Biliary System > Hepatitis
+E	E1103	2	1903	Hyperbilirubinemia		True	E11|E1103	Hepatic and Biliary System > Hyperbilirubinemia
+E	E1104	2	1954	Liver Damage/Dysfunction		True	E11|E1104	Hepatic and Biliary System > Liver Damage/Dysfunction
+E	E1105	2	4492	Liver Failure		True	E11|E1105	Hepatic and Biliary System > Liver Failure
+E	E1106	2	1955	Liver Laceration(s)		True	E11|E1106	Hepatic and Biliary System > Liver Laceration(s)
+E	E1107	2	4493	Unspecified Hepatic or Biliary Problem	Modified (editorial)	True	E11|E1107	Hepatic and Biliary System > Unspecified Hepatic or Biliary Problem
+E	E1108	2	4820	Biliary Leak		True	E11|E1108	Hepatic and Biliary System > Biliary Leak
+E	E1109	2	4821	Cholangitis		True	E11|E1109	Hepatic and Biliary System > Cholangitis
+E	E12	1		Endocrine, Metabolism and Nutrition	Not selectable	True	E12	Endocrine, Metabolism and Nutrition
+E	E0739	2	2482	Respiratory Acidosis		False	E12|E0739	Endocrine, Metabolism and Nutrition > Respiratory Acidosis
+E	E0740	2	2483	Respiratory Alkalosis		False	E12|E0740	Endocrine, Metabolism and Nutrition > Respiratory Alkalosis
+E	E1201	2	1807	Dehydration		True	E12|E1201	Endocrine, Metabolism and Nutrition > Dehydration
+E	E1202	2	2196	Electrolyte Imbalance		False	E12|E1202	Endocrine, Metabolism and Nutrition > Electrolyte Imbalance
+E	E120201	3	2242	Hypernatremia		False	E12|E1202|E120201	Endocrine, Metabolism and Nutrition > Electrolyte Imbalance > Hypernatremia
+E	E120202	3	4494	Hyponatremia		False	E12|E1202|E120202	Endocrine, Metabolism and Nutrition > Electrolyte Imbalance > Hyponatremia
+E	E120203	3	4822	Hypercalcemia		True	E12|E1202|E120203	Endocrine, Metabolism and Nutrition > Electrolyte Imbalance > Hypercalcemia
+E	E120204	3	4823	Hypocalcemia		True	E12|E1202|E120204	Endocrine, Metabolism and Nutrition > Electrolyte Imbalance > Hypocalcemia
+E	E120205	3	4824	Hyperkalemia		True	E12|E1202|E120205	Endocrine, Metabolism and Nutrition > Electrolyte Imbalance > Hyperkalemia
+E	E120206	3	4825	Hypokalemia		True	E12|E1202|E120206	Endocrine, Metabolism and Nutrition > Electrolyte Imbalance > Hypokalemia
+E	E120207	3	4826	Blood Bicarbonate Increased		True	E12|E1202|E120207	Endocrine, Metabolism and Nutrition > Electrolyte Imbalance > Blood Bicarbonate Increased
+E	E120208	3	4827	Blood Bicarbonate Decreased		True	E12|E1202|E120208	Endocrine, Metabolism and Nutrition > Electrolyte Imbalance > Blood Bicarbonate Decreased
+E	E120209	3	4828	Hyperphosphatemia		True	E12|E1202|E120209	Endocrine, Metabolism and Nutrition > Electrolyte Imbalance > Hyperphosphatemia
+E	E1203	2	1850	Feeding Problem		True	E12|E1203	Endocrine, Metabolism and Nutrition > Feeding Problem
+E	E1204	2	2153	Hot Flashes/Flushes		True	E12|E1204	Endocrine, Metabolism and Nutrition > Hot Flashes/Flushes
+E	E1205	2	1905	Hyperglycemia		True	E12|E1205	Endocrine, Metabolism and Nutrition > Hyperglycemia
+E	E120501	3	2364	Elevated Ketones/Diabetic Ketoacidosis	Modified (editorial)	True	E12|E1205|E120501	Endocrine, Metabolism and Nutrition > Hyperglycemia > Elevated Ketones/Diabetic Ketoacidosis
+E	E1206	2	1912	Hypoglycemia		True	E12|E1206	Endocrine, Metabolism and Nutrition > Hypoglycemia
+E	E1207	2	2604	Polydipsia	Modified (technical)	True	E12|E1207	Endocrine, Metabolism and Nutrition > Polydipsia
+E	E1208	2	2607	Weight Changes		True	E12|E1208	Endocrine, Metabolism and Nutrition > Weight Changes
+E	E1209	2	4495	Hormonal Imbalance		True	E12|E1209	Endocrine, Metabolism and Nutrition > Hormonal Imbalance
+E	E1210	2	4496	Premature Menopause		True	E12|E1210	Endocrine, Metabolism and Nutrition > Premature Menopause
+E	E1211	2	4497	Vitamin Deficiency		True	E12|E1211	Endocrine, Metabolism and Nutrition > Vitamin Deficiency
+E	E1212	2	4860	Hypothyroidism		True	E12|E1212	Endocrine, Metabolism and Nutrition > Hypothyroidism
+E	E1306	2	2188	Uremia		True	E12|E1306	Endocrine, Metabolism and Nutrition > Uremia
+E	E2306	2	4569	Decreased Appetite		True	E12|E2306	Endocrine, Metabolism and Nutrition > Decreased Appetite
+E	E2307	2	4570	Increased Appetite		True	E12|E2307	Endocrine, Metabolism and Nutrition > Increased Appetite
+E	E1213	2	4923	Metabolic Acidosis		True	E12|E1213	Endocrine, Metabolism and Nutrition > Metabolic Acidosis
+E	E1214	2	4924	Hyperthyroidism		True	E12|E1214	Endocrine, Metabolism and Nutrition > Hyperthyroidism
+E	E1215	2	4925	Metabolic Alkalosis		True	E12|E1215	Endocrine, Metabolism and Nutrition > Metabolic Alkalosis
+E	E1216	2	4947	Malnutrition	New	True	E12|E1216	Endocrine, Metabolism and Nutrition > Malnutrition
+E	E1217	2	4948	Thyroiditis	New	True	E12|E1217	Endocrine, Metabolism and Nutrition > Thyroiditis
+E	E13	1		Kidney and Urinary Tract	Not selectable	True	E13	Kidney and Urinary Tract
+E	E1301	2	2684	Dysuria		True	E13|E1301	Kidney and Urinary Tract > Dysuria
+E	E1302	2	2558	Hematuria		True	E13|E1302	Kidney and Urinary Tract > Hematuria
+E	E1303	2	4498	Increased Intra-Peritoneal Volume (IIPV)		False	E13|E1303	Kidney and Urinary Tract > Increased Intra-Peritoneal Volume (IIPV)
+E	E1304	2	1871	Micturition Urgency		True	E13|E1304	Kidney and Urinary Tract > Micturition Urgency
+E	E1305	2	4499	Renal Impairment		True	E13|E1305	Kidney and Urinary Tract > Renal Impairment
+E	E130501	3	2041	Renal Failure		True	E13|E1305|E130501	Kidney and Urinary Tract > Renal Impairment > Renal Failure
+E	E1306	2	2188	Uremia		False	E13|E1306	Kidney and Urinary Tract > Uremia
+E	E1307	2	4501	Urethral Stenosis/Stricture		True	E13|E1307	Kidney and Urinary Tract > Urethral Stenosis/Stricture
+E	E1308	2	2275	Urinary Frequency / Polyuria		True	E13|E1308	Kidney and Urinary Tract > Urinary Frequency / Polyuria
+E	E1309	2	2119	Urinary Retention		True	E13|E1309	Kidney and Urinary Tract > Urinary Retention
+E	E1310	2	2120	Urinary Tract Infection		True	E13|E1310	Kidney and Urinary Tract > Urinary Tract Infection
+E	E131001	3	4502	Kidney Infection		True	E13|E1310|E131001	Kidney and Urinary Tract > Urinary Tract Infection > Kidney Infection
+E	E1311	2	4503	Unspecified Kidney or Urinary Problem	Modified (editorial)	True	E13|E1311	Kidney and Urinary Tract > Unspecified Kidney or Urinary Problem
+E	E1312	2	4861	Urolithiasis		True	E13|E1312	Kidney and Urinary Tract > Urolithiasis
+E	E1313	2	4862	Interstitial Cystitis		True	E13|E1313	Kidney and Urinary Tract > Interstitial Cystitis
+E	E1314	2	4863	Bladder Wall Thickening		True	E13|E1314	Kidney and Urinary Tract > Bladder Wall Thickening
+E	E1315	2	4880	Hydronephrosis		True	E13|E1315	Kidney and Urinary Tract > Hydronephrosis
+E	E1316	2	4881	Bladder Dysfunction		True	E13|E1316	Kidney and Urinary Tract > Bladder Dysfunction
+E	E1317	2	4882	Kidney Injury	Modified (editorial)	True	E13|E1317	Kidney and Urinary Tract > Kidney Injury
+E	E232402	2	4572	Urinary Incontinence		True	E13|E232402	Kidney and Urinary Tract > Urinary Incontinence
+E	E14	1		Reproductive System and Breast	Not selectable	True	E14	Reproductive System and Breast
+E	E1210	2	4496	Premature Menopause		False	E14|E1210	Reproductive System and Breast > Premature Menopause
+E	E1401	2	2123	Abnormal Vaginal Discharge	Modified (editorial)	True	E14|E1401	Reproductive System and Breast > Abnormal Vaginal Discharge
+E	E1402	2	4504	Breast Discomfort/Pain		True	E14|E1402	Reproductive System and Breast > Breast Discomfort/Pain
+E	E1403	2	2439	Breast Mass		True	E14|E1403	Reproductive System and Breast > Breast Mass
+E	E1404	2	1773	Cervical Changes		True	E14|E1404	Reproductive System and Breast > Cervical Changes
+E	E1405	2	4505	Dyspareunia		True	E14|E1405	Reproductive System and Breast > Dyspareunia
+E	E1406	2	4506	Fallopian Tube Perforation		True	E14|E1406	Reproductive System and Breast > Fallopian Tube Perforation
+E	E1407	2	4507	Genital Bleeding		True	E14|E1407	Reproductive System and Breast > Genital Bleeding
+E	E140701	3	2665	Intermenstrual Bleeding		True	E14|E1407|E140701	Reproductive System and Breast > Genital Bleeding > Intermenstrual Bleeding
+E	E140702	3	4508	Menorrhagia		True	E14|E1407|E140702	Reproductive System and Breast > Genital Bleeding > Menorrhagia
+E	E1408	2	1959	Menstrual Irregularities		True	E14|E1408	Reproductive System and Breast > Menstrual Irregularities
+E	E1409	2	2162	Nipple Sensation Changes		True	E14|E1409	Reproductive System and Breast > Nipple Sensation Changes
+E	E1410	2	2441	Nipple Ulceration		True	E14|E1410	Reproductive System and Breast > Nipple Ulceration
+E	E1411	2	2000	Pelvic Inflammatory Disease		True	E14|E1411	Reproductive System and Breast > Pelvic Inflammatory Disease
+E	E1412	2	4509	Rectovaginal Fistula		True	E14|E1412	Reproductive System and Breast > Rectovaginal Fistula
+E	E1413	2	4510	Sexual Dysfunction		True	E14|E1413	Reproductive System and Breast > Sexual Dysfunction
+E	E141301	3	4511	Erectile Dysfunction		True	E14|E1413|E141301	Reproductive System and Breast > Sexual Dysfunction > Erectile Dysfunction
+E	E1414	2	2108	Toxic Shock Syndrome		True	E14|E1414	Reproductive System and Breast > Toxic Shock Syndrome
+E	E1415	2	2121	Uterine Perforation		True	E14|E1415	Reproductive System and Breast > Uterine Perforation
+E	E1416	2	4512	Vesicovaginal Fistula		True	E14|E1416	Reproductive System and Breast > Vesicovaginal Fistula
+E	E1417	2	4513	Unspecified Reproductive System or Breast Problem	Modified (editorial)	True	E14|E1417	Reproductive System and Breast > Unspecified Reproductive System or Breast Problem
+E	E1418	2	4829	Breast Feeding Problem		True	E14|E1418	Reproductive System and Breast > Breast Feeding Problem
+E	E1419	2	4864	Vaginal Dryness		True	E14|E1419	Reproductive System and Breast > Vaginal Dryness
+E	E1420	2	4865	Pelvic Pain		True	E14|E1420	Reproductive System and Breast > Pelvic Pain
+E	E1421	2	4949	Symmastia	New	True	E14|E1421	Reproductive System and Breast > Symmastia
+E	E1506	2	1819	Ectopic Pregnancy		True	E14|E1506	Reproductive System and Breast > Ectopic Pregnancy
+E	E1509	2	1927	Incompetent Cervix		True	E14|E1509	Reproductive System and Breast > Incompetent Cervix
+E	E1519	2	2124	Vaginal Mucosa Damage		True	E14|E1519	Reproductive System and Breast > Vaginal Mucosa Damage
+E	E2341	2	4579	Double Capsule		True	E14|E2341	Reproductive System and Breast > Double Capsule
+E	E15	1		Pregnancy, Childbirth and the Puerperium	Not selectable	True	E15	Pregnancy, Childbirth and the Puerperium
+E	E1501	2	1688	Abortion		True	E15|E1501	Pregnancy, Childbirth and the Puerperium > Abortion
+E	E150101	3	2212	Complete Induced Abortion		True	E15|E1501|E150101	Pregnancy, Childbirth and the Puerperium > Abortion > Complete Induced Abortion
+E	E150102	3	2213	Incomplete Induced Abortion		True	E15|E1501|E150102	Pregnancy, Childbirth and the Puerperium > Abortion > Incomplete Induced Abortion
+E	E150103	3	2214	Induced Abortion		True	E15|E1501|E150103	Pregnancy, Childbirth and the Puerperium > Abortion > Induced Abortion
+E	E150104	3	2215	Missed Abortion		True	E15|E1501|E150104	Pregnancy, Childbirth and the Puerperium > Abortion > Missed Abortion
+E	E150105	3	4514	Spontaneous Abortion		True	E15|E1501|E150105	Pregnancy, Childbirth and the Puerperium > Abortion > Spontaneous Abortion
+E	E1502	2	2217	Amnionitis		True	E15|E1502	Pregnancy, Childbirth and the Puerperium > Amnionitis
+E	E1503	2	2599	Cephalohematoma		True	E15|E1503	Pregnancy, Childbirth and the Puerperium > Cephalohematoma
+E	E1504	2	1777	Chorioamnionitis		True	E15|E1504	Pregnancy, Childbirth and the Puerperium > Chorioamnionitis
+E	E1505	2	1782	Congenital Defect/Deformity		True	E15|E1505	Pregnancy, Childbirth and the Puerperium > Congenital Defect/Deformity
+E	E1506	2	1819	Ectopic Pregnancy		False	E15|E1506	Pregnancy, Childbirth and the Puerperium > Ectopic Pregnancy
+E	E1507	2	1856	Fetal Distress		False	E15|E1507	Pregnancy, Childbirth and the Puerperium > Fetal Distress
+E	E1508	2	2210	Hypoxia in Utero		True	E15|E1508	Pregnancy, Childbirth and the Puerperium > Hypoxia in Utero
+E	E1509	2	1927	Incompetent Cervix		False	E15|E1509	Pregnancy, Childbirth and the Puerperium > Incompetent Cervix
+E	E1510	2	1718	Low Apgar Score		True	E15|E1510	Pregnancy, Childbirth and the Puerperium > Low Apgar Score
+E	E1511	2	1974	Neonatal Deformities		True	E15|E1511	Pregnancy, Childbirth and the Puerperium > Neonatal Deformities
+E	E1512	2	1975	Neonatal Hearing Impairment		False	E15|E1512	Pregnancy, Childbirth and the Puerperium > Neonatal Hearing Impairment
+E	E151201	3	4515	Complete Neonatal Hearing Loss		False	E15|E1512|E151201	Pregnancy, Childbirth and the Puerperium > Neonatal Hearing Impairment > Complete Neonatal Hearing Loss
+E	E151202	3	4516	Partial Neonatal Hearing Loss	Modified (editorial)	False	E15|E1512|E151202	Pregnancy, Childbirth and the Puerperium > Neonatal Hearing Impairment > Partial Neonatal Hearing loss
+E	E1513	2	1852	Perinatal Brain Injury		False	E15|E1513	Pregnancy, Childbirth and the Puerperium > Perinatal Brain Injury
+E	E1514	2	4517	Pregnancy with a Contraceptive Device		True	E15|E1514	Pregnancy, Childbirth and the Puerperium > Pregnancy with a Contraceptive Device
+E	E1515	2	2465	Premature Labor		True	E15|E1515	Pregnancy, Childbirth and the Puerperium > Premature Labor
+E	E1516	2	2046	Respiratory Distress Syndrome of Newborns		False	E15|E1516	Pregnancy, Childbirth and the Puerperium > Respiratory Distress Syndrome of Newborns
+E	E1517	2	2273	Teratogenic Effects		True	E15|E1517	Pregnancy, Childbirth and the Puerperium > Teratogenic Effects
+E	E1518	2	2098	Toxins In Children		True	E15|E1518	Pregnancy, Childbirth and the Puerperium > Toxins In Children
+E	E1519	2	2124	Vaginal Mucosa Damage		False	E15|E1519	Pregnancy, Childbirth and the Puerperium > Vaginal Mucosa Damage
+E	E1520	2	4830	Infertility		True	E15|E1520	Pregnancy, Childbirth and the Puerperium > Infertility
+E	E190103	2	2207	Toxemia		True	E15|E190103	Pregnancy, Childbirth and the Puerperium > Toxemia
+E	E16	1		Musculoskeletal System	Not selectable	True	E16	Musculoskeletal System
+E	E1505	2	1782	Congenital Defect/Deformity		False	E16|E1505	Musculoskeletal System > Congenital Defect/Deformity
+E	E1511	2	1974	Neonatal Deformities		False	E16|E1511	Musculoskeletal System > Neonatal Deformities
+E	E1601	2	2355	Arthralgia		True	E16|E1601	Musculoskeletal System > Arthralgia
+E	E1602	2	1723	Arthritis		True	E16|E1602	Musculoskeletal System > Arthritis
+E	E160201	3	1724	Rheumatoid Arthritis		True	E16|E1602|E160201	Musculoskeletal System > Arthritis > Rheumatoid Arthritis
+E	E1603	2	1870	Bone Fracture(s)		True	E16|E1603	Musculoskeletal System > Bone Fracture(s)
+E	E160301	3	2349	Hip Fracture		True	E16|E1603|E160301	Musculoskeletal System > Bone Fracture(s) > Hip Fracture
+E	E160302	3	4518	Limb Fracture		True	E16|E1603|E160302	Musculoskeletal System > Bone Fracture(s) > Limb Fracture
+E	E160303	3	4519	Multiple Fractures		True	E16|E1603|E160303	Musculoskeletal System > Bone Fracture(s) > Multiple Fractures
+E	E160304	3	2077	Skull Fracture		True	E16|E1603|E160304	Musculoskeletal System > Bone Fracture(s) > Skull Fracture
+E	E160305	3	4520	Vertebral Fracture		True	E16|E1603|E160305	Musculoskeletal System > Bone Fracture(s) > Vertebral Fracture
+E	E1604	2	1786	Connective Tissue Disease		True	E16|E1604	Musculoskeletal System > Connective Tissue Disease
+E	E1605	2	4521	Cramp(s) /Muscle Spasm(s)		True	E16|E1605	Musculoskeletal System > Cramp(s) /Muscle Spasm(s)
+E	E160501	3	2543	Abdominal Cramps		True	E16|E1605|E160501	Musculoskeletal System > Cramp(s) /Muscle Spasm(s) > Abdominal Cramps
+E	E1606	2	1952	Damage to Ligament(s)		True	E16|E1606	Musculoskeletal System > Damage to Ligament(s)
+E	E1607	2	4522	Difficulty Chewing		False	E16|E1607	Musculoskeletal System > Difficulty Chewing
+E	E1608	2	2375	Fasciitis		True	E16|E1608	Musculoskeletal System > Fasciitis
+E	E1609	2	1860	Fibromyositis		True	E16|E1609	Musculoskeletal System > Fibromyositis
+E	E1610	2	1879	Head Injury		True	E16|E1610	Musculoskeletal System > Head Injury
+E	E1611	2	4523	Hyperextension		True	E16|E1611	Musculoskeletal System > Hyperextension
+E	E1612	2	2646	Inadequate Osseointegration		True	E16|E1612	Musculoskeletal System > Inadequate Osseointegration
+E	E161201	3	4883	Aseptic Loosening	Modified (editorial)	True	E16|E1612|E161201	Musculoskeletal System > Inadequate Osseointegration > Aseptic Loosening
+E	E161202	3	4884	Septic Loosening	Modified (editorial)	True	E16|E1612|E161202	Musculoskeletal System > Inadequate Osseointegration > Septic Loosening
+E	E1613	2	4524	Intervertebral Disc Compression or Protrusion		True	E16|E1613	Musculoskeletal System > Intervertebral Disc Compression or Protrusion
+E	E1614	2	2374	Joint Dislocation		True	E16|E1614	Musculoskeletal System > Joint Dislocation
+E	E161401	3	4525	Subluxation		True	E16|E1614|E161401	Musculoskeletal System > Joint Dislocation > Subluxation
+E	E1615	2	4526	Joint Laxity		True	E16|E1615	Musculoskeletal System > Joint Laxity
+E	E1616	2	2032	Loss of Range of Motion		True	E16|E1616	Musculoskeletal System > Loss of Range of Motion
+E	E161601	3	4527	Ankylosis		True	E16|E1616|E161601	Musculoskeletal System > Loss of Range of Motion > Ankylosis
+E	E161602	3	4528	Joint Contracture		True	E16|E1616|E161602	Musculoskeletal System > Loss of Range of Motion > Joint Contracture
+E	E161603	3	1968	Muscular Rigidity		True	E16|E1616|E161603	Musculoskeletal System > Loss of Range of Motion > Muscular Rigidity
+E	E161604	3	4885	Arthrofibrosis		True	E16|E1616|E161604	Musculoskeletal System > Loss of Range of Motion > Arthrofibrosis
+E	E161605	3	2672	Joint Locking	Modified (editorial)	True	E16|E1616|E161605	Musculoskeletal System > Loss of Range of Motion > Joint Locking
+E	E1617	2	4529	Malunion of Bone		True	E16|E1617	Musculoskeletal System > Malunion of Bone
+E	E1618	2	4530	Metal Related Pathology		True	E16|E1618	Musculoskeletal System > Metal Related Pathology
+E	E1619	2	4531	Muscle Hypotonia		True	E16|E1619	Musculoskeletal System > Muscle Hypotonia
+E	E1620	2	4532	Muscle/Tendon Damage		True	E16|E1620	Musculoskeletal System > Muscle/Tendon Damage
+E	E1621	2	1967	Muscle Weakness/Atrophy		False	E16|E1621	Musculoskeletal System > Muscle Weakness/Atrophy
+E	E1622	2	2238	Myalgia		True	E16|E1622	Musculoskeletal System > Myalgia
+E	E1623	2	2433	Neck Pain		True	E16|E1623	Musculoskeletal System > Neck Pain
+E	E1624	2	2434	Neck Stiffness		True	E16|E1624	Musculoskeletal System > Neck Stiffness
+E	E1625	2	2369	Nonunion/Delayed-Union Bone Fracture	Modified (editorial)	True	E16|E1625	Musculoskeletal System > Nonunion/Delayed-Union Bone Fracture
+E	E1626	2	1428	Extraskeletal Ossification	Modified (editorial)	True	E16|E1626	Musculoskeletal System > Extraskeletal Ossification
+E	E1627	2	2377	Osteolysis		True	E16|E1627	Musculoskeletal System > Osteolysis
+E	E1628	2	4533	Osteomyelitis		True	E16|E1628	Musculoskeletal System > Osteomyelitis
+E	E1629	2	2651	Osteopenia/ Osteoporosis		True	E16|E1629	Musculoskeletal System > Osteopenia/ Osteoporosis
+E	E1630	2	1992	Polymyositis		True	E16|E1630	Musculoskeletal System > Polymyositis
+E	E1631	2	2081	Spinal Column Injury		True	E16|E1631	Musculoskeletal System > Spinal Column Injury
+E	E1632	2	2094	Synovitis		True	E16|E1632	Musculoskeletal System > Synovitis
+E	E1633	2	2428	Tooth Fracture		True	E16|E1633	Musculoskeletal System > Tooth Fracture
+E	E1634	2	4534	Unequal Limb Length		True	E16|E1634	Musculoskeletal System > Unequal Limb Length
+E	E1635	2	4535	Unspecified Musculoskeletal Problem	Modified (editorial)	True	E16|E1635	Musculoskeletal System > Unspecified Musculoskeletal Problem
+E	E1636	2	4831	Tooth Loss		True	E16|E1636	Musculoskeletal System > Tooth Loss
+E	E1637	2	4832	Bursitis		True	E16|E1637	Musculoskeletal System > Bursitis
+E	E1638	2	4833	Cartilage Damage	Modified (editorial)	True	E16|E1638	Musculoskeletal System > Cartilage Damage
+E	E1639	2	4834	Joint Impingement		True	E16|E1639	Musculoskeletal System > Joint Impingement
+E	E1640	2	4835	Mastoiditis		True	E16|E1640	Musculoskeletal System > Mastoiditis
+E	E1641	2	4836	Limb Pain		True	E16|E1641	Musculoskeletal System > Limb Pain
+E	E1642	2	4886	Spinal Deformity	Modified (editorial)	True	E16|E1642	Musculoskeletal System > Spinal Deformity
+E	E1643	2	4887	Tendinopathy		True	E16|E1643	Musculoskeletal System > Tendinopathy
+E	E1644	2	4888	Compartment Syndrome	Modified (editorial)	False	E16|E1644	Musculoskeletal System > Compartment syndrome
+E	E1645	2	4889	Hemarthrosis		False	E16|E1645	Musculoskeletal System > Hemarthrosis
+E	E1646	2	4890	Bone Notching		True	E16|E1646	Musculoskeletal System > Bone Notching
+E	E1647	2	4891	Exostosis (bone)		True	E16|E1647	Musculoskeletal System > Exostosis (bone)
+E	E1648	2	4892	Acetabular Protrusion	Modified (editorial)	True	E16|E1648	Musculoskeletal System > Acetabular Protrusion
+E	E1649	2	4893	Crepitus	Modified (editorial)	True	E16|E1649	Musculoskeletal System > Crepitus
+E	E1650	2	4894	Arthropathy	Modified (editorial)	True	E16|E1650	Musculoskeletal System > Arthropathy
+E	E1651	2	4895	Back Pain	Modified (editorial)	True	E16|E1651	Musculoskeletal System > Back Pain
+E	E1652	2	4926	Loose Body in Joint	Modified (editorial)	True	E16|E1652	Musculoskeletal System > Loose Body in Joint
+E	E1653	2	4950	Patellar Tracking Disorder	New	True	E16|E1653	Musculoskeletal System > Patellar Tracking Disorder
+E	E2126	2	4901	Loss of fracture reduction		True	E16|E2126	Musculoskeletal System > Loss of fracture reduction
+E	E2127	2	4902	Periprosthetic fracture		True	E16|E2127	Musculoskeletal System > Periprosthetic fracture
+E	E2302	2	2544	Ambulation or Postural Difficulties		True	E16|E2302	Musculoskeletal System > Ambulation or Postural Difficulties
+E	E0146	2	4934	Hyporeflexia	New	False	E16|E0146	Musculoskeletal System > Hyporeflexia
+E	E17	1		Skin and Subcutaneous Tissue	Not selectable	True	E17	Skin and Subcutaneous Tissue
+E	E1701	2	1689	Abrasion		True	E17|E1701	Skin and Subcutaneous Tissue > Abrasion
+E	E1702	2	4536	Angioedema		True	E17|E1702	Skin and Subcutaneous Tissue > Angioedema
+E	E1703	2	4537	Blister		True	E17|E1703	Skin and Subcutaneous Tissue > Blister
+E	E1704	2	1757	Burn(s)		True	E17|E1704	Skin and Subcutaneous Tissue > Burn(s)
+E	E1005	3	1756	Bowel Burn		False	E17|E1704|E1005	Skin and Subcutaneous Tissue > Burn(s) > Bowel Burn
+E	E1013	3	4475	Gastroesophageal Burn		False	E17|E1704|E1013	Skin and Subcutaneous Tissue > Burn(s) > Gastroesophageal Burn
+E	E170401	3	2549	Caustic/Chemical Burns		True	E17|E1704|E170401	Skin and Subcutaneous Tissue > Burn(s) > Caustic/Chemical Burns
+E	E170402	3	4539	Cryogenic Burn		True	E17|E1704|E170402	Skin and Subcutaneous Tissue > Burn(s) > Cryogenic Burn
+E	E170403	3	1755	Radiation Burn		True	E17|E1704|E170403	Skin and Subcutaneous Tissue > Burn(s) > Radiation Burn
+E	E170404	3	2685	Superficial (First Degree) Burn		True	E17|E1704|E170404	Skin and Subcutaneous Tissue > Burn(s) > Superficial (First Degree) Burn
+E	E170405	3	2694	Partial Thickness (Second Degree) Burn	Modified (editorial)	True	E17|E1704|E170405	Skin and Subcutaneous Tissue > Burn(s) > Partial Thickness (Second Degree) Burn
+E	E170406	3	2696	Full Thickness (Third Degree) Burn	Modified (editorial)	True	E17|E1704|E170406	Skin and Subcutaneous Tissue > Burn(s) > Full Thickness (Third Degree) Burn
+E	E1705	2	2146	Burning Sensation		True	E17|E1705	Skin and Subcutaneous Tissue > Burning Sensation
+E	E170501	3	4540	Skin Burning Sensation		True	E17|E1705|E170501	Skin and Subcutaneous Tissue > Burning Sensation > Skin Burning Sensation
+E	E1706	2	4541	Cancer Cells Dissemination		True	E17|E1706	Skin and Subcutaneous Tissue > Cancer Cells Dissemination
+E	E1708	2	1943	Itching Sensation		True	E17|E1708	Skin and Subcutaneous Tissue > Itching Sensation
+E	E1709	2	2187	Jaundice		True	E17|E1709	Skin and Subcutaneous Tissue > Jaundice
+E	E1710	2	4542	Localized Skin Lesion		True	E17|E1710	Skin and Subcutaneous Tissue > Localized Skin Lesion
+E	E1711	2	1999	Peeling		True	E17|E1711	Skin and Subcutaneous Tissue > Peeling
+E	E1712	2	2165	Phototoxicity		True	E17|E1712	Skin and Subcutaneous Tissue > Phototoxicity
+E	E1713	2	2013	Pocket Erosion		True	E17|E1713	Skin and Subcutaneous Tissue > Pocket Erosion
+E	E1714	2	2033	Rash		True	E17|E1714	Skin and Subcutaneous Tissue > Rash
+E	E1715	2	2060	Scar Tissue		True	E17|E1715	Skin and Subcutaneous Tissue > Scar Tissue
+E	E171501	3	4896	Abnormal Scarring	Modified (editorial)	True	E17|E1715|E171501	Skin and Subcutaneous Tissue > Scar Tissue > Abnormal Scarring
+E	E1716	2	2074	Skin Discoloration		True	E17|E1716	Skin and Subcutaneous Tissue > Skin Discoloration
+E	E171601	3	1840	Erythema		True	E17|E1716|E171601	Skin and Subcutaneous Tissue > Skin Discoloration > Erythema
+E	E171602	3	4837	Hyperpigmentation		True	E17|E1716|E171602	Skin and Subcutaneous Tissue > Skin Discoloration > Hyperpigmentation
+E	E171603	3	4838	Hypopigmentation		True	E17|E1716|E171603	Skin and Subcutaneous Tissue > Skin Discoloration > Hypopigmentation
+E	E1717	2	4543	Skin Disorders		True	E17|E1717	Skin and Subcutaneous Tissue > Skin Disorders
+E	E1718	2	2075	Skin Erosion		True	E17|E1718	Skin and Subcutaneous Tissue > Skin Erosion
+E	E1719	2	4544	Skin Infection		True	E17|E1719	Skin and Subcutaneous Tissue > Skin Infection
+E	E1720	2	4545	Skin Inflammation/ Irritation		True	E17|E1720	Skin and Subcutaneous Tissue > Skin Inflammation/ Irritation
+E	E172001	3	1690	Abscess		True	E17|E1720|E172001	Skin and Subcutaneous Tissue > Skin Inflammation/ Irritation > Abscess
+E	E172002	3	1768	Cellulitis		True	E17|E1720|E172002	Skin and Subcutaneous Tissue > Skin Inflammation/ Irritation > Cellulitis
+E	E172003	3	4546	Contact Dermatitis		True	E17|E1720|E172003	Skin and Subcutaneous Tissue > Skin Inflammation/ Irritation > Contact Dermatitis
+E	E172004	3	4547	Eczema		True	E17|E1720|E172004	Skin and Subcutaneous Tissue > Skin Inflammation/ Irritation > Eczema
+E	E172005	3	2255	Radiodermatitis		True	E17|E1720|E172005	Skin and Subcutaneous Tissue > Skin Inflammation/ Irritation > Radiodermatitis
+E	E172006	3	2278	Urticaria		True	E17|E1720|E172006	Skin and Subcutaneous Tissue > Skin Inflammation/ Irritation > Urticaria
+E	E172007	3	2241	Wheal(s)		True	E17|E1720|E172007	Skin and Subcutaneous Tissue > Skin Inflammation/ Irritation > Wheal(s)
+E	E2317	3	1876	Granuloma		True	E17|E1720|E2317	Skin and Subcutaneous Tissue > Skin Inflammation/ Irritation > Granuloma
+E	E1721	2	2516	Skin Tears		True	E17|E1721	Skin and Subcutaneous Tissue > Skin Tears
+E	E1722	2	4548	Subcutaneous Nodule		True	E17|E1722	Skin and Subcutaneous Tissue > Subcutaneous Nodule
+E	E1723	2	2613	Wrinkling		True	E17|E1723	Skin and Subcutaneous Tissue > Wrinkling
+E	E1724	2	4839	Dry Skin		True	E17|E1724	Skin and Subcutaneous Tissue > Dry Skin
+E	E1725	2	4840	Administration Site Swelling	Modified (technical)	True	E17|E1725	Skin and Subcutaneous Tissue > Administration Site Swelling
+E	E1726	2	4841	Skin Maceration		True	E17|E1726	Skin and Subcutaneous Tissue > Skin Maceration
+E	E1727	2	4866	Wound Odor		True	E17|E1727	Skin and Subcutaneous Tissue > Wound Odor
+E	E1728	2	4897	Nail Disorder	Modified (editorial)	True	E17|E1728	Skin and Subcutaneous Tissue > Nail Disorder
+E	E1729	2	4927	Unspecified Skin and Subcutaneous Tissue Problem	Modified (editorial)	True	E17|E1729	Skin and Subcutaneous Tissue > Unspecified Skin and Subcutaneous Tissue Problem
+E	E1730	2	4951	Acne	New	True	E17|E1730	Skin and Subcutaneous Tissue > Acne
+E	E1731	2	4952	Subcutaneous Emphysema	New	True	E17|E1731	Skin and Subcutaneous Tissue > Subcutaneous Emphysema
+E	E0526	2	4938	Telangiectasia	New	False	E17|E0526	Skin and Subcutaneous Tissue > Telangiectasia
+E	E2005	2	4558	Easy Bruising		True	E17|E2005	Skin and Subcutaneous Tissue > Easy Bruising
+E	E18	1		Neoplasms Benign, Malignant and Unspecified	Not selectable	True	E18	Neoplasms Benign, Malignant and Unspecified
+E	E1801	2	3262	Cancer		True	E18|E1801	Neoplasms Benign, Malignant and Unspecified > Cancer
+E	E180101	3	1759	Breast Cancer		True	E18|E1801|E180101	Neoplasms Benign, Malignant and Unspecified > Cancer > Breast Cancer
+E	E180102	3	4549	Breast Implant Associated Anaplastic Large Cell Lymphoma (BIA ALCL)		True	E18|E1801|E180102	Neoplasms Benign, Malignant and Unspecified > Cancer > Breast Implant Associated Anaplastic Large Cell Lymphoma (BIA ALCL)
+E	E180103	3	4550	Leiomyosarcoma		True	E18|E1801|E180103	Neoplasms Benign, Malignant and Unspecified > Cancer > Leiomyosarcoma
+E	E180104	3	3263	Lymphoma		True	E18|E1801|E180104	Neoplasms Benign, Malignant and Unspecified > Cancer > Lymphoma
+E	E1802	2	1800	Cyst(s)		True	E18|E1802	Neoplasms Benign, Malignant and Unspecified > Cyst(s)
+E	E1803	2	4551	Nodule		True	E18|E1803	Neoplasms Benign, Malignant and Unspecified > Nodule
+E	E1804	2	4552	Solid Tumor	Modified (editorial)	True	E18|E1804	Neoplasms Benign, Malignant and Unspecified > Solid Tumor
+E	E1805	2	4842	Non-Malignant Neoplasm	Modified (editorial)	True	E18|E1805	Neoplasms Benign, Malignant and Unspecified > Non-Malignant Neoplasm
+E	E19	1		Infections	Not selectable	True	E19	Infections
+E	E0114	2	2429	Encephalitis		False	E19|E0114	Infections > Encephalitis
+E	E0121	2	2389	Meningitis		False	E19|E0121	Infections > Meningitis
+E	E0306	2	2067	Sepsis		False	E19|E0306	Infections > Sepsis
+E	E0610	2	1834	Endocarditis		False	E19|E0610	Infections > Endocarditis
+E	E0733	2	2011	Pneumonia		False	E19|E0733	Infections > Pneumonia
+E	E073301	3	2437	Bronchopneumonia		False	E19|E0733|E073301	Infections > Pneumonia > Bronchopneumonia
+E	E0744	2	2420	Respiratory Tract Infection		False	E19|E0744	Infections > Respiratory Tract Infection
+E	E0803	2	1775	Chemosis		False	E19|E0803	Infections > Chemosis
+E	E0816	2	1835	Endophthalmitis		False	E19|E0816	Infections > Endophthalmitis
+E	E0818	2	4466	Eye Infections		False	E19|E0818	Infections > Eye Infections
+E	E081801	3	1933	Intraocular Infection		False	E19|E0818|E081801	Infections > Eye Infections > Intraocular Infection
+E	E1021	2	4481	Pancreatitis		False	E19|E1021	Infections > Pancreatitis
+E	E1024	2	2252	Peritonitis		False	E19|E1024	Infections > Peritonitis
+E	E1102	2	1897	Hepatitis		False	E19|E1102	Infections > Hepatitis
+E	E1310	2	2120	Urinary Tract Infection		False	E19|E1310	Infections > Urinary Tract Infection
+E	E131001	3	4502	Kidney Infection		False	E19|E1310|E131001	Infections > Urinary Tract Infection > Kidney Infection
+E	E1414	2	2108	Toxic Shock Syndrome		False	E19|E1414	Infections > Toxic Shock Syndrome
+E	E1504	2	1777	Chorioamnionitis		False	E19|E1504	Infections > Chorioamnionitis
+E	E1609	2	1860	Fibromyositis		False	E19|E1609	Infections > Fibromyositis
+E	E1628	2	4533	Osteomyelitis		False	E19|E1628	Infections > Osteomyelitis
+E	E1632	2	2094	Synovitis		False	E19|E1632	Infections > Synovitis
+E	E1719	2	4544	Skin Infection		False	E19|E1719	Infections > Skin Infection
+E	E172001	2	1690	Abscess		False	E19|E172001	Infections > Abscess
+E	E172002	2	1768	Cellulitis		False	E19|E172002	Infections > Cellulitis
+E	E1901	2	1735	Bacterial Infection		True	E19|E1901	Infections > Bacterial Infection
+E	E190101	3	4553	Drug Resistant Bacterial Infection		True	E19|E1901|E190101	Infections > Bacterial Infection > Drug Resistant Bacterial Infection
+E	E190102	3	4554	Pyogenic Infection		True	E19|E1901|E190102	Infections > Bacterial Infection > Pyogenic Infection
+E	E190103	3	2207	Toxemia		False	E19|E1901|E190103	Infections > Bacterial Infection > Toxemia
+E	E1902	2	2419	Fungal Infection		True	E19|E1902	Infections > Fungal Infection
+E	E1903	2	4555	Sexually Transmitted Infection		True	E19|E1903	Infections > Sexually Transmitted Infection
+E	E1904	2	2247	Subclinical Infection		True	E19|E1904	Infections > Subclinical Infection
+E	E1905	2	4556	Transmissible Spongiform Encephalopathy(TSE)		True	E19|E1905	Infections > Transmissible Spongiform Encephalopathy(TSE)
+E	E1906	2	1930	Unspecified Infection	Modified (editorial)	True	E19|E1906	Infections > Unspecified Infection
+E	E1907	2	2248	Viral Infection		True	E19|E1907	Infections > Viral Infection
+E	E190701	3	2220	Cytomegalovirus (CMV) Infection		True	E19|E1907|E190701	Infections > Viral Infection > Cytomegalovirus (CMV) Infection
+E	E2012	2	2447	Wound Infection		True	E19|E2012	Infections > Wound Infection
+E	E2115	2	2446	Post Operative Wound Infection		True	E19|E2115	Infections > Post Operative Wound Infection
+E	E2205	2	4846	Bacteremia		True	E19|E2205	Infections > Bacteremia
+E	E2122	2	4844	Sinusitis		True	E19|E2122	Infections > Sinusitis
+E	E2123	2	4845	Medical device site infection		True	E19|E2123	Infections > Medical device site infection
+E	E0908	2	4813	Ear Infection	Modified (editorial)	False	E19|E0908	Infections > Ear Infection
+E	E090801	3	4814	Infectious Otitis Externa		False	E19|E0908|E090801	Infections > Ear Infection > Infectious Otitis Externa
+E	E090802	3	4815	Infectious Otitis Media		False	E19|E0908|E090802	Infections > Ear Infection > Infectious Otitis Media
+E	E0910	2	4817	Labyrinthitis		False	E19|E0910	Infections > Labyrinthitis
+E	E1640	2	4835	Mastoiditis		False	E19|E1640	Infections > Mastoiditis
+E	E20	1		Injury	Not selectable	True	E20	Injury
+E	E0102	2	2219	Brain Injury		False	E20|E0102	Injury > Brain Injury
+E	E010201	3	4402	Encephalocele		False	E20|E0102|E010201	Injury > Brain Injury > Encephalocele
+E	E0108	2	2192	Concussion		False	E20|E0108	Injury > Concussion
+E	E0123	2	1979	Nerve Damage		False	E20|E0123	Injury > Nerve Damage
+E	E012301	3	1986	Optical Nerve Damage		False	E20|E0123|E012301	Injury > Nerve Damage > Optical Nerve Damage
+E	E0124	2	2689	Nervous System Injury		False	E20|E0124	Injury > Nervous System Injury
+E	E012401	3	2432	Spinal Cord Injury		False	E20|E0124|E012401	Injury > Nervous System Injury > Spinal Cord Injury
+E	E0128	2	4414	Peripheral Nervous Injury		False	E20|E0128	Injury > Peripheral Nervous Injury
+E	E0710	2	2464	Choking		False	E20|E0710	Injury > Choking
+E	E0749	2	2084	Strangulation		False	E20|E0749	Injury > Strangulation
+E	E0819	2	1845	Eye Injury		False	E20|E0819	Injury > Eye Injury
+E	E081901	3	1789	Corneal Abrasion		False	E20|E0819|E081901	Injury > Eye Injury > Corneal Abrasion
+E	E081902	3	2523	Eye Burn		False	E20|E0819|E081902	Injury > Eye Injury > Eye Burn
+E	E081903	3	2047	Retinal Detachment		False	E20|E0819|E081903	Injury > Eye Injury > Retinal Detachment
+E	E081904	3	2048	Retinal Injury		False	E20|E0819|E081904	Injury > Eye Injury > Retinal Injury
+E	E081905	3	2050	Retinal Tear		False	E20|E0819|E081905	Injury > Eye Injury > Retinal Tear
+E	E081906	3	2445	Vitreous Detachment		False	E20|E0819|E081906	Injury > Eye Injury > Vitreous Detachment
+E	E0912	2	4921	Ear Injury		False	E20|E0912	Injury > Ear Injury
+E	E1023	2	2003	Peritoneal Laceration(s)		False	E20|E1023	Injury > Peritoneal Laceration(s)
+E	E1603	2	1870	Bone Fracture(s)		False	E20|E1603	Injury > Bone Fracture(s)
+E	E160301	3	2349	Hip Fracture		False	E20|E1603|E160301	Injury > Bone Fracture(s) > Hip Fracture
+E	E160302	3	4518	Limb Fracture		False	E20|E1603|E160302	Injury > Bone Fracture(s) > Limb Fracture
+E	E160303	3	4519	Multiple Fractures		False	E20|E1603|E160303	Injury > Bone Fracture(s) > Multiple Fractures
+E	E160304	3	2077	Skull Fracture		False	E20|E1603|E160304	Injury > Bone Fracture(s) > Skull Fracture
+E	E160305	3	4520	Vertebral Fracture		False	E20|E1603|E160305	Injury > Bone Fracture(s) > Vertebral Fracture
+E	E1606	2	1952	Damage to Ligament(s)		False	E20|E1606	Injury > Damage to Ligament(s)
+E	E1610	2	1879	Head Injury		False	E20|E1610	Injury > Head Injury
+E	E1614	2	2374	Joint Dislocation		False	E20|E1614	Injury > Joint Dislocation
+E	E161401	3	4525	Subluxation		False	E20|E1614|E161401	Injury > Joint Dislocation > Subluxation
+E	E1631	2	2081	Spinal Column Injury		False	E20|E1631	Injury > Spinal Column Injury
+E	E1633	2	2428	Tooth Fracture		False	E20|E1633	Injury > Tooth Fracture
+E	E1701	2	1689	Abrasion		False	E20|E1701	Injury > Abrasion
+E	E1704	2	1757	Burn(s)		False	E20|E1704	Injury > Burn(s)
+E	E1005	3	1756	Bowel Burn		False	E20|E1704|E1005	Injury > Burn(s) > Bowel Burn
+E	E1013	3	4475	Gastroesophageal Burn		False	E20|E1704|E1013	Injury > Burn(s) > Gastroesophageal Burn
+E	E170401	3	2549	Caustic/Chemical Burns		False	E20|E1704|E170401	Injury > Burn(s) > Caustic/Chemical Burns
+E	E170402	3	4539	Cryogenic Burn		False	E20|E1704|E170402	Injury > Burn(s) > Cryogenic Burn
+E	E170403	3	1755	Radiation Burn		False	E20|E1704|E170403	Injury > Burn(s) > Radiation Burn
+E	E170404	3	2685	Superficial (First Degree) Burn		False	E20|E1704|E170404	Injury > Burn(s) > Superficial (First Degree) Burn
+E	E170405	3	2694	Partial thickness (Second Degree) Burn		False	E20|E1704|E170405	Injury > Burn(s) > Partial Thickness (Second Degree) Burn
+E	E170406	3	2696	Full thickness (Third Degree) Burn		False	E20|E1704|E170406	Injury > Burn(s) > Full Thickness (Third Degree) Burn
+E	E2001	2	4557	Bone Shedding Debris		True	E20|E2001	Injury > Bone Shedding Debris
+E	E2002	2	1754	Bruise/Contusion		True	E20|E2002	Injury > Bruise/Contusion
+E	E0615	3	1763	Myocardial Contusion		False	E20|E2002|E0615	Injury > Bruise/Contusion > Myocardial Contusion
+E	E2003	2	2570	Chemical Exposure		True	E20|E2003	Injury > Chemical Exposure
+E	E2004	2	1797	Crushing Injury		True	E20|E2004	Injury > Crushing Injury
+E	E2005	2	4558	Easy Bruising		False	E20|E2005	Injury > Easy Bruising
+E	E2006	2	1750	Erosion		True	E20|E2006	Injury > Erosion
+E	E1713	3	2013	Pocket Erosion		False	E20|E2006|E1713	Injury > Erosion > Pocket Erosion
+E	E1718	3	2075	Skin Erosion		False	E20|E2006|E1718	Injury > Erosion > Skin Erosion
+E	E2007	2	1848	Fall		True	E20|E2007	Injury > Fall
+E	E2008	2	2687	Foreign Body In Patient		True	E20|E2008	Injury > Foreign Body In Patient
+E	E200801	3	3165	Device Embedded In Tissue or Plaque		True	E20|E2008|E200801	Injury > Foreign Body In Patient > Device Embedded In Tissue or Plaque
+E	E2009	2	1946	Laceration(s)		True	E20|E2009	Injury > Laceration(s)
+E	E2010	2	2462	Needle Stick/Puncture		True	E20|E2010	Injury > Needle Stick/Puncture
+E	E2011	2	2327	Physical Entrapment		True	E20|E2011	Injury > Physical Entrapment
+E	E2012	2	2447	Wound Infection		False	E20|E2012	Injury > Wound Infection
+E	E2013	2	2208	Rupture		True	E20|E2013	Injury > Rupture
+E	E2014	2	2681	Tissue Breakdown		True	E20|E2014	Injury > Tissue Breakdown
+E	E201401	3	2326	Pressure Sore/Ulcer		True	E20|E2014|E201401	Injury > Tissue Breakdown > Pressure Sore/Ulcer
+E	E2015	2	4559	Unspecified Tissue Injury	Modified (editorial)	True	E20|E2015	Injury > Unspecified Tissue Injury
+E	E2016	2	4898	Perineal Injury	Modified (editorial)	True	E20|E2016	Injury > Perineal Injury
+E	E2104	2	2554	Electric Shock		True	E20|E2104	Injury > Electric Shock
+E	E210401	3	3162	Shock from Patient Lead(s)		True	E20|E2104|E210401	Injury > Electric Shock > Shock from Patient Lead(s)
+E	E2105	2	1745	Exposure to Body Fluids		True	E20|E2105	Injury > Exposure to Body Fluids
+E	E2116	2	2256	Radiation Sickness Syndrome		True	E20|E2116	Injury > Radiation Sickness Syndrome
+E	E0762	2	4940	Airway Burns	New	False	E20|E0762	Injury > Airway Burns
+E	E21	1		Procedural Complications	Not selectable	True	E21	Procedural Complications
+E	E0144	2	1417	Dural Tear		False	E21|E0144	Procedural Complications > Dural Tear
+E	E081906	2	2445	Vitreous Detachment		False	E21|E081906	Procedural Complications > Vitreous Detachment
+E	E1026	2	4482	Rectal Anastomotic Leakage	Retired (2024)	False	E21|E1026	Procedural Complications > Rectal Anastomotic Leakage
+E	E1646	2	4890	Bone Notching		False	E21|E1646	Procedural Complications > Bone Notching
+E	E2008	2	2687	Foreign Body In Patient		False	E21|E2008	Procedural Complications > Foreign Body In Patient
+E	E200801	3	3165	Device Embedded In Tissue or Plaque		False	E21|E2008|E200801	Procedural Complications > Foreign Body In Patient > Device Embedded In Tissue or Plaque
+E	E2101	2	1695	Adhesion(s)		True	E21|E2101	Procedural Complications > Adhesion(s)
+E	E2102	2	1707	Awareness During Anesthesia	Modified (editorial)	True	E21|E2102	Procedural Complications > Awareness During Anesthesia
+E	E2103	2	1991	Device Overstimulation of Tissue		True	E21|E2103	Procedural Complications > Device Overstimulation of Tissue
+E	E2104	2	2554	Electric Shock		False	E21|E2104	Procedural Complications > Electric Shock
+E	E210401	3	3162	Shock from Patient Lead(s)		False	E21|E2104|E210401	Procedural Complications > Electric Shock > Shock from Patient Lead(s)
+E	E2105	2	1745	Exposure to Body Fluids		False	E21|E2105	Procedural Complications > Exposure to Body Fluids
+E	E2106	2	4560	External Prosthetic Device Pain		True	E21|E2106	Procedural Complications > External Prosthetic Device Pain
+E	E2107	2	1924	Failure of Implant	Retired (2025)	True	E21|E2107	Procedural Complications > Failure of Implant
+E	E2108	2	1028	Failure to Anastomose		True	E21|E2108	Procedural Complications > Failure to Anastomose
+E	E2109	2	4561	Implant Pain		True	E21|E2109	Procedural Complications > Implant Pain
+E	E2110	2	2388	Inadequate Pain Relief		True	E21|E2110	Procedural Complications > Inadequate Pain Relief
+E	E2111	2	4562	Administration Site Reaction	Modified (technical)	True	E21|E2111	Procedural Complications > Administration Site Reaction
+E	E2112	2	2662	Intraoperative Pain		True	E21|E2112	Procedural Complications > Intraoperative Pain
+E	E2113	2	1990	Oversedation		True	E21|E2113	Procedural Complications > Oversedation
+E	E2114	2	2001	Perforation		True	E21|E2114	Procedural Complications > Perforation
+E	E0511	3	2135	Perforation of Vessels		False	E21|E2114|E0511	Procedural Complications > Perforation > Perforation of Vessels
+E	E051101	3	2152	Great Vessel Perforation		False	E21|E2114|E051101	Procedural Complications > Perforation > Great Vessel Perforation
+E	E0604	3	2513	Cardiac Perforation		False	E21|E2114|E0604	Procedural Complications > Perforation > Cardiac Perforation
+E	E0614	3	2512	Mitral Perforation		False	E21|E2114|E0614	Procedural Complications > Perforation > Mitral Perforation
+E	E0745	3	2277	Sinus Perforation		False	E21|E2114|E0745	Procedural Complications > Perforation > Sinus Perforation
+E	E0811	3	1792	Corneal Perforation		False	E21|E2114|E0811	Procedural Complications > Perforation > Corneal Perforation
+E	E1006	3	2668	Bowel Perforation		False	E21|E2114|E1006	Procedural Complications > Perforation > Bowel Perforation
+E	E1022	3	2399	Perforation of Esophagus		False	E21|E2114|E1022	Procedural Complications > Perforation > Perforation of Esophagus
+E	E1406	3	4506	Fallopian Tube Perforation		False	E21|E2114|E1406	Procedural Complications > Perforation > Fallopian Tube Perforation
+E	E1415	3	2121	Uterine Perforation		False	E21|E2114|E1415	Procedural Complications > Perforation > Uterine Perforation
+E	E211401	3	1987	Internal Organ Perforation		True	E21|E2114|E211401	Procedural Complications > Perforation > Internal Organ Perforation
+E	E2115	2	2446	Post Operative Wound Infection		False	E21|E2115	Procedural Complications > Post Operative Wound Infection
+E	E2116	2	2256	Radiation Sickness Syndrome		False	E21|E2116	Procedural Complications > Radiation Sickness Syndrome
+E	E2117	2	4563	Twiddlers Syndrome		True	E21|E2117	Procedural Complications > Twiddlers Syndrome
+E	E2118	2	4564	Unintended Extubation		True	E21|E2118	Procedural Complications > Unintended Extubation
+E	E2119	2	4565	Unintended Radiation Exposure		True	E21|E2119	Procedural Complications > Unintended Radiation Exposure
+E	E2120	2	4583	Bone Cement Implantation Syndrome		True	E21|E2120	Procedural Complications > Bone Cement Implantation Syndrome
+E	E2121	2	4843	Clinical Endoleak		False	E21|E2121	Procedural Complications > Clinical Endoleak
+E	E2122	2	4844	Sinusitis		False	E21|E2122	Procedural Complications > Sinusitis
+E	E2123	2	4845	Medical Device Site Infection	Modified (editorial)	False	E21|E2123	Procedural Complications > Medical device site infection
+E	E2124	2	4867	Unintended Loss of Vascular Access		True	E21|E2124	Procedural Complications > Unintended Loss of Vascular Access
+E	E2125	2	4899	Complex Regional Pain Syndrome	Modified (editorial)	False	E21|E2125	Procedural Complications > Complex regional pain syndrome
+E	E2126	2	4901	Loss of Fracture Reduction	Modified (editorial)	False	E21|E2126	Procedural Complications > Loss of fracture reduction
+E	E2127	2	4902	Periprosthetic Fracture	Modified (editorial)	False	E21|E2127	Procedural Complications > Periprosthetic fracture
+E	E2128	2	4903	Implant Site Sclerosis	Modified (editorial)	True	E21|E2128	Procedural Complications > Implant Site Sclerosis
+E	E2129	2	4904	Peritoneal Effluent Abnormal	Modified (editorial)	True	E21|E2129	Procedural Complications > Peritoneal Effluent Abnormal
+E	E2130	2	4905	Graft Failure	Modified (editorial)	True	E21|E2130	Procedural Complications > Graft Failure
+E	E2131	2	4928	Inappropriate Device Stimulation of Tissue		True	E21|E2131	Procedural Complications > Inappropriate Device Stimulation of Tissue
+E	E2132	2	4929	Medical Device Site Inflammation		True	E21|E2132	Procedural Complications > Medical Device Site Inflammation
+E	E2133	2	4953	Local Anesthetic Systemic Toxicity (LAST)	New	True	E21|E2133	Procedural Complications > Local Anesthetic Systemic Toxicity (LAST)
+E	E2134	2	4954	Administration Site Pain	New	True	E21|E2134	Procedural Complications > Administration Site Pain
+E	E2135	2	4955	Ocular Procedural Complication	New	False	E21|E2135	Procedural Complications > Ocular Procedural Complication
+E	E2136	2	4956	Gingival Recession	New	True	E21|E2136	Procedural Complications > Gingival Recession
+E	E2332	2	4573	Physical Asymmetry		True	E21|E2332	Procedural Complications > Physical Asymmetry
+E	E2340	2	1154	Wound Dehiscence		True	E21|E2340	Procedural Complications > Wound Dehiscence
+E	E0847	2	4805	Pigment Dispersion Syndrome		False	E21|E0847	Procedural Complications > Pigment Dispersion Syndrome
+E	E0848	2	4806	Corneal Endothelial Cell Loss		False	E21|E0848	Procedural Complications > Corneal Endothelial Cell Loss
+E	E0849	2	4807	Posterior Capsule Opacification		False	E21|E0849	Procedural Complications > Posterior Capsule Opacification
+E	E1108	2	4820	Biliary Leak		False	E21|E1108	Procedural Complications > Biliary Leak
+E	E1109	2	4821	Cholangitis		False	E21|E1109	Procedural Complications > Cholangitis
+E	E0624	2	4852	Intraoperative Cardiac Valve Injury		False	E21|E0624	Procedural Complications > Intraoperative Cardiac Valve Injury
+E	E22	1		Investigations and Diagnostic Tests	Not selectable	True	E22	Investigations and Diagnostic Tests
+E	E0507	2	2480	High Pulmonary Arterial Wedge Pressure		False	E22|E0507	Investigations and Diagnostic Tests > High Pulmonary Arterial Wedge Pressure
+E	E0508	2	2479	Low Pulmonary Arterial Wedge Pressure		False	E22|E0508	Investigations and Diagnostic Tests > Low Pulmonary Arterial Wedge Pressure
+E	E0603	2	1838	Cardiac Enzyme Elevation		False	E22|E0603	Investigations and Diagnostic Tests > Cardiac Enzyme Elevation
+E	E0713	2	2435	Decreased Peak Expiratory Flow rate		False	E22|E0713	Investigations and Diagnostic Tests > Decreased Peak Expiratory Flow Rate
+E	E0714	2	2436	Increased Peak Expiratory Flow rate		False	E22|E0714	Investigations and Diagnostic Tests > Increased Peak Expiratory Flow Rate
+E	E0715	2	2485	Decreased Respiratory Rate		False	E22|E0715	Investigations and Diagnostic Tests > Decreased Respiratory Rate
+E	E0716	2	2486	Increased Respiratory Rate		False	E22|E0716	Investigations and Diagnostic Tests > Increased Respiratory Rate
+E	E0719	2	2430	Forced Expiratory Volume Decreased		False	E22|E0719	Investigations and Diagnostic Tests > Forced Expiratory Volume Decreased
+E	E0720	2	2431	Forced Expiratory Volume Increased		False	E22|E0720	Investigations and Diagnostic Tests > Forced Expiratory Volume Increased
+E	E1205	2	1905	Hyperglycemia		False	E22|E1205	Investigations and Diagnostic Tests > Hyperglycemia
+E	E120501	3	2364	Elevated Ketones/ Diabetic Ketoacidosis	Modified (editorial)	False	E22|E1205|E120501	Investigations and Diagnostic Tests > Hyperglycemia > Elevated Ketones/Diabetic Ketoacidosis
+E	E1206	2	1912	Hypoglycemia		False	E22|E1206	Investigations and Diagnostic Tests > Hypoglycemia
+E	E1209	2	4495	Hormonal Imbalance		False	E22|E1209	Investigations and Diagnostic Tests > Hormonal Imbalance
+E	E1404	2	1773	Cervical Changes		False	E22|E1404	Investigations and Diagnostic Tests > Cervical Changes
+E	E1510	2	1718	Low Apgar Score		False	E22|E1510	Investigations and Diagnostic Tests > Low Apgar Score
+E	E2201	2	1034	Abnormal Blood Gases		True	E22|E2201	Investigations and Diagnostic Tests > Abnormal Blood Gases
+E	E2202	2	2478	High Oxygen Saturation		False	E22|E2202	Investigations and Diagnostic Tests > High Oxygen Saturation
+E	E2203	2	2477	Low Oxygen Saturation		False	E22|E2203	Investigations and Diagnostic Tests > Low Oxygen Saturation
+E	E2204	2	4567	Lactate Dehydrogenase Increased		True	E22|E2204	Investigations and Diagnostic Tests > Lactate Dehydrogenase Increased
+E	E2205	2	4846	Bacteremia		False	E22|E2205	Investigations and Diagnostic Tests > Bacteremia
+E	E2206	2	4847	High Metal Ion Levels	Modified (editorial)	True	E22|E2206	Investigations and Diagnostic Tests > High Metal Ion Levels
+E	E2207	2	4848	Radiolucent Lines		True	E22|E2207	Investigations and Diagnostic Tests > Radiolucent Lines
+E	E23	1		Generalized Disorders	Not selectable	True	E23	Generalized Disorders
+E	E040202	2	2218	Anaphylactoid / Anaphylaxis	Modified (editorial)	False	E23|E040202	Generalized Disorders > Anaphylactoid / Anaphylaxis
+E	E083802	2	2164	Phosphene Visualization		False	E23|E083802	Generalized Disorders > Phosphene Visualization
+E	E1705	2	2146	Burning Sensation		False	E23|E1705	Generalized Disorders > Burning Sensation
+E	E170501	3	4540	Skin Burning Sensation		False	E23|E1705|E170501	Generalized Disorders > Burning Sensation > Skin Burning Sensation
+E	E1707	2	2378	Impaired Healing		True	E23|E1707	Generalized Disorders > Impaired Healing
+E	E2301	2	4568	Alteration in Body Temperature		True	E23|E2301	Generalized Disorders > Alteration in Body Temperature
+E	E230101	3	1858	Fever		True	E23|E2301|E230101	Generalized Disorders > Alteration in Body Temperature > Fever
+E	E230102	3	1909	Hyperthermia		True	E23|E2301|E230102	Generalized Disorders > Alteration in Body Temperature > Hyperthermia
+E	E230103	3	1915	Hypothermia		True	E23|E2301|E230103	Generalized Disorders > Alteration in Body Temperature > Hypothermia
+E	E2302	2	2544	Ambulation or Postural Difficulties		False	E23|E2302	Generalized Disorders > Ambulation or Postural Difficulties
+E	E2303	2	1761	Capsular Contracture		True	E23|E2303	Generalized Disorders > Capsular Contracture
+E	E2304	2	2191	Chills		True	E23|E2304	Generalized Disorders > Chills
+E	E2305	2	1798	Cyanosis		True	E23|E2305	Generalized Disorders > Cyanosis
+E	E2306	2	4569	Decreased Appetite		False	E23|E2306	Generalized Disorders > Decreased Appetite
+E	E2307	2	4570	Increased Appetite		False	E23|E2307	Generalized Disorders > Increased Appetite
+E	E2308	2	2360	Deformity/ Disfigurement		True	E23|E2308	Generalized Disorders > Deformity/ Disfigurement
+E	E2309	2	1809	Deposits		True	E23|E2309	Generalized Disorders > Deposits
+E	E230901	3	1758	Calcium Deposits/Calcification		True	E23|E2309|E230901	Generalized Disorders > Deposits > Calcium Deposits/Calcification
+E	E2310	2	2452	Diaphoresis		True	E23|E2310	Generalized Disorders > Diaphoresis
+E	E2311	2	2330	Discomfort		True	E23|E2311	Generalized Disorders > Discomfort
+E	E2312	2	1849	Fatigue		True	E23|E2312	Generalized Disorders > Fatigue
+E	E231201	3	1843	Extreme Exhaustion		True	E23|E2312|E231201	Generalized Disorders > Fatigue > Extreme Exhaustion
+E	E2313	2	3167	Fibrosis		True	E23|E2313	Generalized Disorders > Fibrosis
+E	E2101	3	1695	Adhesion(s)		False	E23|E2313|E2101	Generalized Disorders > Fibrosis > Adhesion(s)
+E	E2314	2	1862	Fistula		True	E23|E2314	Generalized Disorders > Fistula
+E	E2315	2	2686	Fluid Discharge		True	E23|E2315	Generalized Disorders > Fluid Discharge
+E	E231501	3	1812	Purulent Discharge		True	E23|E2315|E231501	Generalized Disorders > Fluid Discharge > Purulent Discharge
+E	E2316	2	1868	Foreign Body Reaction		True	E23|E2316	Generalized Disorders > Foreign Body Reaction
+E	E2317	2	1876	Granuloma		False	E23|E2317	Generalized Disorders > Granuloma
+E	E2318	2	1877	Hair Loss		True	E23|E2318	Generalized Disorders > Hair Loss
+E	E2319	2	2240	Hernia		True	E23|E2319	Generalized Disorders > Hernia
+E	E2320	2	1908	High Blood Pressure/ Hypertension		True	E23|E2320	Generalized Disorders > High Blood Pressure/ Hypertension
+E	E2321	2	1914	Low Blood Pressure/ Hypotension		True	E23|E2321	Generalized Disorders > Low Blood Pressure/ Hypotension
+E	E2322	2	1904	Hyperemia		True	E23|E2322	Generalized Disorders > Hyperemia
+E	E2323	2	1906	Hyperplasia		True	E23|E2323	Generalized Disorders > Hyperplasia
+E	E2324	2	1928	Incontinence		True	E23|E2324	Generalized Disorders > Incontinence
+E	E232401	3	4571	Fecal Incontinence		False	E23|E2324|E232401	Generalized Disorders > Incontinence > Fecal Incontinence
+E	E232402	3	4572	Urinary Incontinence		False	E23|E2324|E232402	Generalized Disorders > Incontinence > Urinary Incontinence
+E	E2325	2	1931	Infiltration into Tissue		True	E23|E2325	Generalized Disorders > Infiltration into Tissue
+E	E2326	2	1932	Inflammation		True	E23|E2326	Generalized Disorders > Inflammation
+E	E2327	2	1971	Necrosis		True	E23|E2327	Generalized Disorders > Necrosis
+E	E2328	2	2422	Obstruction/Occlusion		True	E23|E2328	Generalized Disorders > Obstruction/Occlusion
+E	E2329	2	2502	Organ Dehiscence		True	E23|E2329	Generalized Disorders > Organ Dehiscence
+E	E2330	2	1994	Pain		True	E23|E2330	Generalized Disorders > Pain
+E	E0116	3	1880	Headache		False	E23|E2330|E0116	Generalized Disorders > Pain > Headache
+E	E0820	3	4467	Eye Pain		False	E23|E2330|E0820	Generalized Disorders > Pain > Eye Pain
+E	E0907	3	4812	Ear Pain		False	E23|E2330|E0907	Generalized Disorders > Pain > Ear Pain
+E	E1002	3	1685	Abdominal Pain		False	E23|E2330|E1002	Generalized Disorders > Pain > Abdominal Pain
+E	E1622	3	2238	Myalgia		False	E23|E2330|E1622	Generalized Disorders > Pain > Myalgia
+E	E1623	3	2433	Neck Pain		False	E23|E2330|E1623	Generalized Disorders > Pain > Neck Pain
+E	E1651	3	4895	Back pain		False	E23|E2330|E1651	Generalized Disorders > Pain > Back Pain
+E	E2106	3	4560	External Prosthetic Device Pain		False	E23|E2330|E2106	Generalized Disorders > Pain > External Prosthetic Device Pain
+E	E2109	3	4561	Implant Pain		False	E23|E2330|E2109	Generalized Disorders > Pain > Implant Pain
+E	E2110	3	2388	Inadequate Pain Relief		False	E23|E2330|E2110	Generalized Disorders > Pain > Inadequate Pain Relief
+E	E2112	3	2662	Intraoperative Pain		False	E23|E2330|E2112	Generalized Disorders > Pain > Intraoperative Pain
+E	E233001	3	1776	Chest Pain		True	E23|E2330|E233001	Generalized Disorders > Pain > Chest Pain
+E	E2331	2	2468	Pallor		True	E23|E2331	Generalized Disorders > Pallor
+E	E2332	2	4573	Physical Asymmetry		False	E23|E2332	Generalized Disorders > Physical Asymmetry
+E	E2333	2	2475	Prolapse		True	E23|E2333	Generalized Disorders > Prolapse
+E	E2334	2	2620	Ptosis		True	E23|E2334	Generalized Disorders > Ptosis
+E	E2335	2	4574	Reaction to Medicinal Component of Device		True	E23|E2335	Generalized Disorders > Reaction to Medicinal Component of Device
+E	E2336	2	2072	Shock		True	E23|E2336	Generalized Disorders > Shock
+E	E040201	3	1703	Anaphylactic Shock		False	E23|E2336|E040201	Generalized Disorders > Shock > Anaphylactic Shock
+E	E233601	3	2262	Cardiogenic Shock		True	E23|E2336|E233601	Generalized Disorders > Shock > Cardiogenic Shock
+E	E233602	3	4575	Hypoglycemic Shock		True	E23|E2336|E233602	Generalized Disorders > Shock > Hypoglycemic Shock
+E	E233603	3	1917	Hypovolemic Shock		True	E23|E2336|E233603	Generalized Disorders > Shock > Hypovolemic Shock
+E	E233604	3	2265	Neurogenic Shock		True	E23|E2336|E233604	Generalized Disorders > Shock > Neurogenic Shock
+E	E233605	3	2068	Septic Shock		True	E23|E2336|E233605	Generalized Disorders > Shock > Septic Shock
+E	E2337	2	2263	Stenosis		False	E23|E2337	Generalized Disorders > Stenosis
+E	E233701	3	4576	Restenosis		True	E23|E2337|E233701	Generalized Disorders > Stenosis > Restenosis
+E	E2338	2	4577	Swelling/ Edema		True	E23|E2338	Generalized Disorders > Swelling/ Edema
+E	E0103	3	4403	Cerebral Edema		False	E23|E2338|E0103	Generalized Disorders > Swelling/ Edema > Cerebral Edema
+E	E0736	3	2020	Pulmonary Edema		False	E23|E2338|E0736	Generalized Disorders > Swelling/ Edema > Pulmonary Edema
+E	E0807	3	1791	Corneal Edema		False	E23|E2338|E0807	Generalized Disorders > Swelling/ Edema > Corneal Edema
+E	E080701	3	1824	Corneal Stromal Edema		False	E23|E2338|E080701	Generalized Disorders > Swelling/ Edema > Corneal Stromal Edema
+E	E080702	3	1823	Microcystic Edema		False	E23|E2338|E080702	Generalized Disorders > Swelling/ Edema > Microcystic Edema
+E	E0830	3	1822	Macular Edema		False	E23|E2338|E0830	Generalized Disorders > Swelling/ Edema > Macular Edema
+E	E1702	3	4536	Angioedema		False	E23|E2338|E1702	Generalized Disorders > Swelling/ Edema > Angioedema
+E	E233801	3	4578	Peripheral Edema		True	E23|E2338|E233801	Generalized Disorders > Swelling/ Edema > Peripheral Edema
+E	E233802	3	4849	Joint Effusion	Modified (editorial)	True	E23|E2338|E233802	Generalized Disorders > Swelling/ Edema > Joint Effusion
+E	E2339	2	2274	Ulcer		True	E23|E2339	Generalized Disorders > Ulcer
+E	E2340	2	1154	Wound Dehiscence		False	E23|E2340	Generalized Disorders > Wound Dehiscence
+E	E2341	2	4579	Double Capsule		False	E23|E2341	Generalized Disorders > Double Capsule
+E	E2342	2	3261	Multiple Organ Dysfunction Syndrome		True	E23|E2342	Generalized Disorders > Multiple Organ Dysfunction Syndrome
+E	E2343	2	4868	Hemodynamic Instability	Modified (editorial)	True	E23|E2343	Generalized Disorders > Hemodynamic Instability
+E	E2344	2	4906	Voice Alteration	Modified (editorial)	True	E23|E2344	Generalized Disorders > Voice Alteration
+E	E2345	2	4907	Heat Illness	Modified (editorial)	True	E23|E2345	Generalized Disorders > Heat Illness
+E	E2346	2	4908	Hypertrophy		True	E23|E2346	Generalized Disorders > Hypertrophy
+E	E2347	2	4909	Breath Odor	Modified (editorial)	True	E23|E2347	Generalized Disorders > Breath Odor
+E	E2348	2	4910	Abnormal Mucus Discharge	Modified (editorial)	True	E23|E2348	Generalized Disorders > Abnormal Mucus Discharge
+E	E2349	2	4911	Withdrawal Syndrome		True	E23|E2349	Generalized Disorders > Withdrawal Syndrome
+E	E2350	2	4912	Tissue Irritation		True	E23|E2350	Generalized Disorders > Tissue Irritation
+E	E2351	2	4913	Atrophy		True	E23|E2351	Generalized Disorders > Atrophy
+E	E1420	2	4865	Pelvic Pain		False	E23|E1420	Generalized Disorders > Pelvic Pain
+E	E2352	2	4930	Exercise Capacity Decreased	Modified (editorial)	True	E23|E2352	Generalized Disorders > Exercise Capacity Decreased
+E	E2353	2	4957	Scab	New	True	E23|E2353	Generalized Disorders > Scab
+E	E2354	2	4958	Periodontal Disease	New	True	E23|E2354	Generalized Disorders > Periodontal Disease
+E	E24	1		Other Terms/Codes Related to Clinical Signs and Symptoms or Conditions	Not selectable	True	E24	Other Terms/Codes Related to Clinical Signs and Symptoms or Conditions
+E	E2401	2	4580	Insufficient Information		True	E24|E2401	Other Terms/Codes Related to Clinical Signs and Symptoms or Conditions > Insufficient Information
+E	E2402	2	4581	Appropriate Clinical Signs, Symptoms and Conditions Term/Code not Available	Modified (editorial)	True	E24|E2402	Other Terms/Codes Related to Clinical Signs and Symptoms or Conditions > Appropriate Clinical Signs, Symptoms and Conditions Term/Code not Available
+E	E2403	2	4582	No Clinical Signs, Symptoms or Conditions		True	E24|E2403	Other Terms/Codes Related to Clinical Signs and Symptoms or Conditions > No Clinical Signs, Symptoms or Conditions

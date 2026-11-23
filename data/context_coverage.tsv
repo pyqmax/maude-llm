@@ -1,0 +1,13 @@
+task	set	writer	reports	n_B	n_C	covered_B	covered_C	prior	retrieval	examples	nn_recall	knn_top1_recall	mean_top_sim
+device	comparison	lay	83	40.7	42.7	0.889	0.913	0.838	0.498	0.682	0.383	0.431	0.864
+device	comparison	professional	158	41.3	44.8	0.77	0.836	0.702	0.402	0.558	0.198	0.203	0.843
+device	comparison	unknown	259	40.9	42.6	0.868	0.934	0.819	0.489	0.702	0.383	0.386	0.869
+device	unseen	lay	386	42.2	46.2	0.702	0.765	0.655	0.371	0.607	0.239	0.212	0.861
+device	unseen	professional	295	41.7	47.3	0.678	0.755	0.527	0.387	0.467	0.167	0.193	0.817
+device	unseen	unknown	138	39.8	43.6	0.766	0.793	0.72	0.5	0.508	0.242	0.232	0.857
+patient	comparison	lay	180	42.5	55.1	0.743	0.813	0.635	0.368	0.685	0.32	0.243	0.848
+patient	comparison	professional	108	44.1	50.2	0.748	0.853	0.606	0.376	0.72	0.408	0.372	0.828
+patient	comparison	unknown	212	41.5	43.6	0.863	0.901	0.775	0.557	0.672	0.422	0.409	0.816
+patient	unseen	lay	783	43.4	53.8	0.75	0.82	0.638	0.347	0.659	0.29	0.229	0.845
+patient	unseen	professional	506	44.1	50.4	0.813	0.875	0.693	0.408	0.714	0.263	0.35	0.808
+patient	unseen	unknown	814	41.8	45.7	0.829	0.879	0.738	0.393	0.702	0.389	0.362	0.884

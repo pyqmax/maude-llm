@@ -1,0 +1,18 @@
+annex	report_term	reports_2021_2026H1	action	imdrf_code	codebook_term	note
+A	Over-Sensing	124924	map	A070909	Oversensing	editorial rename (auto-matched)
+A	Under-Sensing	62522	map	A070910	Undersensing	editorial rename (auto-matched)
+A	Device Markings/Labelling Problem	12709	map	A2101	Device Markings/Labeling Problem	British spelling (auto-matched)
+A	Labelling, Instructions for Use or Training Problem	5723	map	A21	Labeling, Instructions for Use or Training Problem	British spelling (auto-matched)
+A	Burst Container or Vessel	8788	map	A0402	Burst Container	old name of the same term
+A	Illegible Information	1324	map	A210102	Illegible or Difficult to Read Information	old name of the same term
+A	Expiration Date Error	755	map	A210101	Expiration Date Problem	old name of the same term
+A	Device label look-alike	9	map	A210107	Device labeling look-alike	old name of the same term
+A	Adverse Event Without Identified Device or Use Problem	957648	exclude			FDA-only term meaning no device problem was identified
+A	Device Operational Issue	508	drop			no clear current equivalent
+A	(21 other legacy terms)	<=95 each	drop			free-text legacy entries, about 200 reports in total
+E	No Patient Involvement	33392	no_harm			legacy no-harm term, equivalent to E2403
+E	No Consequences Or Impact To Patient	22478	no_harm			legacy no-harm term
+E	No Known Impact Or Consequence To Patient	7431	no_harm			legacy no-harm term
+E	No Code Available	4208	exclude			uninformative
+E	No Information	2050	exclude			uninformative
+E	(about 130 other legacy clinical terms)	<=634 each	drop			about 0.2% of patient-problem mentions in total

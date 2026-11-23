@@ -1,0 +1,511 @@
+term	reports	match	imdrf_code	level	codebook_term	status
+Failure to Osseointegrate	2076371	exact	A010201	3	Failure to Osseointegrate	
+Adverse Event Without Identified Device or Use Problem	957648	none				
+Wireless Communication Problem	862613	exact	A1305	2	Wireless Communication Problem	
+Crack	772066	exact	A0404	2	Crack	
+Loss of Osseointegration	749252	exact	A010202	3	Loss of Osseointegration	
+Break	684481	exact	A0401	2	Break	
+Incorrect, Inadequate or Imprecise Result or Readings	458565	exact	A0908	2	Incorrect, Inadequate or Imprecise Result or Readings	
+Pumping Stopped	358597	exact	A141204	3	Pumping Stopped	
+Degraded	304674	exact	A0405	2	Degraded	
+Osseointegration Problem	275266	exact	A0102	2	Osseointegration Problem	
+Detachment of Device or Device Component	261749	exact	A0501	2	Detachment of Device or Device Component	
+No Device Output	233405	exact	A0907	2	No Device Output	
+Obstruction of Flow	225906	exact	A1409	2	Obstruction of Flow	
+Battery Problem	219353	exact	A0705	2	Battery Problem	
+Corroded	218781	exact	A040502	3	Corroded	
+Mechanical Problem	197097	exact	A05	1	Mechanical Problem	
+Communication or Transmission Problem	190946	exact	A13	1	Communication or Transmission Problem	
+Insufficient Device Problem Information	185597	exact	A26	1	Insufficient Device Problem Information	
+Power Problem	181745	exact	A0708	2	Power Problem	
+Fracture	170536	exact	A040101	3	Fracture	
+Fluid/Blood Leak	162368	exact	A050401	3	Fluid/Blood Leak	
+Low Readings	158437	exact	A090808	3	Low Readings	
+No Display/Image	155398	exact	A090206	3	No Display/Image	
+Appropriate Device Problem Term/Code Not Available	154159	exact	A27	1	Appropriate Device Problem Term/Code not Available	Modified (editorial)
+Material Integrity Problem	137714	exact	A04	1	Material Integrity Problem	
+Charging Problem	132877	exact	A0706	2	Charging Problem	
+Unintended Movement	126291	exact	A0512	2	Unintended Movement	
+Material Rupture	126274	exact	A0412	2	Material Rupture	
+Loss of or Failure to Bond	125930	exact	A040102	3	Loss of or Failure to Bond	
+Over-Sensing	124924	squashed	A070909	3	Oversensing	Modified (editorial)
+Material Twisted/Bent	120335	exact	A040609	3	Material Twisted/Bent	
+Patient Device Interaction Problem	118294	exact	A01	1	Patient Device Interaction Problem	
+Device Sensing Problem	116974	exact	A0709	2	Device Sensing Problem	
+Incorrect Measurement	102416	exact	A090805	3	Incorrect Measurement	
+Computer Software Problem	101433	exact	A11	1	Computer Software Problem	Modified (technical)
+Display Difficult to Read	93888	exact	A090202	3	Display Difficult to Read	
+High impedance	92933	exact	A072201	3	High Impedance	Modified (editorial)
+Premature End-of-Life Indicator	90814	exact	A160602	3	Premature End-of-Life Indicator	
+Device Dislodged or Dislocated	82132	exact	A051201	3	Device Dislodged or Dislocated	
+No Apparent Adverse Event	81958	exact	A25	1	No Apparent Adverse Event	
+Display or Visual Feedback Problem	78429	exact	A0902	2	Display or Visual Feedback Problem	
+Premature Discharge of Battery	77511	exact	A070504	3	Premature Discharge of Battery	
+Protective Measures Problem	77159	exact	A16	1	Protective Measures Problem	
+Leak/Splash	77041	exact	A0504	2	Leak/Splash	Modified (technical)
+Material Split, Cut or Torn	75607	exact	A0414	2	Material Split, Cut or Torn	
+Use of Device Problem	74742	exact	A23	1	Use of Device Problem	
+Failure to Sense	73209	exact	A070908	3	Failure to Sense	
+Failure to Read Input Signal	69593	exact	A1301	2	Failure to Read Input Signal	
+Failure to Power Up	68951	exact	A070803	3	Failure to Power Up	
+Failure to Fire	68697	exact	A050501	3	Failure to Fire	
+Unintended Application Program Shut Down	68273	exact	A110208	3	Unintended Application Program Shut Down	
+Contamination	67623	exact	A1801	2	Contamination	
+Device Alarm System	66914	exact	A1601	2	Device Alarm System	
+Imprecision	64596	exact	A0803	2	Imprecision	
+Device Appears to Trigger Rejection	62843	exact	A010102	3	Device Appears to Trigger Rejection	
+Electrical /Electronic Property Problem	62832	exact	A07	1	Electrical /Electronic Property Problem	
+Under-Sensing	62522	squashed	A070910	3	Undersensing	Modified (editorial)
+Physical Resistance/Sticking	62278	exact	A0509	2	Physical Resistance/Sticking	
+Migration	61597	exact	A010402	3	Migration	
+Defective Device	61315	exact	A0203	2	Defective Device	Retired (2025)
+Poor Quality Image	60254	exact	A090208	3	Poor Quality Image	
+Material Separation	60080	exact	A0413	2	Material Separation	
+Circuit Failure	57863	exact	A0721	2	Circuit Failure	
+Key or Button Unresponsive/not Working	55378	exact	A150105	3	Key or Button Unresponsive/not Working	
+Signal Artifact/Noise	53746	exact	A090801	3	Signal Artifact/Noise	
+Material Deformation	51169	exact	A0406	2	Material Deformation	
+Failure to Clean Adequately	50658	exact	A180301	3	Failure to Clean Adequately	
+High Capture Threshold	50502	exact	A070102	3	High Capture Threshold	
+Connection Problem	48631	exact	A12	1	Connection Problem	
+Unable to Obtain Readings	48345	exact	A090811	3	Unable to Obtain Readings	
+Inappropriate/Inadequate Shock/Stimulation	45940	exact	A071302	3	Inappropriate/Inadequate Shock/Stimulation	
+False Positive Result	44917	exact	A090804	3	False Positive Result	Modified (editorial)
+Output Problem	44826	exact	A09	1	Output Problem	
+Pacing Problem	44602	exact	A0712	2	Pacing Problem	
+Failure to Capture	43832	exact	A070101	3	Failure to Capture	
+Insufficient Flow or Under Infusion	43188	exact	A1407	2	Insufficient Flow or Under Infusion	
+Difficult to Insert	41995	exact	A150206	3	Difficult to Insert	
+Overheating of Device	41906	exact	A1005	2	Overheating of Device	
+False Alarm	40535	exact	A160105	3	False Alarm	
+Filling Problem	39826	exact	A1403	2	Filling Problem	
+Inappropriate or Unexpected Reset	38956	exact	A160503	3	Inappropriate or Unexpected Reset	
+Computer Operating System Problem	37196	exact	A1104	2	Computer Operating System Problem	
+Failure to Cycle	36403	exact	A050703	3	Failure to Cycle	
+Activation Failure	35741	exact	A150101	3	Activation Failure	
+Moisture or Humidity Problem	34481	exact	A1905	2	Moisture or Humidity Problem	
+Patient-Device Incompatibility	33636	exact	A0101	2	Patient-Device Incompatibility	
+Failure to Cut	33237	exact	A050702	3	Failure to Cut	
+Improper or Incorrect Procedure or Method	33188	exact	A2303	2	Improper or Incorrect Procedure or Method	
+Loose or Intermittent Connection	33067	exact	A1205	2	Loose or Intermittent Connection	
+Device Displays Incorrect Message	32276	exact	A090201	3	Device Displays Incorrect Message	
+Unexpected Shutdown	31578	exact	A0719	2	Unexpected Shutdown	
+Unexpected Therapeutic Results	31298	exact	A0909	2	Unexpected Therapeutic Results	
+Impedance Problem	30948	exact	A0722	2	Impedance Problem	
+Device-Device Incompatibility	30822	exact	A1702	2	Device-Device Incompatibility	
+Infusion or Flow Problem	30386	exact	A14	1	Infusion or Flow Problem	
+Device Difficult to Program or Calibrate	30327	exact	A2202	2	Device Difficult to Program or Calibrate	
+Naturally Worn	29438	exact	A040507	3	Naturally Worn	
+Premature Separation	29127	exact	A150303	3	Premature Separation	
+Difficult to Open or Close	29119	exact	A051104	3	Difficult to Open or Close	
+Failure to Charge	29105	exact	A070603	3	Failure to Charge	
+Difficult to Remove	28912	exact	A150207	3	Difficult to Remove	
+Mechanical Jam	27393	exact	A0506	2	Mechanical Jam	
+Activation, Positioning or Separation Problem	26393	exact	A15	1	Activation, Positioning or Separation Problem	
+No Audible Alarm	25976	exact	A160102	3	No Audible Alarm	
+Calibration Problem	25684	exact	A08	1	Calibration Problem	
+High Readings	24792	exact	A090807	3	High Readings	
+Peeled/Delaminated	24510	exact	A040506	3	Peeled/Delaminated	
+Failure of Device to Self-Test	24210	exact	A1603	2	Failure of Device to Self-Test	
+Positioning Failure	24179	exact	A150201	3	Positioning Failure	
+Capturing Problem	23367	exact	A0701	2	Capturing Problem	
+Low impedance	23054	exact	A072202	3	Low Impedance	Modified (editorial)
+Migration or Expulsion of Device	22989	exact	A0104	2	Migration or Expulsion of Device	
+Gas/Air Leak	22925	exact	A050402	3	Gas/Air Leak	
+Malposition of Device	22897	exact	A150202	3	Malposition of Device	
+Failure to Calibrate	22449	exact	A0801	2	Failure to Calibrate	
+Positioning Problem	22417	exact	A1502	2	Positioning Problem	
+Defective Component	22250	exact	A0202	2	Defective Component	Retired (2025)
+Material Fragmentation	22110	exact	A040103	3	Material Fragmentation	
+Therapeutic or Diagnostic Output Failure	22071	exact	A090406	3	Therapeutic or Diagnostic Output Failure	
+High Test Results	21923	exact	A090809	3	High Test Results	
+Application Program Problem	21614	exact	A1102	2	Application Program Problem	
+Excess Flow or Over-Infusion	21453	exact	A1402	2	Excess Flow or Over-Infusion	
+Defective Alarm	21008	exact	A160106	3	Defective Alarm	
+Failure to Advance	20529	exact	A150204	3	Failure to Advance	
+Material Puncture/Hole	20528	exact	A041001	3	Material Puncture/Hole	
+Contamination /Decontamination Problem	20240	exact	A18	1	Contamination /Decontamination Problem	
+Deformation Due to Compressive Stress	20118	exact	A040601	3	Deformation Due to Compressive Stress	
+Date/Time-Related Software Problem	19383	exact	A1108	2	Date/Time-Related Software Problem	
+Premature Activation	18855	exact	A150103	3	Premature Activation	
+Device Contamination with Chemical or Other Material	18771	exact	A180104	3	Device Contamination with Chemical or Other Material	
+Application Program Freezes or Fails to Launch	18715	exact	A110201	3	Application Program Freezes or Fails to Launch	
+Data Problem	18689	exact	A1107	2	Data Problem	
+Material Frayed	18515	exact	A040605	3	Material Frayed	
+Erratic or Intermittent Display	18424	exact	A090203	3	Erratic or Intermittent Display	
+Failure to Align	17722	exact	A050701	3	Failure to Align	
+Entrapment of Device	17635	exact	A150208	3	Entrapment of Device	
+Inadequacy of Device Shape and/or Size	17082	exact	A010103	3	Inadequacy of Device Shape and/or Size	
+Complete Blockage	16993	exact	A140901	3	Complete Blockage	
+Visual Prompts will not Clear	16956	exact	A090209	3	Visual Prompts Will not Clear	Modified (editorial)
+Failure to Interrogate	16851	exact	A071102	3	Failure to Interrogate	
+Off-Label Use	16393	exact	A2304	2	Off-Label Use	
+Retraction Problem	15929	exact	A0510	2	Retraction Problem	Modified (technical)
+Air/Gas in Device	15551	exact	A1415	2	Air/Gas in Device	Modified (technical)
+Device Reprocessing Problem	15445	exact	A1803	2	Device Reprocessing Problem	
+Failure to Form Staple	15157	exact	A050704	3	Failure to Form Staple	
+Improper Flow or Infusion	14941	exact	A1405	2	Improper Flow or Infusion	
+Noise, Audible	14535	exact	A0508	2	Noise, Audible	
+Complete Loss of Power	13986	exact	A070801	3	Complete Loss of Power	
+False Negative Result	13881	exact	A090803	3	False Negative Result	
+Energy Output Problem	13825	exact	A0904	2	Energy Output Problem	
+Failure to Deliver Energy	13791	exact	A090402	3	Failure to Deliver Energy	
+Product Quality Problem	13764	exact	A0201	2	Product Quality Problem	
+Delivered as Unsterile Product	13603	exact	A020701	3	Delivered as Unsterile Product	
+Loosening of Implant Not Related to Bone-Ingrowth	12932	exact	A0103	2	Loosening of Implant not Related to Bone-Ingrowth	Modified (editorial)
+Device Markings/Labelling Problem	12709	squashed	A2101	2	Device Markings/Labeling Problem	Modified (editorial)
+Inflation Problem	12708	exact	A1406	2	Inflation Problem	
+Thermal Decomposition of Device	12493	exact	A1006	2	Thermal Decomposition of Device	
+Low Test Results	12484	exact	A090810	3	Low Test Results	
+Radiation Output Failure	12397	exact	A090501	3	Radiation Output Failure	
+Disconnection	12365	exact	A1203	2	Disconnection	
+Difficult to Advance	12207	exact	A150205	3	Difficult to Advance	
+Microbial Contamination of Device	12181	exact	A180105	3	Microbial Contamination of Device	
+Non Reproducible Results	12134	exact	A090806	3	Non Reproducible Results	
+Failure to Infuse	12051	exact	A140802	3	Failure to Infuse	
+Mechanics Altered	12044	exact	A0507	2	Mechanics Altered	
+Failure to Deliver	11261	exact	A140801	3	Failure to Deliver	
+Failure to Run on Battery	11226	exact	A070503	3	Failure to Run on Battery	
+No Flow	11074	exact	A1408	2	No Flow	
+Unstable	10514	exact	A051207	3	Unstable	
+Nonstandard Device	10506	exact	A020102	3	Nonstandard Device	
+Separation Failure	10239	exact	A150301	3	Separation Failure	
+Partial Blockage	10235	exact	A140902	3	Partial Blockage	
+Fitting Problem	10167	exact	A1208	2	Fitting Problem	
+Decreased Sensitivity	10008	exact	A070901	3	Decreased Sensitivity	
+Inaccurate Delivery	9897	exact	A140504	3	Inaccurate Delivery	
+Component Missing	9266	exact	A020602	3	Component Missing	
+Scratched Material	9085	exact	A0415	2	Scratched Material	
+Loss of Data	8920	exact	A110701	3	Loss of Data	
+Operating System Version or Upgrade Problem	8871	exact	A110402	3	Operating System Version or Upgrade Problem	
+Priming Problem	8853	exact	A1414	2	Priming Problem	
+Structural Problem	8814	exact	A0511	2	Structural Problem	
+Misfire	8812	exact	A050502	3	Misfire	
+Burst Container or Vessel	8788	none				
+Intermittent Communication Failure	8170	exact	A1303	2	Intermittent Communication Failure	
+Excessive Heating	7971	exact	A1002	2	Excessive Heating	
+Sharp Edges	7947	exact	A051102	3	Sharp Edges	
+Use of Incorrect Control/Treatment Settings	7913	exact	A2302	2	Use of Incorrect Control/Treatment Settings	
+Unintended System Motion	7780	exact	A051206	3	Unintended System Motion	
+Difficult or Delayed Activation	7695	exact	A150102	3	Difficult or Delayed Activation	
+Pressure Problem	7620	exact	A1411	2	Pressure Problem	
+Pumping Problem	7493	exact	A1412	2	Pumping Problem	
+Perivalvular Leak	7335	exact	A050405	3	Perivalvular Leak	
+Gradient Increase	7301	exact	A140503	3	Gradient Increase	
+Deflation Problem	7233	exact	A1401	2	Deflation Problem	
+Restricted Flow rate	7219	exact	A140508	3	Restricted Flow Rate	Modified (editorial)
+Failure to Eject	7204	exact	A050301	3	Failure to Eject	
+Optical Problem	6947	exact	A06	1	Optical Problem	
+Residue After Decontamination	6925	exact	A180306	3	Residue After Decontamination	
+Inadequate User Interface	6897	exact	A2204	2	Inadequate User Interface	
+Human-Device Interface Problem	6818	exact	A22	1	Human-Device Interface Problem	
+Device Handling Problem	6705	exact	A2301	2	Device Handling Problem	
+Difficult to Fold, Unfold or Collapse	6645	exact	A051103	3	Difficult to Fold, Unfold or Collapse	
+Packaging Problem	6580	exact	A0205	2	Packaging Problem	
+Device Stenosis	6577	exact	A0106	2	Device Stenosis	
+Defibrillation/Stimulation Problem	6566	exact	A0713	2	Defibrillation/Stimulation Problem	
+Electromagnetic Interference	6503	exact	A072001	3	Electromagnetic Interference	
+Incorrect Interpretation of Signal	6333	exact	A070912	3	Incorrect Interpretation of Signal	
+Device Damaged by Another Device	6112	exact	A0502	2	Device Damaged by Another Device	
+Device Slipped	6107	exact	A051204	3	Device Slipped	
+Suction Problem	6094	exact	A1413	2	Suction Problem	
+Decrease in Pressure	6013	exact	A141101	3	Decrease in Pressure	
+Activation Problem	5928	exact	A1501	2	Activation Problem	
+Failure to Deliver Shock/Stimulation	5895	exact	A071301	3	Failure to Deliver Shock/Stimulation	
+Image Display Error/Artifact	5864	exact	A090204	3	Image Display Error/Artifact	
+Misassembled	5814	exact	A2305	2	Misassembled	
+Labelling, Instructions for Use or Training Problem	5723	squashed	A21	1	Labeling, Instructions for Use or Training Problem	Modified (editorial)
+Output below Specifications	5721	exact	A090405	3	Output Below Specifications	Modified (editorial)
+Manufacturing, Packaging or Shipping Problem	5532	exact	A02	1	Manufacturing, Packaging or Shipping Problem	
+Short Fill	5483	exact	A140303	3	Short Fill	
+Tear, Rip or Hole in Device Packaging	5418	exact	A020504	3	Tear, Rip or Hole in Device Packaging	
+Premature Elective Replacement Indicator	5328	exact	A160601	3	Premature Elective Replacement Indicator	
+Dull, Blunt	5322	exact	A020101	3	Dull, Blunt	
+Therapy Delivered to Incorrect Body Area	5252	exact	A090407	3	Therapy Delivered to Incorrect Body Area	
+Expulsion	5205	exact	A010401	3	Expulsion	
+Incomplete Coaptation	5172	exact	A051105	3	Incomplete Coaptation	
+Calcified	5158	exact	A040501	3	Calcified	
+Difficult or Delayed Positioning	5138	exact	A150203	3	Difficult or Delayed Positioning	
+Intermittent Loss of Power	5062	exact	A070802	3	Intermittent Loss of Power	
+Temperature Problem	5026	exact	A10	1	Temperature Problem	
+Intravalvular regurgitation	4974	exact	A050406	3	Intravalvular Regurgitation	Modified (editorial)
+Stretched	4936	exact	A040611	3	Stretched	Modified (technical)
+Increase in Pressure	4911	exact	A141102	3	Increase in Pressure	
+Delayed Charge Time	4893	exact	A070602	3	Delayed Charge Time	
+Optical Obstruction	4839	exact	A0605	2	Optical Obstruction	
+Reset Problem	4819	exact	A1605	2	Reset Problem	
+Device Contaminated During Manufacture or Shipping	4801	exact	A1802	2	Device Contaminated During Manufacture or Shipping	
+Ambient Noise Problem	4777	exact	A1901	2	Ambient Noise Problem	
+Firing Problem	4711	exact	A0505	2	Firing Problem	
+Unintended Collision	4644	exact	A051205	3	Unintended Collision	
+Unstable Capture Threshold	4622	exact	A070104	3	Unstable Capture Threshold	
+Audible Prompt/Feedback Problem	4580	exact	A0901	2	Audible Prompt/Feedback Problem	
+Biocompatibility	4556	exact	A010101	3	Biocompatibility	
+Failure to Recalibrate	4491	exact	A0802	2	Failure to Recalibrate	
+Melted	4326	exact	A040610	3	Melted	
+Separation Problem	4287	exact	A1503	2	Separation Problem	
+Decrease in Suction	4232	exact	A141301	3	Decrease in Suction	
+No Audible Prompt/Feedback	4206	exact	A090103	3	No Audible Prompt/Feedback	
+Unintended Ejection	4170	exact	A050302	3	Unintended Ejection	
+No Visual Prompts/Feedback	4144	exact	A090207	3	No Visual Prompts/Feedback	
+Device Difficult to Setup or Prepare	4095	exact	A2201	2	Device Difficult to Setup or Prepare	
+Interrogation Problem	4084	exact	A0711	2	Interrogation Problem	
+Material Discolored	4082	exact	A0407	2	Material Discolored	Modified (technical)
+Suction Failure	4026	exact	A141303	3	Suction Failure	
+Smoking	3983	exact	A1009	2	Smoking	
+Environmental Compatibility Problem	3961	exact	A19	1	Environmental Compatibility Problem	
+Intermittent Capture	3945	exact	A070103	3	Intermittent Capture	
+Inaccurate Flow Rate	3936	exact	A140505	3	Inaccurate Flow Rate	
+Volume Accuracy Problem	3699	exact	A140304	3	Volume Accuracy Problem	
+Component Misassembled	3658	exact	A020601	3	Component Misassembled	
+Material Protrusion/Extrusion	3585	exact	A0411	2	Material Protrusion/Extrusion	
+Failure to Pump	3541	exact	A141203	3	Failure to Pump	
+Gel Leak	3470	exact	A050403	3	Gel Leak	
+Gas Output Problem	3461	exact	A0906	2	Gas Output Problem	
+Low Audible Alarm	3447	exact	A160103	3	Low Audible Alarm	
+Electrical Power Problem	3295	exact	A1910	2	Electrical Power Problem	
+Failure to Disconnect	3276	exact	A1204	2	Failure to Disconnect	
+Insufficient Cooling	3275	exact	A1003	2	Insufficient Cooling	Modified (technical)
+Material Erosion	3263	exact	A040503	3	Material Erosion	
+Unsealed Device Packaging	3210	exact	A020503	3	Unsealed Device Packaging	
+Sparking	3152	exact	A0704	2	Sparking	
+Device Contamination with Body Fluid	3121	exact	A180103	3	Device Contamination with Body Fluid	
+Intermittent Continuity	3107	exact	A072103	3	Intermittent Continuity	
+Grounding Malfunction	3103	exact	A0715	2	Grounding Malfunction	
+Electromagnetic Compatibility Problem	3058	exact	A0720	2	Electromagnetic Compatibility Problem	
+Application Network Problem	3050	exact	A1101	2	Application Network Problem	
+Unraveled Material	2943	exact	A040508	3	Unraveled Material	
+Device Ingredient or Reagent Problem	2917	exact	A0302	2	Device Ingredient or Reagent Problem	
+Operating System Becomes Nonfunctional	2875	exact	A110401	3	Operating System Becomes Nonfunctional	
+Material Invagination	2874	exact	A040606	3	Material Invagination	Modified (technical)
+Backflow	2866	exact	A140501	3	Backflow	
+Failure to Convert Rhythm	2795	exact	A071201	3	Failure to Convert Rhythm	
+Misassembly During Maintenance/Repair	2771	exact	A230502	3	Misassembly During Maintenance/Repair	
+Vibration	2768	exact	A051208	3	Vibration	
+Device Damaged Prior to Use	2740	exact	A0204	2	Device Damaged Prior to Use	Retired (2025)
+Installation-Related Problem	2739	exact	A20	1	Installation-Related Problem	
+Device Remains Activated	2736	exact	A071801	3	Device Remains Activated	
+Imprecise or Erratic Results	2669	exact	A090813	3	Imprecise or Erratic Results	
+Device Fell	2660	exact	A051203	3	Device Fell	
+Program or Algorithm Execution Problem	2529	exact	A1103	2	Program or Algorithm Execution Problem	
+Fail-Safe Did Not Operate	2498	exact	A160201	3	Fail-Safe Did not Operate	Modified (editorial)
+Incomplete or Inadequate Connection	2440	exact	A1207	2	Incomplete or Inadequate Connection	
+Misfocusing	2432	exact	A0601	2	Misfocusing	
+Dent in Material	2409	exact	A040602	3	Dent in Material	
+No Pacing	2398	exact	A071204	3	No Pacing	
+Fire	2320	exact	A1007	2	Fire	
+Misconnection	2315	exact	A1206	2	Misconnection	
+Ejection Problem	2307	exact	A0503	2	Ejection Problem	
+Self-Activation or Keying	2304	exact	A150104	3	Self-Activation or Keying	
+Insufficient Heating	2271	exact	A1004	2	Insufficient Heating	
+Inability to Auto-Fill	2261	exact	A140301	3	Inability to Auto-Fill	
+Device Tipped Over	2249	exact	A051202	3	Device Tipped Over	
+Flaked	2238	exact	A040505	3	Flaked	
+Lack of Effect	2185	exact	A0105	2	Lack of Effect	
+Missing Information	2176	exact	A210105	3	Missing Information	
+Device Emits Odor	2167	exact	A0301	2	Device Emits Odor	
+Material Too Rigid or Stiff	2120	exact	A040607	3	Material Too Rigid or Stiff	
+Coagulation in Device or Device Ingredient	2114	exact	A030202	3	Coagulation in Device or Device Ingredient	
+Unintended Deflation	2113	exact	A140102	3	Unintended Deflation	
+Difficult to Flush	2101	exact	A1410	2	Difficult to Flush	
+Collapse	2085	exact	A051101	3	Collapse	
+Electrical Shorting	2068	exact	A072102	3	Electrical Shorting	Modified (editorial)
+Difficult or Delayed Separation	2054	exact	A150302	3	Difficult or Delayed Separation	
+Compatibility Problem	1944	exact	A17	1	Compatibility Problem	Modified (technical)
+Decreased Pump Speed	1906	exact	A141201	3	Decreased Pump Speed	
+Particulates	1845	exact	A030205	3	Particulates	Modified (editorial)
+Improper Chemical Reaction	1818	exact	A0303	2	Improper Chemical Reaction	
+Overfill	1797	exact	A140302	3	Overfill	
+Image Orientation Incorrect	1774	exact	A090205	3	Image Orientation Incorrect	
+Device Misassembled During Manufacturing /Shipping	1759	exact	A0206	2	Device Misassembled During Manufacturing /Shipping	
+Optical Distortion	1740	exact	A0604	2	Optical Distortion	
+Failure to Seal	1702	exact	A050705	3	Failure to Seal	
+Free or Unrestricted Flow	1696	exact	A140502	3	Free or Unrestricted Flow	
+Pacemaker Found in Back-Up Mode	1620	exact	A071205	3	Pacemaker Found in Back-Up Mode	Retired (2023)
+Failure to Analyze Signal	1602	exact	A070903	3	Failure to Analyze Signal	
+Inaudible or Unclear Audible Prompt/Feedback	1581	exact	A090102	3	Inaudible or Unclear Audible Prompt/Feedback	
+Extracardiac stimulation	1580	exact	A071209	3	Extracardiac Stimulation	Modified (editorial)
+Arcing	1556	exact	A0703	2	Arcing	
+Difficult to Open or Remove Packaging Material	1544	exact	A020501	3	Difficult to Open or Remove Packaging Material	Modified (technical)
+Failure to Shut Off	1523	exact	A0718	2	Failure to Shut Off	
+Inaccurate Synchronization	1511	exact	A071202	3	Inaccurate Synchronization	
+Inaccurate Information	1500	exact	A210103	3	Inaccurate Information	Modified (editorial)
+Alarm Not Visible	1469	exact	A160101	3	Alarm not Visible	Modified (editorial)
+Flare or Flash	1394	exact	A1008	2	Flare or Flash	
+Failure to Deflate	1383	exact	A140101	3	Failure to Deflate	
+Fail-Safe Problem	1373	exact	A1602	2	Fail-Safe Problem	
+Unintended Electrical Shock	1366	exact	A0714	2	Unintended Electrical Shock	
+Loss of Power	1329	exact	A191002	3	Loss of Power	
+Illegible Information	1324	none				
+Inability to Irrigate	1291	exact	A140803	3	Inability to Irrigate	
+Failure to Transmit Record	1269	exact	A1302	2	Failure to Transmit Record	
+Intermittent Energy Output	1247	exact	A090403	3	Intermittent Energy Output	
+Material Disintegration	1243	exact	A0408	2	Material Disintegration	
+Material Perforation	1226	exact	A0410	2	Material Perforation	
+Component or Accessory Incompatibility	1221	exact	A1701	2	Component or Accessory Incompatibility	
+Pacing Asynchronously	1212	exact	A071206	3	Pacing Asynchronously	
+Inadequate or Insufficient Training	1203	exact	A2105	2	Inadequate or Insufficient Training	
+Failure to Obtain Sample	1198	exact	A090802	3	Failure to Obtain Sample	
+Component Incompatible	1182	exact	A170102	3	Component Incompatible	
+Contamination of Device Ingredient or Reagent	1137	exact	A180102	3	Contamination of Device Ingredient or Reagent	
+Application Program Problem: Parameter Calculation Error	1127	exact	A110204	3	Application Program Problem: Parameter Calculation Error	
+Inappropriate Waveform	1085	exact	A071203	3	Inappropriate Waveform	
+Blocked Connection	1039	exact	A1201	2	Blocked Connection	
+Application Program Version or Upgrade Problem	1037	exact	A110206	3	Application Program Version or Upgrade Problem	
+Device Damaged Prior to Receipt by User	1028	exact	A0207	2	Device Damaged Prior to Receipt by User	
+Device Unsafe to Use in Environment	1015	exact	A1907	2	Device Unsafe to Use in Environment	
+Moisture Damage	984	exact	A190501	3	Moisture Damage	
+Accessory Incompatible	971	exact	A170101	3	Accessory Incompatible	
+Unintended Power Up	943	exact	A070804	3	Unintended Power Up	
+Device Endoleak	936	exact	A050408	3	Device Endoleak	
+Material Opacification	929	exact	A0409	2	Material Opacification	
+Failure to Prime	922	exact	A141401	3	Failure to Prime	
+Failure to Conduct	922	exact	A0710	2	Failure to Conduct	
+Environmental Particulates	910	exact	A1908	2	Environmental Particulates	
+Unexpected Mode Switch	909	exact	A0723	2	Unexpected Mode Switch	
+Problem with Software Installation	897	exact	A110207	3	Problem with Software Installation	
+Inappropriate Audible Prompt/Feedback	875	exact	A090101	3	Inappropriate Audible Prompt/Feedback	
+Chemical Problem	874	exact	A03	1	Chemical Problem	Modified (technical)
+Telemetry Discrepancy	872	exact	A1304	2	Telemetry Discrepancy	
+Optical Discoloration	865	exact	A0603	2	Optical Discoloration	
+Missing Test Results	856	exact	A090812	3	Missing Test Results	
+Thickening of Material	783	exact	A040612	3	Thickening of Material	
+Failure to Unfold or Unwrap	770	exact	A040604	3	Failure to Unfold or Unwrap	
+Expiration Date Error	755	none				
+Material Too Soft/Flexible	742	exact	A040608	3	Material Too Soft/Flexible	
+Sensing Intermittently	725	exact	A070911	3	Sensing Intermittently	
+Tidal Volume Fluctuations	716	exact	A140509	3	Tidal Volume Fluctuations	
+Delayed Alarm	706	exact	A160104	3	Delayed Alarm	
+Failure to Fold	638	exact	A040603	3	Failure to Fold	
+Patient Data Problem	636	exact	A110702	3	Patient Data Problem	
+No Pressure	628	exact	A141103	3	No Pressure	
+Damaged Thread	611	exact	A0514	2	Damaged Thread	
+Wrong Label	548	exact	A210106	3	Wrong Label	
+Incomplete or Missing Packaging	521	exact	A020502	3	Incomplete or Missing Packaging	Modified (technical)
+Device Operational Issue	508	none				
+Failure to Auto Stop	485	exact	A1604	2	Failure to Auto Stop	
+Application Program Problem: Dose Calculation Error	479	exact	A110202	3	Application Program Problem: Dose Calculation Error	
+Unstable Impedance	432	exact	A072203	3	Unstable Impedance	
+Pacing Intermittently	418	exact	A071208	3	Pacing Intermittently	
+High Sensing Threshold	412	exact	A070905	3	High Sensing Threshold	
+Increase in Suction	410	exact	A141302	3	Increase in Suction	
+Electrostatic Discharge	383	exact	A0717	2	Electrostatic Discharge	
+Misassembly by Users	381	exact	A230501	3	Misassembly by Users	
+Inadequate Filtration Process	377	exact	A140401	3	Inadequate Filtration Process	
+Device Contaminated at the User Facility	372	exact	A1804	2	Device Contaminated at the User Facility	
+Inadequate Ultra Filtration	352	exact	A140402	3	Inadequate Ultra Filtration	
+Implant subsidence	352	exact	A0107	2	Implant Subsidence	Modified (editorial)
+Explosion	351	exact	A0403	2	Explosion	
+Continuous Firing	341	exact	A0702	2	Continuous Firing	
+Tactile Prompts/Feedback	334	exact	A0903	2	Tactile Prompts/Feedback	
+Unauthorized Access to Computer System	329	exact	A110502	3	Unauthorized Access to Computer System	
+Solder Joint Fracture	323	exact	A040104	3	Solder Joint Fracture	
+Application Program Problem: Medication Error	313	exact	A110203	3	Application Program Problem: Medication Error	
+Unclear Information	306	exact	A210104	3	Unclear Information	
+Radiation Output Problem	304	exact	A0905	2	Radiation Output Problem	
+Flushing Problem	284	exact	A180303	3	Flushing Problem	
+Failure to Zero	282	exact	A160502	3	Failure to Zero	
+Fogging	281	exact	A190601	3	Fogging	
+Arcing of Electrodes	276	exact	A070302	3	Arcing of Electrodes	
+Ambient Temperature Problem	273	exact	A1902	2	Ambient Temperature Problem	
+Output above Specifications	261	exact	A090404	3	Output Above Specifications	Modified (editorial)
+Program or Algorithm Execution Failure	260	exact	A110303	3	Program or Algorithm Execution Failure	
+Reflux within Device	259	exact	A140507	3	Reflux Within Device	Modified (editorial)
+Failure to Discharge	253	exact	A0707	2	Failure to Discharge	
+Misassembled During Installation	244	exact	A2001	2	Misassembled During Installation	
+Medical Gas Supply Problem	240	exact	A1909	2	Medical Gas Supply Problem	
+Unexpected Color	233	exact	A030208	3	Unexpected Color	
+Clumping in Device or Device Ingredient	228	exact	A030201	3	Clumping in Device or Device Ingredient	
+No Tactile Prompts/Feedback	221	exact	A090302	3	No Tactile Prompts/Feedback	
+Poor Visibility	213	exact	A090814	3	Poor Visibility	
+Optical Decentration	208	exact	A0602	2	Optical Decentration	
+Inadequate Instructions for Healthcare Professional	202	exact	A2103	2	Inadequate Instructions for Healthcare Professional	
+Unspecified Valve Regurgitation	191	exact	A050409	3	Unspecified Valve Regurgitation	
+Pitted	187	exact	A040504	3	Pitted	
+Filtration Problem	180	exact	A1404	2	Filtration Problem	
+Pacing Inadequately	172	exact	A071207	3	Pacing Inadequately	
+Computer System Security Problem	170	exact	A1105	2	Computer System Security Problem	
+Problem with Sterilization	165	exact	A180305	3	Problem with Sterilization	
+Prophylactic removal due to corrective action	165	exact	A2501	2	Prophylactic Removal Due to Corrective Action	Modified (editorial)
+Decoupling	159	exact	A1202	2	Decoupling	
+Excessive Cooling	159	exact	A1001	2	Excessive Cooling	
+Delayed Program or Algorithm Execution	159	exact	A110301	3	Delayed Program or Algorithm Execution	
+Failure to Disinfect	156	exact	A180302	3	Failure to Disinfect	
+Electrical Overstress	153	exact	A0716	2	Electrical Overstress	
+Inadequate Lubrication	152	exact	A0513	2	Inadequate Lubrication	
+Device Difficult to Maintain	145	exact	A2203	2	Device Difficult to Maintain	
+Measurement System Incompatibility	143	exact	A1703	2	Measurement System Incompatibility	
+Inappropriate Tactile Prompt/Feedback	141	exact	A090301	3	Inappropriate Tactile Prompt/Feedback	
+Failure to Reset	128	exact	A160501	3	Failure to Reset	
+Increased Pump Speed	128	exact	A141202	3	Increased Pump Speed	
+Cross Reactivity	124	exact	A030204	3	Cross Reactivity	
+Failure to Degrade	124	exact	A0416	2	Failure to Degrade	
+Unexpected/Unintended Radiation Output	123	exact	A090504	3	Unexpected/Unintended Radiation Output	
+Fungus in Device Environment	121	exact	A1904	2	Fungus in Device Environment	
+Battery Problem: High Impedance	120	exact	A070501	3	Battery Problem: High Impedance	
+Increased Sensitivity	119	exact	A070902	3	Increased Sensitivity	
+Low Sensing Threshold	114	exact	A070906	3	Low Sensing Threshold	
+Inadequate Instructions for Non-Healthcare Professional	103	exact	A2104	2	Inadequate Instructions for Non-Healthcare Professional	
+Intermittent Shock/Stimulation	102	exact	A071303	3	Intermittent Shock/Stimulation	
+Lack of Maintenance Documentation or Guidelines	100	exact	A2102	2	Lack of Maintenance Documentation or Guidelines	
+Failure to Select Signal	96	exact	A070904	3	Failure to Select Signal	
+Intermittent Infusion	95	none				
+Power Conditioning Problem	94	exact	A191003	3	Power Conditioning Problem	
+Adhesive Too Strong	94	exact	A050901	3	Adhesive Too Strong	
+No Fail-Safe Mechanism	88	exact	A160202	3	No Fail-Safe Mechanism	
+Radiation Overexposure	81	exact	A090502	3	Radiation Overexposure	
+Precipitate in Device or Device Ingredient	79	exact	A030203	3	Precipitate in Device or Device Ingredient	
+Biofilm coating in Device	65	none				
+Battery Problem: Low Impedance	64	exact	A070502	3	Battery Problem: Low Impedance	
+Radiofrequency Interference (RFI)	63	exact	A072002	3	Radiofrequency Interference (RFI)	
+Aborted Charge	60	exact	A070601	3	Aborted Charge	
+Application Security Problem	60	exact	A110501	3	Application Security Problem	
+Shielding Failure	58	exact	A1607	2	Shielding Failure	
+Extra Components	58	exact	A020603	3	Extra Components	
+Loss of Threshold	54	exact	A070907	3	Loss of Threshold	
+Powder Leak	54	exact	A050407	3	Powder Leak	
+Application Program Problem: Power Calculation Error	53	exact	A110205	3	Application Program Problem: Power Calculation Error	
+Incomplete or Inadequate Priming	50	exact	A141402	3	Incomplete or Inadequate Priming	
+Failure to Back-Up	49	exact	A110601	3	Failure to Back-Up	
+Intermittent Program or Algorithm Execution	49	exact	A110302	3	Intermittent Program or Algorithm Execution	
+Fumes or Vapors	47	exact	A1903	2	Fumes or Vapors	
+Ventilation Problem in Device Environment	47	exact	A1906	2	Ventilation Problem in Device Environment	
+Device Provides Uninformative Message	45	exact	A2205	2	Device Provides Uninformative Message	
+Overcorrection	38	exact	A0804	2	Overcorrection	
+Premature Indicator Activation	34	exact	A1606	2	Premature Indicator Activation	
+Radiation Leak	34	exact	A050404	3	Radiation Leak	
+Difficult to Interrogate	32	exact	A071101	3	Difficult to Interrogate	
+Unintended Compatibility	26	exact	A1704	2	Unintended Compatibility	
+Energy Spectrum Incorrect	25	exact	A090401	3	Energy Spectrum Incorrect	
+Data Back-Up Problem	25	exact	A1106	2	Data Back-Up Problem	
+Radiation Underexposure	22	exact	A090503	3	Radiation Underexposure	
+Capacitative Coupling	20	exact	A072101	3	Capacitative Coupling	
+Emergency Power Failure	18	exact	A191001	3	Emergency Power Failure	
+Problem with Removal of Enzymatic Cleaner	14	exact	A180304	3	Problem with Removal of Enzymatic Cleaner	
+Unexpected Deactivation	13	exact	A150106	3	Unexpected Deactivation	
+Arcing at Paddles	12	exact	A070301	3	Arcing at Paddles	
+Undercorrection	11	exact	A0805	2	Undercorrection	
+Device label look-alike	9	none				
+Device packaging look-alike	6	exact	A020505	3	Device Packaging Look-Alike	Modified (editorial)
+High pH	3	exact	A030206	3	High pH	
+Failure to Convert to Back-Up	3	exact	A110602	3	Failure to Convert to Back-Up	
+Device, or device fragments remain in patient	2	none				
+Component Falling	2	none				
+Device Provides Unintelligible Message	2	exact	A2206	2	Device Provides Unintelligible Message	
+Dislodged	1	none				
+Wire(s), breakage of	1	none				
+Balloon leak(s)	1	none				
+Malfunction	1	none				
+Explanted	1	none				
+Foreign material	1	none				
+Lens (IOL), defective, problem not specified	1	none				
+Cautery	1	none				
+Fail-Safe Design Failure	1	none				
+Low pH	1	exact	A030207	3	Low pH	
+Device Maintenance Issue	1	none				
+Unintended Magnet Quench	1	none				
+Folded	1	none				
+Insufficient Information	1	none				
+Detachment Of Device Component	1	none				
+Performance	1	none				
+Device Stops Intermittently	1	none				

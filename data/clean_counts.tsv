@@ -1,0 +1,39 @@
+task	step	removed	remaining
+all	reports in window		14563802
+device	removed: duplicate report key	0	14563802
+device	removed: no narrative	1549	14562253
+device	removed: narrative under 15 words	2106032	12456221
+device	removed: duplicate narrative	6971665	5484556
+device	removed: no codable code	770795	4713761
+device	kept, 2021-2024		3064846
+device	kept, 2025		1060907
+device	kept, 2026H1 unseen		588008
+device	kept, writer industry		4658650
+device	kept, writer professional		26564
+device	kept, writer lay		8496
+device	kept, writer unknown		20051
+patient	removed: duplicate report key	0	14563802
+patient	removed: not injury or death	9051610	5512192
+patient	removed: no narrative	354	5511838
+patient	removed: narrative under 15 words	1936031	3575807
+patient	removed: duplicate narrative	1737112	1838695
+patient	removed: no codable code	107708	1730987
+patient	kept, 2021-2024		1216695
+patient	kept, 2025		328938
+patient	kept, 2026H1 unseen		185354
+patient	kept, writer industry		1703215
+patient	kept, writer professional		7512
+patient	kept, writer lay		9454
+patient	kept, writer unknown		10806
+terms	A term alias drop	508	
+terms	A term alias exclude	957648	
+terms	A term kept	15657972	
+terms	A term uninformative A25	81958	
+terms	A term uninformative A26	185597	
+terms	A term uninformative A27	154159	
+terms	A term unmatched (dropped)	180	
+terms	E term alias exclude	6258	
+terms	E term kept	15659922	
+terms	E term uninformative E2401	1181473	
+terms	E term uninformative E2402	95877	
+terms	E term unmatched (dropped)	4130	

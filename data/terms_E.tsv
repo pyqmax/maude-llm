@@ -1,0 +1,894 @@
+term	reports	match	imdrf_code	level	codebook_term	status
+No Clinical Signs, Symptoms or Conditions	8931240	exact	E2403	2	No Clinical Signs, Symptoms or Conditions	
+Failure of Implant	1515484	exact	E2107	2	Failure of Implant	Retired (2025)
+Insufficient Information	1181473	exact	E2401	2	Insufficient Information	
+Hyperglycemia	600467	exact	E1205	2	Hyperglycemia	
+Unspecified Infection	526730	exact	E1906	2	Unspecified Infection	Modified (editorial)
+Pain	524359	exact	E2330	2	Pain	
+Fibrosis	397845	exact	E2313	2	Fibrosis	
+Hypoglycemia	158725	exact	E1206	2	Hypoglycemia	
+Inflammation	153930	exact	E2326	2	Inflammation	
+Hemorrhage/Blood Loss/Bleeding	124389	exact	E0506	2	Hemorrhage/Blood Loss/Bleeding	
+Swelling/ Edema	102135	exact	E2338	2	Swelling/ Edema	
+Appropriate Clinical Signs, Symptoms and Conditions Term/Code Not Available	95877	exact	E2402	2	Appropriate Clinical Signs, Symptoms and Conditions Term/Code not Available	Modified (editorial)
+Capsular Contracture	94199	exact	E2303	2	Capsular Contracture	
+Inadequate Pain Relief	61801	exact	E2110	2	Inadequate Pain Relief	
+Inadequate Osseointegration	52708	exact	E1612	2	Inadequate Osseointegration	
+Foreign Body In Patient	49950	exact	E2008	2	Foreign Body In Patient	
+Abscess	48129	exact	E172001	3	Abscess	
+Deformity/ Disfigurement	47797	exact	E2308	2	Deformity/ Disfigurement	
+Dizziness	45457	exact	E0112	2	Dizziness	
+Headache	43351	exact	E0116	2	Headache	
+Osteolysis	42772	exact	E1627	2	Osteolysis	
+Loss of consciousness	40198	exact	E0119	2	Loss of Consciousness	Modified (editorial)
+Unspecified Respiratory Problem	40158	exact	E0752	2	Unspecified Respiratory Problem	Modified (editorial)
+Elevated Ketones/ Diabetic Ketoacidosis	39249	squashed	E120501	3	Elevated Ketones/Diabetic Ketoacidosis	Modified (editorial)
+Numbness	38386	exact	E0127	2	Numbness	
+Fistula	38174	exact	E2314	2	Fistula	
+Skin Inflammation/ Irritation	37821	exact	E1720	2	Skin Inflammation/ Irritation	
+Discomfort	37709	exact	E2311	2	Discomfort	
+Unspecified Tissue Injury	36073	exact	E2015	2	Unspecified Tissue Injury	Modified (editorial)
+Implant Pain	33658	exact	E2109	2	Implant Pain	
+No Patient Involvement	33392	none				
+Dyspnea	33201	exact	E0717	2	Dyspnea	
+Hypersensitivity/Allergic reaction	31907	exact	E0402	2	Hypersensitivity/Allergic Reaction	Modified (editorial)
+Nausea	25921	exact	E1020	2	Nausea	
+Vomiting	25020	exact	E1032	2	Vomiting	
+Thrombosis/Thrombus	24987	exact	E0514	2	Thrombosis/Thrombus	
+Hyperresponsive to stimuli	24934	exact	E0111	2	Hyperresponsive to Stimuli	Modified (editorial)
+Shock from Patient Lead(s)	24262	exact	E210401	3	Shock from Patient Lead(s)	
+Pocket Erosion	23064	exact	E1713	2	Pocket Erosion	
+Arrhythmia	22748	exact	E0601	2	Arrhythmia	
+No Consequences Or Impact To Patient	22478	none				
+Cancer	21234	exact	E1801	2	Cancer	
+Bacterial Infection	20757	exact	E1901	2	Bacterial Infection	
+Joint Laxity	20630	exact	E1615	2	Joint Laxity	
+Fatigue	20177	exact	E2312	2	Fatigue	
+Erythema	18796	exact	E171601	3	Erythema	
+Hematoma	18280	exact	E0505	2	Hematoma	
+Skin Infection	17745	exact	E1719	2	Skin Infection	
+Obstruction/Occlusion	17549	exact	E2328	2	Obstruction/Occlusion	
+Heart Failure/Congestive Heart Failure	17446	exact	E0611	2	Heart Failure/Congestive Heart Failure	
+Joint Dislocation	16889	exact	E1614	2	Joint Dislocation	
+Electric Shock	16747	exact	E2104	2	Electric Shock	
+Asthma	16183	exact	E0706	2	Asthma	
+Hernia	16163	exact	E2319	2	Hernia	
+Bone Fracture(s)	14985	exact	E1603	2	Bone Fracture(s)	
+Adhesion(s)	14776	exact	E2101	2	Adhesion(s)	
+Erosion	14653	exact	E2006	2	Erosion	
+Wound Dehiscence	14646	exact	E2340	2	Wound Dehiscence	
+Convulsion/Seizure	14360	exact	E0109	2	Convulsion/Seizure	
+Stroke/CVA	14194	exact	E0133	2	Stroke/CVA	
+Pericardial Effusion	14106	exact	E0619	2	Pericardial Effusion	
+Low Blood Pressure/ Hypotension	14058	exact	E2321	2	Low Blood Pressure/ Hypotension	
+Abdominal Pain	13979	exact	E1002	2	Abdominal Pain	
+Vascular Dissection	13481	exact	E0515	2	Vascular Dissection	
+Seroma	13389	exact	E0307	2	Seroma	
+Sepsis	13335	exact	E0306	2	Sepsis	
+Blurred Vision	13303	exact	E083901	3	Blurred Vision	
+Peritonitis	13165	exact	E1024	2	Peritonitis	
+Fall	12975	exact	E2007	2	Fall	
+Unspecified Kidney or Urinary Problem	12896	exact	E1311	2	Unspecified Kidney or Urinary Problem	Modified (editorial)
+Cardiac Arrest	12620	exact	E0602	2	Cardiac Arrest	
+Syncope/Fainting	12259	exact	E011903	3	Syncope/Fainting	
+Chest Pain	11856	exact	E233001	3	Chest Pain	
+Cardiac Perforation	11730	exact	E0604	2	Cardiac Perforation	
+Heart Block	11552	exact	E060106	3	Heart Block	
+Diaphoresis	11508	exact	E2310	2	Diaphoresis	
+Tachycardia	11271	exact	E060109	3	Tachycardia	
+Shaking/Tremors	11202	exact	E012206	3	Shaking/Tremors	
+Eye Irritation	11124	exact	E0845	2	Eye Irritation	
+Scar Tissue	11110	exact	E1715	2	Scar Tissue	
+Bradycardia	11035	exact	E060104	3	Bradycardia	
+Post Operative Wound Infection	11031	exact	E2115	2	Post Operative Wound Infection	
+Respiratory Tract Infection	11019	exact	E0744	2	Respiratory Tract Infection	
+Ambulation or Postural Difficulties	10991	exact	E2302	2	Ambulation or Postural Difficulties	
+Cardiac Tamponade	10871	exact	E0605	2	Cardiac Tamponade	
+Hyperplasia	10866	exact	E2323	2	Hyperplasia	
+Laceration(s)	10807	exact	E2009	2	Laceration(s)	
+Tissue Breakdown	10323	exact	E2014	2	Tissue Breakdown	
+Cough	9956	exact	E0712	2	Cough	
+Loss of Range of Motion	9923	exact	E1616	2	Loss of Range of Motion	
+Perforation	9883	exact	E2114	2	Perforation	
+Fever	9749	exact	E230101	3	Fever	
+Device Embedded In Tissue or Plaque	9545	exact	E200801	3	Device Embedded In Tissue or Plaque	
+Confusion/ Disorientation	9474	exact	E010701	3	Confusion/ Disorientation	
+Purulent Discharge	9438	exact	E231501	3	Purulent Discharge	
+Sore Throat	9219	exact	E0747	2	Sore Throat	
+Malaise	9121	exact	E020204	3	Malaise	
+Burning Sensation	9062	exact	E1705	2	Burning Sensation	
+Perforation of Vessels	9035	exact	E0511	2	Perforation of Vessels	
+Necrosis	8930	exact	E2327	2	Necrosis	
+Urinary Incontinence	8472	exact	E232402	2	Urinary Incontinence	
+Impaired Healing	8446	exact	E1707	2	Impaired Healing	
+Anxiety	8260	exact	E020201	3	Anxiety	
+Metal Related Pathology	8256	exact	E1618	2	Metal Related Pathology	
+Nonunion/Delayed-union Bone Fracture	8251	exact	E1625	2	Nonunion/Delayed-Union Bone Fracture	Modified (editorial)
+Undesired Nerve Stimulation	8234	exact	E0138	2	Undesired Nerve Stimulation	Retired (2025)
+Fluid Discharge	8072	exact	E2315	2	Fluid Discharge	
+Sinus Perforation	8013	exact	E0745	2	Sinus Perforation	
+Osteopenia/ Osteoporosis	7767	exact	E1629	2	Osteopenia/ Osteoporosis	
+Foreign Body Reaction	7653	exact	E2316	2	Foreign Body Reaction	
+Muscle Weakness/Atrophy	7541	exact	E1621	2	Muscle Weakness/Atrophy	
+No Known Impact Or Consequence To Patient	7431	none				
+Burn(s)	7407	exact	E1704	2	Burn(s)	
+Medical device site infection	7266	exact	E2123	2	Medical device site infection	
+Itching Sensation	7166	exact	E1708	2	Itching Sensation	
+Aortic Valve Insufficiency/ Regurgitation	7121	exact	E062101	3	Aortic Valve Insufficiency/ Regurgitation	
+Ischemia	7058	exact	E0509	2	Ischemia	
+Visual Impairment	6999	exact	E0839	2	Visual Impairment	
+Urinary Tract Infection	6961	exact	E1310	2	Urinary Tract Infection	
+Non specific EKG/ECG Changes	6940	exact	E0618	2	Non Specific EKG/ECG Changes	Modified (editorial)
+Rash	6796	exact	E1714	2	Rash	
+Unspecified Heart Problem	6780	exact	E0623	2	Unspecified Heart Problem	Modified (editorial)
+Hemolysis	6518	exact	E0303	2	Hemolysis	
+Visual Disturbances	6371	exact	E0838	2	Visual Disturbances	
+Granuloma	6313	exact	E2317	3	Granuloma	
+Incontinence	6292	exact	E2324	2	Incontinence	
+Polydipsia	6171	exact	E1207	2	Polydipsia	Modified (technical)
+Tooth Fracture	6122	exact	E1633	2	Tooth Fracture	
+Atrial Fibrillation	6014	exact	E060102	3	Atrial Fibrillation	
+Rupture	5982	exact	E2013	2	Rupture	
+Device Overstimulation of Tissue	5695	exact	E2103	2	Device Overstimulation of Tissue	
+Urinary Frequency / Polyuria	5523	exact	E1308	2	Urinary Frequency / Polyuria	
+Mitral Valve Insufficiency/ Regurgitation	5395	exact	E062102	3	Mitral Valve Insufficiency/ Regurgitation	
+High Blood Pressure/ Hypertension	5394	exact	E2320	2	High Blood Pressure/ Hypertension	
+Breast Discomfort/Pain	5321	exact	E1402	2	Breast Discomfort/Pain	
+Nerve Damage	5249	exact	E0123	2	Nerve Damage	
+Renal Failure	5231	exact	E130501	3	Renal Failure	
+Distress	5127	exact	E020203	3	Distress	
+Myocardial Infarction	5122	exact	E061202	3	Myocardial Infarction	
+Ventricular Fibrillation	5119	exact	E060110	3	Ventricular Fibrillation	
+Failure to Anastomose	5020	exact	E2108	2	Failure to Anastomose	
+Endocarditis	4970	exact	E0610	2	Endocarditis	
+Pneumothorax	4852	exact	E0734	2	Pneumothorax	
+Asystole	4796	exact	E060101	3	Asystole	
+Urinary Retention	4790	exact	E1309	2	Urinary Retention	
+Stenosis	4754	exact	E2337	2	Stenosis	
+Emotional Changes	4645	exact	E0202	2	Emotional Changes	
+Pneumonia	4511	exact	E0733	2	Pneumonia	
+Bruise/Contusion	4486	exact	E2002	2	Bruise/Contusion	
+Unintended Extubation	4432	exact	E2118	2	Unintended Extubation	
+Valvular Insufficiency/ Regurgitation	4297	exact	E0621	2	Valvular Insufficiency/ Regurgitation	
+Low Oxygen Saturation	4215	exact	E2203	2	Low Oxygen Saturation	
+No Code Available	4208	none				
+Embolism/Embolus	4168	exact	E0503	2	Embolism/Embolus	
+Limb Fracture	4133	exact	E160302	3	Limb Fracture	
+Synovitis	4127	exact	E1632	2	Synovitis	
+Bacteremia	4086	exact	E2205	2	Bacteremia	
+Clinical Endoleak	4032	exact	E2121	2	Clinical Endoleak	
+Intracranial Hemorrhage	4014	exact	E0118	2	Intracranial Hemorrhage	
+Muscular Rigidity	3984	exact	E161603	3	Muscular Rigidity	
+Aneurysm	3942	exact	E0501	2	Aneurysm	
+Unspecified Hepatic or Biliary Problem	3842	exact	E1107	2	Unspecified Hepatic or Biliary Problem	Modified (editorial)
+Respiratory Failure	3818	exact	E0742	2	Respiratory Failure	
+Nodule	3708	exact	E1803	2	Nodule	
+Gastrointestinal Hemorrhage	3698	exact	E1014	2	Gastrointestinal Hemorrhage	
+Cramp(s) /Muscle Spasm(s)	3686	exact	E1605	2	Cramp(s) /Muscle Spasm(s)	
+Dehydration	3682	exact	E1201	2	Dehydration	
+Dry Mouth	3642	exact	E102801	3	Dry Mouth	
+Aortic Valve Stenosis	3627	exact	E062201	3	Aortic Valve Stenosis	
+Sleep Dysfunction	3587	exact	E0130	2	Sleep Dysfunction	
+Ischemia Stroke	3509	exact	E013302	3	Ischemia Stroke	
+Diarrhea	3395	exact	E1008	2	Diarrhea	Modified (technical)
+Cognitive Changes	3373	exact	E0107	2	Cognitive Changes	
+Needle Stick/Puncture	3358	exact	E2010	2	Needle Stick/Puncture	
+Swollen Lymph Nodes/Glands	3308	exact	E0308	2	Swollen Lymph Nodes/Glands	
+Cyst(s)	3091	exact	E1802	2	Cyst(s)	
+Blister	3085	exact	E1703	2	Blister	
+Cellulitis	2990	exact	E172002	3	Cellulitis	
+Tooth Loss	2981	exact	E1636	2	Tooth Loss	
+Internal Organ Perforation	2889	exact	E211401	3	Internal Organ Perforation	
+Hydrocephalus	2863	exact	E0117	2	Hydrocephalus	
+Local Reaction	2798	exact	E040203	3	Local Reaction	
+Chronic Obstructive Pulmonary Disease (COPD)	2780	exact	E0711	2	Chronic Obstructive Pulmonary Disease (COPD)	
+Paresthesia	2725	exact	E013403	3	Paresthesia	
+Hematuria	2705	exact	E1302	2	Hematuria	
+Convulsion, Clonic	2655	exact	E010901	3	Convulsion, Clonic	
+Cerebrospinal Fluid Leakage	2635	exact	E0106	2	Cerebrospinal Fluid Leakage	
+Presyncope	2599	exact	E011902	3	Presyncope	
+Air Embolism	2584	exact	E050301	3	Air Embolism	
+Halo	2572	exact	E0823	2	Halo	
+Lethargy	2571	exact	E0204	2	Lethargy	
+Pulmonary Embolism	2542	exact	E050303	3	Pulmonary Embolism	
+Chills	2532	exact	E2304	2	Chills	
+Hemodynamic instability	2514	exact	E2343	2	Hemodynamic Instability	Modified (editorial)
+Anemia	2512	exact	E0301	2	Anemia	
+Muscle/Tendon Damage	2502	exact	E1620	2	Muscle/Tendon Damage	
+Unspecified Nervous System Problem	2446	exact	E0139	2	Unspecified Nervous System Problem	Modified (editorial)
+Intraocular Pressure Increased	2442	exact	E0827	2	Intraocular Pressure Increased	
+Capsular Bag Tear	2431	exact	E0801	2	Capsular Bag Tear	
+Aseptic loosening	2429	exact	E161201	3	Aseptic Loosening	Modified (editorial)
+Constipation	2423	exact	E1007	2	Constipation	
+Paralysis	2386	exact	E012202	3	Paralysis	
+Weight Changes	2382	exact	E1208	2	Weight Changes	
+Pseudoaneurysm	2279	exact	E0513	2	Pseudoaneurysm	
+Depression	2261	exact	E020202	3	Depression	
+Twiddlers Syndrome	2241	exact	E2117	2	Twiddlers Syndrome	
+Hypoxia	2225	exact	E0726	2	Hypoxia	
+Restenosis	2206	exact	E233701	3	Restenosis	
+Eye Injury	2152	exact	E0819	2	Eye Injury	
+Drug Resistant Bacterial Infection	2098	exact	E190101	3	Drug Resistant Bacterial Infection	
+Pleural Effusion	2068	exact	E0731	2	Pleural Effusion	
+Physical Asymmetry	2065	exact	E2332	2	Physical Asymmetry	
+No Information	2050	none				
+Tricuspid Valve Insufficiency/ Regurgitation	2048	exact	E062104	3	Tricuspid Valve Insufficiency/ Regurgitation	
+Eye Pain	2027	exact	E0820	2	Eye Pain	
+Head Injury	1999	exact	E1610	2	Head Injury	
+Coma	1973	exact	E011901	3	Coma	
+Thromboembolism	1965	exact	E050304	3	Thromboembolism	
+Transient Ischemic Attack	1955	exact	E0137	2	Transient Ischemic Attack	
+Micturition Urgency	1923	exact	E1304	2	Micturition Urgency	
+Abdominal Distention	1914	exact	E1001	2	Abdominal Distention	
+Cardiogenic Shock	1882	exact	E233601	3	Cardiogenic Shock	
+Extravasation	1880	exact	E0504	2	Extravasation	
+Unintended Radiation Exposure	1875	exact	E2119	2	Unintended Radiation Exposure	
+Dyspareunia	1872	exact	E1405	2	Dyspareunia	
+Dysphagia/ Odynophagia	1828	exact	E1009	2	Dysphagia/ Odynophagia	
+Cardiovascular Dysfunction/Insufficiency	1819	exact	E0607	2	Cardiovascular Dysfunction/Insufficiency	
+Irritability	1799	exact	E020205	3	Irritability	
+Wrinkling	1765	exact	E1723	2	Wrinkling	
+Calcium Deposits/Calcification	1737	exact	E230901	3	Calcium Deposits/Calcification	
+Superficial (First Degree) Burn	1734	exact	E170404	3	Superficial (First Degree) Burn	
+Epistaxis	1718	exact	E0718	2	Epistaxis	
+Partial thickness (Second Degree) Burn	1695	exact	E170405	3	Partial Thickness (Second Degree) Burn	Modified (editorial)
+Movement Disorder	1648	exact	E0122	2	Movement Disorder	
+Injury	1641	exact	E20	1	Injury	Not selectable
+Dry Eye(s)	1641	exact	E0815	2	Dry Eye(s)	
+Pulmonary Dysfunction	1638	exact	E0735	2	Pulmonary Dysfunction	
+Liver Damage/Dysfunction	1626	exact	E1104	2	Liver Damage/Dysfunction	
+Decreased Appetite	1620	exact	E2306	2	Decreased Appetite	
+Dysphasia	1601	exact	E0113	2	Dysphasia	
+Extraskeletal ossification	1589	exact	E1626	2	Extraskeletal Ossification	Modified (editorial)
+Angina	1552	exact	E061201	3	Angina	
+Multiple Organ Dysfunction Syndrome	1542	exact	E2342	2	Multiple Organ Dysfunction Syndrome	
+Hypervolemia	1539	exact	E0304	2	Hypervolemia	
+Joint effusion	1530	exact	E233802	3	Joint Effusion	Modified (editorial)
+Septic Shock	1528	exact	E233605	3	Septic Shock	
+Sinusitis	1523	exact	E2122	2	Sinusitis	
+Ulcer	1521	exact	E2339	2	Ulcer	
+Unspecified Vascular Problem	1501	exact	E0518	2	Unspecified Vascular Problem	Modified (editorial)
+Fungal Infection	1492	exact	E1902	2	Fungal Infection	
+Autoimmune Disorder	1490	exact	E0401	2	Autoimmune Disorder	
+Hemorrhagic Stroke	1485	exact	E013301	3	Hemorrhagic Stroke	
+Hypoglycemic Shock	1477	exact	E233602	3	Hypoglycemic Shock	
+Unspecified Eye / Vision Problem	1429	exact	E0844	2	Unspecified Eye / Vision Problem	Modified (editorial)
+Bowel Perforation	1428	exact	E1006	2	Bowel Perforation	
+Skin Tears	1425	exact	E1721	2	Skin Tears	
+Abrasion	1424	exact	E1701	2	Abrasion	
+Unspecified Musculoskeletal problem	1421	exact	E1635	2	Unspecified Musculoskeletal Problem	Modified (editorial)
+Breast Mass	1408	exact	E1403	2	Breast Mass	
+Viral Infection	1402	exact	E1907	2	Viral Infection	
+Lymphoma	1369	exact	E180104	3	Lymphoma	
+Skin Erosion	1365	exact	E1718	2	Skin Erosion	
+Pressure Sore/Ulcer	1361	exact	E201401	3	Pressure Sore/Ulcer	
+Chemical Exposure	1350	exact	E2003	2	Chemical Exposure	
+Skin Discoloration	1342	exact	E1716	2	Skin Discoloration	
+Renal Impairment	1334	exact	E1305	2	Renal Impairment	
+Corneal Edema	1316	exact	E0807	2	Corneal Edema	
+Thrombocytopenia	1315	exact	E030202	3	Thrombocytopenia	
+Unspecified Mental, Emotional or Behavioral Problem	1310	exact	E0206	2	Unspecified Mental, Emotional or Behavioral Problem	Modified (editorial)
+Aneurysm expansion	1306	exact	E050102	3	Aneurysm Expansion	Modified (editorial)
+Dysuria	1289	exact	E1301	2	Dysuria	
+Bronchitis	1263	exact	E0708	2	Bronchitis	
+Arthralgia	1232	exact	E1601	2	Arthralgia	
+Balance Problems	1206	exact	E0101	2	Balance Problems	
+Neck Pain	1193	exact	E1623	2	Neck Pain	
+Malunion of Bone	1188	exact	E1617	2	Malunion of Bone	
+Unspecified Gastrointestinal Problem	1188	exact	E1033	2	Unspecified Gastrointestinal Problem	Modified (editorial)
+Hot Flashes/Flushes	1173	exact	E1204	2	Hot Flashes/Flushes	
+Speech Disorder	1148	exact	E0131	2	Speech Disorder	
+Osteomyelitis	1127	exact	E1628	2	Osteomyelitis	
+Sleepiness/Drowsiness/Somnolence	1125	exact	E0209	2	Sleepiness/Drowsiness/Somnolence	
+Neuropathy	1115	exact	E0126	2	Neuropathy	
+Memory Loss/Impairment	1096	exact	E0120	2	Memory Loss/Impairment	
+Pulmonary Edema	1095	exact	E0736	2	Pulmonary Edema	
+Great Vessel Perforation	1094	exact	E051101	3	Great Vessel Perforation	
+Toxic Anterior Segment Syndrome (TASS)	1092	exact	E0835	2	Toxic Anterior Segment Syndrome (TASS)	
+Prolapse	1088	exact	E2333	2	Prolapse	
+Shock	1082	exact	E2336	2	Shock	
+Respiratory Insufficiency	1075	exact	E0743	2	Respiratory Insufficiency	
+Red Eye(s)	1064	exact	E0833	2	Red Eye(s)	
+Skin Burning Sensation	1053	exact	E170501	3	Skin Burning Sensation	
+Eye Burn	1042	exact	E081902	3	Eye Burn	
+Abnormal Vaginal Discharge	1038	exact	E1401	2	Abnormal Vaginal Discharge	Modified (editorial)
+Paresis	1030	exact	E012204	3	Paresis	
+High metal ion levels	1003	exact	E2206	2	High Metal Ion Levels	Modified (editorial)
+Spinal Column Injury	988	exact	E1631	2	Spinal Column Injury	
+Keratitis	986	exact	E0829	2	Keratitis	
+Endophthalmitis	975	exact	E0816	2	Endophthalmitis	
+Uterine Perforation	968	exact	E1415	2	Uterine Perforation	
+Pancreatitis	958	exact	E1021	2	Pancreatitis	
+Genital Bleeding	958	exact	E1407	2	Genital Bleeding	
+Arthritis	957	exact	E1602	2	Arthritis	
+Reduced Blood Flow	956	exact	E0519	2	Reduced Blood Flow	
+Foreign Body Embolism	954	exact	E050302	3	Foreign Body Embolism	
+Hemoptysis	950	exact	E0721	2	Hemoptysis	
+Ruptured Aneurysm	948	exact	E050101	3	Ruptured Aneurysm	
+Apnea	946	exact	E0703	2	Apnea	
+Exposure to Body Fluids	943	exact	E2105	2	Exposure to Body Fluids	
+Breast Cancer	932	exact	E180101	3	Breast Cancer	
+Vasoconstriction	930	exact	E0516	2	Vasoconstriction	
+Loss of Vision	919	exact	E083902	3	Loss of Vision	
+Sensitivity of Teeth	919	exact	E0129	2	Sensitivity of Teeth	
+Corneal Ulcer	918	exact	E0814	2	Corneal Ulcer	
+Subluxation	896	exact	E161401	3	Subluxation	
+Airway Obstruction	891	exact	E0702	2	Airway Obstruction	
+Lactate Dehydrogenase Increased	888	exact	E2204	2	Lactate Dehydrogenase Increased	
+Aspiration/Inhalation	869	exact	E0704	2	Aspiration/Inhalation	
+Tinnitus	862	exact	E0904	2	Tinnitus	
+Eye Infections	853	exact	E0818	2	Eye Infections	
+Ascites	850	exact	E1004	2	Ascites	
+Brain Injury	847	exact	E0102	2	Brain Injury	
+Periprosthetic fracture	826	exact	E2127	2	Periprosthetic fracture	
+Atrial Flutter	822	exact	E060103	3	Atrial Flutter	
+Abdominal Cramps	818	exact	E160501	3	Abdominal Cramps	
+Subcutaneous Nodule	807	exact	E1722	2	Subcutaneous Nodule	
+Pericarditis	805	exact	E0620	2	Pericarditis	
+Full thickness (Third Degree) Burn	765	exact	E170406	3	Full Thickness (Third Degree) Burn	Modified (editorial)
+Intraocular Pressure Decreased	764	exact	E0826	2	Intraocular Pressure Decreased	
+Urticaria	757	exact	E172006	3	Urticaria	
+Joint Impingement	742	exact	E1639	2	Joint Impingement	
+Respiratory Arrest	738	exact	E0741	2	Respiratory Arrest	
+Pelvic Pain	729	exact	E1420	2	Pelvic Pain	
+Choking	705	exact	E0710	2	Choking	
+Vertigo	688	exact	E0905	2	Vertigo	
+Cardiomyopathy	686	exact	E0606	2	Cardiomyopathy	
+Unequal Limb Length	669	exact	E1634	2	Unequal Limb Length	
+Mitral Valve Stenosis	665	exact	E062202	3	Mitral Valve Stenosis	
+Alteration in Body Temperature	661	exact	E2301	2	Alteration in Body Temperature	
+Heartburn/Indigestion	658	exact	E1025	2	Heartburn/Indigestion	
+Crushing Injury	655	exact	E2004	2	Crushing Injury	
+Localized Skin Lesion	642	exact	E1710	2	Localized Skin Lesion	
+Hip Fracture	640	exact	E160301	3	Hip Fracture	
+Death	634	none				
+Inappropriate Device Stimulation of Tissue	630	exact	E2131	2	Inappropriate Device Stimulation of Tissue	
+Disability	623	none				
+Hypovolemia	613	exact	E0305	2	Hypovolemia	
+Infiltration into Tissue	599	exact	E2325	2	Infiltration into Tissue	
+Twitching	598	exact	E012207	3	Twitching	
+Breast Implant Associated Anaplastic Large Cell Lymphoma (BIA ALCL)	597	exact	E180102	3	Breast Implant Associated Anaplastic Large Cell Lymphoma (BIA ALCL)	
+Menorrhagia	567	exact	E140702	3	Menorrhagia	
+Foreign Body Sensation in Eye	563	exact	E0821	2	Foreign Body Sensation in Eye	
+Limb Pain	560	exact	E1641	2	Limb Pain	
+Hearing Impairment	558	exact	E0903	2	Hearing Impairment	
+Wound Infection	552	exact	E2012	2	Wound Infection	
+Damage to Ligament(s)	549	exact	E1606	2	Damage to Ligament(s)	
+Ecchymosis	539	exact	E050601	3	Ecchymosis	
+Sneezing	536	exact	E0746	2	Sneezing	
+Hair Loss	525	exact	E2318	2	Hair Loss	
+Aortic dissection	521	exact	E051501	3	Aortic Dissection	Modified (editorial)
+Electrolyte Imbalance	516	exact	E1202	2	Electrolyte Imbalance	
+Transvalvular Pressure Gradient Increased	516	exact	E0626	2	Transvalvular Pressure Gradient Increased	
+Increased Intra-Peritoneal Volume (IIPV)	514	exact	E1303	2	Increased Intra-Peritoneal Volume (IIPV)	
+Hemothorax	511	exact	E0722	2	Hemothorax	
+Spinal Cord Injury	506	exact	E012401	3	Spinal Cord Injury	
+Cataract	504	exact	E0802	2	Cataract	
+Pallor	501	exact	E2331	2	Pallor	
+Contact Dermatitis	499	exact	E172003	3	Contact Dermatitis	
+Uveitis	493	exact	E0837	2	Uveitis	
+Solid Tumor	490	exact	E1804	2	Solid Tumor	Modified (editorial)
+Melena	483	exact	E1019	2	Melena	
+Pulmonary Hypertension	483	exact	E0737	2	Pulmonary Hypertension	
+Bruxism	477	exact	E0201	2	Bruxism	
+Corneal Abrasion	470	exact	E081901	3	Corneal Abrasion	
+Meningitis	468	exact	E0121	2	Meningitis	
+Vertebral Fracture	464	exact	E160305	3	Vertebral Fracture	
+Wheezing	463	exact	E0751	2	Wheezing	
+Menstrual Irregularities	461	exact	E1408	2	Menstrual Irregularities	
+Retroperitoneal Hemorrhage	456	exact	E1027	2	Retroperitoneal Hemorrhage	
+Liver Failure	455	exact	E1105	2	Liver Failure	
+Peripheral Edema	453	exact	E233801	3	Peripheral Edema	
+Excessive Tear Production	452	exact	E0817	2	Excessive Tear Production	
+Conjunctivitis	451	exact	E0804	2	Conjunctivitis	
+Skin Disorders	450	exact	E1717	2	Skin Disorders	
+Hyphema	444	exact	E0824	2	Hyphema	
+Sexual Dysfunction	438	exact	E1413	2	Sexual Dysfunction	
+Hypoventilation	435	exact	E0725	2	Hypoventilation	
+Encephalopathy	428	exact	E0115	2	Encephalopathy	
+Decreased Respiratory Rate	427	exact	E0715	2	Decreased Respiratory Rate	
+Bone Notching	427	exact	E1646	2	Bone Notching	
+Coronary obstruction/occlusion	426	exact	E0521	2	Coronary Obstruction/Occlusion	Modified (editorial)
+Dyskinesia	420	exact	E012201	3	Dyskinesia	
+Vitreous Floaters	417	exact	E083803	3	Vitreous Floaters	
+Nasal Obstruction	416	exact	E0728	2	Nasal Obstruction	
+Bursitis	414	exact	E1637	2	Bursitis	
+Peritoneal effluent abnormal	414	exact	E2129	2	Peritoneal Effluent Abnormal	Modified (editorial)
+Radiolucent Lines	409	exact	E2207	2	Radiolucent Lines	
+Fecal Incontinence	408	exact	E232401	2	Fecal Incontinence	
+Myalgia	403	exact	E1622	2	Myalgia	
+Cholangitis	398	exact	E1109	2	Cholangitis	
+Arthrofibrosis	394	exact	E161604	3	Arthrofibrosis	
+Pulmonary Valve Insufficiency/ Regurgitation	389	exact	E062103	3	Pulmonary Valve Insufficiency/ Regurgitation	
+Vasculitis	381	exact	E0512	2	Vasculitis	Modified (editorial)
+Back pain	380	exact	E1651	2	Back Pain	Modified (editorial)
+Suicidal Ideation	370	exact	E0205	2	Suicidal Ideation	
+Administration Site Reaction	364	exact	E2111	2	Administration Site Reaction	Modified (technical)
+Pulmonary Valve Stenosis	354	exact	E062203	3	Pulmonary Valve Stenosis	
+Fallopian Tube Perforation	354	exact	E1406	2	Fallopian Tube Perforation	
+Cusp Tear	353	exact	E0608	2	Cusp Tear	
+Cardiac Enzyme Elevation	353	exact	E0603	2	Cardiac Enzyme Elevation	
+Diplopia/Double Vision	352	exact	E083903	3	Diplopia/Double Vision	
+Joint Contracture	350	exact	E161602	3	Joint Contracture	
+Perforation of Esophagus	348	exact	E1022	2	Perforation of Esophagus	
+Unspecified Blood or Lymphatic problem	348	exact	E0310	2	Unspecified Blood or Lymphatic Problem	Modified (editorial)
+Neuralgia	348	exact	E0125	2	Neuralgia	
+Ischemic Heart Disease	347	exact	E0612	2	Ischemic Heart Disease	
+Coagulation Disorder	344	exact	E0302	2	Coagulation Disorder	
+Pulmonary Emphysema	344	exact	E071101	3	Pulmonary Emphysema	
+Adult Respiratory Distress Syndrome	342	exact	E0701	2	Adult Respiratory Distress Syndrome	
+Urethral Stenosis/Stricture	338	exact	E1307	2	Urethral Stenosis/Stricture	
+Palpitations	336	exact	E0629	2	Palpitations	
+Cerebral Edema	333	exact	E0103	2	Cerebral Edema	
+Hemolytic Anemia	329	exact	E030101	3	Hemolytic Anemia	
+Unspecified Ear or Labyrinth Problem	322	exact	E0906	2	Unspecified Ear or Labyrinth Problem	Modified (editorial)
+Retinal Detachment	321	exact	E081903	3	Retinal Detachment	
+Ptosis	320	exact	E2334	2	Ptosis	
+Diminished Pulse Pressure	310	exact	E0609	2	Diminished Pulse Pressure	
+Nervous System Injury	307	exact	E0124	2	Nervous System Injury	
+Macular Edema	306	exact	E0830	2	Macular Edema	
+Corneal Scar	305	exact	E0812	2	Corneal Scar	
+Hypopyon	304	exact	E0825	2	Hypopyon	
+Anaphylactic Shock	301	exact	E040201	3	Anaphylactic Shock	
+Unspecified Immune System Problem	298	exact	E0405	2	Unspecified Immune System Problem	Modified (editorial)
+Unspecified Reproductive System or Breast Problem	297	exact	E1417	2	Unspecified Reproductive System or Breast Problem	Modified (editorial)
+Low Cardiac Output	295	exact	E0613	2	Low Cardiac Output	
+Arteriosclerosis/ Atherosclerosis	290	exact	E0502	2	Arteriosclerosis/ Atherosclerosis	
+Aspiration Pneumonitis	289	exact	E0705	2	Aspiration Pneumonitis	
+Facial Paralysis	283	exact	E012209	3	Facial Paralysis	
+Paraplegia	282	exact	E012203	3	Paraplegia	
+Difficulty Chewing	281	exact	E1607	2	Difficulty Chewing	
+Corneal Clouding/Hazing	279	exact	E0805	2	Corneal Clouding/Hazing	
+Iritis	274	exact	E0828	2	Iritis	
+Flashers	274	exact	E083801	3	Flashers	
+Laceration(s) of Esophagus	269	exact	E1018	2	Laceration(s) of Esophagus	
+Reaction to Medicinal Component of Device	267	exact	E2335	2	Reaction to Medicinal Component of Device	
+Pelvic Inflammatory Disease	265	exact	E1411	2	Pelvic Inflammatory Disease	
+Hyporesponsive to stimuli	264	exact	E0110	2	Hyporesponsive to Stimuli	Modified (editorial)
+Ear infection	264	exact	E0908	2	Ear Infection	Modified (editorial)
+Intermenstrual Bleeding	263	exact	E140701	3	Intermenstrual Bleeding	
+Caustic/Chemical Burns	255	exact	E170401	3	Caustic/Chemical Burns	
+Hallucination	255	exact	E0203	2	Hallucination	
+Ventilator Dependent	255	exact	E0750	2	Ventilator Dependent	
+Posterior Capsule Opacification	253	exact	E0849	2	Posterior Capsule Opacification	
+Concussion	246	exact	E0108	2	Concussion	
+Peripheral Nervous Injury	244	exact	E0128	2	Peripheral Nervous Injury	
+Kidney injury	244	exact	E1317	2	Kidney Injury	Modified (editorial)
+Ear Pain	244	exact	E0907	2	Ear Pain	
+Glaucoma	243	exact	E0822	2	Glaucoma	
+Increased Appetite	243	exact	E2307	2	Increased Appetite	
+Retinal Tear	242	exact	E081905	3	Retinal Tear	
+Bowel Burn	239	exact	E1005	2	Bowel Burn	
+Eczema	239	exact	E172004	3	Eczema	
+Peeling	236	exact	E1711	2	Peeling	
+Hypothermia	233	exact	E230103	3	Hypothermia	
+Tissue Irritation	231	exact	E2350	2	Tissue Irritation	
+Pharyngitis	229	exact	E0730	2	Pharyngitis	
+Hypovolemic Shock	228	exact	E233603	3	Hypovolemic Shock	
+Valvular Stenosis	224	exact	E0622	2	Valvular Stenosis	
+Joint locking	221	exact	E161605	3	Joint Locking	Modified (editorial)
+Intervertebral Disc Compression or Protrusion	220	exact	E1613	2	Intervertebral Disc Compression or Protrusion	
+Stomach Ulceration	216	exact	E1030	2	Stomach Ulceration	
+Extreme Exhaustion	216	exact	E231201	3	Extreme Exhaustion	
+Taste Disorder	215	exact	E0135	2	Taste Disorder	
+High White Blood Cell Count	212	exact	E0311	2	High White Blood Cell Count	
+Photophobia	211	exact	E083804	3	Photophobia	
+Cyanosis	210	exact	E2305	2	Cyanosis	
+Exsanguination	209	exact	E050602	3	Exsanguination	
+Decreased Level  of Consciousness	207	exact	E014302	3	Decreased Level  of Consciousness	
+Altered State of Consciousness	204	exact	E0143	2	Altered State of Consciousness	
+Occlusion	199	none				
+Hematemesis	199	exact	E1016	2	Hematemesis	
+Increased Respiratory Rate	199	exact	E0716	2	Increased Respiratory Rate	
+Intraoperative Cardiac Valve Injury	194	exact	E0624	2	Intraoperative Cardiac Valve Injury	
+Multiple Fractures	192	exact	E160303	3	Multiple Fractures	
+Partial Hearing Loss	190	exact	E090301	3	Partial Hearing Loss	
+Kidney Infection	184	exact	E131001	3	Kidney Infection	
+Cerebral Ventriculomegaly	183	exact	E0105	2	Cerebral Ventriculomegaly	
+Physical Entrapment	180	exact	E2011	2	Physical Entrapment	
+Rheumatoid Arthritis	175	exact	E160201	3	Rheumatoid Arthritis	
+Ankylosis	172	exact	E161601	3	Ankylosis	
+Dementia	172	exact	E010702	3	Dementia	
+Hyperpigmentation	172	exact	E171602	3	Hyperpigmentation	
+Easy Bruising	170	exact	E2005	2	Easy Bruising	
+Flatus	170	exact	E1011	2	Flatus	
+Vitreous Hemorrhage	168	exact	E0840	2	Vitreous Hemorrhage	
+Swelling	164	none				
+Hyperextension	161	exact	E1611	2	Hyperextension	
+Intraoperative Pain	160	exact	E2112	2	Intraoperative Pain	
+Zonular Dehiscence	159	exact	E0843	2	Zonular Dehiscence	
+Septic loosening	156	exact	E161202	3	Septic Loosening	Modified (editorial)
+Bone Cement Implantation Syndrome	154	exact	E2120	2	Bone Cement Implantation Syndrome	
+Respiratory Acidosis	152	exact	E0739	2	Respiratory Acidosis	
+Infectious Otitis Media	152	exact	E090802	3	Infectious Otitis Media	
+Biliary Leak	151	exact	E1108	2	Biliary Leak	
+Oversedation	150	exact	E2113	2	Oversedation	
+Hyperemia	150	exact	E2322	2	Hyperemia	
+Tissue Damage	149	none				
+Stomatitis	148	exact	E1031	2	Stomatitis	
+Corneal Perforation	148	exact	E0811	2	Corneal Perforation	
+Hyponatremia	145	exact	E120202	3	Hyponatremia	
+Erectile Dysfunction	145	exact	E141301	3	Erectile Dysfunction	
+Reaction	144	none				
+Corneal Infiltrates	143	exact	E0809	2	Corneal Infiltrates	
+Ectopic Heartbeat	143	exact	E060105	3	Ectopic Heartbeat	
+Angioedema	141	exact	E1702	2	Angioedema	
+Tendinopathy	141	exact	E1643	2	Tendinopathy	
+Anaphylactoid / Anaphylaxis	140	exact	E040202	3	Anaphylactoid / Anaphylaxis	
+Idioventricular Rhythm	137	exact	E060107	3	Idioventricular Rhythm	
+Gastritis	137	exact	E1012	2	Gastritis	
+Status Epilepticus	136	exact	E010904	3	Status Epilepticus	
+Disseminated Intravascular Coagulation (DIC)	135	exact	E030201	3	Disseminated Intravascular Coagulation (DIC)	
+Upper Respiratory Tract Injury	135	exact	E0753	2	Upper Respiratory Tract Injury	Retired (2025)
+Crepitus	135	exact	E1649	2	Crepitus	Modified (editorial)
+Hyperkalemia	133	exact	E120205	3	Hyperkalemia	
+Pneumoperitoneum	131	exact	E1035	2	Pneumoperitoneum	
+Hormonal Imbalance	127	exact	E1209	2	Hormonal Imbalance	
+Hypoesthesia	124	exact	E013402	3	Hypoesthesia	
+Awareness During Anesthesia	124	exact	E2102	2	Awareness During Anesthesia	Modified (editorial)
+Blood Loss	123	none				
+Pregnancy with a Contraceptive Device	122	exact	E1514	2	Pregnancy with a Contraceptive Device	
+Dry Skin	122	exact	E1724	2	Dry Skin	
+Vitreous Loss	121	exact	E0841	2	Vitreous Loss	
+Nasal congestion	121	exact	E0756	2	Nasal Congestion	Modified (editorial)
+Thrombosis	119	none				
+Aphonia	118	exact	E011301	3	Aphonia	
+Neck Stiffness	116	exact	E1624	2	Neck Stiffness	
+Graft failure	116	exact	E2130	2	Graft Failure	Modified (editorial)
+Stacking Breaths	114	exact	E0748	2	Stacking Breaths	
+Irregular Pulse	113	exact	E060108	3	Irregular Pulse	
+Corneal Decompensation	111	exact	E0806	2	Corneal Decompensation	
+Intra-Abdominal Hemorrhage	110	exact	E1017	2	Intra-Abdominal Hemorrhage	
+Hiccups	104	exact	E0723	2	Hiccups	
+Jaundice	104	exact	E1709	2	Jaundice	
+Bronchospasm	103	exact	E0709	2	Bronchospasm	
+Pupillary Block	99	exact	E0832	2	Pupillary Block	
+Delirium	99	exact	E0207	2	Delirium	
+Hyperbilirubinemia	97	exact	E1103	2	Hyperbilirubinemia	
+Feeding Problem	97	exact	E1203	2	Feeding Problem	
+Dural Tear	96	exact	E0144	2	Dural Tear	
+Abnormal scarring	93	exact	E171501	3	Abnormal Scarring	Modified (editorial)
+Intraoperative Cardiac Injury	92	exact	E0627	2	Intraoperative Cardiac Injury	
+Intimal Dissection	91	none				
+Corneal Pannus	91	exact	E0810	2	Corneal Pannus	
+Overinflation of Lung	90	exact	E0729	2	Overinflation of Lung	
+Hypokalemia	90	exact	E120206	3	Hypokalemia	
+Therapeutic Effects, Unexpected	88	none				
+Patient Problem/Medical Problem	88	none				
+Organ Dehiscence	88	exact	E2329	2	Organ Dehiscence	
+Corneal Endothelial Cell Loss	88	exact	E0848	2	Corneal Endothelial Cell Loss	
+Loss of fracture reduction	87	exact	E2126	2	Loss of fracture reduction	
+Vasospasm	86	exact	E0522	2	Vasospasm	
+Arthropathy	84	exact	E1650	2	Arthropathy	Modified (editorial)
+Cartilage damage	82	exact	E1638	2	Cartilage Damage	Modified (editorial)
+Tricuspid Valve Stenosis	81	exact	E062204	3	Tricuspid Valve Stenosis	
+Hypothyroidism	81	exact	E1212	2	Hypothyroidism	
+Skin Irritation	80	none				
+Bronchial Hemorrhage	78	exact	E0707	2	Bronchial Hemorrhage	
+Subclinical Infection	76	exact	E1904	2	Subclinical Infection	
+Skull Fracture	76	exact	E160304	3	Skull Fracture	
+Burn, Thermal	75	none				
+Infective Keratitis	75	exact	E082901	3	Infective Keratitis	
+Phototoxicity	75	exact	E1712	2	Phototoxicity	
+Peritoneal Laceration(s)	74	exact	E1023	2	Peritoneal Laceration(s)	
+Abnormal Blood Gases	73	exact	E2201	2	Abnormal Blood Gases	
+Hepatitis	73	exact	E1102	2	Hepatitis	
+Liver Laceration(s)	73	exact	E1106	2	Liver Laceration(s)	
+Retinal Hemorrhage	73	exact	E0851	2	Retinal Hemorrhage	
+Mastoiditis	73	exact	E1640	2	Mastoiditis	
+Rectal Anastomotic Leakage	72	exact	E1026	2	Rectal Anastomotic Leakage	Retired (2024)
+Vitritis	72	exact	E0842	2	Vitritis	
+Therapeutic Response, Decreased	71	none				
+Upper Respiratory Tract Irritation	71	exact	E0754	2	Upper Respiratory Tract Irritation	
+Limited Mobility Of The Implanted Joint	70	none				
+Seizures	70	none				
+Vitreous Detachment	70	exact	E081906	3	Vitreous Detachment	
+Retinal Injury	70	exact	E081904	3	Retinal Injury	
+Corneal Stromal Edema	70	exact	E080701	3	Corneal Stromal Edema	
+Nipple Sensation Changes	70	exact	E1409	2	Nipple Sensation Changes	
+Edema	68	none				
+Intraocular Infection	67	exact	E081801	3	Intraocular Infection	
+Mitral Regurgitation	67	none				
+Myocarditis	67	exact	E0617	2	Myocarditis	
+Double Capsule	67	exact	E2341	2	Double Capsule	
+Gastrointestinal Regurgitation	65	exact	E1015	2	Gastrointestinal Regurgitation	
+Stenosis of the esophagus	65	exact	E1029	2	Stenosis of the Esophagus	Modified (editorial)
+Tics/Tremor	65	exact	E0136	2	Tics/Tremor	
+Hyperthermia	65	exact	E230102	3	Hyperthermia	
+Syncope	64	none				
+Low White Blood Cell Count	64	exact	E0309	2	Low White Blood Cell Count	
+Voice alteration	63	exact	E2344	2	Voice Alteration	Modified (editorial)
+Blood Protein Abnormal	63	exact	E0313	2	Blood Protein Abnormal	
+Respiratory Distress Syndrome of Newborns	61	exact	E1516	2	Respiratory Distress Syndrome of Newborns	
+Myocardial Hypertrophy	61	exact	E0616	2	Myocardial Hypertrophy	
+Hyperventilation	61	exact	E0724	2	Hyperventilation	
+Implant site sclerosis	61	exact	E2128	2	Implant Site Sclerosis	Modified (editorial)
+Fetal Distress	60	exact	E1507	2	Fetal Distress	
+Congenital Defect/Deformity	60	exact	E1505	2	Congenital Defect/Deformity	
+Gastroesophageal Burn	60	exact	E1013	2	Gastroesophageal Burn	
+Deposits	59	exact	E2309	2	Deposits	
+Muscle Stimulation	58	none				
+Total Hearing Loss	58	exact	E090302	3	Total Hearing Loss	
+Ectopic Pregnancy	57	exact	E1506	2	Ectopic Pregnancy	
+Vaginal Mucosa Damage	57	exact	E1519	2	Vaginal Mucosa Damage	
+Vasodilatation	57	exact	E0517	2	Vasodilatation	
+Breathing-related sleep disorder	57	exact	E0757	2	Breathing-Related Sleep Disorder	Modified (editorial)
+Strangulation	56	exact	E0749	2	Strangulation	
+Salivary Hypersecretion	56	exact	E102802	3	Salivary Hypersecretion	
+Chemosis	56	exact	E0803	2	Chemosis	
+Choroidal Hemorrhage	56	exact	E0852	2	Choroidal Hemorrhage	
+Unintended Loss of Vascular Access	56	exact	E2124	2	Unintended Loss of Vascular Access	
+Spontaneous Abortion	55	exact	E150105	3	Spontaneous Abortion	
+Retinal Degeneration	55	exact	E0834	2	Retinal Degeneration	
+Epilepsy	55	exact	E010903	3	Epilepsy	
+Connective Tissue Disease	54	exact	E1604	2	Connective Tissue Disease	
+Cryogenic Burn	53	exact	E170402	3	Cryogenic Burn	
+Atrophy	53	exact	E2351	2	Atrophy	
+Bladder Dysfunction	53	exact	E1316	2	Bladder Dysfunction	
+Thrombus	51	none				
+Radiation Exposure, Unintended	50	none				
+Hypernatremia	50	exact	E120201	3	Hypernatremia	
+Premature Labor	50	exact	E1515	2	Premature Labor	
+Transmissible Spongiform Encephalopathy(TSE)	50	exact	E1905	2	Transmissible Spongiform Encephalopathy(TSE)	
+Irritation	49	none				
+Rhinitis	49	exact	E0758	2	Rhinitis	
+Infectious Otitis Externa	49	exact	E090801	3	Infectious Otitis Externa	
+Pyogenic Infection	48	exact	E190102	3	Pyogenic Infection	
+Pleural Empyema	48	exact	E0732	2	Pleural Empyema	
+Bronchopneumonia	47	exact	E073301	3	Bronchopneumonia	
+Sexually Transmitted Infection	47	exact	E1903	2	Sexually Transmitted Infection	
+Atrial Perforation	46	none				
+Abnormal mucus discharge	46	exact	E2348	2	Abnormal Mucus Discharge	Modified (editorial)
+Radiation Burn	45	exact	E170403	3	Radiation Burn	
+Intracranial Pressure Increased	45	exact	E0140	2	Intracranial Pressure Increased	
+Medical Device Site Inflammation	45	exact	E2132	2	Medical Device Site Inflammation	
+Wheal(s)	44	exact	E172007	3	Wheal(s)	
+Positive antinuclear antibodies (ANA)	44	exact	E0404	2	Positive Antinuclear Antibodies (ANA)	Modified (editorial)
+Biliary Cirrhosis	44	exact	E1101	2	Biliary Cirrhosis	
+Interstitial Cystitis	44	exact	E1313	2	Interstitial Cystitis	
+Hypopigmentation	44	exact	E171603	3	Hypopigmentation	
+Pneumocephalus	44	exact	E0141	2	Pneumocephalus	
+Hemarthrosis	44	exact	E1645	2	Hemarthrosis	
+Heavier Menses	43	none				
+Toxic Shock Syndrome	43	exact	E1414	2	Toxic Shock Syndrome	
+Conjunctival Hemorrhage	43	exact	E0850	2	Conjunctival Hemorrhage	
+High Pulmonary Arterial Wedge Pressure	42	exact	E0507	2	High Pulmonary Arterial Wedge Pressure	
+Low Pulmonary Arterial Wedge Pressure	41	exact	E0508	2	Low Pulmonary Arterial Wedge Pressure	
+Ventricular Tachycardia	40	none				
+Bone Shedding Debris	40	exact	E2001	2	Bone Shedding Debris	
+Middle Ear Inflammation	40	exact	E0909	2	Middle Ear Inflammation	
+Salivary Gland Problem	39	exact	E1028	2	Salivary Gland Problem	
+Non-malignant Neoplasm	39	exact	E1805	2	Non-Malignant Neoplasm	Modified (editorial)
+Staphylococcus Aureus	38	none				
+Aortic Regurgitation	38	none				
+Mitral Perforation	37	exact	E0614	2	Mitral Perforation	
+Dysgeusia	37	exact	E013502	3	Dysgeusia	
+Encephalitis	37	exact	E0114	2	Encephalitis	
+Embolism	36	none				
+Complaint, Ill-Defined	35	none				
+Heart Failure	35	none				
+Uremia	35	exact	E1306	2	Uremia	
+Immunodeficiency	35	exact	E0403	2	Immunodeficiency	
+Cytomegalovirus (CMV) Infection	35	exact	E190701	3	Cytomegalovirus (CMV) Infection	
+Wound Odor	35	exact	E1727	2	Wound Odor	
+Weakness	34	none				
+Compartment syndrome	34	exact	E1644	2	Compartment syndrome	
+Complex regional pain syndrome	34	exact	E2125	2	Complex regional pain syndrome	
+Optical Nerve Damage	33	exact	E012301	3	Optical Nerve Damage	
+Abortion	33	exact	E1501	2	Abortion	
+Unspecified Skin and Subcutaneous Tissue Problem	33	exact	E1729	2	Unspecified Skin and Subcutaneous Tissue Problem	Modified (editorial)
+Neovascularization	32	exact	E0510	2	Neovascularization	
+UGH (Uveitis Glaucoma Hyphema) Syndrome	32	exact	E0836	2	UGH (Uveitis Glaucoma Hyphema) Syndrome	
+Colitis	32	exact	E1036	2	Colitis	
+Cerebral Hyperperfusion Syndrome	32	exact	E0104	2	Cerebral Hyperperfusion Syndrome	
+Urolithiasis	32	exact	E1312	2	Urolithiasis	
+Blood Bicarbonate Decreased	32	exact	E120208	3	Blood Bicarbonate Decreased	
+Skin Maceration	31	exact	E1726	2	Skin Maceration	
+Fibromyositis	31	exact	E1609	2	Fibromyositis	
+Pulmonary Infarction	31	exact	E0738	2	Pulmonary Infarction	
+Vitamin Deficiency	30	exact	E1211	2	Vitamin Deficiency	
+Quadriplegia	30	exact	E012205	3	Quadriplegia	
+Premature Menopause	30	exact	E1210	2	Premature Menopause	
+Cholesteatoma	29	exact	E0911	2	Cholesteatoma	
+Fasciitis	28	exact	E1608	2	Fasciitis	
+Iatrogenic Source	28	none				
+Eructate	28	exact	E1010	2	Eructate	
+Convulsion, Tonic	28	exact	E010902	3	Convulsion, Tonic	
+Cancer Cells Dissemination	27	exact	E1706	2	Cancer Cells Dissemination	
+Neurogenic Shock	27	exact	E233604	3	Neurogenic Shock	
+Muscle Hypotonia	27	exact	E1619	2	Muscle Hypotonia	
+Hypocalcemia	27	exact	E120204	3	Hypocalcemia	
+Increased Level of Consciousness	27	exact	E014301	3	Increased Level of Consciousness	
+Loose body in joint	27	exact	E1652	2	Loose Body in Joint	Modified (editorial)
+Atelectasis	26	exact	E0760	2	Atelectasis	
+Hydronephrosis	26	exact	E1315	2	Hydronephrosis	
+External Prosthetic Device Pain	25	exact	E2106	2	External Prosthetic Device Pain	
+Fecal Urgency	25	exact	E1034	2	Fecal Urgency	
+Pigment Dispersion Syndrome	25	exact	E0847	2	Pigment Dispersion Syndrome	
+Vesicovaginal Fistula	24	exact	E1416	2	Vesicovaginal Fistula	
+Complete Heart Block	23	none				
+Vessel Or Plaque, Device Embedded In	23	none				
+Cardiopulmonary Arrest	23	none				
+Cervical Changes	23	exact	E1404	2	Cervical Changes	
+High Oxygen Saturation	23	exact	E2202	2	High Oxygen Saturation	
+Transfusion Reaction	23	exact	E0312	2	Transfusion Reaction	
+Hyperthyroidism	23	exact	E1214	2	Hyperthyroidism	
+Host-Tissue Reaction	22	none				
+Incompetent Cervix	22	exact	E1509	2	Incompetent Cervix	
+Tactile Disorders	22	exact	E0134	2	Tactile Disorders	
+Underdose	21	none				
+Hypercalcemia	21	exact	E120203	3	Hypercalcemia	
+Hyperesthesia	21	exact	E013401	3	Hyperesthesia	
+Leiomyosarcoma	21	exact	E180103	3	Leiomyosarcoma	
+Exostosis (bone)	21	exact	E1647	2	Exostosis (bone)	
+Myocardial Contusion	20	exact	E0615	2	Myocardial Contusion	
+Glossitis	20	exact	E103101	3	Glossitis	
+Snoring	19	exact	E0755	2	Snoring	
+Corneal Thinning	19	exact	E0846	2	Corneal Thinning	
+Spinal deformity	19	exact	E1642	2	Spinal Deformity	Modified (editorial)
+Administration Site Swelling	18	exact	E1725	2	Administration Site Swelling	Modified (technical)
+Scarring	17	none				
+Corneal Epithelial Microcysts	17	exact	E0808	2	Corneal Epithelial Microcysts	
+Decreased Peak Expiratory Flow rate	17	exact	E0713	2	Decreased Peak Expiratory Flow Rate	Modified (editorial)
+Radiodermatitis	17	exact	E172005	3	Radiodermatitis	
+Psychosis	17	exact	E0208	2	Psychosis	
+Choroidal effusion	17	exact	E0859	2	Choroidal Effusion	Modified (editorial)
+Sweating	16	none				
+Overdose	16	none				
+Test Result	16	none				
+Polymyositis	16	exact	E1630	2	Polymyositis	
+Aortic Insufficiency	15	none				
+Neurological Deficit/Dysfunction	15	none				
+Tingling	15	none				
+Encephalocele	15	exact	E010201	3	Encephalocele	
+Forced Expiratory Volume Decreased	15	exact	E0719	2	Forced Expiratory Volume Decreased	
+Breast Feeding Problem	15	exact	E1418	2	Breast Feeding Problem	
+Cardiac Septal Defect Residual Shunt	15	exact	E0625	2	Cardiac Septal Defect Residual Shunt	
+Joint Swelling	14	none				
+Muscle Spasm(s)	14	none				
+Rectovaginal Fistula	14	exact	E1412	2	Rectovaginal Fistula	
+Restless Legs Syndrome	14	exact	E012208	3	Restless Legs Syndrome	
+Missed Abortion	14	exact	E150104	3	Missed Abortion	
+Reperfusion Injury	14	exact	E0520	2	Reperfusion Injury	
+Mydriasis	14	exact	E0854	2	Mydriasis	
+Achalasia	13	exact	E1003	2	Achalasia	
+Anaplastic Large Cell Lymphoma	13	none				
+Mediastinal Shift	13	exact	E0727	2	Mediastinal Shift	
+Idiopathic Intracranial Hypertension	13	exact	E0142	2	Idiopathic Intracranial Hypertension	Modified (editorial)
+Breath odor	13	exact	E2347	2	Breath Odor	Modified (editorial)
+Tricuspid Regurgitation	12	none				
+Skin Inflammation	12	none				
+Congestive Heart Failure	12	none				
+Respiratory Distress	12	none				
+Hypoxia in Utero	12	exact	E1508	2	Hypoxia in Utero	
+Acoustic Trauma	12	exact	E0902	2	Acoustic Trauma	
+Infertility	12	exact	E1520	2	Infertility	
+MetabolicÂ Acidosis	12	exact	E1213	2	Metabolic Acidosis	
+Discharge	11	none				
+Not Applicable	11	none				
+Spinal Arachnoiditis	11	exact	E0132	2	Spinal Arachnoiditis	
+Hemostasis	10	none				
+Chest Tightness/Pressure	10	none				
+Acoustic Shock	10	exact	E0901	2	Acoustic Shock	
+Bladder Wall Thickening	10	exact	E1314	2	Bladder Wall Thickening	
+Ageusia	9	exact	E013501	3	Ageusia	
+Increased Sensitivity	9	none				
+Microcystic Edema	9	exact	E080702	3	Microcystic Edema	
+Blood Bicarbonate Increased	9	exact	E120207	3	Blood Bicarbonate Increased	
+Vaginal Dryness	9	exact	E1419	2	Vaginal Dryness	
+Choroidal detachment	9	exact	E0858	2	Choroidal Detachment	Modified (editorial)
+Perineal injury	9	exact	E2016	2	Perineal Injury	Modified (editorial)
+Thyroid Problems	8	none				
+Cramp(s)	8	none				
+Corneal Touch	8	exact	E0813	2	Corneal Touch	
+Cephalohematoma	8	exact	E1503	2	Cephalohematoma	
+Toxins In Children	8	exact	E1518	2	Toxins In Children	
+Hyperphosphatemia	8	exact	E120209	3	Hyperphosphatemia	
+Withdrawal Syndrome	8	exact	E2349	2	Withdrawal Syndrome	
+Acetabular protrusion	8	exact	E1648	2	Acetabular Protrusion	Modified (editorial)
+Exercise capacity decreased	8	exact	E2352	2	Exercise Capacity Decreased	Modified (editorial)
+Loss Of Pulse	7	none				
+Swollen Lymph Nodes	7	none				
+Left Ventricular Dysfunction	7	none				
+Induced Abortion	7	exact	E150103	3	Induced Abortion	
+Toxemia	7	exact	E190103	2	Toxemia	
+Respiratory Alkalosis	7	exact	E0740	2	Respiratory Alkalosis	
+Hypertrophy	7	exact	E2346	2	Hypertrophy	
+Phosphene Visualization	7	exact	E083802	3	Phosphene Visualization	
+Chorioamnionitis	7	exact	E1504	2	Chorioamnionitis	
+Pupillary Disorder	7	exact	E0856	2	Pupillary Disorder	
+False Lumen Perfusion	7	exact	E0523	2	False Lumen Perfusion	
+Sudden Cardiac Death	6	none				
+Vitrectomy	6	none				
+Misdiagnosis	6	none				
+Incomplete Induced Abortion	6	exact	E150102	3	Incomplete Induced Abortion	
+Overwear Syndrome	6	exact	E0831	2	Overwear Syndrome	
+Radiation Sickness Syndrome	6	exact	E2116	2	Radiation Sickness Syndrome	
+Fat embolism	6	exact	E050305	3	Fat Embolism	Modified (editorial)
+Mechanical Respiratory Tract Injury	6	exact	E0759	2	Mechanical Respiratory Tract Injury	
+Claudication	5	none				
+Raynauds Phenomenon	5	none				
+Collapse	5	none				
+Missed Dose	5	none				
+Ulceration	5	none				
+ST Segment Elevation	5	none				
+Ear injury	5	exact	E0912	2	Ear Injury	Modified (editorial)
+Reocclusion	4	none				
+Fainting	4	none				
+Infarction, Cerebral	4	none				
+Pregnancy	4	none				
+HIV, Human Immunodeficiency Virus	4	none				
+Virus	4	none				
+Joint Disorder	4	none				
+Low Apgar Score	4	exact	E1510	2	Low Apgar Score	
+Nipple Ulceration	4	exact	E1410	2	Nipple Ulceration	
+Labyrinthitis	4	exact	E0910	2	Labyrinthitis	
+Anterior Capsule Opacification	4	exact	E0855	2	Anterior Capsule Opacification	
+Eye Strain/Fatigue	4	exact	E0860	2	Eye Strain/Fatigue	
+Impotence	3	none				
+Sedation	3	none				
+Therapeutic Response, Increased	3	none				
+Intraocular Pressure, Delayed, Uncontrolled	3	none				
+Autoimmune Reaction	3	none				
+Vascular System (Circulation), Impaired	3	none				
+Aortic Dissection	3	exact	E051501	3	Aortic Dissection	Modified (editorial)
+Embolus	3	none				
+Hearing Loss	3	none				
+Increased Peak Expiratory Flow rate	3	exact	E0714	2	Increased Peak Expiratory Flow Rate	Modified (editorial)
+Optic Nerve Sheath Hemorrhage	3	exact	E0853	2	Optic Nerve Sheath Hemorrhage	
+Tentorial Tears	3	none				
+Neonatal Deformities	3	exact	E1511	2	Neonatal Deformities	
+Radiation Overdose	3	none				
+Heat illness	3	exact	E2345	2	Heat Illness	Modified (editorial)
+Pulmonary Regurgitation	2	none				
+Right Ventricular Failure	2	none				
+Tricuspid Insufficiency	2	none				
+R On T Phenomenon	2	none				
+Sprain	2	none				
+Miscarriage	2	none				
+Extubate	2	none				
+Electro-Mechanical Dissociation	2	none				
+Cataract, Induced	2	none				
+Right Ventricular Dysfunction	2	none				
+Hemorrhage, Cerebral	2	none				
+Complete Induced Abortion	2	exact	E150101	3	Complete Induced Abortion	
+Perinatal Brain Injury	2	exact	E1513	2	Perinatal Brain Injury	
+Alteration In Body Temperature	2	exact	E2301	2	Alteration in Body Temperature	
+Gangrene	2	none				
+Amnionitis	2	exact	E1502	2	Amnionitis	
+Allergic reaction	2	none				
+Therapy/non-surgical treatment/delayed/prolonged	2	none				
+Neonatal Hearing Impairment	2	exact	E1512	2	Neonatal Hearing Impairment	
+Suffocation	1	none				
+Hemorrhage, Subgaleal	1	none				
+Infection, Direct	1	none				
+Toxicity	1	none				
+Clouding, Central Corneal	1	none				
+Regurgitation	1	none				
+Insufficiency, Valvular	1	none				
+Fracture, Arm	1	none				
+Necrosis Of Flap Tissue	1	none				
+Cyclitis	1	none				
+Reaction, Injection Site	1	none				
+Lupus	1	none				
+Regurgitation, Valvular	1	none				
+Contusion	1	none				
+Exit Block	1	none				
+Disc Impingement	1	none				
+Vaso-Vagal Response	1	none				
+Death, Intrauterine Fetal	1	none				
+Heart rate, increased	1	none				
+ST Segment Depression	1	none				
+Missing Value Reason	1	none				
+Atrial Tachycardia	1	none				
+Seizures, Grand-Mal	1	none				
+Closed Capsulotomy	1	none				
+Complete Neonatal Hearing Loss	1	exact	E151201	3	Complete Neonatal Hearing Loss	
+Hypoesthesia, Foot/Leg	1	none				
+Torsades-de-Pointes	1	none				
+Corneal Warpage	1	exact	E0857	2	Corneal Warpage	
+Contamination, chemical	1	none				
+Lesion	1	none				
+Colostomy	1	none				
+MetabolicÂ Alkalosis	1	exact	E1215	2	Metabolic Alkalosis	
+Nail disorder	1	exact	E1728	2	Nail Disorder	Modified (editorial)
